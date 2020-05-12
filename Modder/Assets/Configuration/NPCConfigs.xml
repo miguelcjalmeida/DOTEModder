@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	
+	<NPCMerchantConfig Name="NPC_Merchant" NPCType="Merchant" MaxCount="-1" ItemsCountMin="3" ItemsCountMax="6" ItemsRelativeLevelMax="1">
+		<IntroDialogs>
+			<Dialog Name="Intro1" Text="%NPC_Merchant_Intro1" />
+			<Dialog Name="Intro2" Text="%NPC_Merchant_Intro2" />
+			<Dialog Name="Intro3" Text="%NPC_Merchant_Intro3" />
+		</IntroDialogs>
+		<Dialogs>
+			<Dialog Name="PurchaseIntroduction" Text="%NPC_Merchant_PurchaseIntroduction" />
+			<Dialog Name="PurchaseItemSelected" Text="%NPC_Merchant_PurchaseItemSelected" />
+			<Dialog Name="PurchaseNotEnoughFood" Text="%NPC_Merchant_PurchaseNotEnoughFood" />
+			<Dialog Name="PurchaseNotEnoughIndustry" Text="%NPC_Merchant_PurchaseNotEnoughIndustry" />
+			<Dialog Name="PurchaseNotEnoughDust" Text="%NPC_Merchant_PurchaseNotEnoughDust" />
+			<Dialog Name="PurchaseNotEnoughScience" Text="%NPC_Merchant_PurchaseNotEnoughScience" />
+			<Dialog Name="PurchaseDone" Text="%NPC_Merchant_PurchaseDone" />
+			<Dialog Name="SaleIntroduction" Text="%NPC_Merchant_SaleIntroduction" />
+			<Dialog Name="SaleItemSelected" Text="%NPC_Merchant_SaleItemSelected" />
+			<Dialog Name="SaleDone" Text="%NPC_Merchant_SaleDone" />
+		</Dialogs>
+	</NPCMerchantConfig>
+	
+	<NPCMerchantConfig Name="NPC_DeathMerchant" NPCType="DeathMerchant" MaxCount="-1" ItemsCountMin="3" ItemsCountMax="3" ItemsRelativeLevelMax="1" IsLimited="true" SellsGiftItems="true">
+		<IntroDialogs>
+			<Dialog Name="Intro1" Text="%NPC_DeathMerchant_Intro1" />
+			<Dialog Name="Intro2" Text="%NPC_DeathMerchant_Intro2" />
+			<Dialog Name="Intro3" Text="%NPC_DeathMerchant_Intro3" />
+		</IntroDialogs>
+		<Dialogs>
+			<Dialog Name="PurchaseIntroduction" Text="%NPC_DeathMerchant_PurchaseIntroduction" />
+			<Dialog Name="PurchaseItemSelected" Text="%NPC_DeathMerchant_PurchaseItemSelected" />
+			<Dialog Name="PurchaseNotEnoughFood" Text="%NPC_DeathMerchant_PurchaseNotEnoughFood" />
+			<Dialog Name="PurchaseNotEnoughIndustry" Text="%NPC_DeathMerchant_PurchaseNotEnoughIndustry" />
+			<Dialog Name="PurchaseNotEnoughDust" Text="%NPC_DeathMerchant_PurchaseNotEnoughDust" />
+			<Dialog Name="PurchaseNotEnoughScience" Text="%NPC_DeathMerchant_PurchaseNotEnoughScience" />
+			<Dialog Name="PurchaseDone" Text="%NPC_DeathMerchant_PurchaseDone" />
+			<Dialog Name="SaleIntroduction" Text="%NPC_DeathMerchant_SaleIntroduction" />
+			<Dialog Name="SaleItemSelected" Text="%NPC_DeathMerchant_SaleItemSelected" />
+			<Dialog Name="SaleDone" Text="%NPC_DeathMerchant_SaleDone" />
+		</Dialogs>
+		<ConstantItems>
+			<Item Name="DeathToken" Rarity="Unique" />
+		</ConstantItems>
+	</NPCMerchantConfig>
+	
+</Datatable>

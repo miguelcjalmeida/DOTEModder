@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  
+    <LayeredMusic Name="MusicMenu" IsRepeat="false">
+        <EventLayer Name="Volume"   ParameterName="Volume"          MininumValue="0"  MaximumValue="1"    FadeDuration="3"/>
+        
+        <Event>Master/Music/MainMenu_Music</Event>
+    </LayeredMusic>
+    
+    <LayeredMusic Name="MusicDungeon" IsRepeat="true" EventIntervalDuration="60,80">
+        <EventLayer Name="Volume"   ParameterName="Volume"          MininumValue="0"  MaximumValue="1"    FadeDuration="1"/>
+        
+        <Event>Master/Music/Dungeons_Ambiant_01</Event>
+        <Event>Master/Music/Dungeons_Ambiant_02</Event>
+        <Event>Master/Music/Dungeons_Ambiant_03</Event>
+        <Event>Master/Music/Dungeons_Ambiant_04</Event>
+        <Event>Master/Music/Dungeons_Ambiant_05</Event>
+        <Event>Master/Music/Dungeons_Ambiant_06</Event>
+        <Event>Master/Music/Dungeons_Ambiant_07</Event>
+        <Event>Master/Music/Dungeons_Ambiant_08</Event>
+		<Event>Master/Music/Dungeons_Ambiant_09</Event>
+		<Event>Master/Music/Dungeons_Ambiant_10</Event>
+		<Event>Master/Music/Dungeons_Ambiant_11</Event>
+		<Event>Master/Music/Dungeons_Ambiant_12</Event>
+
+    </LayeredMusic>
+    
+    <LayeredMusic Name="MusicElevator" IsRepeat="false">
+        <EventLayer Name="Volume"   ParameterName="Volume"          MininumValue="0"  MaximumValue="1"    FadeDuration="3"/>
+        
+        <Event>Master/Test_Music</Event>
+    </LayeredMusic>
+    
+    <LayeredMusic Name="MusicGameOver" IsRepeat="false">
+        <EventLayer Name="Volume"   ParameterName="Volume"          MininumValue="0"  MaximumValue="1"    FadeDuration="0.1"/>
+        
+        <Event>Master/Music/GameOver_Music</Event>
+    </LayeredMusic>
+    
+    <LayeredMusic Name="MusicVictory" IsRepeat="false">
+        <EventLayer Name="Volume"   ParameterName="Volume"          MininumValue="0"  MaximumValue="1"    FadeDuration="0.1"/>
+        
+        <Event>Master/Music/VictoryEnd</Event>
+    </LayeredMusic>
+    
+    <LayeredMusic Name="MusicCrystalQuest" IsRepeat="false">
+        <EventLayer Name="Volume"   ParameterName="Volume"          MininumValue="0"  MaximumValue="1"    FadeDuration="0.2"/>
+            
+        <Event>Master/Music/CrystalQuest</Event>
+    </LayeredMusic>
+  
+  <LayeredMusic Name="SpaceShipSelectionMenu_Music" IsRepeat="false">
+    <EventLayer Name="Volume"   ParameterName="Volume"          MininumValue="0"  MaximumValue="1"    FadeDuration="0.2"/>
+
+    <Event>Master/Music/SpaceShipSelectionMenu_Music</Event>
+  </LayeredMusic>
+  
+</Datatable>

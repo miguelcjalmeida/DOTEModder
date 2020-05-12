@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+	<!-- Passive skills -->
+	<SkillConfig Name="Skill_P0001" />
+	<SkillConfig Name="Skill_P0001_LVL2" />
+	<SkillConfig Name="Skill_P0001_LVL3" />
+	<SkillConfig Name="Skill_P0002" />
+	<SkillConfig Name="Skill_P0002_LVL2" />
+	<SkillConfig Name="Skill_P0003" />
+	<SkillConfig Name="Skill_P0003_LVL2" />
+	<SkillConfig Name="Skill_P0004" />
+	<SkillConfig Name="Skill_P0004_LVL2" />
+	<SkillConfig Name="Skill_P0005" />
+	<SkillConfig Name="Skill_P0005_LVL2" />
+	<SkillConfig Name="Skill_P0006" 		TargetVFXPath="VFX/Skills/FX_Skills_09_Kneecapped" TargetSFXPath="Master/Skill/Kneecapped" />
+	<SkillConfig Name="Skill_P0006_LVL2" 	TargetVFXPath="VFX/Skills/FX_Skills_09_Kneecapped" TargetSFXPath="Master/Skill/Kneecapped" />
+	<SkillConfig Name="Skill_P0007" />
+	<SkillConfig Name="Skill_P0007_LVL2" />
+	<SkillConfig Name="Skill_P0008" />
+	<SkillConfig Name="Skill_P0008_LVL2" />
+	<SkillConfig Name="Skill_P0008_LVL3" />
+	<SkillConfig Name="Skill_P0009" />
+	<SkillConfig Name="Skill_P0009_LVL2" />
+	<SkillConfig Name="Skill_P0010" 		TargetVFXPath="VFX/Skills/FX_Skills_02_VerbalAbuse" TargetSFXPath="Master/Skill/VerbalAbuse_Effect" />
+	<SkillConfig Name="Skill_P0010_LVL2" 	TargetVFXPath="VFX/Skills/FX_Skills_02_VerbalAbuse" TargetSFXPath="Master/Skill/VerbalAbuse_Effect" />
+	<SkillConfig Name="Skill_P0011" />
+	<SkillConfig Name="Skill_P0011_LVL2" />
+	<SkillConfig Name="Skill_P0012" 		TargetVFXPath="VFX/Skills/FX_Skills_02_VerbalAbuse" TargetSFXPath="Master/Skill/VerbalAbuse_Effect"  />
+	<SkillConfig Name="Skill_P0012_LVL2" 	TargetVFXPath="VFX/Skills/FX_Skills_02_VerbalAbuse" TargetSFXPath="Master/Skill/VerbalAbuse_Effect"  />
+	<SkillConfig Name="Skill_P0021" 		TargetVFXPath="VFX/Skills/FX_Skills_08_WarFace" TargetSFXPath="Master/Skill/WarFace"  />
+	<SkillConfig Name="Skill_P0021_LVL2" 	TargetVFXPath="VFX/Skills/FX_Skills_08_WarFace" TargetSFXPath="Master/Skill/WarFace"  />
+	<SkillConfig Name="Skill_P0022" 		TargetVFXPath="VFX/Skills/FX_Skills_06_Paramedic" TargetSFXPath="Master/Skill/Paramedic"  />
+	<SkillConfig Name="Skill_P0022_LVL2" 	TargetVFXPath="VFX/Skills/FX_Skills_06_Paramedic" TargetSFXPath="Master/Skill/Paramedic"  />
+	<SkillConfig Name="Skill_P0023" 		TargetVFXPath="VFX/Skills/FX_Skills_06_Paramedic" TargetSFXPath="Master/Skill/Paramedic"  />
+	<SkillConfig Name="Skill_P0023_LVL2" 	TargetVFXPath="VFX/Skills/FX_Skills_06_Paramedic" TargetSFXPath="Master/Skill/Paramedic"  />
+	<SkillConfig Name="Skill_P0024" /> 
+	<SkillConfig Name="Skill_P0024_LVL2" /> 
+	<SkillConfig Name="Skill_P0025" />
+	<SkillConfig Name="Skill_P0025_LVL2" />
+	<SkillConfig Name="Skill_P0025_LVL3" />
+	<SkillConfig Name="Skill_P0026" 		DialogVFXPath="VFX/Skills/FX_Skills_09_Kneecapped"/>
+	<SkillConfig Name="Skill_P0026_LVL2" />
+	<SkillConfig Name="Skill_P0028" />
+	<SkillConfig Name="Skill_P0028_LVL2" />
+	<SkillConfig Name="Skill_P0029" />
+	<SkillConfig Name="Skill_P0029_LVL2" />
+	<SkillConfig Name="Skill_P0030" />
+	<SkillConfig Name="Skill_P0030_LVL2" />
+	<SkillConfig Name="Skill_P0030_LVL3" />
+	<SkillConfig Name="Skill_P0031" 		TargetVFXPath="VFX/Skills/FX_Skills_06_Paramedic" TargetSFXPath="Master/Skill/Paramedic"  /> 
+	<SkillConfig Name="Skill_P0031_LVL2" 	TargetVFXPath="VFX/Skills/FX_Skills_06_Paramedic" TargetSFXPath="Master/Skill/Paramedic"  /> 
+	<SkillConfig Name="Skill_P0032" />
+	<SkillConfig Name="Skill_P0032_LVL2" />
+	<SkillConfig Name="Skill_P0033" />
+	<SkillConfig Name="Skill_P0033_LVL2" />
+	<SkillConfig Name="Skill_P0033_LVL3" />
+	<SkillConfig Name="Skill_P0034" />
+	<SkillConfig Name="Skill_P0034_LVL2" />
+	<SkillConfig Name="Skill_P0035" />
+	<SkillConfig Name="Skill_P0035_LVL2" />
+	<SkillConfig Name="Skill_P0036" />
+	<SkillConfig Name="Skill_P0037" />
+	<SkillConfig Name="Skill_P0037_LVL2" />
+	<SkillConfig Name="Skill_P0037_LVL3" />
+	<SkillConfig Name="Skill_P0038" />
+	<SkillConfig Name="Skill_P0039" />
+	<SkillConfig Name="Skill_P0039_LVL2" />
+	<SkillConfig Name="Skill_P0039_LVL3" />
+	<SkillConfig Name="Skill_P0040" />
+	<SkillConfig Name="Skill_P0040_LVL2" />
+	<SkillConfig Name="Skill_P0041" />
+	<SkillConfig Name="Skill_P0042" />
+	<SkillConfig Name="Skill_P0042_LVL2" />
+	<SkillConfig Name="Skill_P0042_LVL3" />
+	<SkillConfig Name="Skill_P0042_LVL4" />
+	<SkillConfig Name="Skill_P0042_LVL5" />
+	<SkillConfig Name="Skill_P0042_LVL6" />
+	<SkillConfig Name="Skill_P0101" />
+	<SkillConfig Name="Skill_P0101_LVL2" />
+	<SkillConfig Name="Skill_P0102" />
+	<SkillConfig Name="Skill_P0102_LVL2" />
+	<SkillConfig Name="Skill_P0103" />
+	<SkillConfig Name="Skill_P0103_LVL2" />
+	<SkillConfig Name="Skill_P0104" />
+	<SkillConfig Name="Skill_P0105" />
+
+	<!-- TF2 -->
+	<SkillConfig Name="Skill_P0200" DialogVFXPath="VFX/Skills/FX_Skills_06_Paramedic" />
+	<SkillConfig Name="Skill_P0201" DialogVFXPath="VFX/Skills/FX_Skills_03_PsychoKiller" />
+	<SkillConfig Name="Skill_P0202" DialogVFXPath="VFX/Skills/FX_Skills_06_Paramedic" />
+
+	<!-- Halloween -->
+	<SkillConfig Name="Skill_P0300" />
+
+	<!-- Rescue Team -->
+	<SkillConfig Name="Skill_P0043" />
+	<SkillConfig Name="Skill_P0043_LVL2" />
+	<SkillConfig Name="Skill_P0043_LVL3" />
+	<SkillConfig Name="Skill_P0044" />
+  <SkillConfig Name="Skill_P0045" />
+  <SkillConfig Name="Skill_P0045_LVL2" />
+  <SkillConfig Name="Skill_P0045_LVL3" />
+	<SkillConfig Name="Skill_P0046" />
+	<SkillConfig Name="Skill_P0046_LVL2" />
+	<SkillConfig Name="Skill_P0047" />
+	<SkillConfig Name="Skill_P0047_LVL2" />
+
+	<!-- G2G Rosetta -->
+	<SkillConfig Name="Skill_P0048" />
+	<SkillConfig Name="Skill_P0048_LVL2" />
+	<SkillConfig Name="Skill_P0048_LVL3" />
+	<SkillConfig Name="Skill_P0048_LVL4" />
+	<SkillConfig Name="Skill_P0048_LVL5" />
+	<SkillConfig Name="Skill_P0048_LVL6" />
+
+	<!-- EL to DotE skills -->
+	<SkillConfig Name="Skill_P0500" />
+	<SkillConfig Name="Skill_P0501" />
+	<SkillConfig Name="Skill_P0502" />
+	<SkillConfig Name="Skill_P0503" />
+	<SkillConfig Name="Skill_P0504" />
+
+	<!-- Active skills -->
+
+	<SkillConfig Name="Skill_A0001"			IsActive="1"	Duration="9"	CooldownTurnsCount="2"	OwnerVFXPath="VFX/Skills/FX_Skills_01_RunAway"  OwnerSFXPath="Master/Skill/Runaway" />
+	<SkillConfig Name="Skill_A0001_LVL2"	IsActive="1"	Duration="9"	CooldownTurnsCount="2"	OwnerVFXPath="VFX/Skills/FX_Skills_01_RunAway" OwnerSFXPath="Master/Skill/Runaway"  />
+	<SkillConfig Name="Skill_A0001_LVL3"	IsActive="1"	Duration="9"	CooldownTurnsCount="2"	OwnerVFXPath="VFX/Skills/FX_Skills_01_RunAway" OwnerSFXPath="Master/Skill/Runaway"  />
+	<SkillConfig Name="Skill_A0002"			IsActive="1"	Duration="9"	CooldownTurnsCount="3"	DamagesTargetsPath="./Hero"	OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_02_VerbalAbuse" TargetSFXPath="Master/Skill/VerbalAbuse_Effect"  />
+	<SkillConfig Name="Skill_A0002_LVL2"	IsActive="1"	Duration="9"	CooldownTurnsCount="3"	DamagesTargetsPath="./Hero"	OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_02_VerbalAbuse" TargetSFXPath="Master/Skill/VerbalAbuse_Effect" />
+	<SkillConfig Name="Skill_A0003"			IsActive="1"	Duration="7"	CooldownTurnsCount="2"	OwnerVFXPath="VFX/Skills/FX_Skills_03_PsychoKiller" OwnerSFXPath="Master/Skill/PsychoKiller" 	 />
+	<SkillConfig Name="Skill_A0003_LVL2"	IsActive="1"	Duration="7"	CooldownTurnsCount="2"	OwnerVFXPath="VFX/Skills/FX_Skills_03_PsychoKiller" OwnerSFXPath="Master/Skill/PsychoKiller" 	 />
+	<SkillConfig Name="Skill_A0003_LVL3"	IsActive="1"	Duration="7"	CooldownTurnsCount="2"	OwnerVFXPath="VFX/Skills/FX_Skills_03_PsychoKiller"	 OwnerSFXPath="Master/Skill/PsychoKiller"  />
+	<SkillConfig Name="Skill_A0004"			IsActive="1"	Duration="9"	CooldownTurnsCount="3"	OwnerVFXPath="VFX/Skills/FX_Skills_04_WarCry" OwnerSFXPath="Master/Skill/WarCry" 	 />
+	<SkillConfig Name="Skill_A0004_LVL2"	IsActive="1"	Duration="9"	CooldownTurnsCount="3"	OwnerVFXPath="VFX/Skills/FX_Skills_04_WarCry"	 OwnerSFXPath="Master/Skill/WarCry"  />
+	<SkillConfig Name="Skill_A0005"			IsActive="1"	Duration="9"	CooldownTurnsCount="3"	OwnerVFXPath="VFX/Skills/FX_Skills_05_EngageTurtleMode" OwnerSFXPath="Master/Skill/EngageTurtleMode" 	 />
+	<SkillConfig Name="Skill_A0005_LVL2"	IsActive="1"	Duration="9"	CooldownTurnsCount="3"	OwnerVFXPath="VFX/Skills/FX_Skills_05_EngageTurtleMode" OwnerSFXPath="Master/Skill/EngageTurtleMode" 	 />
+	<SkillConfig Name="Skill_A0006"			IsActive="1"	Duration="10"	CooldownTurnsCount="3"	OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_06_Paramedic" TargetSFXPath="Master/Skill/Paramedic"  />
+	<SkillConfig Name="Skill_A0006_LVL2"	IsActive="1"	Duration="10"	CooldownTurnsCount="2"	OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_06_Paramedic" TargetSFXPath="Master/Skill/Paramedic"  />
+	<SkillConfig Name="Skill_A0006_LVL3"	IsActive="1"	Duration="10"	CooldownTurnsCount="2"	OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_06_Paramedic"  TargetSFXPath="Master/Skill/Paramedic" />
+	<SkillConfig Name="Skill_A0007"			IsActive="1"	Duration="6"	CooldownTurnsCount="3"	OwnerVFXPath="VFX/Skills/FX_Skills_07_SurgicalStriker" OwnerSFXPath="Master/Skill/SurgicalStriker" />
+	<SkillConfig Name="Skill_A0007_LVL2"	IsActive="1"	Duration="6"	CooldownTurnsCount="3"	OwnerVFXPath="VFX/Skills/FX_Skills_07_SurgicalStriker" OwnerSFXPath="Master/Skill/SurgicalStriker" />
+	<SkillConfig Name="Skill_A0008"			IsActive="1"	Duration="8"	CooldownTurnsCount="3"	OwnerVFXPath="VFX/Skills/FX_Skills_08_WarFace" OwnerSFXPath="Master/Skill/WarFace" 	/>
+	<SkillConfig Name="Skill_A0008_LVL2"	IsActive="1"	Duration="8"	CooldownTurnsCount="3"	OwnerVFXPath="VFX/Skills/FX_Skills_08_WarFace" OwnerSFXPath="Master/Skill/WarFace" 	/>
+	<SkillConfig Name="Skill_A0009"			IsActive="1"	Duration="6"	CooldownTurnsCount="3"	OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast"	TargetVFXPath="VFX/Skills/FX_Skills_09_Kneecapped" TargetSFXPath="Master/Skill/Kneecapped"  />
+	<SkillConfig Name="Skill_A0009_LVL2"	IsActive="1"	Duration="6"	CooldownTurnsCount="3"	OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast"	TargetVFXPath="VFX/Skills/FX_Skills_09_Kneecapped" TargetSFXPath="Master/Skill/Kneecapped"  />
+	<SkillConfig Name="Skill_A0011"			IsActive="1"	Duration="9"	CooldownTurnsCount="2"	OwnerVFXPath="VFX/Skills/FX_Skills_11_Sacrifice" OwnerSFXPath="Master/Skill/Sacrifice"  />
+	<SkillConfig Name="Skill_A0011_LVL2"	IsActive="1"	Duration="9"	CooldownTurnsCount="2"	OwnerVFXPath="VFX/Skills/FX_Skills_11_Sacrifice" OwnerSFXPath="Master/Skill/Sacrifice"  />
+	<SkillConfig Name="Skill_A0012"			IsActive="1"	Duration="9"	CooldownTurnsCount="2"	OwnerVFXPath="VFX/Skills/FX_Skills_12_AIAlgo" OwnerSFXPath="Master/Skill/VerbalAbuse_Effect" />
+	<SkillConfig Name="Skill_A0012_LVL2"	IsActive="1"	Duration="9"	CooldownTurnsCount="2"	OwnerVFXPath="VFX/Skills/FX_Skills_12_AIAlgo" OwnerSFXPath="Master/Skill/VerbalAbuse_Effect" />
+	<SkillConfig Name="Skill_A0012_LVL3"	IsActive="1"	Duration="9"	CooldownTurnsCount="2"	OwnerVFXPath="VFX/Skills/FX_Skills_12_AIAlgo" OwnerSFXPath="Master/Skill/VerbalAbuse_Effect" />
+	<SkillConfig Name="Skill_A0013"			IsActive="1"	Duration="9"	CooldownTurnsCount="2"	OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast"	TargetVFXPath="VFX/Skills/FX_Skills_13_ToxicCloud" TargetSFXPath="Master/Skill/Crawler"  />
+	<SkillConfig Name="Skill_A0013_LVL2"	IsActive="1"	Duration="9"	CooldownTurnsCount="2"	OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast"	TargetVFXPath="VFX/Skills/FX_Skills_13_ToxicCloud" TargetSFXPath="Master/Skill/Crawler"  />
+	<SkillConfig Name="Skill_A0014"			IsActive="1"	Duration="8"	CooldownTurnsCount="2"	OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_14_Webslinger" TargetSFXPath="Master/Skill/Webslinger"  />
+	<SkillConfig Name="Skill_A0014_LVL2"	IsActive="1"	Duration="8"	CooldownTurnsCount="2"	OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_14_Webslinger" TargetSFXPath="Master/Skill/Webslinger"  />
+	<SkillConfig Name="Skill_A0015"			IsActive="1"	Duration="10"	CooldownTurnsCount="2"	OwnerVFXPath="VFX/Skills/FX_Skills_15_Crawler" OwnerSFXPath="Master/Skill/Crawler"  />
+	<SkillConfig Name="Skill_A0015_LVL2"	IsActive="1"	Duration="10"	CooldownTurnsCount="2"	OwnerVFXPath="VFX/Skills/FX_Skills_15_Crawler" OwnerSFXPath="Master/Skill/Crawler"  />
+	<SkillConfig Name="Skill_A0016"			IsActive="1"	Duration="8"	CooldownTurnsCount="2"	OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_16_LastSupper" TargetSFXPath="Master/Skill/Paramedic"  /> 
+	<SkillConfig Name="Skill_A0016_LVL2"	IsActive="1"	Duration="8"	CooldownTurnsCount="2"	OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_16_LastSupper" TargetSFXPath="Master/Skill/Paramedic"  /> 
+	<SkillConfig Name="Skill_A0016_LVL3"	IsActive="1"	Duration="8"	CooldownTurnsCount="2"	OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_16_LastSupper" TargetSFXPath="Master/Skill/Paramedic"  /> 
+	<SkillConfig Name="Skill_A0018"			IsActive="1"	Duration="10"	CooldownTurnsCount="2"	OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast"  /> 
+	<SkillConfig Name="Skill_A0018_LVL2"	IsActive="1"	Duration="10"	CooldownTurnsCount="2"	OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast"  /> 
+	<SkillConfig Name="Skill_A0019"			IsActive="1"	Duration="9"	CooldownTurnsCount="2"	OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_05_EngageTurtleMode" TargetSFXPath="Master/Skill/EngageTurtleMode"  /> 
+	<SkillConfig Name="Skill_A0019_LVL2"	IsActive="1"	Duration="9"	CooldownTurnsCount="2"	OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_05_EngageTurtleMode" TargetSFXPath="Master/Skill/EngageTurtleMode"  /> 
+	<SkillConfig Name="Skill_A0020"			IsActive="1"	Duration="4"	CooldownTurnsCount="3"	OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_20_Banner" TargetSFXPath="Master/Skill/WarFace"  />
+	<SkillConfig Name="Skill_A0020_LVL2"	IsActive="1"	Duration="5"	CooldownTurnsCount="3"	OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_20_Banner" TargetSFXPath="Master/Skill/WarFace"  />
+	<SkillConfig Name="Skill_A0020_LVL3"	IsActive="1"	Duration="6"	CooldownTurnsCount="3"	OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_20_Banner" TargetSFXPath="Master/Skill/WarFace"  />
+	<SkillConfig Name="Skill_A0021"			IsActive="1"	Duration="8"	CooldownTurnsCount="2"	OwnerVFXPath="VFX/Skills/FX_Skills_21_RiskyWay" OwnerSFXPath="Master/Skill/SurgicalStriker"  />
+	<SkillConfig Name="Skill_A0021_LVL2"	IsActive="1"	Duration="8"	CooldownTurnsCount="2"	OwnerVFXPath="VFX/Skills/FX_Skills_21_RiskyWay" OwnerSFXPath="Master/Skill/SurgicalStriker"  />
+	<SkillConfig Name="Skill_A0022"			IsActive="1"	Duration="9"	CooldownTurnsCount="3"	OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_07_SurgicalStriker" TargetSFXPath="Master/Skill/SurgicalStriker"  /> 
+	<SkillConfig Name="Skill_A0022_LVL2"	IsActive="1"	Duration="9"	CooldownTurnsCount="3"	OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_07_SurgicalStriker" TargetSFXPath="Master/Skill/SurgicalStriker"  /> 
+	<SkillConfig Name="Skill_A0022_LVL3"	IsActive="1"	Duration="9"	CooldownTurnsCount="3"	OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_07_SurgicalStriker" TargetSFXPath="Master/Skill/SurgicalStriker"  /> 
+	<SkillConfig Name="Skill_A0023"			IsActive="1"	Duration="10"	CooldownTurnsCount="2"	OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_23_BudgetCuts" TargetSFXPath="Master/Skill/VerbalAbuse_Effect"  /> 
+	<SkillConfig Name="Skill_A0023_LVL2"	IsActive="1"	Duration="10"	CooldownTurnsCount="2"	OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_23_BudgetCuts" DialogVFXPath="VFX/Skills/FX_Skills_23_BudgetCuts" TargetSFXPath="Master/Skill/VerbalAbuse_Effect"  /> 
+	<SkillConfig Name="Skill_A0024"			IsActive="1"	Duration="8"	CooldownTurnsCount="3"	OwnerVFXPath="VFX/Skills/FX_Skills_24_Biohazard" OwnerSFXPath="Master/Skill/Crawler" />
+	<SkillConfig Name="Skill_A0024_LVL2"	IsActive="1"	Duration="8"	CooldownTurnsCount="3"	OwnerVFXPath="VFX/Skills/FX_Skills_24_Biohazard" OwnerSFXPath="Master/Skill/Crawler" />
+	<SkillConfig Name="Skill_A0025"			IsActive="1"	Duration="1"	CooldownTurnsCount="3"	OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast"	TargetVFXPath="VFX/Skills/FX_Skills_25_Grenade_Mob" TargetSFXPath="Master/Skill/SurgicalStriker"  />
+	<SkillConfig Name="Skill_A0025_LVL2"	IsActive="1"	Duration="1"	CooldownTurnsCount="3"	OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast"	TargetVFXPath="VFX/Skills/FX_Skills_25_Grenade_Mob" TargetSFXPath="Master/Skill/SurgicalStriker"  />
+	<SkillConfig Name="Skill_A0025_LVL3"	IsActive="1"	Duration="1"	CooldownTurnsCount="3"	OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast"	TargetVFXPath="VFX/Skills/FX_Skills_25_Grenade_Mob" TargetSFXPath="Master/Skill/SurgicalStriker"  />
+	<SkillConfig Name="Skill_A0026"			IsActive="1"	Duration="8"	CooldownTurnsCount="2"	OwnerVFXPath="VFX/Skills/FX_Skills_26_OutOfControle" OwnerSFXPath="Master/Skill/SurgicalStriker"  /> 
+	<SkillConfig Name="Skill_A0026_LVL2"	IsActive="1"	Duration="8"	CooldownTurnsCount="2"	OwnerVFXPath="VFX/Skills/FX_Skills_26_OutOfControle" OwnerSFXPath="Master/Skill/SurgicalStriker"  /> 
+	<SkillConfig Name="Skill_A0026_LVL3"	IsActive="1"	Duration="8"	CooldownTurnsCount="2"	OwnerVFXPath="VFX/Skills/FX_Skills_26_OutOfControle" OwnerSFXPath="Master/Skill/SurgicalStriker"  /> 
+	<SkillConfig Name="Skill_A0027"			IsActive="1"	Duration="10"	CooldownTurnsCount="3"	OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast"	TargetVFXPath="VFX/Skills/FX_Skills_27_FireStorm" TargetSFXPath="Master/Skill/SurgicalStriker"  /> 
+	<SkillConfig Name="Skill_A0027_LVL2"	IsActive="1"	Duration="10"	CooldownTurnsCount="3"	OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast"	TargetVFXPath="VFX/Skills/FX_Skills_27_FireStorm" TargetSFXPath="Master/Skill/SurgicalStriker"  /> 
+	<SkillConfig Name="Skill_A0027_LVL3"	IsActive="1"	Duration="10"	CooldownTurnsCount="3"	OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast"	TargetVFXPath="VFX/Skills/FX_Skills_27_FireStorm" TargetSFXPath="Master/Skill/SurgicalStriker"  /> 
+	<SkillConfig Name="Skill_A0028"			IsActive="1"	Duration="8"	CooldownTurnsCount="3"	OwnerVFXPath="VFX/Skills/FX_Skills_28_IcyWind" OwnerSFXPath="Master/Skill/SurgicalStriker"  /> 
+	<SkillConfig Name="Skill_A0028_LVL2"	IsActive="1"	Duration="8"	CooldownTurnsCount="3"	OwnerVFXPath="VFX/Skills/FX_Skills_28_IcyWind" OwnerSFXPath="Master/Skill/SurgicalStriker"  /> 
+	<SkillConfig Name="Skill_A0028_LVL3"	IsActive="1"	Duration="8"	CooldownTurnsCount="3"	OwnerVFXPath="VFX/Skills/FX_Skills_28_IcyWind" OwnerSFXPath="Master/Skill/SurgicalStriker"  /> 
+	<SkillConfig Name="Skill_A0029"			IsActive="1"	Duration="11"	CooldownTurnsCount="3"	OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" OwnerSFXPath="Master/Skill/DustScanner" TargetVFXPath="VFX/Skills/FX_Skills_29_Dust_Drainer" /> 
+	<SkillConfig Name="Skill_A0029_LVL2"	IsActive="1"	Duration="11"	CooldownTurnsCount="3"	OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" OwnerSFXPath="Master/Skill/DustScanner" TargetVFXPath="VFX/Skills/FX_Skills_29_Dust_Drainer" />
+	<SkillConfig Name="Skill_A0030"			IsActive="1"	Duration="8"	CooldownTurnsCount="4"	OwnerVFXPath="VFX/Skills/FX_Skills_30_Endlessly_Adaptive" OwnerSFXPath="Master/Skill/StructuralAnalysis" /> 
+	<SkillConfig Name="Skill_A0030_LVL2"	IsActive="1"	Duration="8"	CooldownTurnsCount="4"	OwnerVFXPath="VFX/Skills/FX_Skills_30_Endlessly_Adaptive" OwnerSFXPath="Master/Skill/StructuralAnalysis" /> 
+
+	<!-- TF2 -->
+	<SkillConfig Name="Skill_A0031"			IsActive="1"	Duration="4"	CooldownTurnsCount="3"	OwnerVFXPath="VFX/Skills/FX_Skills_31_MoreSandvitch" TargetVFXPath="VFX/Skills/FX_Skills_31_MoreSandvitch_Target" OwnerSFXPath="Master/Skill/MoreSandvitch" />
+	<!-- SFX to do -->
+	<SkillConfig Name="Skill_A0031_LVL2"	IsActive="1"	Duration="4"	CooldownTurnsCount="3"	OwnerVFXPath="VFX/Skills/FX_Skills_31_MoreSandvitch" TargetVFXPath="VFX/Skills/FX_Skills_31_MoreSandvitch_Target" OwnerSFXPath="Master/Skill/MoreSandvitch" />
+	<!-- SFX to do -->
+	<SkillConfig Name="Skill_A0031_LVL3"	IsActive="1"	Duration="4"	CooldownTurnsCount="2"	OwnerVFXPath="VFX/Skills/FX_Skills_31_MoreSandvitch" TargetVFXPath="VFX/Skills/FX_Skills_31_MoreSandvitch_Target" OwnerSFXPath="Master/Skill/MoreSandvitch" />
+	<!-- SFX to do -->
+	<SkillConfig Name="Skill_A0032"			IsActive="1"	Duration="8"	CooldownTurnsCount="3"	OwnerVFXPath="VFX/Skills/FX_Skills_32_Qualitydesign" OwnerSFXPath="Master/Skill/Qualitydesign" />
+	<!-- SFX to do -->
+	<SkillConfig Name="Skill_A0032_LVL2"	IsActive="1"	Duration="8"	CooldownTurnsCount="3"	OwnerVFXPath="VFX/Skills/FX_Skills_32_Qualitydesign" OwnerSFXPath="Master/Skill/Qualitydesign" />
+	<!-- SFX to do -->
+	<SkillConfig Name="Skill_A0033"			IsActive="1"	Duration="5"	CooldownTurnsCount="3"	OwnerVFXPath="VFX/Skills/FX_Skills_33_SpoonfulsofLove" TargetVFXPath="VFX/Skills/FX_Skills_33_SpoonfulsofLove_Target" OwnerSFXPath="Master/Skill/SpoonfulsofLove" />
+	<!-- SFX to do -->
+	<SkillConfig Name="Skill_A0033_LVL2"	IsActive="1"	Duration="6"	CooldownTurnsCount="2"	OwnerVFXPath="VFX/Skills/FX_Skills_33_SpoonfulsofLove" TargetVFXPath="VFX/Skills/FX_Skills_33_SpoonfulsofLove_Target" OwnerSFXPath="Master/Skill/SpoonfulsofLove" />
+	<!-- SFX to do -->
+	<SkillConfig Name="Skill_A0033_LVL3"	IsActive="1"	Duration="7"	CooldownTurnsCount="2"	OwnerVFXPath="VFX/Skills/FX_Skills_33_SpoonfulsofLove" TargetVFXPath="VFX/Skills/FX_Skills_33_SpoonfulsofLove_Target" OwnerSFXPath="Master/Skill/SpoonfulsofLove" />
+	<!-- SFX to do -->
+	<SkillConfig Name="Skill_A0034"			IsActive="1"	Duration="3"	CooldownTurnsCount="3"	OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast"  TargetVFXPath="VFX/Skills/FX_Skills_34_UbberCharge" OwnerSFXPath="Master/Skill/UbberCharge"  />
+	<!--  SFX to do -->
+	<SkillConfig Name="Skill_A0034_LVL2"	IsActive="1"	Duration="4"	CooldownTurnsCount="3"	OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_34_UbberCharge" OwnerSFXPath="Master/Skill/UbberCharge"  />
+	<!-- SFX to do -->
+	<SkillConfig Name="Skill_A0034_LVL3"	IsActive="1"	Duration="5"	CooldownTurnsCount="3"	OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_34_UbberCharge" OwnerSFXPath="Master/Skill/UbberCharge"  />
+	<!--  SFX to do -->
+
+	<!-- Rescue Team -->
+	<SkillConfig Name="Skill_A0035"			IsActive="1"	Duration="0.2"	CooldownTurnsCount="3"	OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast"	TargetVFXPath="VFX/Skills/FX_Skills_35_Training_Target" OwnerSFXPath="Master/Skill/Pokemon"/>
+	<SkillConfig Name="Skill_A0036"			IsActive="1"	Duration="8"	CooldownTurnsCount="3"	OwnerVFXPath="VFX/Skills/FX_Skills_01_RunAway" TargetVFXPath="VFX/Skills/x" OwnerSFXPath="Master/Skill/AfromanSpeed" />
+	<SkillConfig Name="Skill_A0036_LVL2"	IsActive="1"	Duration="8"	CooldownTurnsCount="3"	OwnerVFXPath="VFX/Skills/FX_Skills_01_RunAway" TargetVFXPath="VFX/Skills/x" OwnerSFXPath="Master/Skill/AfromanSpeed" />
+	<SkillConfig Name="Skill_A0036_LVL3"	IsActive="1"	Duration="8"	CooldownTurnsCount="3"	OwnerVFXPath="VFX/Skills/FX_Skills_01_RunAway" TargetVFXPath="VFX/Skills/x" OwnerSFXPath="Master/Skill/AfromanSpeed" />
+	<SkillConfig Name="Skill_A0037"			IsActive="1"	Duration="0"	CooldownTurnsCount="7" DeactivateOnNewTurn="true"	OwnerVFXPath="VFX/Skills/FX_Skills_37_UrgentCall" OwnerSFXPath="Master/Skill/UrgentCall" />
+	<SkillConfig Name="Skill_A0038"			IsActive="1"	Duration="10"	CooldownTurnsCount="3"  OwnerVFXPath="VFX/Skills/FX_Skills_38_RecyclingBeast_Cast" TargetVFXPath="VFX/Skills/FX_Skills_38_RecyclingBeast_Target" OwnerSFXPath="Master/Skill/Bulldozer" />
+	<SkillConfig Name="Skill_A0038_LVL2"	IsActive="1"	Duration="10"	CooldownTurnsCount="3"  OwnerVFXPath="VFX/Skills/FX_Skills_38_RecyclingBeast_Cast" TargetVFXPath="VFX/Skills/FX_Skills_38_RecyclingBeast_Target" OwnerSFXPath="Master/Skill/Bulldozer" />
+
+	<!-- G2G Rosetta -->
+	<SkillConfig Name="Skill_A0039"			IsActive="1"	Duration="5"	CooldownTurnsCount="5" OwnerVFXPath="VFX/Skills/FX_Skills_39_TowerOfBabble_Cast"	TargetVFXPath="VFX/Skills/FX_Skills_39_TowerOfBabble_Target" OwnerSFXPath="Master/Skill/MarsAttack"/>
+	<SkillConfig Name="Skill_A0039_LVL2"	IsActive="1"	Duration="5"	CooldownTurnsCount="5" OwnerVFXPath="VFX/Skills/FX_Skills_39_TowerOfBabble_Cast"	TargetVFXPath="VFX/Skills/FX_Skills_39_TowerOfBabble_Target" OwnerSFXPath="Master/Skill/MarsAttack"/>
+
+</Datatable>

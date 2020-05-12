@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+	<SimulationDescriptor Name="Room" Type="Class">
+		<SimulationPropertyDescriptors>
+			<SimulationPropertyDescriptor Name="FoodProd" Composition="Sum" />
+			<SimulationPropertyDescriptor Name="IndustryProd" Composition="Sum" />
+			<SimulationPropertyDescriptor Name="DustProd" Composition="Sum" />
+			<SimulationPropertyDescriptor Name="ScienceProd" Composition="Sum" />
+			
+			<SimulationPropertyDescriptor Name="ModuleOperatorWit" Composition="Sum" />
+
+			<SimulationPropertyDescriptor Name="IsUnpowered" Composition="Sum" BaseValue="1" />
+
+			<SimulationPropertyDescriptor Name="MobCount" Composition="Sum" />
+			<SimulationPropertyDescriptor Name="HeroCount" Composition="Sum" />
+			<SimulationPropertyDescriptor Name="PrisonerCount" Composition="Sum" />
+			<SimulationPropertyDescriptor Name="CrewCount" Composition="Sum" />
+			<SimulationPropertyDescriptor Name="NPCCount" Composition="Sum" />
+			<SimulationPropertyDescriptor Name="ModuleCount" Composition="Sum" />
+			
+			<SimulationPropertyDescriptor Name="IsPrisonerRoom" MaxValue="1" />
+			<SimulationPropertyDescriptor Name="IsCrewRoom" MaxValue="1" />
+			
+			<SimulationPropertyDescriptor Name="PrisonerCountCap" MaxValue="1" />
+			<SimulationPropertyDescriptor Name="CrewCountCap" MaxValue="1" />
+			
+			<SimulationPropertyDescriptor Name="IsPrisonerRoomOnly" MaxValue="1" />
+			<SimulationPropertyDescriptor Name="IsCrewRoomOnly" MaxValue="1" />
+
+			<SimulationPropertyDescriptor Name="ToxicCloud" Composition="Sum" />
+			<SimulationPropertyDescriptor Name="PopulationWeight" Composition="Sum" />
+
+      <SimulationPropertyDescriptor Name="OrganicEffect" />
+			
+		</SimulationPropertyDescriptors>
+
+		<SimulationModifierDescriptors>
+			<!-- Data for Heroes -->
+			<SimulationModifierDescriptor TargetProperty="RoomMobCount" Operation="Addition" Value="$(MobCount)" Path="Room/Hero" />
+			<SimulationModifierDescriptor TargetProperty="RoomHeroCount" Operation="Addition" Value="$(HeroCount)" Path="Room/Hero" />
+			<SimulationModifierDescriptor TargetProperty="IsRoomUnpowered" Operation="Addition" Value="$(IsUnpowered)" Path="Room/Hero" />
+			
+			<SimulationModifierDescriptor TargetProperty="PrisonerCountCap" Operation="Addition" Value="$(PrisonerCount)" />
+			<BinarySimulationModifierDescriptor TargetProperty="IsPrisonerRoom" Operation="Addition" Left="$(PrisonerCount)" BinaryOperation="Subtraction" Right="1" />
+			<SimulationModifierDescriptor TargetProperty="IsPrisonerRoomOnly" Operation="Addition" Value="$(IsPrisonerRoom)" />
+			<BinarySimulationModifierDescriptor TargetProperty="IsPrisonerRoomOnly" Operation="Multiplication" Left="1" BinaryOperation="Subtraction" Right="$(CrewCountCap)" />
+			
+			<SimulationModifierDescriptor TargetProperty="CrewCountCap" Operation="Addition" Value="$(CrewCount)" />
+			<BinarySimulationModifierDescriptor TargetProperty="IsCrewRoom" Operation="Addition" Left="$(CrewCount)" BinaryOperation="Subtraction" Right="1" />
+			<SimulationModifierDescriptor TargetProperty="IsCrewRoomOnly" Operation="Addition" Value="$(IsCrewRoom)" />
+			<BinarySimulationModifierDescriptor TargetProperty="IsCrewRoomOnly" Operation="Multiplication" Left="1" BinaryOperation="Subtraction" Right="$(PrisonerCountCap)" />
+			
+			<SimulationModifierDescriptor TargetProperty="InPrisonerRoom" Operation="Addition" Value="$(IsPrisonerRoomOnly)" Path="Room/Hero" />
+			<SimulationModifierDescriptor TargetProperty="InCrewRoom" Operation="Addition" Value="$(IsCrewRoomOnly)" Path="Room/Hero" />
+			
+			<!-- Data for Mobs -->
+			<SimulationModifierDescriptor TargetProperty="IsRoomUnpowered" Operation="Addition" Value="$(IsUnpowered)" Path="Room/Mob" />
+			<SimulationModifierDescriptor TargetProperty="RoomHeroCount" Operation="Addition" Value="$(HeroCount)" Path="Room/Mob" />
+			<SimulationModifierDescriptor TargetProperty="RoomNPCCount" Operation="Addition" Value="$(NPCCount)" Path="Room/Mob" />
+			<SimulationModifierDescriptor TargetProperty="RoomModuleCount" Operation="Addition" Value="$(ModuleCount)" Path="Room/Mob" />
+			
+			<!-- Data for Modules -->
+			<SimulationModifierDescriptor TargetProperty="RoomMobCount" Operation="Addition" Value="$(MobCount)" Path="Room/MinorModule" />
+			<SimulationModifierDescriptor TargetProperty="RoomOperatorWit" Operation="Addition" Value="$(ModuleOperatorWit)" Path="Room/MajorModule" />
+			
+			<SimulationModifierDescriptor TargetProperty="DustProd" Operation="Multiplication" Value="$(NPCCount)" />
+			
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<!-- Applied when room is powered by another player -->
+	<SimulationDescriptor Name="RoomIsPoweredByAnotherPlayer" Type="RoomFlag">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="FoodProd" Operation="Multiplication" Value="0" />
+			<SimulationModifierDescriptor TargetProperty="IndustryProd" Operation="Multiplication" Value="0" />
+			<SimulationModifierDescriptor TargetProperty="DustProd" Operation="Multiplication" Value="0" />
+			<SimulationModifierDescriptor TargetProperty="ScienceProd" Operation="Multiplication" Value="0" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<!-- Applied when room is powered -->
+	<SimulationDescriptor Name="RoomIsPowered" Type="RoomFlag">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="IsUnpowered" Operation="Multiplication" Value="0" />
+      <BinarySimulationModifierDescriptor TargetProperty="FoodProd" Operation="Addition" Left="$(OrganicEffect)" BinaryOperation="Multiplication" Right="0.5" />
+      <BinarySimulationModifierDescriptor TargetProperty="Defense" Operation="Percent" Left="$(OrganicEffect)" BinaryOperation="Multiplication" Right="-1" Path="Room/Mob" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<!-- Applied when a toxic cloud is active in the room -->
+	<SimulationDescriptor Name="RoomToxicCloud" Type="RoomFlag">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="ToxicCloud" Operation="Addition" Value="1" />
+			<SimulationModifierDescriptor TargetProperty="MoveSpeedMultiplierInToxicCloud" Operation="Addition" Value="-0.5" Path="Room/Hero" />
+			<SimulationModifierDescriptor TargetProperty="AttackCooldownMultiplierInToxicCloud" Operation="Addition" Value="1" Path="Room/Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+</Datatable>

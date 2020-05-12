@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+	<!-- FIDS -->
+
+	<ItemConfig Name="Food"	MaxCount="-1" ItemType="FIDS">
+		<DepthRanges>
+			<DepthRange	Start="0">
+				<ProbabilityWeight	StartValue="650"	DepthBonus="0"	MaxValue="-1" />
+			</DepthRange>
+		</DepthRanges>
+	</ItemConfig>
+	<ItemConfig Name="Industry"	MaxCount="-1" ItemType="FIDS">
+		<DepthRanges>
+			<DepthRange	Start="0">
+				<ProbabilityWeight	StartValue="725"	DepthBonus="0"	MaxValue="-1" />
+			</DepthRange>
+		</DepthRanges>
+	</ItemConfig>
+	<!--
+	<ItemConfig Name="Dust"	MaxCount="-1">
+		<DepthRanges>
+			<DepthRange	Start="0">
+				<ProbabilityWeight	StartValue="350"	DepthBonus="0"	MaxValue="-1" />
+			</DepthRange>
+		</DepthRanges>
+	</ItemConfig>
+	-->
+	
+	<ItemConfig Name="Science"	MaxCount="-1" ItemType="FIDS" FlatSprite="true" >
+		<DepthRanges>
+			<DepthRange	Start="0">
+				<ProbabilityWeight	StartValue="600"	DepthBonus="0"	MaxValue="-1" />
+			</DepthRange>
+		</DepthRanges>
+	</ItemConfig>
+	
+</Datatable>

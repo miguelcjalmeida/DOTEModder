@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+	<ItemHeroConfig Name="DeathToken" MaxCount="-1" ItemType="ItemHero" DestroyOnDeath="true" CannotBeUnequipped="true">
+		<DepthRanges>
+			<DepthRange LevelMin="999" LevelMax="999" Start="0">
+				<ProbabilityWeight StartValue="0" DepthBonus="0" MaxValue="0"/>
+			</DepthRange>
+		</DepthRanges>
+		<Category Name="ItemHero_Special"/>
+		<Rarities>
+			<Rarity Name="Unique" />
+		</Rarities>
+		<Category Name="ItemHero_Special"/>
+		<Skills>
+			<Skill>Skill_P0300</Skill>
+		</Skills>
+	</ItemHeroConfig>
+
+</Datatable>

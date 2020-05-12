@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+	<GuiElement Name="NPC_Merchant">
+		<Title>%NPC_Merchant</Title>
+		<Icons>
+			<Icon Size="Small" Path="GUI/AtlasedBitmaps/NPCs/Merchant" />
+		</Icons>
+	</GuiElement>
+	
+		<GuiElement Name="NPC_DeathMerchant">
+		<Title>%NPC_DeathMerchant</Title>
+		<Icons>
+			<Icon Size="Small" Path="GUI/AtlasedBitmaps/NPCs/DeathMerchant" />
+		</Icons>
+	</GuiElement>
+	
+	<!-- random hero picture for selection panel -->
+	<GuiElement Name="_Random_">
+		<Title>%Hero_Random</Title>
+		<Description>%Hero_Random_Biography</Description>
+		<Icons>
+		  <Icon Size="Small" Path="GUI/DynamicBitmaps/Heroes/_Random_"/>
+		  <Icon Size="Large" Path="GUI/DynamicBitmaps/Heroes/_Random__Large"/>
+		</Icons>
+	</GuiElement>
+
+</Datatable>

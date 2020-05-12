@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+	<LocalAchievementStatisticDefinition Name="HEAL_FOOD_USED" StatisticType="Int" Volatile="true" BestOnly="true" />
+	<LocalAchievementStatisticDefinition Name="BEST_FLOOR" StatisticType="Int" BestOnly="true" />
+	<LocalAchievementStatisticDefinition Name="MULTIPLAYER_BEST_FLOOR" StatisticType="Int" BestOnly="true" />
+	<LocalAchievementStatisticDefinition Name="DRILL_LEVELS" StatisticType="Int" Volatile="true" BestOnly="true" />
+
+	<LocalAchievementStatisticDefinition Name="FIS_STOCK" StatisticType="Int" Volatile="true" />
+	<LocalAchievementStatisticDefinition Name="MODULES_BUILT_CURRENT_FLOOR" StatisticType="Int" Volatile="true" />
+	<LocalAchievementStatisticDefinition Name="EVERY_FACTION_VICTORY" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="LAST_STAND" StatisticType="Int" />
+
+	<LocalAchievementStatisticDefinition Name="HERO_DEATH_NEGATIVE" StatisticType="Int" Volatile="true" BestOnly="false" />
+	<LocalAchievementStatisticDefinition Name="PAUSE_USES_NEGATIVE" StatisticType="Int" Volatile="true" BestOnly="false" />
+	<LocalAchievementStatisticDefinition Name="CRYSTAL_HITS_NEGATIVE" StatisticType="Int"  Volatile="true" BestOnly="false"  />
+	<LocalAchievementStatisticDefinition Name="RECRUITMENT_NEGATIVE" StatisticType="Int" Volatile="true" BestOnly="false" />
+
+	<!-- Stats shared with Steam -->
+	<LocalAchievementStatisticDefinition Name="POD_VICTORY" StatisticType="Int" Network="true" />
+	<LocalAchievementStatisticDefinition Name="INFIRMARY_VICTORY" StatisticType="Int" Network="true" />
+	<LocalAchievementStatisticDefinition Name="ARMORY_VICTORY" StatisticType="Int" Network="true" />
+	<LocalAchievementStatisticDefinition Name="LIBRARY_VICTORY" StatisticType="Int" Network="true" />
+	<LocalAchievementStatisticDefinition Name="SANITARY_VICTORY" StatisticType="Int" Network="true" />
+	<LocalAchievementStatisticDefinition Name="REFREEZERATOR_VICTORY" StatisticType="Int" Network="true" />
+
+	<LocalAchievementStatisticDefinition Name="DOORS_OPENED" StatisticType="Int" Network="true" />
+	<LocalAchievementStatisticDefinition Name="EVERY_DOOR_VICTORY" StatisticType="Int" Network="true" />
+	<LocalAchievementStatisticDefinition Name="MULTIPLAYER_VICTORIES" StatisticType="Int" Network="true" />
+	<LocalAchievementStatisticDefinition Name="FULL_TEAM" StatisticType="Int" Network="true" />
+	<LocalAchievementStatisticDefinition Name="MAX_LEVEL_HEROES" StatisticType="Int" Network="true" />
+	<LocalAchievementStatisticDefinition Name="ANY_HERO_UNLOCKS" StatisticType="Int" Network="true" />
+	<LocalAchievementStatisticDefinition Name="RESEARCHED_ALL" StatisticType="Int" Network="true" />
+	<LocalAchievementStatisticDefinition Name="PICTURES_UNLOCKED" StatisticType="Int" Network="true" />
+
+	<LocalAchievementStatisticDefinition Name="SAVIOR_PROGRESS" StatisticType="Int" Network="true" />
+	<LocalAchievementStatisticDefinition Name="KILLER_PROGRESS" StatisticType="Int" Network="true" />
+	<LocalAchievementStatisticDefinition Name="EXPERT_PROGRESS" StatisticType="Int" Network="true" />
+	<LocalAchievementStatisticDefinition Name="RESEARCHER_PROGRESS" StatisticType="Int" Network="true" />
+	<LocalAchievementStatisticDefinition Name="COLLECTOR_PROGRESS" StatisticType="Int" Network="true" />
+	<!--*************************-->
+
+	<LocalAchievementStatisticDefinition Name="GAMES_ATTEMPTED_EASY" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="GAMES_ATTEMPTED_NORMAL" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="VICTORY_EASY" StatisticType="Int" Network="true" />
+	<LocalAchievementStatisticDefinition Name="VICTORY_NORMAL" StatisticType="Int" Network="true" />
+	<LocalAchievementStatisticDefinition Name="MOBS_KILLED" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HIRED_HEROES" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="LOST_HEROES" StatisticType="Int" />
+
+	<LocalAchievementStatisticDefinition Name="HERO_H0001_VICTORY" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0002_VICTORY" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0003_VICTORY" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0004_VICTORY" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0005_VICTORY" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0006_VICTORY" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0007_VICTORY" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0008_VICTORY" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0009_VICTORY" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0010_VICTORY" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0011_VICTORY" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0012_VICTORY" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0013_VICTORY" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0014_VICTORY" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0015_VICTORY" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0016_VICTORY" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0017_VICTORY" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0018_VICTORY" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0019_VICTORY" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0020_VICTORY" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0021_VICTORY" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0022_VICTORY" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0023_VICTORY" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0024_VICTORY" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0025_VICTORY" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0026_VICTORY" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0027_VICTORY" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0028_VICTORY" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0029_VICTORY" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0030_VICTORY" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0031_VICTORY" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0032_VICTORY" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0033_VICTORY" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0034_VICTORY" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0035_VICTORY" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0036_VICTORY" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0037_VICTORY" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0038_VICTORY" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0039_VICTORY" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0040_VICTORY" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0041_VICTORY" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0042_VICTORY" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0043_VICTORY" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0044_VICTORY" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0045_VICTORY" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0046_VICTORY" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0047_VICTORY" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0048_VICTORY" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0049_VICTORY" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0050_VICTORY" StatisticType="Int" />
+
+
+	<LocalAchievementStatisticDefinition Name="N_TRASHS_KILLED" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="N_FLYINGS_KILLED" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="N_CRYSTOPHILES_KILLED" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="N_HUNTERS_KILLED" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="N_KAMIKAZES_KILLED" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="S_TRASHS_KILLED" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="S_BULLDOZERS_KILLED" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="S_SUPPORTERS_KILLED" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="S_ZONERS_KILLED" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="C_TRASHS_KILLED" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="C_DEBUFFERS_KILLED" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="C_KAMIKAZES_KILLED" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="C_KEEPERS_KILLED" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="H_HUNTERS_KILLED" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="H_DOOROPENERS_KILLED" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="H_DEBUFFERS_KILLED" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="V_VULTUS_KILLED" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="V_TRASHS_KILLED" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="V_DEBUFFERS_KILLED" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="H_ASSASSINS_KILLED" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="H_ZONERS_KILLED" StatisticType="Int" />
+
+	<LocalAchievementStatisticDefinition Name="HERO_H0001_UNLOCKS" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0002_UNLOCKS" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0003_UNLOCKS" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0004_UNLOCKS" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0005_UNLOCKS" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0006_UNLOCKS" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0007_UNLOCKS" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0008_UNLOCKS" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0009_UNLOCKS" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0010_UNLOCKS" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0011_UNLOCKS" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0012_UNLOCKS" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0013_UNLOCKS" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0014_UNLOCKS" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0015_UNLOCKS" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0016_UNLOCKS" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0017_UNLOCKS" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0018_UNLOCKS" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0019_UNLOCKS" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0020_UNLOCKS" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0021_UNLOCKS" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0022_UNLOCKS" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0023_UNLOCKS" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0024_UNLOCKS" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0025_UNLOCKS" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0026_UNLOCKS" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0027_UNLOCKS" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0028_UNLOCKS" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0029_UNLOCKS" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0030_UNLOCKS" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0031_UNLOCKS" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0032_UNLOCKS" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0033_UNLOCKS" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0034_UNLOCKS" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0035_UNLOCKS" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0036_UNLOCKS" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0037_UNLOCKS" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0038_UNLOCKS" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0039_UNLOCKS" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0040_UNLOCKS" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0041_UNLOCKS" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0042_UNLOCKS" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0043_UNLOCKS" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0044_UNLOCKS" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0045_UNLOCKS" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0046_UNLOCKS" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0047_UNLOCKS" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0048_UNLOCKS" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0049_UNLOCKS" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0050_UNLOCKS" StatisticType="Int" />
+
+	<LocalAchievementStatisticDefinition Name="HERO_H0001_DISCOVER" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0002_DISCOVER" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0003_DISCOVER" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0004_DISCOVER" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0005_DISCOVER" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0006_DISCOVER" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0007_DISCOVER" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0008_DISCOVER" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0009_DISCOVER" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0010_DISCOVER" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0011_DISCOVER" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0012_DISCOVER" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0013_DISCOVER" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0014_DISCOVER" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0015_DISCOVER" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0016_DISCOVER" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0017_DISCOVER" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0018_DISCOVER" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0019_DISCOVER" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0020_DISCOVER" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0021_DISCOVER" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0022_DISCOVER" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0023_DISCOVER" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0024_DISCOVER" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0025_DISCOVER" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0026_DISCOVER" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0027_DISCOVER" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0028_DISCOVER" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0029_DISCOVER" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0030_DISCOVER" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0031_DISCOVER" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0032_DISCOVER" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0033_DISCOVER" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0034_DISCOVER" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0035_DISCOVER" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0036_DISCOVER" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0037_DISCOVER" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0038_DISCOVER" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0039_DISCOVER" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0040_DISCOVER" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0041_DISCOVER" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0042_DISCOVER" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0043_DISCOVER" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0044_DISCOVER" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0045_DISCOVER" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0046_DISCOVER" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0047_DISCOVER" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0048_DISCOVER" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0049_DISCOVER" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="HERO_H0050_DISCOVER" StatisticType="Int" />
+
+	<LocalAchievementStatisticDefinition Name="MAJORMODULE_MAJOR0001_LEVEL" StatisticType="Int" Volatile="true" />
+	<LocalAchievementStatisticDefinition Name="MAJORMODULE_MAJOR0002_LEVEL" StatisticType="Int" Volatile="true" />
+	<LocalAchievementStatisticDefinition Name="MAJORMODULE_MAJOR0003_LEVEL" StatisticType="Int" Volatile="true" />
+	<LocalAchievementStatisticDefinition Name="MAJORMODULE_MAJOR0004_LEVEL" StatisticType="Int" Volatile="true" />
+	<LocalAchievementStatisticDefinition Name="MAJORMODULE_MAJOR0005_LEVEL" StatisticType="Int" Volatile="true" />
+	<LocalAchievementStatisticDefinition Name="MAJORMODULE_MAJOR0006_LEVEL" StatisticType="Int" Volatile="true" />
+	<LocalAchievementStatisticDefinition Name="MAJORMODULE_MAJOR0007_LEVEL" StatisticType="Int" Volatile="true" />
+	<LocalAchievementStatisticDefinition Name="MAJORMODULE_MAJOR0008_LEVEL" StatisticType="Int" Volatile="true" />
+	<LocalAchievementStatisticDefinition Name="MAJORMODULE_MAJOR0009_LEVEL" StatisticType="Int" Volatile="true" />
+	<LocalAchievementStatisticDefinition Name="MAJORMODULE_MAJOR0010_LEVEL" StatisticType="Int" Volatile="true" />
+
+	<LocalAchievementStatisticDefinition Name="MINORMODULE_MINOR0001_LEVEL" StatisticType="Int" Volatile="true" />
+	<LocalAchievementStatisticDefinition Name="MINORMODULE_MINOR0002_LEVEL" StatisticType="Int" Volatile="true" />
+	<LocalAchievementStatisticDefinition Name="MINORMODULE_MINOR0003_LEVEL" StatisticType="Int" Volatile="true" />
+	<LocalAchievementStatisticDefinition Name="MINORMODULE_MINOR0004_LEVEL" StatisticType="Int" Volatile="true" />
+	<LocalAchievementStatisticDefinition Name="MINORMODULE_MINOR0005_LEVEL" StatisticType="Int" Volatile="true" />
+	<LocalAchievementStatisticDefinition Name="MINORMODULE_MINOR0006_LEVEL" StatisticType="Int" Volatile="true" />
+	<LocalAchievementStatisticDefinition Name="MINORMODULE_MINOR0007_LEVEL" StatisticType="Int" Volatile="true" />
+	<LocalAchievementStatisticDefinition Name="MINORMODULE_MINOR0008_LEVEL" StatisticType="Int" Volatile="true" />
+	<LocalAchievementStatisticDefinition Name="MINORMODULE_MINOR0009_LEVEL" StatisticType="Int" Volatile="true" />
+	<LocalAchievementStatisticDefinition Name="MINORMODULE_MINOR0010_LEVEL" StatisticType="Int" Volatile="true" />
+	<LocalAchievementStatisticDefinition Name="MINORMODULE_MINOR0011_LEVEL" StatisticType="Int" Volatile="true" />
+	<LocalAchievementStatisticDefinition Name="MINORMODULE_MINOR0012_LEVEL" StatisticType="Int" Volatile="true" />
+	<LocalAchievementStatisticDefinition Name="MINORMODULE_MINOR0013_LEVEL" StatisticType="Int" Volatile="true" />
+	<LocalAchievementStatisticDefinition Name="MINORMODULE_MINOR0014_LEVEL" StatisticType="Int" Volatile="true" />
+	<LocalAchievementStatisticDefinition Name="MINORMODULE_MINOR0015_LEVEL" StatisticType="Int" Volatile="true" />
+	<LocalAchievementStatisticDefinition Name="MINORMODULE_MINOR0016_LEVEL" StatisticType="Int" Volatile="true" />
+	<LocalAchievementStatisticDefinition Name="MINORMODULE_MINOR0017_LEVEL" StatisticType="Int" Volatile="true" />
+	<LocalAchievementStatisticDefinition Name="MINORMODULE_MINOR0018_LEVEL" StatisticType="Int" Volatile="true" />
+	<LocalAchievementStatisticDefinition Name="MINORMODULE_MINOR0019_LEVEL" StatisticType="Int" Volatile="true" />
+	<LocalAchievementStatisticDefinition Name="MINORMODULE_MINOR0020_LEVEL" StatisticType="Int" Volatile="true" />
+
+	<LocalAchievementStatisticDefinition Name="MAJORMODULE_MAJOR0001_BEST_LEVEL" StatisticType="Int" BestOnly="true" />
+	<LocalAchievementStatisticDefinition Name="MAJORMODULE_MAJOR0002_BEST_LEVEL" StatisticType="Int" BestOnly="true" />
+	<LocalAchievementStatisticDefinition Name="MAJORMODULE_MAJOR0003_BEST_LEVEL" StatisticType="Int" BestOnly="true" />
+	<LocalAchievementStatisticDefinition Name="MAJORMODULE_MAJOR0004_BEST_LEVEL" StatisticType="Int" BestOnly="true" />
+	<LocalAchievementStatisticDefinition Name="MAJORMODULE_MAJOR0005_BEST_LEVEL" StatisticType="Int" BestOnly="true" />
+	<LocalAchievementStatisticDefinition Name="MAJORMODULE_MAJOR0006_BEST_LEVEL" StatisticType="Int" BestOnly="true" />
+	<LocalAchievementStatisticDefinition Name="MAJORMODULE_MAJOR0007_BEST_LEVEL" StatisticType="Int" BestOnly="true" />
+	<LocalAchievementStatisticDefinition Name="MAJORMODULE_MAJOR0008_BEST_LEVEL" StatisticType="Int" BestOnly="true" />
+	<LocalAchievementStatisticDefinition Name="MAJORMODULE_MAJOR0009_BEST_LEVEL" StatisticType="Int" BestOnly="true" />
+	<LocalAchievementStatisticDefinition Name="MAJORMODULE_MAJOR0010_BEST_LEVEL" StatisticType="Int" BestOnly="true" />
+
+	<LocalAchievementStatisticDefinition Name="MINORMODULE_MINOR0001_BEST_LEVEL" StatisticType="Int" BestOnly="true" />
+	<LocalAchievementStatisticDefinition Name="MINORMODULE_MINOR0002_BEST_LEVEL" StatisticType="Int" BestOnly="true" />
+	<LocalAchievementStatisticDefinition Name="MINORMODULE_MINOR0003_BEST_LEVEL" StatisticType="Int" BestOnly="true" />
+	<LocalAchievementStatisticDefinition Name="MINORMODULE_MINOR0004_BEST_LEVEL" StatisticType="Int" BestOnly="true" />
+	<LocalAchievementStatisticDefinition Name="MINORMODULE_MINOR0005_BEST_LEVEL" StatisticType="Int" BestOnly="true" />
+	<LocalAchievementStatisticDefinition Name="MINORMODULE_MINOR0006_BEST_LEVEL" StatisticType="Int" BestOnly="true" />
+	<LocalAchievementStatisticDefinition Name="MINORMODULE_MINOR0007_BEST_LEVEL" StatisticType="Int" BestOnly="true" />
+	<LocalAchievementStatisticDefinition Name="MINORMODULE_MINOR0008_BEST_LEVEL" StatisticType="Int" BestOnly="true" />
+	<LocalAchievementStatisticDefinition Name="MINORMODULE_MINOR0009_BEST_LEVEL" StatisticType="Int" BestOnly="true" />
+	<LocalAchievementStatisticDefinition Name="MINORMODULE_MINOR0010_BEST_LEVEL" StatisticType="Int" BestOnly="true" />
+	<LocalAchievementStatisticDefinition Name="MINORMODULE_MINOR0011_BEST_LEVEL" StatisticType="Int" BestOnly="true" />
+	<LocalAchievementStatisticDefinition Name="MINORMODULE_MINOR0012_BEST_LEVEL" StatisticType="Int" BestOnly="true" />
+	<LocalAchievementStatisticDefinition Name="MINORMODULE_MINOR0013_BEST_LEVEL" StatisticType="Int" BestOnly="true" />
+	<LocalAchievementStatisticDefinition Name="MINORMODULE_MINOR0014_BEST_LEVEL" StatisticType="Int" BestOnly="true" />
+	<LocalAchievementStatisticDefinition Name="MINORMODULE_MINOR0015_BEST_LEVEL" StatisticType="Int" BestOnly="true" />
+	<LocalAchievementStatisticDefinition Name="MINORMODULE_MINOR0016_BEST_LEVEL" StatisticType="Int" BestOnly="true" />
+	<LocalAchievementStatisticDefinition Name="MINORMODULE_MINOR0017_BEST_LEVEL" StatisticType="Int" BestOnly="true" />
+	<LocalAchievementStatisticDefinition Name="MINORMODULE_MINOR0018_BEST_LEVEL" StatisticType="Int" BestOnly="true" />
+	<LocalAchievementStatisticDefinition Name="MINORMODULE_MINOR0019_BEST_LEVEL" StatisticType="Int" BestOnly="true" />
+	<LocalAchievementStatisticDefinition Name="MINORMODULE_MINOR0020_BEST_LEVEL" StatisticType="Int" BestOnly="true" />
+
+	<LocalAchievementStatisticDefinition Name="STORY_COMPLETED_DOWNFALL" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="STORY_COMPLETED_WHO_TALKED" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="STORY_COMPLETED_HOTVENGEANCE" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="STORY_COMPLETED_WHISKEY_TANGO_FOXTROT" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="STORY_COMPLETED_THIEF_GUARD" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="STORY_COMPLETED_MATTER_OF_TRUTHS" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="STORY_COMPLETED_BUGEATER" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="STORY_COMPLETED_HEAL_THE_LAME" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="STORY_COMPLETED_FLAME_WARS" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="STORY_COMPLETED_WITH_HONOR" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="STORY_COMPLETED_AUSTRALIUM" StatisticType="Int" />
+
+	<LocalAchievementStatisticDefinition Name="ENDLESSDAY_SPECIALHERO_VICTORY" StatisticType="Int" />
+
+	<!-- G2G / Rescue Team -->
+	<LocalAchievementStatisticDefinition Name="ORGANIC_VICTORY" StatisticType="Int" Network="true"/>
+	<LocalAchievementStatisticDefinition Name="HURNAS_FAMILY_KILLED" StatisticType="Int" Network="true"/>
+	<LocalAchievementStatisticDefinition Name="TAMER_PROGRESS" StatisticType="Int" Network="true" />
+	<LocalAchievementStatisticDefinition Name="RESCUE_TEAM_VICTORY" StatisticType="Int" Network="true" />
+
+	<LocalAchievementStatisticDefinition Name="N_TRASHS_TAMED" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="N_FLYINGS_TAMED" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="N_CRYSTOPHILES_TAMED" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="N_HUNTERS_TAMED" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="N_KAMIKAZES_TAMED" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="S_TRASHS_TAMED" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="S_BULLDOZERS_TAMED" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="S_SUPPORTERS_TAMED" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="S_ZONERS_TAMED" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="C_TRASHS_TAMED" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="C_DEBUFFERS_TAMED" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="C_KAMIKAZES_TAMED" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="C_KEEPERS_TAMED" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="H_HUNTERS_TAMED" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="H_DOOROPENERS_TAMED" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="H_DEBUFFERS_TAMED" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="V_VULTUS_TAMED" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="V_TRASHS_TAMED" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="V_DEBUFFERS_TAMED" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="H_ASSASSINS_TAMED" StatisticType="Int" />
+	<LocalAchievementStatisticDefinition Name="H_ZONERS_TAMED" StatisticType="Int" />
+
+</Datatable>

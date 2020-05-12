@@ -1,0 +1,690 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Warning: this XML is automatically generated from the XLS. Do not modify!-->
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GuiElement Name="MajorModule_Major0001_LVL1">
+    <Title>%MajorModule_Major0001_LVL1_Title</Title>
+    <Description>%MajorModule_Major0001_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/1-MajorModules/Major0001_LVL1"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MajorModule_Major0001_LVL2">
+    <Title>%MajorModule_Major0001_LVL2_Title</Title>
+    <Description>%MajorModule_Major0001_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/1-MajorModules/Major0001_LVL2"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MajorModule_Major0001_LVL3">
+    <Title>%MajorModule_Major0001_LVL3_Title</Title>
+    <Description>%MajorModule_Major0001_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/1-MajorModules/Major0001_LVL3"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MajorModule_Major0001_LVL4">
+    <Title>%MajorModule_Major0001_LVL4_Title</Title>
+    <Description>%MajorModule_Major0001_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/1-MajorModules/Major0001_LVL4"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MajorModule_Major0002_LVL1">
+    <Title>%MajorModule_Major0002_LVL1_Title</Title>
+    <Description>%MajorModule_Major0002_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/1-MajorModules/Major0002_LVL1"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MajorModule_Major0002_LVL2">
+    <Title>%MajorModule_Major0002_LVL2_Title</Title>
+    <Description>%MajorModule_Major0002_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/1-MajorModules/Major0002_LVL2"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MajorModule_Major0002_LVL3">
+    <Title>%MajorModule_Major0002_LVL3_Title</Title>
+    <Description>%MajorModule_Major0002_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/1-MajorModules/Major0002_LVL3"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MajorModule_Major0002_LVL4">
+    <Title>%MajorModule_Major0002_LVL4_Title</Title>
+    <Description>%MajorModule_Major0002_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/1-MajorModules/Major0002_LVL4"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MajorModule_Major0003_LVL1">
+    <Title>%MajorModule_Major0003_LVL1_Title</Title>
+    <Description>%MajorModule_Major0003_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/1-MajorModules/Major0003_LVL1"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MajorModule_Major0003_LVL2">
+    <Title>%MajorModule_Major0003_LVL2_Title</Title>
+    <Description>%MajorModule_Major0003_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/1-MajorModules/Major0003_LVL2"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MajorModule_Major0003_LVL3">
+    <Title>%MajorModule_Major0003_LVL3_Title</Title>
+    <Description>%MajorModule_Major0003_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/1-MajorModules/Major0003_LVL3"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MajorModule_Major0003_LVL4">
+    <Title>%MajorModule_Major0003_LVL4_Title</Title>
+    <Description>%MajorModule_Major0003_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/1-MajorModules/Major0003_LVL4"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MajorModule_Major0004_LVL1">
+    <Title>%MajorModule_Major0004_LVL1_Title</Title>
+    <Description>%MajorModule_Major0004_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/1-MajorModules/Major0004_LVL1"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MajorModule_Major0004_LVL2">
+    <Title>%MajorModule_Major0004_LVL2_Title</Title>
+    <Description>%MajorModule_Major0004_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/1-MajorModules/Major0004_LVL2"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MajorModule_Major0004_LVL3">
+    <Title>%MajorModule_Major0004_LVL3_Title</Title>
+    <Description>%MajorModule_Major0004_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/1-MajorModules/Major0004_LVL3"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MajorModule_Major0004_LVL4">
+    <Title>%MajorModule_Major0004_LVL4_Title</Title>
+    <Description>%MajorModule_Major0004_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/1-MajorModules/Major0004_LVL4"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MajorModule_Major0005_LVL1">
+    <Title>%MajorModule_Major0005_LVL1_Title</Title>
+    <Description>%MajorModule_Major0005_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/1-MajorModules/Major0005_LVL1"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MajorModule_Major0005_LVL2">
+    <Title>%MajorModule_Major0005_LVL2_Title</Title>
+    <Description>%MajorModule_Major0005_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/1-MajorModules/Major0005_LVL2"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MajorModule_Major0005_LVL3">
+    <Title>%MajorModule_Major0005_LVL3_Title</Title>
+    <Description>%MajorModule_Major0005_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/1-MajorModules/Major0005_LVL3"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MajorModule_Major0005_LVL4">
+    <Title>%MajorModule_Major0005_LVL4_Title</Title>
+    <Description>%MajorModule_Major0005_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/1-MajorModules/Major0005_LVL4"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MajorModule_Major0006_LVL1">
+    <Title>%MajorModule_Major0006_LVL1_Title</Title>
+    <Description>%MajorModule_Major0006_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/1-MajorModules/Major0006_LVL1"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MajorModule_Major0007_LVL1">
+    <Title>%MajorModule_Major0007_LVL1_Title</Title>
+    <Description>%MajorModule_Major0007_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/1-MajorModules/Major0007_LVL1"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MajorModule_Major0008_LVL1">
+    <Title>%MajorModule_Major0008_LVL1_Title</Title>
+    <Description>%MajorModule_Major0008_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/1-MajorModules/Major0008_LVL1"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MajorModule_Major0008_LVL2">
+    <Title>%MajorModule_Major0008_LVL2_Title</Title>
+    <Description>%MajorModule_Major0008_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/1-MajorModules/Major0008_LVL2"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MajorModule_Major0008_LVL3">
+    <Title>%MajorModule_Major0008_LVL3_Title</Title>
+    <Description>%MajorModule_Major0008_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/1-MajorModules/Major0008_LVL3"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MajorModule_Major0008_LVL4">
+    <Title>%MajorModule_Major0008_LVL4_Title</Title>
+    <Description>%MajorModule_Major0008_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/1-MajorModules/Major0008_LVL4"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MinorModule_Minor0001_LVL1">
+    <Title>%MinorModule_Minor0001_LVL1_Title</Title>
+    <Description>%MinorModule_Minor0001_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/3-SupportModules/Minor0001_LVL1"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MinorModule_Minor0001_LVL2">
+    <Title>%MinorModule_Minor0001_LVL2_Title</Title>
+    <Description>%MinorModule_Minor0001_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/3-SupportModules/Minor0001_LVL2"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MinorModule_Minor0001_LVL3">
+    <Title>%MinorModule_Minor0001_LVL3_Title</Title>
+    <Description>%MinorModule_Minor0001_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/3-SupportModules/Minor0001_LVL3"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MinorModule_Minor0001_LVL4">
+    <Title>%MinorModule_Minor0001_LVL4_Title</Title>
+    <Description>%MinorModule_Minor0001_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/3-SupportModules/Minor0001_LVL4"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MinorModule_Minor0002_LVL1">
+    <Title>%MinorModule_Minor0002_LVL1_Title</Title>
+    <Description>%MinorModule_Minor0002_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/3-SupportModules/Minor0002_LVL1"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MinorModule_Minor0002_LVL2">
+    <Title>%MinorModule_Minor0002_LVL2_Title</Title>
+    <Description>%MinorModule_Minor0002_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/3-SupportModules/Minor0002_LVL2"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MinorModule_Minor0002_LVL3">
+    <Title>%MinorModule_Minor0002_LVL3_Title</Title>
+    <Description>%MinorModule_Minor0002_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/3-SupportModules/Minor0002_LVL3"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MinorModule_Minor0002_LVL4">
+    <Title>%MinorModule_Minor0002_LVL4_Title</Title>
+    <Description>%MinorModule_Minor0002_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/3-SupportModules/Minor0002_LVL4"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MinorModule_Minor0003_LVL1">
+    <Title>%MinorModule_Minor0003_LVL1_Title</Title>
+    <Description>%MinorModule_Minor0003_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/3-SupportModules/Minor0003_LVL1"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MinorModule_Minor0003_LVL2">
+    <Title>%MinorModule_Minor0003_LVL2_Title</Title>
+    <Description>%MinorModule_Minor0003_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/3-SupportModules/Minor0003_LVL2"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MinorModule_Minor0003_LVL3">
+    <Title>%MinorModule_Minor0003_LVL3_Title</Title>
+    <Description>%MinorModule_Minor0003_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/3-SupportModules/Minor0003_LVL3"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MinorModule_Minor0003_LVL4">
+    <Title>%MinorModule_Minor0003_LVL4_Title</Title>
+    <Description>%MinorModule_Minor0003_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/3-SupportModules/Minor0003_LVL4"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MinorModule_Minor0013_LVL1">
+    <Title>%MinorModule_Minor0013_LVL1_Title</Title>
+    <Description>%MinorModule_Minor0013_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/3-SupportModules/Minor0013_LVL1"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MinorModule_Minor0013_LVL2">
+    <Title>%MinorModule_Minor0013_LVL2_Title</Title>
+    <Description>%MinorModule_Minor0013_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/3-SupportModules/Minor0013_LVL2"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MinorModule_Minor0013_LVL3">
+    <Title>%MinorModule_Minor0013_LVL3_Title</Title>
+    <Description>%MinorModule_Minor0013_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/3-SupportModules/Minor0013_LVL3"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MinorModule_Minor0013_LVL4">
+    <Title>%MinorModule_Minor0013_LVL4_Title</Title>
+    <Description>%MinorModule_Minor0013_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/3-SupportModules/Minor0013_LVL4"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MinorModule_Minor0019_LVL1">
+    <Title>%MinorModule_Minor0019_LVL1_Title</Title>
+    <Description>%MinorModule_Minor0019_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/3-SupportModules/Minor0019_LVL1"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MinorModule_Minor0019_LVL2">
+    <Title>%MinorModule_Minor0019_LVL2_Title</Title>
+    <Description>%MinorModule_Minor0019_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/3-SupportModules/Minor0019_LVL2"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MinorModule_Minor0019_LVL3">
+    <Title>%MinorModule_Minor0019_LVL3_Title</Title>
+    <Description>%MinorModule_Minor0019_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/3-SupportModules/Minor0019_LVL3"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MinorModule_Minor0019_LVL4">
+    <Title>%MinorModule_Minor0019_LVL4_Title</Title>
+    <Description>%MinorModule_Minor0019_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/3-SupportModules/Minor0019_LVL4"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MinorModule_Minor0020_LVL1">
+    <Title>%MinorModule_Minor0020_LVL1_Title</Title>
+    <Description>%MinorModule_Minor0020_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/3-SupportModules/Minor0020_LVL1"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MinorModule_Minor0020_LVL2">
+    <Title>%MinorModule_Minor0020_LVL2_Title</Title>
+    <Description>%MinorModule_Minor0020_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/3-SupportModules/Minor0020_LVL2"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MinorModule_Minor0020_LVL3">
+    <Title>%MinorModule_Minor0020_LVL3_Title</Title>
+    <Description>%MinorModule_Minor0020_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/3-SupportModules/Minor0020_LVL3"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MinorModule_Minor0020_LVL4">
+    <Title>%MinorModule_Minor0020_LVL4_Title</Title>
+    <Description>%MinorModule_Minor0020_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/3-SupportModules/Minor0020_LVL4"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MinorModule_Minor0004_LVL1">
+    <Title>%MinorModule_Minor0004_LVL1_Title</Title>
+    <Description>%MinorModule_Minor0004_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/2-AttackModules/Minor0004_LVL1"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MinorModule_Minor0004_LVL2">
+    <Title>%MinorModule_Minor0004_LVL2_Title</Title>
+    <Description>%MinorModule_Minor0004_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/2-AttackModules/Minor0004_LVL2"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MinorModule_Minor0004_LVL3">
+    <Title>%MinorModule_Minor0004_LVL3_Title</Title>
+    <Description>%MinorModule_Minor0004_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/2-AttackModules/Minor0004_LVL3"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MinorModule_Minor0004_LVL4">
+    <Title>%MinorModule_Minor0004_LVL4_Title</Title>
+    <Description>%MinorModule_Minor0004_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/2-AttackModules/Minor0004_LVL4"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MinorModule_Minor0005_LVL1">
+    <Title>%MinorModule_Minor0005_LVL1_Title</Title>
+    <Description>%MinorModule_Minor0005_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/2-AttackModules/Minor0005_LVL1"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MinorModule_Minor0005_LVL2">
+    <Title>%MinorModule_Minor0005_LVL2_Title</Title>
+    <Description>%MinorModule_Minor0005_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/2-AttackModules/Minor0005_LVL2"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MinorModule_Minor0005_LVL3">
+    <Title>%MinorModule_Minor0005_LVL3_Title</Title>
+    <Description>%MinorModule_Minor0005_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/2-AttackModules/Minor0005_LVL3"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MinorModule_Minor0005_LVL4">
+    <Title>%MinorModule_Minor0005_LVL4_Title</Title>
+    <Description>%MinorModule_Minor0005_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/2-AttackModules/Minor0005_LVL4"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MinorModule_Minor0006_LVL1">
+    <Title>%MinorModule_Minor0006_LVL1_Title</Title>
+    <Description>%MinorModule_Minor0006_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/2-AttackModules/Minor0006_LVL1"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MinorModule_Minor0006_LVL2">
+    <Title>%MinorModule_Minor0006_LVL2_Title</Title>
+    <Description>%MinorModule_Minor0006_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/2-AttackModules/Minor0006_LVL2"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MinorModule_Minor0006_LVL3">
+    <Title>%MinorModule_Minor0006_LVL3_Title</Title>
+    <Description>%MinorModule_Minor0006_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/2-AttackModules/Minor0006_LVL3"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MinorModule_Minor0006_LVL4">
+    <Title>%MinorModule_Minor0006_LVL4_Title</Title>
+    <Description>%MinorModule_Minor0006_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/2-AttackModules/Minor0006_LVL4"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MinorModule_Minor0011_LVL1">
+    <Title>%MinorModule_Minor0011_LVL1_Title</Title>
+    <Description>%MinorModule_Minor0011_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/2-AttackModules/Minor0011_LVL1"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MinorModule_Minor0011_LVL2">
+    <Title>%MinorModule_Minor0011_LVL2_Title</Title>
+    <Description>%MinorModule_Minor0011_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/2-AttackModules/Minor0011_LVL2"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MinorModule_Minor0011_LVL3">
+    <Title>%MinorModule_Minor0011_LVL3_Title</Title>
+    <Description>%MinorModule_Minor0011_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/2-AttackModules/Minor0011_LVL3"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MinorModule_Minor0011_LVL4">
+    <Title>%MinorModule_Minor0011_LVL4_Title</Title>
+    <Description>%MinorModule_Minor0011_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/2-AttackModules/Minor0011_LVL4"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MinorModule_Minor0014_LVL1">
+    <Title>%MinorModule_Minor0014_LVL1_Title</Title>
+    <Description>%MinorModule_Minor0014_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/2-AttackModules/Minor0014_LVL1"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MinorModule_Minor0014_LVL2">
+    <Title>%MinorModule_Minor0014_LVL2_Title</Title>
+    <Description>%MinorModule_Minor0014_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/2-AttackModules/Minor0014_LVL2"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MinorModule_Minor0014_LVL3">
+    <Title>%MinorModule_Minor0014_LVL3_Title</Title>
+    <Description>%MinorModule_Minor0014_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/2-AttackModules/Minor0014_LVL3"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MinorModule_Minor0014_LVL4">
+    <Title>%MinorModule_Minor0014_LVL4_Title</Title>
+    <Description>%MinorModule_Minor0014_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/2-AttackModules/Minor0014_LVL4"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MinorModule_Minor0016_LVL1">
+    <Title>%MinorModule_Minor0016_LVL1_Title</Title>
+    <Description>%MinorModule_Minor0016_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/2-AttackModules/Minor0016_LVL1"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MinorModule_Minor0016_LVL2">
+    <Title>%MinorModule_Minor0016_LVL2_Title</Title>
+    <Description>%MinorModule_Minor0016_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/2-AttackModules/Minor0016_LVL2"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MinorModule_Minor0016_LVL3">
+    <Title>%MinorModule_Minor0016_LVL3_Title</Title>
+    <Description>%MinorModule_Minor0016_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/2-AttackModules/Minor0016_LVL3"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MinorModule_Minor0016_LVL4">
+    <Title>%MinorModule_Minor0016_LVL4_Title</Title>
+    <Description>%MinorModule_Minor0016_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/2-AttackModules/Minor0016_LVL4"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MinorModule_Minor0007_LVL1">
+    <Title>%MinorModule_Minor0007_LVL1_Title</Title>
+    <Description>%MinorModule_Minor0007_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/4-AlterationModules/Minor0007_LVL1"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MinorModule_Minor0007_LVL2">
+    <Title>%MinorModule_Minor0007_LVL2_Title</Title>
+    <Description>%MinorModule_Minor0007_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/4-AlterationModules/Minor0007_LVL2"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MinorModule_Minor0007_LVL3">
+    <Title>%MinorModule_Minor0007_LVL3_Title</Title>
+    <Description>%MinorModule_Minor0007_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/4-AlterationModules/Minor0007_LVL3"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MinorModule_Minor0007_LVL4">
+    <Title>%MinorModule_Minor0007_LVL4_Title</Title>
+    <Description>%MinorModule_Minor0007_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/4-AlterationModules/Minor0007_LVL4"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MinorModule_Minor0009_LVL1">
+    <Title>%MinorModule_Minor0009_LVL1_Title</Title>
+    <Description>%MinorModule_Minor0009_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/4-AlterationModules/Minor0009_LVL1"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MinorModule_Minor0009_LVL2">
+    <Title>%MinorModule_Minor0009_LVL2_Title</Title>
+    <Description>%MinorModule_Minor0009_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/4-AlterationModules/Minor0009_LVL2"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MinorModule_Minor0009_LVL3">
+    <Title>%MinorModule_Minor0009_LVL3_Title</Title>
+    <Description>%MinorModule_Minor0009_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/4-AlterationModules/Minor0009_LVL3"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MinorModule_Minor0009_LVL4">
+    <Title>%MinorModule_Minor0009_LVL4_Title</Title>
+    <Description>%MinorModule_Minor0009_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/4-AlterationModules/Minor0009_LVL4"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MinorModule_Minor0010_LVL1">
+    <Title>%MinorModule_Minor0010_LVL1_Title</Title>
+    <Description>%MinorModule_Minor0010_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/4-AlterationModules/Minor0010_LVL1"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MinorModule_Minor0010_LVL2">
+    <Title>%MinorModule_Minor0010_LVL2_Title</Title>
+    <Description>%MinorModule_Minor0010_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/4-AlterationModules/Minor0010_LVL2"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MinorModule_Minor0010_LVL3">
+    <Title>%MinorModule_Minor0010_LVL3_Title</Title>
+    <Description>%MinorModule_Minor0010_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/4-AlterationModules/Minor0010_LVL3"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MinorModule_Minor0010_LVL4">
+    <Title>%MinorModule_Minor0010_LVL4_Title</Title>
+    <Description>%MinorModule_Minor0010_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/4-AlterationModules/Minor0010_LVL4"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MinorModule_Minor0012_LVL1">
+    <Title>%MinorModule_Minor0012_LVL1_Title</Title>
+    <Description>%MinorModule_Minor0012_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/4-AlterationModules/Minor0012_LVL1"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MinorModule_Minor0012_LVL2">
+    <Title>%MinorModule_Minor0012_LVL2_Title</Title>
+    <Description>%MinorModule_Minor0012_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/4-AlterationModules/Minor0012_LVL2"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MinorModule_Minor0012_LVL3">
+    <Title>%MinorModule_Minor0012_LVL3_Title</Title>
+    <Description>%MinorModule_Minor0012_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/4-AlterationModules/Minor0012_LVL3"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MinorModule_Minor0012_LVL4">
+    <Title>%MinorModule_Minor0012_LVL4_Title</Title>
+    <Description>%MinorModule_Minor0012_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/4-AlterationModules/Minor0012_LVL4"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MinorModule_Minor0015_LVL1">
+    <Title>%MinorModule_Minor0015_LVL1_Title</Title>
+    <Description>%MinorModule_Minor0015_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/4-AlterationModules/Minor0015_LVL1"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MinorModule_Minor0015_LVL2">
+    <Title>%MinorModule_Minor0015_LVL2_Title</Title>
+    <Description>%MinorModule_Minor0015_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/4-AlterationModules/Minor0015_LVL2"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MinorModule_Minor0015_LVL3">
+    <Title>%MinorModule_Minor0015_LVL3_Title</Title>
+    <Description>%MinorModule_Minor0015_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/4-AlterationModules/Minor0015_LVL3"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MinorModule_Minor0015_LVL4">
+    <Title>%MinorModule_Minor0015_LVL4_Title</Title>
+    <Description>%MinorModule_Minor0015_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/4-AlterationModules/Minor0015_LVL4"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MinorModule_Minor0017_LVL1">
+    <Title>%MinorModule_Minor0017_LVL1_Title</Title>
+    <Description>%MinorModule_Minor0017_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/4-AlterationModules/Minor0017_LVL1"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MinorModule_Minor0017_LVL2">
+    <Title>%MinorModule_Minor0017_LVL2_Title</Title>
+    <Description>%MinorModule_Minor0017_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/4-AlterationModules/Minor0017_LVL2"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MinorModule_Minor0017_LVL3">
+    <Title>%MinorModule_Minor0017_LVL3_Title</Title>
+    <Description>%MinorModule_Minor0017_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/4-AlterationModules/Minor0017_LVL3"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="MinorModule_Minor0017_LVL4">
+    <Title>%MinorModule_Minor0017_LVL4_Title</Title>
+    <Description>%MinorModule_Minor0017_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/4-AlterationModules/Minor0017_LVL4"/>
+    </Icons>
+  </GuiElement>
+</Datatable>

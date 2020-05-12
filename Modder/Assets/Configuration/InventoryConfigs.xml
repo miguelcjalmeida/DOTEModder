@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	
+	<InventoryConfig Name="GeneralInventory">
+		<Items>
+			<!--
+
+			<Item Name="Armor013" />
+			<Item Name="Armor015" />
+			<Item Name="Armor014" />
+			<Item Name="Weapon022" />
+			<Item Name="Weapon026" />
+			<Item Name="Weapon023" />
+			<Item Name="Weapon024" />
+			<Item Name="Weapon025" />
+			<Item Name="Special019" />
+			<Item Name="Special021" />
+			<Item Name="Special020" />	
+			<Item Name="Weapon006" />
+			<Item Name="Weapon017" />
+			<Item Name="Armor011" />
+			<Item Name="Special001" />
+			<Item Name="Special006" />
+			<Item Name="Special013" />
+			<Item Name="Special016" />
+			
+			-->
+		</Items>
+	</InventoryConfig>
+	
+</Datatable>

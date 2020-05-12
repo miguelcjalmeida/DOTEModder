@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Warning: this XML is automatically generated from the XLS. Do not modify!-->
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <HeroConfig Name="Hero_H0001" RecruitmentFoodCost="33" AITargetType="LongRangeHero" AttackType="LaserGun" Archetype="%Hero_H0001_Archetype" UnlockLevelCount="3" Faction="Prisoner">
+    <IntroDialogs>
+      <Dialog Name="Intro1" Text="%Hero_H0001_Intro1"/>
+      <Dialog Name="Intro2" Text="%Hero_H0001_Intro2"/>
+      <Dialog Name="Intro3" Text="%Hero_H0001_Intro3"/>
+    </IntroDialogs>
+    <EquipmentSlots>
+      <EquipmentSlot Name="ItemHero_Weapon" Type="Weapon_Gun"/>
+      <EquipmentSlot Name="ItemHero_Armor"/>
+      <EquipmentSlot Name="ItemHero_Special"/>
+    </EquipmentSlots>
+  </HeroConfig>
+  <HeroConfig Name="Hero_H0002" RecruitmentFoodCost="28" AITargetType="ShortRangeHero" AttackType="Sword" Archetype="%Hero_H0002_Archetype" UnlockLevelCount="3" Faction="Guard">
+    <IntroDialogs>
+      <Dialog Name="Intro1" Text="%Hero_H0002_Intro1"/>
+      <Dialog Name="Intro2" Text="%Hero_H0002_Intro2"/>
+      <Dialog Name="Intro3" Text="%Hero_H0002_Intro3"/>
+    </IntroDialogs>
+    <EquipmentSlots>
+      <EquipmentSlot Name="ItemHero_Weapon" Type="Weapon_Sword"/>
+      <EquipmentSlot Name="ItemHero_Armor"/>
+      <EquipmentSlot Name="ItemHero_Special"/>
+    </EquipmentSlots>
+  </HeroConfig>
+  <HeroConfig Name="Hero_H0003" RecruitmentFoodCost="33" AITargetType="LongRangeHero" AttackType="HeavyGun" Archetype="%Hero_H0003_Archetype" UnlockLevelCount="3" Faction="Prisoner">
+    <IntroDialogs>
+      <Dialog Name="Intro1" Text="%Hero_H0003_Intro1"/>
+      <Dialog Name="Intro2" Text="%Hero_H0003_Intro2"/>
+      <Dialog Name="Intro3" Text="%Hero_H0003_Intro3"/>
+    </IntroDialogs>
+    <EquipmentSlots>
+      <EquipmentSlot Name="ItemHero_Weapon" Type="Weapon_MachineGun"/>
+      <EquipmentSlot Name="ItemHero_Armor"/>
+      <EquipmentSlot Name="ItemHero_Special"/>
+    </EquipmentSlots>
+  </HeroConfig>
+  <HeroConfig Name="Hero_H0007" RecruitmentFoodCost="28" AITargetType="LongRangeHero" AttackType="LaserGun" Archetype="%Hero_H0007_Archetype" UnlockLevelCount="3" Faction="Guard">
+    <IntroDialogs>
+      <Dialog Name="Intro1" Text="%Hero_H0007_Intro1"/>
+      <Dialog Name="Intro2" Text="%Hero_H0007_Intro2"/>
+      <Dialog Name="Intro3" Text="%Hero_H0007_Intro3"/>
+    </IntroDialogs>
+    <EquipmentSlots>
+      <EquipmentSlot Name="ItemHero_Weapon" Type="Weapon_Gun"/>
+      <EquipmentSlot Name="ItemHero_Armor"/>
+      <EquipmentSlot Name="ItemHero_Special"/>
+    </EquipmentSlots>
+  </HeroConfig>
+  <HeroConfig Name="Hero_H0004" RecruitmentFoodCost="33" AITargetType="ShortRangeHero" AttackType="Spear" Archetype="%Hero_H0004_Archetype" UnlockLevelCount="3" Faction="Prisoner">
+    <IntroDialogs>
+      <Dialog Name="Intro1" Text="%Hero_H0004_Intro1"/>
+      <Dialog Name="Intro2" Text="%Hero_H0004_Intro2"/>
+      <Dialog Name="Intro3" Text="%Hero_H0004_Intro3"/>
+    </IntroDialogs>
+    <EquipmentSlots>
+      <EquipmentSlot Name="ItemHero_Weapon" Type="Weapon_Spear"/>
+      <EquipmentSlot Name="ItemHero_Armor"/>
+      <EquipmentSlot Name="ItemHero_Special"/>
+    </EquipmentSlots>
+  </HeroConfig>
+  <HeroConfig Name="Hero_H0006" RecruitmentFoodCost="18" AITargetType="ShortRangeHero" AttackType="Sword" Archetype="%Hero_H0006_Archetype" UnlockLevelCount="3" Faction="Native">
+    <IntroDialogs>
+      <Dialog Name="Intro1" Text="%Hero_H0006_Intro1"/>
+      <Dialog Name="Intro2" Text="%Hero_H0006_Intro2"/>
+      <Dialog Name="Intro3" Text="%Hero_H0006_Intro3"/>
+    </IntroDialogs>
+    <EquipmentSlots>
+      <EquipmentSlot Name="ItemHero_Weapon" Type="Weapon_Sword"/>
+      <EquipmentSlot Name="ItemHero_Armor"/>
+      <EquipmentSlot Name="ItemHero_Special"/>
+    </EquipmentSlots>
+  </HeroConfig>
+  <HeroConfig Name="Hero_H0005" RecruitmentFoodCost="33" AITargetType="ShortRangeHero" AttackType="Sword" Archetype="%Hero_H0005_Archetype" UnlockLevelCount="3" Faction="Prisoner">
+    <IntroDialogs>
+      <Dialog Name="Intro1" Text="%Hero_H0005_Intro1"/>
+      <Dialog Name="Intro2" Text="%Hero_H0005_Intro2"/>
+      <Dialog Name="Intro3" Text="%Hero_H0005_Intro3"/>
+    </IntroDialogs>
+    <EquipmentSlots>
+      <EquipmentSlot Name="ItemHero_Weapon" Type="Weapon_Sword"/>
+      <EquipmentSlot Name="ItemHero_Armor"/>
+      <EquipmentSlot Name="ItemHero_Special"/>
+    </EquipmentSlots>
+  </HeroConfig>
+  <HeroConfig Name="Hero_H0012" RecruitmentFoodCost="33" AITargetType="ShortRangeHero" AttackType="Hand" Archetype="%Hero_H0012_Archetype" UnlockLevelCount="3" Faction="Prisoner">
+    <IntroDialogs>
+      <Dialog Name="Intro1" Text="%Hero_H0012_Intro1"/>
+      <Dialog Name="Intro2" Text="%Hero_H0012_Intro2"/>
+      <Dialog Name="Intro3" Text="%Hero_H0012_Intro3"/>
+    </IntroDialogs>
+    <EquipmentSlots>
+      <EquipmentSlot Name="ItemHero_Armor"/>
+      <EquipmentSlot Name="ItemHero_Special"/>
+      <EquipmentSlot Name="ItemHero_Special"/>
+    </EquipmentSlots>
+  </HeroConfig>
+  <HeroConfig Name="Hero_H0008" RecruitmentFoodCost="18" AITargetType="ShortRangeHero" AttackType="Spear" Archetype="%Hero_H0008_Archetype" UnlockLevelCount="3" Faction="Native">
+    <IntroDialogs>
+      <Dialog Name="Intro1" Text="%Hero_H0008_Intro1"/>
+      <Dialog Name="Intro2" Text="%Hero_H0008_Intro2"/>
+      <Dialog Name="Intro3" Text="%Hero_H0008_Intro3"/>
+    </IntroDialogs>
+    <EquipmentSlots>
+      <EquipmentSlot Name="ItemHero_Weapon" Type="Weapon_Spear"/>
+      <EquipmentSlot Name="ItemHero_Special"/>
+    </EquipmentSlots>
+  </HeroConfig>
+  <HeroConfig Name="Hero_H0009" RecruitmentFoodCost="33" AITargetType="LongRangeHero" AttackType="MachineGun" Archetype="%Hero_H0009_Archetype" UnlockLevelCount="3" Faction="Prisoner">
+    <IntroDialogs>
+      <Dialog Name="Intro1" Text="%Hero_H0009_Intro1"/>
+      <Dialog Name="Intro2" Text="%Hero_H0009_Intro2"/>
+      <Dialog Name="Intro3" Text="%Hero_H0009_Intro3"/>
+    </IntroDialogs>
+    <EquipmentSlots>
+      <EquipmentSlot Name="ItemHero_Weapon" Type="Weapon_MachineGun"/>
+      <EquipmentSlot Name="ItemHero_Armor"/>
+      <EquipmentSlot Name="ItemHero_Special"/>
+    </EquipmentSlots>
+  </HeroConfig>
+  <HeroConfig Name="Hero_H0010" RecruitmentFoodCost="28" AITargetType="LongRangeHero" AttackType="LightMachineGun" Archetype="%Hero_H0010_Archetype" UnlockLevelCount="3" Faction="Guard">
+    <IntroDialogs>
+      <Dialog Name="Intro1" Text="%Hero_H0010_Intro1"/>
+      <Dialog Name="Intro2" Text="%Hero_H0010_Intro2"/>
+      <Dialog Name="Intro3" Text="%Hero_H0010_Intro3"/>
+    </IntroDialogs>
+    <EquipmentSlots>
+      <EquipmentSlot Name="ItemHero_Weapon" Type="Weapon_MachineGun"/>
+      <EquipmentSlot Name="ItemHero_Armor"/>
+      <EquipmentSlot Name="ItemHero_Special"/>
+    </EquipmentSlots>
+  </HeroConfig>
+  <HeroConfig Name="Hero_H0013" RecruitmentFoodCost="18" AITargetType="ShortRangeHero" AttackType="SpearAttack2" Archetype="%Hero_H0013_Archetype" UnlockLevelCount="3" Faction="Native">
+    <IntroDialogs>
+      <Dialog Name="Intro1" Text="%Hero_H0013_Intro1"/>
+      <Dialog Name="Intro2" Text="%Hero_H0013_Intro2"/>
+      <Dialog Name="Intro3" Text="%Hero_H0013_Intro3"/>
+    </IntroDialogs>
+    <EquipmentSlots>
+      <EquipmentSlot Name="ItemHero_Weapon" Type="Weapon_Spear"/>
+      <EquipmentSlot Name="ItemHero_Armor"/>
+      <EquipmentSlot Name="ItemHero_Special"/>
+    </EquipmentSlots>
+  </HeroConfig>
+  <HeroConfig Name="Hero_H0014" RecruitmentFoodCost="28" AITargetType="LongRangeHero" AttackType="ShotGun" Archetype="%Hero_H0014_Archetype" UnlockLevelCount="3" Faction="Guard">
+    <IntroDialogs>
+      <Dialog Name="Intro1" Text="%Hero_H0014_Intro1"/>
+      <Dialog Name="Intro2" Text="%Hero_H0014_Intro2"/>
+      <Dialog Name="Intro3" Text="%Hero_H0014_Intro3"/>
+    </IntroDialogs>
+    <EquipmentSlots>
+      <EquipmentSlot Name="ItemHero_Weapon" Type="Weapon_Gun"/>
+      <EquipmentSlot Name="ItemHero_Armor"/>
+      <EquipmentSlot Name="ItemHero_Special"/>
+    </EquipmentSlots>
+  </HeroConfig>
+  <HeroConfig Name="Hero_H0015" RecruitmentFoodCost="28" AITargetType="LongRangeHero" AttackType="HeavyRifle" Archetype="%Hero_H0015_Archetype" UnlockLevelCount="3" Faction="Guard">
+    <IntroDialogs>
+      <Dialog Name="Intro1" Text="%Hero_H0015_Intro1"/>
+      <Dialog Name="Intro2" Text="%Hero_H0015_Intro2"/>
+      <Dialog Name="Intro3" Text="%Hero_H0015_Intro3"/>
+    </IntroDialogs>
+    <EquipmentSlots>
+      <EquipmentSlot Name="ItemHero_Weapon" Type="Weapon_MachineGun"/>
+      <EquipmentSlot Name="ItemHero_Special"/>
+      <EquipmentSlot Name="ItemHero_Special"/>
+    </EquipmentSlots>
+  </HeroConfig>
+  <HeroConfig Name="Hero_H0016" RecruitmentFoodCost="28" AITargetType="ShortRangeHero" AttackType="Sword" Archetype="%Hero_H0016_Archetype" UnlockLevelCount="3" Faction="Guard">
+    <IntroDialogs>
+      <Dialog Name="Intro1" Text="%Hero_H0016_Intro1"/>
+      <Dialog Name="Intro2" Text="%Hero_H0016_Intro2"/>
+      <Dialog Name="Intro3" Text="%Hero_H0016_Intro3"/>
+    </IntroDialogs>
+    <EquipmentSlots>
+      <EquipmentSlot Name="ItemHero_Weapon" Type="Weapon_Sword"/>
+      <EquipmentSlot Name="ItemHero_Armor"/>
+      <EquipmentSlot Name="ItemHero_Special"/>
+    </EquipmentSlots>
+  </HeroConfig>
+  <HeroConfig Name="Hero_H0011" RecruitmentFoodCost="33" AITargetType="LongRangeHero" AttackType="LaserGun" Archetype="%Hero_H0011_Archetype" UnlockLevelCount="3" Faction="Prisoner">
+    <IntroDialogs>
+      <Dialog Name="Intro1" Text="%Hero_H0011_Intro1"/>
+      <Dialog Name="Intro2" Text="%Hero_H0011_Intro2"/>
+      <Dialog Name="Intro3" Text="%Hero_H0011_Intro3"/>
+    </IntroDialogs>
+    <EquipmentSlots>
+      <EquipmentSlot Name="ItemHero_Weapon" Type="Weapon_Gun"/>
+      <EquipmentSlot Name="ItemHero_Armor"/>
+      <EquipmentSlot Name="ItemHero_Special"/>
+    </EquipmentSlots>
+  </HeroConfig>
+  <HeroConfig Name="Hero_H0017" RecruitmentFoodCost="18" AITargetType="LongRangeHero" AttackType="MiziFist" Archetype="%Hero_H0017_Archetype" UnlockLevelCount="3" Faction="Native">
+    <IntroDialogs>
+      <Dialog Name="Intro1" Text="%Hero_H0017_Intro1"/>
+      <Dialog Name="Intro2" Text="%Hero_H0017_Intro2"/>
+      <Dialog Name="Intro3" Text="%Hero_H0017_Intro3"/>
+    </IntroDialogs>
+    <EquipmentSlots>
+      <EquipmentSlot Name="ItemHero_Armor"/>
+      <EquipmentSlot Name="ItemHero_Special"/>
+    </EquipmentSlots>
+  </HeroConfig>
+  <HeroConfig Name="Hero_H0018" RecruitmentFoodCost="18" AITargetType="ShortRangeHero" AttackType="SpearAttack2" Archetype="%Hero_H0018_Archetype" UnlockLevelCount="3" Faction="Native">
+    <IntroDialogs>
+      <Dialog Name="Intro1" Text="%Hero_H0018_Intro1"/>
+      <Dialog Name="Intro2" Text="%Hero_H0018_Intro2"/>
+      <Dialog Name="Intro3" Text="%Hero_H0018_Intro3"/>
+    </IntroDialogs>
+    <EquipmentSlots>
+      <EquipmentSlot Name="ItemHero_Weapon" Type="Weapon_Spear"/>
+      <EquipmentSlot Name="ItemHero_Armor"/>
+      <EquipmentSlot Name="ItemHero_Special"/>
+    </EquipmentSlots>
+  </HeroConfig>
+  <HeroConfig Name="Hero_H0019" RecruitmentFoodCost="18" AITargetType="ShortRangeHero" AttackType="PugHammer" Archetype="%Hero_H0019_Archetype" UnlockLevelCount="3" Faction="Native">
+    <IntroDialogs>
+      <Dialog Name="Intro1" Text="%Hero_H0019_Intro1"/>
+      <Dialog Name="Intro2" Text="%Hero_H0019_Intro2"/>
+      <Dialog Name="Intro3" Text="%Hero_H0019_Intro3"/>
+    </IntroDialogs>
+    <EquipmentSlots/>
+  </HeroConfig>
+  <HeroConfig Name="Hero_H0020" RecruitmentFoodCost="18" AITargetType="LongRangeHero" AttackType="Thunder" Archetype="%Hero_H0020_Archetype" UnlockLevelCount="3" Faction="Other">
+    <IntroDialogs>
+      <Dialog Name="Intro1" Text="%Hero_H0020_Intro1"/>
+      <Dialog Name="Intro2" Text="%Hero_H0020_Intro2"/>
+      <Dialog Name="Intro3" Text="%Hero_H0020_Intro3"/>
+    </IntroDialogs>
+    <EquipmentSlots>
+      <EquipmentSlot Name="ItemHero_Weapon" Type="Weapon_Sword"/>
+      <EquipmentSlot Name="ItemHero_Armor"/>
+      <EquipmentSlot Name="ItemHero_Special"/>
+    </EquipmentSlots>
+  </HeroConfig>
+  <HeroConfig Name="Hero_H0021" RecruitmentFoodCost="33" AITargetType="ShortRangeHero" AttackType="Wrench" Archetype="%Hero_H0021_Archetype" UnlockLevelCount="3" Faction="Prisoner">
+    <IntroDialogs>
+      <Dialog Name="Intro1" Text="%Hero_H0021_Intro1"/>
+      <Dialog Name="Intro2" Text="%Hero_H0021_Intro2"/>
+      <Dialog Name="Intro3" Text="%Hero_H0021_Intro3"/>
+    </IntroDialogs>
+    <EquipmentSlots>
+      <EquipmentSlot Name="ItemHero_Weapon" Type="Weapon_Spear"/>
+      <EquipmentSlot Name="ItemHero_Armor"/>
+      <EquipmentSlot Name="ItemHero_Special"/>
+    </EquipmentSlots>
+  </HeroConfig>
+  <HeroConfig Name="Hero_H0022" RecruitmentFoodCost="33" AITargetType="ShortRangeHero" AttackType="FlameThrower" Archetype="%Hero_H0022_Archetype" UnlockLevelCount="3" Faction="Prisoner">
+    <IntroDialogs>
+      <Dialog Name="Intro1" Text="%Hero_H0022_Intro1"/>
+      <Dialog Name="Intro2" Text="%Hero_H0022_Intro2"/>
+      <Dialog Name="Intro3" Text="%Hero_H0022_Intro3"/>
+    </IntroDialogs>
+    <EquipmentSlots>
+      <EquipmentSlot Name="ItemHero_Armor"/>
+      <EquipmentSlot Name="ItemHero_Special"/>
+      <EquipmentSlot Name="ItemHero_Special"/>
+    </EquipmentSlots>
+  </HeroConfig>
+  <HeroConfig Name="Hero_H0023" RecruitmentFoodCost="33" AITargetType="LongRangeHero" AttackType="BFHeavyGun" Archetype="%Hero_H0023_Archetype" UnlockLevelCount="3" Faction="Prisoner">
+    <IntroDialogs>
+      <Dialog Name="Intro1" Text="%Hero_H0023_Intro1"/>
+      <Dialog Name="Intro2" Text="%Hero_H0023_Intro2"/>
+      <Dialog Name="Intro3" Text="%Hero_H0023_Intro3"/>
+    </IntroDialogs>
+    <EquipmentSlots>
+      <EquipmentSlot Name="ItemHero_Weapon" Type="Weapon_MachineGun"/>
+      <EquipmentSlot Name="ItemHero_Armor"/>
+      <EquipmentSlot Name="ItemHero_Special"/>
+    </EquipmentSlots>
+  </HeroConfig>
+  <HeroConfig Name="Hero_H0024" RecruitmentFoodCost="33" AITargetType="ShortRangeHero" AttackType="Saw" Archetype="%Hero_H0024_Archetype" UnlockLevelCount="3" Faction="Prisoner">
+    <IntroDialogs>
+      <Dialog Name="Intro1" Text="%Hero_H0024_Intro1"/>
+      <Dialog Name="Intro2" Text="%Hero_H0024_Intro2"/>
+      <Dialog Name="Intro3" Text="%Hero_H0024_Intro3"/>
+    </IntroDialogs>
+    <EquipmentSlots>
+      <EquipmentSlot Name="ItemHero_Weapon" Type="Weapon_Sword"/>
+      <EquipmentSlot Name="ItemHero_Armor"/>
+      <EquipmentSlot Name="ItemHero_Special"/>
+    </EquipmentSlots>
+  </HeroConfig>
+  <HeroConfig Name="Hero_H0025" RecruitmentFoodCost="33" AITargetType="LongRangeHero" AttackType="LaserGun" Archetype="%Hero_H0025_Archetype" UnlockLevelCount="3" Faction="Guard">
+    <IntroDialogs>
+      <Dialog Name="Intro1" Text="%Hero_H0025_Intro1"/>
+      <Dialog Name="Intro2" Text="%Hero_H0025_Intro2"/>
+      <Dialog Name="Intro3" Text="%Hero_H0025_Intro3"/>
+    </IntroDialogs>
+    <EquipmentSlots>
+      <EquipmentSlot Name="ItemHero_Weapon" Type="Weapon_Gun"/>
+      <EquipmentSlot Name="ItemHero_Armor"/>
+      <EquipmentSlot Name="ItemHero_Special"/>
+    </EquipmentSlots>
+  </HeroConfig>
+  <HeroConfig Name="Hero_H0026" RecruitmentFoodCost="33" AITargetType="LongRangeHero" AttackType="ShotGun" Archetype="%Hero_H0026_Archetype" UnlockLevelCount="3" Faction="Guard">
+    <IntroDialogs>
+      <Dialog Name="Intro1" Text="%Hero_H0026_Intro1"/>
+      <Dialog Name="Intro2" Text="%Hero_H0026_Intro2"/>
+      <Dialog Name="Intro3" Text="%Hero_H0026_Intro3"/>
+    </IntroDialogs>
+    <EquipmentSlots>
+      <EquipmentSlot Name="ItemHero_Armor"/>
+      <EquipmentSlot Name="ItemHero_Special"/>
+      <EquipmentSlot Name="ItemHero_Special"/>
+    </EquipmentSlots>
+  </HeroConfig>
+  <HeroConfig Name="Hero_H0027" RecruitmentFoodCost="33" AITargetType="LongRangeHero" AttackType="LaserGun" Archetype="%Hero_H0027_Archetype" UnlockLevelCount="3" Faction="Guard">
+    <IntroDialogs>
+      <Dialog Name="Intro1" Text="%Hero_H0027_Intro1"/>
+      <Dialog Name="Intro2" Text="%Hero_H0027_Intro2"/>
+      <Dialog Name="Intro3" Text="%Hero_H0027_Intro3"/>
+    </IntroDialogs>
+    <EquipmentSlots>
+      <EquipmentSlot Name="ItemHero_Weapon" Type="Weapon_Gun"/>
+      <EquipmentSlot Name="ItemHero_Armor"/>
+      <EquipmentSlot Name="ItemHero_Special"/>
+    </EquipmentSlots>
+  </HeroConfig>
+  <HeroConfig Name="Hero_H0028" RecruitmentFoodCost="33" AITargetType="ShortRangeHero" AttackType="Saw" Archetype="%Hero_H0028_Archetype" UnlockLevelCount="3" Faction="Guard">
+    <IntroDialogs>
+      <Dialog Name="Intro1" Text="%Hero_H0028_Intro1"/>
+      <Dialog Name="Intro2" Text="%Hero_H0028_Intro2"/>
+      <Dialog Name="Intro3" Text="%Hero_H0028_Intro3"/>
+    </IntroDialogs>
+    <EquipmentSlots>
+      <EquipmentSlot Name="ItemHero_Weapon" Type="Weapon_Sword"/>
+      <EquipmentSlot Name="ItemHero_Special"/>
+      <EquipmentSlot Name="ItemHero_Special"/>
+    </EquipmentSlots>
+  </HeroConfig>
+</Datatable>

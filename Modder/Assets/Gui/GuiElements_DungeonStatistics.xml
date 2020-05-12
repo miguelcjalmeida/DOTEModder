@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+	<!--
+		Order : used to sort elements in the table.
+		Description : 
+			- if $Value is present, it will be replaced with the actual value.
+			- if FORMAT/TIME is present, value will be displayed as time (HH:mm:ss).
+			- by default, the value will be displayed as an integer.
+	-->
+
+	<GuiElement Name="DungeonStatistics_NumberOfOpenedDoors">
+		<Title>%DungeonStatistics_NumberOfOpenedDoors_Title</Title>
+	</GuiElement>
+
+	<GuiElement Name="DungeonStatistics_NumberOfKills">
+		<Title>%DungeonStatistics_NumberOfKills_Title</Title>
+	</GuiElement>
+
+	<GuiElement Name="DungeonStatistics_TimeOfLevel">
+		<Title>%DungeonStatistics_TimeOfLevel_Title</Title>
+		<Description>FORMAT/TIME</Description>
+	</GuiElement>
+
+	<GuiElement Name="DungeonStatistics_TotalTime">
+		<Title>%DungeonStatistics_TotalTime_Title</Title>
+		<Description>FORMAT/TIME</Description>
+	</GuiElement>
+
+</Datatable>
