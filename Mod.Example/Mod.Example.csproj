@@ -5,4 +5,18 @@
         <TargetFramework>netcoreapp3.1</TargetFramework>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\Modder\Modder.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="ObjectDumper" Version="1.0.0.12" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Dist\Configuration" />
+      <Folder Include="Dist\Gui" />
+      <Folder Include="Dist\Simulation" />
+    </ItemGroup>
+
 </Project>
