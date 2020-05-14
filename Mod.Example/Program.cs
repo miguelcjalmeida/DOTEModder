@@ -1,8 +1,12 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
-using Modder.Loaders.HeroItem;
-using Modder.Loaders.Localization;
-using Modder.Writers;
+using System.Linq;
+using Modder;
+using Modder.Item;
+using Modder.Item.Rarity;
+using Modder.Item.SimulationDescriptor;
+using Modder.Manager;
 
 namespace Mod.Example
 {
@@ -14,14 +18,72 @@ namespace Mod.Example
             var projectDirectory = Directory.GetParent(workingDirectory).Parent?.Parent?.FullName;
             var distDirectory = $"{projectDirectory}/Dist";
             var assetsDirectory = $"{projectDirectory}/Assets";
-            var items = HeroItemLoader.LoadFromAssets(assetsDirectory);
-            
-            new HeroItemConfigsWriter().Write(distDirectory, items);
-            new HeroItemGuiWriter().Write(distDirectory, items);
-            new HeroItemSimulationWriter().Write(distDirectory, items);
 
-            var localizations = LocalizationLoader.LoadFromAssets(assetsDirectory);
-            new LocalizationWriter().Write(distDirectory, localizations);
+            var heroManager = new HeroItemItemManager(assetsDirectory, distDirectory);
+            var items = heroManager.Load();
+            var dagger = new HeroItem
+            {
+                Title = new Description
+                {
+                    English = "Dagger",
+                    French = "Daggery",
+                    German = "Daggur"
+                },
+                Description = new Description
+                {
+                    English = "Quick & deadly",
+                    French = "Rapida e mortal",
+                    German = "Quickka n mortal"
+                },
+                Category = ItemCategory.ItemHero_Weapon,
+                Name = "WeaponDagger",
+                AttackType = AttackType.Sword,
+                DropCriteria = new DropCriteria
+                {
+                    MaxLevel = 10,
+                    MinLevel = 0,
+                    ProbabilityWeight = 100
+                },
+                IconPath = "GUI/DynamicBitmaps/Items/Weapon002",
+                WeaponType = WeaponType.Weapon_Sword,
+                SkillIDs = new List<string>(),
+                Descriptors = new List<HeroItemDescriptor>()
+                {
+                    new HeroItemDescriptor
+                    {
+                        Rarity = new ItemRarity
+                        {
+                            Name = RarityName.Common,
+                            DropCriteria = new DropCriteria
+                            {
+                                MinLevel = 0,
+                                MaxLevel = 10,
+                                ProbabilityWeight = 100
+                            }
+                        },
+                        Modifiers = new List<ModifierDescriptor>
+                        {
+                            new ModifierDescriptor
+                            {
+                                TargetProperty = TargetProperty.AttackCooldown,
+                                Operation = Operation.Subtraction,
+                                Value = 0.2f
+                            },
+                            new ModifierDescriptor
+                            {
+                                TargetProperty = TargetProperty.MoveSpeed,
+                                Operation = Operation.Addition,
+                                Value = 2f
+                            }
+                        }
+                    }
+                }
+            };
+            
+            items.Add(dagger);
+            heroManager.Save(items);
+            
+            Console.WriteLine(items.Last());
         }
     }
 }

@@ -9,9 +9,9 @@ using Modder.Loader;
 
 namespace Modder.Loaders.HeroItem
 {
-    public static class HeroItemLoader
+    public class HeroItemLoader
     {
-        public static IList<Item.HeroItem> LoadFromAssets(string assetsPath)
+        public IList<Item.HeroItem> LoadFromAssets(string assetsPath)
         {
             var heroItemsDoc = LoadDocument($"{assetsPath}/Configuration/ItemHeroConfigs.xml");
             var englishDoc = LoadDocument($"{assetsPath}/Localization/english/ED_Localization_Locales.xml");

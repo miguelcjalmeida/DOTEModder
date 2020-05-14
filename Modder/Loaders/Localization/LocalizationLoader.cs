@@ -7,7 +7,7 @@ namespace Modder.Loaders.Localization
 {
     public class LocalizationLoader
     {
-        public static IList<Modder.Localization> LoadFromAssets(string assetsPath)
+        public IList<Modder.Localization> LoadFromAssets(string assetsPath)
         {
             var englishDoc = LoadDocument($"{assetsPath}/Localization/english/ED_Localization_Locales.xml");
             var frenchDoc = LoadDocument($"{assetsPath}/Localization/french/ED_Localization_Locales.xml");
