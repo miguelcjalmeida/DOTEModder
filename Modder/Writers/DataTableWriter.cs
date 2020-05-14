@@ -1,12 +1,20 @@
-﻿using System.Text;
+﻿using System.IO;
+using System.Text;
 using System.Xml;
 
 namespace Modder.Writers
 {
-    public abstract class DataTableWriter<TContent>
+    public interface IDataTableWriter<in TContent>
     {
-        public void Write(string assetsPath, TContent content)
+        public void Write(string distPath, TContent content);
+    }
+    
+    public abstract class DataTableWriter<TContent> : IDataTableWriter<TContent>
+    {
+        public void Write(string distPath, TContent content)
         {
+            Directory.CreateDirectory(Path.GetDirectoryName(GetFilePath(distPath)));
+            
             var settings = new XmlWriterSettings
             {
                 Encoding = Encoding.UTF8,
@@ -14,7 +22,7 @@ namespace Modder.Writers
                 IndentChars = "  "
             };
             
-            var writer = XmlWriter.Create(GetFilePath(assetsPath), settings);
+            var writer = XmlWriter.Create(GetFilePath(distPath), settings);
 
             writer.WriteStartDocument();
             writer.WriteComment("Warning: this XML is automatically generated from the XLS. Do not modify!");

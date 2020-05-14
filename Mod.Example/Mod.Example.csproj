@@ -16,6 +16,7 @@
     <ItemGroup>
       <Folder Include="Dist\Configuration" />
       <Folder Include="Dist\Gui" />
+      <Folder Include="Dist\Localization\english" />
       <Folder Include="Dist\Simulation" />
     </ItemGroup>
 
