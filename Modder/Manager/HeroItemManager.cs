@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using Modder.Item;
+using Modder.Entities.Item;
+using Modder.Entities.Localization;
 using Modder.Loaders.HeroItem;
 using Modder.Loaders.Localization;
 using Modder.Writers;

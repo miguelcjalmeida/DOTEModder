@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Xml;
-using Modder.Item;
+using Modder.Entities.Item;
 
 namespace Modder.Writers.HeroItems
 {

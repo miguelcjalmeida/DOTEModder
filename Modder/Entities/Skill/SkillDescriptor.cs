@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using Modder.Item.SimulationDescriptor;
+using Modder.Entities.Item.SimulationDescriptor;
 
-namespace Modder.Skill
+namespace Modder.Entities.Skill
 {
     public class SkillDescriptor
     {

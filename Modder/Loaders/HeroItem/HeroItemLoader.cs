@@ -2,16 +2,17 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Xml;
-using Modder.Item;
-using Modder.Item.Rarity;
-using Modder.Item.SimulationDescriptor;
+using Modder.Entities.Item;
+using Modder.Entities.Item.Rarity;
+using Modder.Entities.Item.SimulationDescriptor;
+using Modder.Entities.Localization;
 using Modder.Loader;
 
 namespace Modder.Loaders.HeroItem
 {
     public class HeroItemLoader
     {
-        public IList<Item.HeroItem> LoadFromAssets(string assetsPath)
+        public IList<Entities.Item.HeroItem> LoadFromAssets(string assetsPath)
         {
             var heroItemsDoc = LoadDocument($"{assetsPath}/Configuration/ItemHeroConfigs.xml");
             var englishDoc = LoadDocument($"{assetsPath}/Localization/english/ED_Localization_Locales.xml");
@@ -21,7 +22,7 @@ namespace Modder.Loaders.HeroItem
             var simulationDoc = LoadDocument($"{assetsPath}/Simulation/SimulationDescriptors_ItemHero.xml");
             
             var itemsNodes = heroItemsDoc.SelectNodes("Datatable/ItemHeroConfig");
-            var results = new List<Item.HeroItem>();
+            var results = new List<Entities.Item.HeroItem>();
             
             foreach (XmlNode heroItemConfig in itemsNodes)
             {
@@ -47,13 +48,13 @@ namespace Modder.Loaders.HeroItem
             return heroItemsDoc;
         }
 
-        private static Item.HeroItem CreateHeroItemFromConfiguration(XmlNode itemHeroConfig)
+        private static Entities.Item.HeroItem CreateHeroItemFromConfiguration(XmlNode itemHeroConfig)
         {
             var depthRange = itemHeroConfig.SelectSingleNode("DepthRanges/DepthRange");
             var category = itemHeroConfig.SelectSingleNode("Category");
             var skills = itemHeroConfig.SelectNodes("Skills/Skill");
 
-            return new Item.HeroItem
+            return new Entities.Item.HeroItem
             {
                 Name = itemHeroConfig.Attributes["Name"].Value,
                 AttackType = itemHeroConfig.Attributes["AttackType"]?.Value.ParseToEnum<AttackType>(),
@@ -77,7 +78,7 @@ namespace Modder.Loaders.HeroItem
             };
         }
 
-        private static void PopulateHeroItemLocalization(Item.HeroItem item, XmlDocument englishDoc, XmlDocument frenchDoc, XmlDocument germanDoc)
+        private static void PopulateHeroItemLocalization(Entities.Item.HeroItem item, XmlDocument englishDoc, XmlDocument frenchDoc, XmlDocument germanDoc)
         {
             item.Title = new Description
             {
@@ -94,13 +95,13 @@ namespace Modder.Loaders.HeroItem
             };
         }
 
-        private static void PopulateIcon(Item.HeroItem item, XmlDocument guiDoc)
+        private static void PopulateIcon(Entities.Item.HeroItem item, XmlDocument guiDoc)
         {
             var icon = guiDoc.SelectSingleNode($"Datatable/GuiElement[@Name='{item.Name}']/Icons/Icon");
             item.IconPath = icon.Attributes["Path"].Value;
         }
 
-        private static void PopulateVariationDescriptors(Item.HeroItem item, XmlDocument simulationDoc)
+        private static void PopulateVariationDescriptors(Entities.Item.HeroItem item, XmlDocument simulationDoc)
         {
             item.Descriptors.Cast<HeroItemDescriptorFromXml>().ForEach(descriptor =>
             {
@@ -114,7 +115,7 @@ namespace Modder.Loaders.HeroItem
             });
         }
 
-        private static void PopulateDescriptorsRelationship(Item.HeroItem item, IEnumerable<Item.HeroItem> allItems)
+        private static void PopulateDescriptorsRelationship(Entities.Item.HeroItem item, IEnumerable<Entities.Item.HeroItem> allItems)
         {
             var allDescriptors = allItems
                 .SelectMany(x => x.Descriptors)
@@ -141,10 +142,10 @@ namespace Modder.Loaders.HeroItem
                 .ToList();
         }
 
-        private static string GetHeroItemTitleLocalization(Item.HeroItem item, XmlDocument localizationDoc)
+        private static string GetHeroItemTitleLocalization(Entities.Item.HeroItem item, XmlDocument localizationDoc)
             => localizationDoc.SelectSingleNode($"Datatable/LocalizationPair[@Name='%Item_{item.Name}']").InnerText;
         
-        private static string GetHeroItemDescriptionLocalization(Item.HeroItem item, XmlDocument localizationDoc)
+        private static string GetHeroItemDescriptionLocalization(Entities.Item.HeroItem item, XmlDocument localizationDoc)
             => localizationDoc.SelectSingleNode($"Datatable/LocalizationPair[@Name='%Item_{item.Name}_Description']").InnerText;
         
         private static DropCriteria GetDropCriteriaFromDepthRange(XmlNode depthRange)

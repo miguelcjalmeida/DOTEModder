@@ -1,4 +1,4 @@
-﻿using Modder.Item.SimulationDescriptor;
+﻿using Modder.Entities.Item.SimulationDescriptor;
 
 namespace Modder.Loaders.HeroItem
 {

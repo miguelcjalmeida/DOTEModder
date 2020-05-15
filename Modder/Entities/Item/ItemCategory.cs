@@ -1,4 +1,4 @@
-﻿namespace Modder.Item
+﻿namespace Modder.Entities.Item
 {
     public enum ItemCategory
     {

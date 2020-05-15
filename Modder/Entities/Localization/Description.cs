@@ -1,4 +1,4 @@
-﻿namespace Modder
+﻿namespace Modder.Entities.Localization
 {
     public class Description
     {

@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
+using Modder.Entities.Localization;
 
-namespace Modder.Skill
+namespace Modder.Entities.Skill
 {
     public class Skill
     {

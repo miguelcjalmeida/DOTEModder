@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using Modder.Entities.Localization;
 
 namespace Modder.Writers
 {

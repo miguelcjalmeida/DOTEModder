@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using Modder.Item;
+using Modder.Entities.Item;
 
 namespace Modder.Writers.HeroItems
 {

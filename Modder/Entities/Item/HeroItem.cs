@@ -1,7 +1,8 @@
 ﻿using System.Collections.Generic;
-using Modder.Item.SimulationDescriptor;
+using Modder.Entities.Item.SimulationDescriptor;
+using Modder.Entities.Localization;
 
-namespace Modder.Item
+namespace Modder.Entities.Item
 {
     public class HeroItem
     {

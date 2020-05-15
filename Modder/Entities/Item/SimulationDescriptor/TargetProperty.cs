@@ -1,4 +1,4 @@
-﻿namespace Modder.Item.SimulationDescriptor
+﻿namespace Modder.Entities.Item.SimulationDescriptor
 {
     public enum TargetProperty
     {

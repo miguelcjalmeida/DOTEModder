@@ -4,7 +4,7 @@ namespace Modder.Loaders.Skill
 {
     public class SkillLoader
     {
-        public IList<Modder.Skill.Skill> LoadFromAssets(string assetsPath)
+        public IList<Entities.Skill.Skill> LoadFromAssets(string assetsPath)
         {
             var skills = new SkillConfigurationLoader().LoadFromAssets(assetsPath);
             new SkillGuiLoader(skills).PopulateFromAssets(assetsPath);

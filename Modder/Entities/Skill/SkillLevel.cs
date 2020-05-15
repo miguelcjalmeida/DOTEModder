@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Modder.Skill
+namespace Modder.Entities.Skill
 {
     public class SkillLevel
     {

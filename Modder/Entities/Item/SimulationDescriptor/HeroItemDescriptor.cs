@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using Modder.Item.Rarity;
+using Modder.Entities.Item.Rarity;
 
-namespace Modder.Item.SimulationDescriptor
+namespace Modder.Entities.Item.SimulationDescriptor
 {
     public class HeroItemDescriptor
     {

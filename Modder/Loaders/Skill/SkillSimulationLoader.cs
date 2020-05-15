@@ -3,17 +3,17 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
 using System.Xml;
-using Modder.Item.SimulationDescriptor;
+using Modder.Entities.Item.SimulationDescriptor;
+using Modder.Entities.Skill;
 using Modder.Loader;
-using Modder.Skill;
 
 namespace Modder.Loaders.Skill
 {
     public class SkillSimulationLoader : Loader
     {
-        private readonly IList<Modder.Skill.Skill> _skills;
+        private readonly IList<Entities.Skill.Skill> _skills;
 
-        public SkillSimulationLoader(IList<Modder.Skill.Skill> skills)
+        public SkillSimulationLoader(IList<Entities.Skill.Skill> skills)
         {
             _skills = skills;
         }
@@ -25,20 +25,20 @@ namespace Modder.Loaders.Skill
                 skill.Levels.ForEach(level => PopulateLevelDescriptors(skill, level, document)));
         }
 
-        private void PopulateLevelDescriptors(Modder.Skill.Skill skill, SkillLevel level, XmlDocument document)
+        private void PopulateLevelDescriptors(Entities.Skill.Skill skill, SkillLevel level, XmlDocument document)
         {
             level.Descriptors = new Collection<SkillDescriptor>();
             PopulateSelfLevelDescriptor(skill, level, document);
             PopulateTargetLevelDescriptor(skill, level, document);
         }
         
-        private void PopulateSelfLevelDescriptor(Modder.Skill.Skill skill, SkillLevel level, XmlDocument document)
+        private void PopulateSelfLevelDescriptor(Entities.Skill.Skill skill, SkillLevel level, XmlDocument document)
             => PopulateDescriptor(skill, level, document, false);
         
-        private void PopulateTargetLevelDescriptor(Modder.Skill.Skill skill, SkillLevel level, XmlDocument document) 
+        private void PopulateTargetLevelDescriptor(Entities.Skill.Skill skill, SkillLevel level, XmlDocument document) 
             => PopulateDescriptor(skill, level, document, true);
 
-        private void PopulateDescriptor(Modder.Skill.Skill skill, SkillLevel level, XmlDocument document, bool applyToTarget)
+        private void PopulateDescriptor(Entities.Skill.Skill skill, SkillLevel level, XmlDocument document, bool applyToTarget)
         {
             var suffix = applyToTarget ? "" : "_Target";
             var xpath = $"Datatable/SimulationDescriptor[@Name='{level.GetIdentifier(skill)}{suffix}']";

@@ -6,9 +6,9 @@ namespace Modder.Loaders.Skill
 {
     public class SkillGuiLoader : Loader
     {
-        private readonly IList<Modder.Skill.Skill> _skills;
+        private readonly IList<Entities.Skill.Skill> _skills;
 
-        public SkillGuiLoader(IList<Modder.Skill.Skill> skills)
+        public SkillGuiLoader(IList<Entities.Skill.Skill> skills)
         {
             _skills = skills;
         }
@@ -19,7 +19,7 @@ namespace Modder.Loaders.Skill
             _skills.ForEach(x => PopulateGuiElements(x, document));
         }
 
-        private void PopulateGuiElements(Modder.Skill.Skill skill, XmlDocument document)
+        private void PopulateGuiElements(Entities.Skill.Skill skill, XmlDocument document)
         {
             var node = document.SelectSingleNode($"Datatable/GuiElement[@Name='{skill.Identifier}']");
             skill.Icon = node.SelectSingleNode("Icons/Icon[@Size='Small']").Attributes["Path"].Value;
