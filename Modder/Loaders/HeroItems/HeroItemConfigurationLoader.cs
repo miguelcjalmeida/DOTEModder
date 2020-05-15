@@ -2,16 +2,15 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Xml;
-using Modder.Entities.Item;
-using Modder.Entities.Item.Rarity;
-using Modder.Entities.Item.SimulationDescriptor;
-using Modder.Loader;
+using Modder.Entities.HeroItem;
+using Modder.Entities.HeroItem.Rarity;
+using Modder.Entities.HeroItem.SimulationDescriptor;
 
-namespace Modder.Loaders.HeroItem
+namespace Modder.Loaders.HeroItems
 {
     public class HeroItemConfigurationLoader : XmlLoader
     {
-        public IList<Entities.Item.HeroItem> LoadFromAssets(string assetsPath)
+        public IList<HeroItem> LoadFromAssets(string assetsPath)
         {
             var heroItemsDoc = LoadDocument($"{assetsPath}/Configuration/ItemHeroConfigs.xml");
             var itemsNodes = heroItemsDoc.SelectNodes("Datatable/ItemHeroConfig");
@@ -20,13 +19,13 @@ namespace Modder.Loaders.HeroItem
                 .ToList();
         }
         
-        private static Entities.Item.HeroItem CreateHeroItemFromConfiguration(XmlNode itemHeroConfig)
+        private static HeroItem CreateHeroItemFromConfiguration(XmlNode itemHeroConfig)
         {
             var depthRange = itemHeroConfig.SelectSingleNode("DepthRanges/DepthRange");
             var category = itemHeroConfig.SelectSingleNode("Category");
             var skills = itemHeroConfig.SelectNodes("Skills/Skill");
 
-            return new Entities.Item.HeroItem
+            return new HeroItem
             {
                 Name = itemHeroConfig.Attributes["Name"].Value,
                 AttackType = itemHeroConfig.Attributes["AttackType"]?.Value.ParseToEnum<AttackType>(),

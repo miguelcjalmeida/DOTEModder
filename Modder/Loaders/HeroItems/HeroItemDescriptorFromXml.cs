@@ -1,6 +1,6 @@
-﻿using Modder.Entities.Item.SimulationDescriptor;
+﻿using Modder.Entities.HeroItem.SimulationDescriptor;
 
-namespace Modder.Loaders.HeroItem
+namespace Modder.Loaders.HeroItems
 {
     public class HeroItemDescriptorFromXml : HeroItemDescriptor
     {

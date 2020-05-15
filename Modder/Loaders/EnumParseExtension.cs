@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Modder.Loader
+namespace Modder.Loaders
 {
     public static class EnumParseExtension
     {

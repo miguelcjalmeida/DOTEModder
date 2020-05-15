@@ -1,4 +1,4 @@
-﻿namespace Modder.Entities.Item
+﻿namespace Modder.Entities.HeroItem
 {
     public class DropCriteria
     {

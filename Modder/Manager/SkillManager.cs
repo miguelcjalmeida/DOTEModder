@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using Modder.Entities.Localization;
 using Modder.Entities.Skill;
-using Modder.Loaders.Skill;
+using Modder.Loaders.Skills;
 using Modder.Writers;
 using Modder.Writers.Skills;
 

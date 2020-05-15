@@ -1,4 +1,4 @@
-﻿namespace Modder.Entities.Item.SimulationDescriptor
+﻿namespace Modder.Entities.HeroItem.SimulationDescriptor
 {
     public enum Operation
     {

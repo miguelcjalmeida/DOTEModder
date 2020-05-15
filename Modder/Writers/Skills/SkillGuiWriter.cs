@@ -1,7 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using System.Xml;
-using Modder.Entities.Item;
 using Modder.Entities.Skill;
 
 namespace Modder.Writers.Skills

@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using Modder.Entities.Item;
-using Modder.Entities.Item.Rarity;
-using Modder.Entities.Item.SimulationDescriptor;
+using Modder.Entities.HeroItem;
+using Modder.Entities.HeroItem.Rarity;
+using Modder.Entities.HeroItem.SimulationDescriptor;
 using Modder.Entities.Localization;
 using Modder.Manager;
 

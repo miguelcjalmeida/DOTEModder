@@ -1,4 +1,4 @@
-﻿namespace Modder.Entities.Item.Rarity
+﻿namespace Modder.Entities.HeroItem.Rarity
 {
     public class ItemRarity
     {

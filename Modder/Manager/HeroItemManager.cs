@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using Modder.Entities.Item;
+using Modder.Entities.HeroItem;
 using Modder.Entities.Localization;
-using Modder.Loaders.HeroItem;
+using Modder.Loaders.HeroItems;
 using Modder.Writers;
 using Modder.Writers.HeroItems;
 

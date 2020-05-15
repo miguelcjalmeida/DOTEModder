@@ -2,13 +2,13 @@
 using System.Linq;
 using Modder.Entities.Localization;
 
-namespace Modder.Loaders.Localization
+namespace Modder.Loaders.Localizations
 {
     public class TitleDescriptionEntityPopulator<TEntity> where TEntity : TitleDescriptionEntity
     {
-        private readonly IList<Entities.Localization.Localization> _localizations;
+        private readonly IList<Localization> _localizations;
 
-        public TitleDescriptionEntityPopulator(IList<Entities.Localization.Localization> localizations)
+        public TitleDescriptionEntityPopulator(IList<Localization> localizations)
         {
             _localizations = localizations;
         }

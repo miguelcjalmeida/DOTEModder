@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Xml;
 
-namespace Modder.Loader
+namespace Modder.Loaders
 {
     public static class  XmlNodeListExtension
     {

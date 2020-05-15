@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
-using Modder.Entities.Item.SimulationDescriptor;
+using Modder.Entities.HeroItem.SimulationDescriptor;
 using Modder.Entities.Localization;
 
-namespace Modder.Entities.Item
+namespace Modder.Entities.HeroItem
 {
     public class HeroItem : TitleDescriptionEntity
     {

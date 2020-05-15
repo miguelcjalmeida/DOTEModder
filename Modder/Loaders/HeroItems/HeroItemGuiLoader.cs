@@ -1,13 +1,14 @@
 ﻿using System.Collections.Generic;
 using System.Xml;
+using Modder.Entities.HeroItem;
 
-namespace Modder.Loaders.HeroItem
+namespace Modder.Loaders.HeroItems
 {
     public class HeroItemGuiLoader : XmlLoader
     {
-        private readonly IList<Entities.Item.HeroItem> _items;
+        private readonly IList<HeroItem> _items;
 
-        public HeroItemGuiLoader(IList<Entities.Item.HeroItem> items)
+        public HeroItemGuiLoader(IList<HeroItem> items)
         {
             _items = items;
         }
@@ -18,7 +19,7 @@ namespace Modder.Loaders.HeroItem
             _items.ForEach(x => PopulateIcon(x, guiDoc));
         }
 
-        private static void PopulateIcon(Entities.Item.HeroItem item, XmlDocument guiDoc)
+        private static void PopulateIcon(HeroItem item, XmlDocument guiDoc)
         {
             var icon = guiDoc.SelectSingleNode($"Datatable/GuiElement[@Name='{item.Name}']/Icons/Icon");
             item.IconPath = icon.Attributes["Path"].Value;

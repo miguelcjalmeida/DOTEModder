@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using Modder.Entities.Item.SimulationDescriptor;
+using Modder.Entities.HeroItem.SimulationDescriptor;
 
 namespace Modder.Entities.Skill
 {

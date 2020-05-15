@@ -2,13 +2,12 @@
 using System.Linq;
 using System.Xml;
 using Modder.Entities.Localization;
-using Modder.Loader;
 
-namespace Modder.Loaders.Localization
+namespace Modder.Loaders.Localizations
 {
     public class LocalizationLoader
     {
-        public IList<Entities.Localization.Localization> LoadFromAssets(string assetsPath)
+        public IList<Localization> LoadFromAssets(string assetsPath)
         {
             var englishDoc = LoadDocument($"{assetsPath}/Localization/english/ED_Localization_Locales.xml");
             var frenchDoc = LoadDocument($"{assetsPath}/Localization/french/ED_Localization_Locales.xml");
@@ -27,13 +26,13 @@ namespace Modder.Loaders.Localization
             return heroItemsDoc;
         }
 
-        private static Entities.Localization.Localization CreateLocalization(XmlNode node,
+        private static Localization CreateLocalization(XmlNode node,
             XmlDocument englishDoc, XmlDocument frenchDoc, XmlDocument germanDoc)
         {
             var name = node.Attributes["Name"].Value;
             var xpath = $"Datatable/LocalizationPair[@Name='{name}']";
 
-            return new Entities.Localization.Localization
+            return new Localization
             {
                 Name = node.Attributes["Name"].Value,
                 Description = new Description

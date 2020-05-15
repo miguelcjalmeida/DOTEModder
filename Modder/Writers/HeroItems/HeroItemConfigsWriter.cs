@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using System.Xml;
-using Modder.Entities.Item;
-using Modder.Entities.Item.SimulationDescriptor;
+using Modder.Entities.HeroItem;
+using Modder.Entities.HeroItem.SimulationDescriptor;
 
 namespace Modder.Writers.HeroItems
 {

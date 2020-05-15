@@ -3,13 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Xml;
 using Modder.Entities.Skill;
-using Modder.Loader;
 
-namespace Modder.Loaders.Skill
+namespace Modder.Loaders.Skills
 {
     public class SkillConfigurationXmlLoader : XmlLoader
     {
-        public IList<Entities.Skill.Skill> LoadFromAssets(string assetsPath)
+        public IList<Skill> LoadFromAssets(string assetsPath)
         {
             var document = LoadDocument($"{assetsPath}/Configuration/SkillConfigs.xml");
             
@@ -45,9 +44,9 @@ namespace Modder.Loaders.Skill
             return (pieces[0], level);
         }
         
-        private Entities.Skill.Skill CreateSkillFromLevels(IGrouping<string, (string, SkillLevel)> levels)
+        private Skill CreateSkillFromLevels(IGrouping<string, (string, SkillLevel)> levels)
         {
-            return new Entities.Skill.Skill
+            return new Skill
             {
                 Identifier = levels.Key,
                 Levels = levels.Select(x => x.Item2).ToList()

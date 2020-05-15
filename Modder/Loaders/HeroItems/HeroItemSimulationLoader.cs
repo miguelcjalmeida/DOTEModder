@@ -2,17 +2,17 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Xml;
-using Modder.Entities.Item.Rarity;
-using Modder.Entities.Item.SimulationDescriptor;
-using Modder.Loader;
+using Modder.Entities.HeroItem;
+using Modder.Entities.HeroItem.Rarity;
+using Modder.Entities.HeroItem.SimulationDescriptor;
 
-namespace Modder.Loaders.HeroItem
+namespace Modder.Loaders.HeroItems
 {
     public class HeroItemSimulationLoader : XmlLoader
     {
-        private readonly IList<Entities.Item.HeroItem> _items;
+        private readonly IList<HeroItem> _items;
 
-        public HeroItemSimulationLoader(IList<Entities.Item.HeroItem> items)
+        public HeroItemSimulationLoader(IList<HeroItem> items)
         {
             _items = items;
         }
@@ -23,7 +23,7 @@ namespace Modder.Loaders.HeroItem
             _items.ForEach(PopulateDescriptorsRelationship);
         }
         
-        private static void PopulateVariationDescriptors(Entities.Item.HeroItem item, XmlDocument simulationDoc)
+        private static void PopulateVariationDescriptors(HeroItem item, XmlDocument simulationDoc)
         {
             item.Descriptors.Cast<HeroItemDescriptorFromXml>().ForEach(descriptor =>
             {
@@ -37,7 +37,7 @@ namespace Modder.Loaders.HeroItem
             });
         }
 
-        private void PopulateDescriptorsRelationship(Entities.Item.HeroItem item)
+        private void PopulateDescriptorsRelationship(HeroItem item)
         {
             var allDescriptors = _items
                 .SelectMany(x => x.Descriptors)
