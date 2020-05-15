@@ -14,7 +14,7 @@ namespace Modder.Manager
             var localizationsLoader = new LocalizationLoader();
             var localizations = localizationsLoader.LoadFromAssets(assetsPath);
             var localizationWriter = new LocalizationWriter();
-            var heroItemLoader = new HeroItemLoader();
+            var heroItemLoader = new HeroItemLoader(localizations);
             var heroItemWriter = new HeroItemWriter();
             var heroItemManager = new HeroItemManager(assetsPath, distPath, localizations, heroItemLoader, heroItemWriter, localizationWriter);
             var skillLoader = new SkillLoader(localizations);

@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using System.Linq;
+using Modder.Loaders.Localization;
 
 namespace Modder.Loaders.Skill
 {
@@ -17,20 +17,8 @@ namespace Modder.Loaders.Skill
             var skills = new SkillConfigurationXmlLoader().LoadFromAssets(assetsPath);
             new SkillGuiXmlLoader(skills).PopulateFromAssets(assetsPath);
             new SkillSimulationXmlLoader(skills).PopulateFromAssets(assetsPath);
-            PopulateLocalizations(skills);
+            new TitleDescriptionEntityPopulator<Entities.Skill.Skill>(_localizations).PopulateWith(skills);
             return skills;
-        }
-
-        private void PopulateLocalizations(IList<Entities.Skill.Skill> skills)
-        {
-            skills.ForEach(x =>
-            {
-                var skillTitle = _localizations.First(localization => localization.Name == x.LocalizationTitlePlaceholder);
-                var skillDescription = _localizations.First(localization => localization.Name == x.LocalizationDescriptionPlaceholder);
-
-                x.Title = skillTitle.Description;
-                x.Description = skillDescription.Description;
-            });
         }
     }
 }
