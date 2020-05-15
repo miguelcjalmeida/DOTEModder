@@ -45,13 +45,6 @@ namespace Modder.Writers.HeroItems
         }
 
         private string FormatModifierValue(float value)
-        {
-            var roundedValue = (float)Math.Round(value);
-            
-            if (Math.Abs(value - roundedValue) <= 0.001f) 
-                return ((int)value).ToString();
-            
-            return value.ToString("F1");
-        }
+            => Formatter.FormatNumericValue(value);
     }
 }

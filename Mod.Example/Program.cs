@@ -8,6 +8,7 @@ using Modder.Entities.Item.SimulationDescriptor;
 using Modder.Entities.Localization;
 using Modder.Loaders.Skill;
 using Modder.Manager;
+using Modder.Writers.Skills;
 
 namespace Mod.Example
 {
@@ -21,7 +22,7 @@ namespace Mod.Example
             var assetsDirectory = $"{projectDirectory}/Assets";
             
             var skills = new SkillLoader().LoadFromAssets(assetsDirectory);
-            
+            new SkillWriter().Write(distDirectory, skills);
         }
         
         private static void AddNewItem(string assetsDirectory, string distDirectory)
