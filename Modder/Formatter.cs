@@ -3,7 +3,7 @@ using System.Globalization;
 
 namespace Modder
 {
-    public class Formatter
+    public static class Formatter
     {
         public static string FormatNumericValue(float value)
         {
