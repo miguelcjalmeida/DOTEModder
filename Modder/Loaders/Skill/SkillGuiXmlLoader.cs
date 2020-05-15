@@ -4,11 +4,11 @@ using System.Xml;
 
 namespace Modder.Loaders.Skill
 {
-    public class SkillGuiLoader : Loader
+    public class SkillGuiXmlLoader : XmlLoader
     {
         private readonly IList<Entities.Skill.Skill> _skills;
 
-        public SkillGuiLoader(IList<Entities.Skill.Skill> skills)
+        public SkillGuiXmlLoader(IList<Entities.Skill.Skill> skills)
         {
             _skills = skills;
         }

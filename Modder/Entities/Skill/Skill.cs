@@ -3,7 +3,7 @@ using Modder.Entities.Localization;
 
 namespace Modder.Entities.Skill
 {
-    public class Skill
+    public class Skill : TitleDescriptionEntity
     {
         public string Name { get; set; }
         public Description Title { get; set; }

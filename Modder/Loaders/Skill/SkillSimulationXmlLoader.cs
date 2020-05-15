@@ -9,11 +9,11 @@ using Modder.Loader;
 
 namespace Modder.Loaders.Skill
 {
-    public class SkillSimulationLoader : Loader
+    public class SkillSimulationXmlLoader : XmlLoader
     {
         private readonly IList<Entities.Skill.Skill> _skills;
 
-        public SkillSimulationLoader(IList<Entities.Skill.Skill> skills)
+        public SkillSimulationXmlLoader(IList<Entities.Skill.Skill> skills)
         {
             _skills = skills;
         }

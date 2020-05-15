@@ -6,7 +6,7 @@ using Modder.Entities.Item.SimulationDescriptor;
 
 namespace Modder.Writers.HeroItems
 {
-    public class HeroItemSimulationWriter : DataTableWriter<IList<HeroItem>>
+    public class HeroItemSimulationWriter : BaseDataTableWriter<IList<HeroItem>>
     {
         protected override string GetFilePath(string distPath)
             => $"{distPath}/Simulation/SimulationDescriptors_ItemHero.xml";

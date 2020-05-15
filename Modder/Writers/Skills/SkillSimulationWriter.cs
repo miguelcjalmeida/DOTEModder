@@ -6,7 +6,7 @@ using Modder.Entities.Skill;
 
 namespace Modder.Writers.Skills
 {
-    public class SkillSimulationWriter : DataTableWriter<IList<Skill>>
+    public class SkillSimulationWriter : BaseDataTableWriter<IList<Skill>>
     {
         protected override string GetFilePath(string distPath)
             => $"{distPath}/Simulation/SimulationDescriptors_Skill.xml";

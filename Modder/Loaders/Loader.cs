@@ -1,14 +1,9 @@
-﻿using System.Xml;
+﻿using System.Collections.Generic;
 
 namespace Modder.Loaders
 {
-    public abstract class Loader 
+    public interface Loader<TEntity>
     {
-        protected XmlDocument LoadDocument(string assetsPath)
-        {
-            var document = new XmlDocument();
-            document.Load(assetsPath);
-            return document;
-        }
+        public IList<TEntity> LoadFromAssets(string assetsPath);
     }
 }

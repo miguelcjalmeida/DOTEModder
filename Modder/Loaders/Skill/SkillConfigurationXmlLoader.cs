@@ -7,7 +7,7 @@ using Modder.Loader;
 
 namespace Modder.Loaders.Skill
 {
-    public class SkillConfigurationLoader : Loader
+    public class SkillConfigurationXmlLoader : XmlLoader
     {
         public IList<Entities.Skill.Skill> LoadFromAssets(string assetsPath)
         {

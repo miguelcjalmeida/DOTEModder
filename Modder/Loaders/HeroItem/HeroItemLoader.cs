@@ -10,7 +10,7 @@ using Modder.Loader;
 
 namespace Modder.Loaders.HeroItem
 {
-    public class HeroItemLoader
+    public class HeroItemLoader : Loader<Entities.Item.HeroItem>
     {
         public IList<Entities.Item.HeroItem> LoadFromAssets(string assetsPath)
         {

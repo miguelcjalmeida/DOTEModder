@@ -4,7 +4,7 @@ using Modder.Entities.Item;
 
 namespace Modder.Writers.HeroItems
 {
-    public class HeroItemGuiWriter : DataTableWriter<IList<HeroItem>>
+    public class HeroItemGuiWriter : BaseDataTableWriter<IList<HeroItem>>
     {
         protected override string GetFilePath(string distPath)
             => $"{distPath}/Gui/GuiElements_ItemHero.xml";

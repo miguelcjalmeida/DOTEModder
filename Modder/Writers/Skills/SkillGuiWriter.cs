@@ -6,7 +6,7 @@ using Modder.Entities.Skill;
 
 namespace Modder.Writers.Skills
 {
-    public class SkillGuiWriter : DataTableWriter<IList<Skill>>
+    public class SkillGuiWriter : BaseDataTableWriter<IList<Skill>>
     {
         protected override string GetFilePath(string distPath)
             => $"{distPath}/Gui/GuiElements_Skill.xml";

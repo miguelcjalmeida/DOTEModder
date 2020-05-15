@@ -5,7 +5,7 @@ using Modder.Entities.Localization;
 
 namespace Modder.Writers
 {
-    public class SingleLanguageLocalizationWriter : DataTableWriter<IList<Localization>>
+    public class SingleLanguageLocalizationWriter : BaseDataTableWriter<IList<Localization>>
     {
         private readonly string _languageFolder;
         private readonly Func<Description, string> _getDescriptionText;

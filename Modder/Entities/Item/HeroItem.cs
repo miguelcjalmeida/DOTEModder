@@ -4,7 +4,7 @@ using Modder.Entities.Localization;
 
 namespace Modder.Entities.Item
 {
-    public class HeroItem
+    public class HeroItem : TitleDescriptionEntity
     {
         public string Name { get; set; }
         public Description Title { get; set; }

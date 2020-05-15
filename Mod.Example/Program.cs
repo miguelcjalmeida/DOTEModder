@@ -6,9 +6,7 @@ using Modder.Entities.Item;
 using Modder.Entities.Item.Rarity;
 using Modder.Entities.Item.SimulationDescriptor;
 using Modder.Entities.Localization;
-using Modder.Loaders.Skill;
 using Modder.Manager;
-using Modder.Writers.Skills;
 
 namespace Mod.Example
 {
@@ -21,14 +19,16 @@ namespace Mod.Example
             var distDirectory = $"{projectDirectory}/Dist";
             var assetsDirectory = $"{projectDirectory}/Assets";
             
-            var skills = new SkillLoader().LoadFromAssets(assetsDirectory);
-            new SkillWriter().Write(distDirectory, skills);
+            var manager = new EntitiesManagerFactory().Create(assetsDirectory, distDirectory);
+            var skills = manager.SkillManager.Load();
+            manager.SkillManager.Save(skills);
+            
+            AddNewItem(manager);
         }
         
-        private static void AddNewItem(string assetsDirectory, string distDirectory)
+        private static void AddNewItem(EntitiesManager manager)
         {
-            var heroManager = new HeroItemItemManager(assetsDirectory, distDirectory);
-            var items = heroManager.Load();
+            var items = manager.HeroItemManager.Load();
             var dagger = new HeroItem
             {
                 Title = new Description
@@ -89,8 +89,7 @@ namespace Mod.Example
             };
 
             items.Add(dagger);
-            heroManager.Save(items);
-
+            manager.HeroItemManager.Save(items);
             Console.WriteLine(items.Last());
         }
     }

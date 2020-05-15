@@ -3,7 +3,7 @@ using Modder.Entities.Item;
 
 namespace Modder.Writers.HeroItems
 {
-    public class HeroItemWriter : IDataTableWriter<IList<HeroItem>>
+    public class HeroItemWriter : DataTableWriter<IList<HeroItem>>
     {
         public void Write(string distPath, IList<HeroItem> items)
         {

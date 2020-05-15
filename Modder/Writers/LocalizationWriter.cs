@@ -3,7 +3,7 @@ using Modder.Entities.Localization;
 
 namespace Modder.Writers
 {
-    public class LocalizationWriter : IDataTableWriter<IList<Localization>>
+    public class LocalizationWriter : DataTableWriter<IList<Localization>>
     {
         private readonly SingleLanguageLocalizationWriter _englishWriter = 
             new SingleLanguageLocalizationWriter("english", description => description.English);

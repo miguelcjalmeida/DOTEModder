@@ -3,7 +3,7 @@ using Modder.Entities.Skill;
 
 namespace Modder.Writers.Skills
 {
-    public class SkillWriter : IDataTableWriter<IList<Skill>>
+    public class SkillWriter : DataTableWriter<IList<Skill>>
     {
         public void Write(string distPath, IList<Skill> items)
         {
