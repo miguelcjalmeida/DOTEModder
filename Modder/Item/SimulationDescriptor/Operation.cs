@@ -3,6 +3,9 @@
     public enum Operation
     {
         Addition,
-        Subtraction
+        Subtraction,
+        Percent,
+        Multiplication,
+        Force
     }
 }

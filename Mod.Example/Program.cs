@@ -6,6 +6,7 @@ using Modder;
 using Modder.Item;
 using Modder.Item.Rarity;
 using Modder.Item.SimulationDescriptor;
+using Modder.Loaders.Skill;
 using Modder.Manager;
 
 namespace Mod.Example
@@ -18,7 +19,17 @@ namespace Mod.Example
             var projectDirectory = Directory.GetParent(workingDirectory).Parent?.Parent?.FullName;
             var distDirectory = $"{projectDirectory}/Dist";
             var assetsDirectory = $"{projectDirectory}/Assets";
+            
+            var skills = new SkillLoader().LoadFromAssets(assetsDirectory);
+            
+            using var writer = new StringWriter();
+            ObjectDumper.Dumper.Dump(skills.First(x => x.Levels.Count > 0), "skill 1", writer);
+            
+            Console.Write(writer.ToString());
+        }
 
+        private static void AddNewItem(string assetsDirectory, string distDirectory)
+        {
             var heroManager = new HeroItemItemManager(assetsDirectory, distDirectory);
             var items = heroManager.Load();
             var dagger = new HeroItem
@@ -79,10 +90,10 @@ namespace Mod.Example
                     }
                 }
             };
-            
+
             items.Add(dagger);
             heroManager.Save(items);
-            
+
             Console.WriteLine(items.Last());
         }
     }
