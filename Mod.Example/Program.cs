@@ -22,12 +22,8 @@ namespace Mod.Example
             
             var skills = new SkillLoader().LoadFromAssets(assetsDirectory);
             
-            using var writer = new StringWriter();
-            ObjectDumper.Dumper.Dump(skills.First(x => x.Levels.Count > 0), "skill 1", writer);
-            
-            Console.Write(writer.ToString());
         }
-
+        
         private static void AddNewItem(string assetsDirectory, string distDirectory)
         {
             var heroManager = new HeroItemItemManager(assetsDirectory, distDirectory);

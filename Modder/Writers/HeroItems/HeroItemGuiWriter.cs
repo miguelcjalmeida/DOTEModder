@@ -1,10 +1,8 @@
 ﻿using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Xml;
 using Modder.Item;
 
-namespace Modder.Writers
+namespace Modder.Writers.HeroItems
 {
     public class HeroItemGuiWriter : DataTableWriter<IList<HeroItem>>
     {

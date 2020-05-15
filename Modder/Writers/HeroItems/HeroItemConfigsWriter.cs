@@ -4,7 +4,7 @@ using System.Xml;
 using Modder.Item;
 using Modder.Item.SimulationDescriptor;
 
-namespace Modder.Writers
+namespace Modder.Writers.HeroItems
 {
     public class HeroItemConfigsWriter : DataTableWriter<IList<HeroItem>>
     {

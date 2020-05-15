@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using Modder.Item;
 
-namespace Modder.Writers
+namespace Modder.Writers.HeroItems
 {
     public class HeroItemWriter : IDataTableWriter<IList<HeroItem>>
     {
