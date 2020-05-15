@@ -9,7 +9,7 @@ namespace Modder.Writers.Skills
         {
             new SkillConfigsWriter().Write(distPath, items);
             new SkillGuiWriter().Write(distPath, items);
-            // new SkillSimulationWriter().Write(distPath, items);
+            new SkillSimulationWriter().Write(distPath, items);
         }
     }
 }

@@ -40,7 +40,7 @@ namespace Modder.Loaders.Skill
 
         private void PopulateDescriptor(Entities.Skill.Skill skill, SkillLevel level, XmlDocument document, bool applyToTarget)
         {
-            var suffix = applyToTarget ? "" : "_Target";
+            var suffix = applyToTarget ? "_Target" : "";
             var xpath = $"Datatable/SimulationDescriptor[@Name='{level.GetIdentifier(skill)}{suffix}']";
             var node = document.SelectSingleNode(xpath);
             if (node == null) return;
@@ -60,7 +60,8 @@ namespace Modder.Loaders.Skill
                 {
                     TargetProperty = x.Attributes["TargetProperty"].Value.ParseToEnum<TargetProperty>(),
                     Operation = x.Attributes["Operation"].Value.ParseToEnum<Operation>(),
-                    Value =  Convert.ToSingle(x.Attributes["Value"].Value),
+                    Value =  (float)Convert.ToDouble(x.Attributes["Value"].Value),
+                    Path = x.Attributes["Path"]?.Value
                 })
                 .ToList();
         }

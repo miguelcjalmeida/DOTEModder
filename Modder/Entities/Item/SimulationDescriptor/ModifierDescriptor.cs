@@ -5,5 +5,6 @@
         public TargetProperty TargetProperty;
         public Operation Operation;
         public float Value;
+        public string Path;
     }
 }

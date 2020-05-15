@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 
 namespace Modder
 {
@@ -11,7 +12,7 @@ namespace Modder
             if (Math.Abs(value - roundedValue) <= 0.001f) 
                 return ((int)value).ToString();
             
-            return value.ToString("F1");
+            return value.ToString(CultureInfo.InvariantCulture);
         }
     }
 }

@@ -129,5 +129,6 @@
         UnpoweredRoomAttackCooldown,
         UnpoweredRoomSkill_A0008_Effect,
         UnpoweredRoomAttackPowerBonus,
+        Skill_A0010_Effect
     }
 }
