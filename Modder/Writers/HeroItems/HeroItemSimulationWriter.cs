@@ -11,8 +11,8 @@ namespace Modder.Writers.HeroItems
         protected override string GetFilePath(string distPath)
             => $"{distPath}/Simulation/SimulationDescriptors_ItemHero.xml";
         
-        protected override void WriteContent(XmlWriter writer, IList<HeroItem> items)
-            => items.ForEach(x => WriteDescriptors(writer, x));
+        protected override void WriteContent(XmlWriter writer, IList<HeroItem> skills)
+            => skills.ForEach(x => WriteDescriptors(writer, x));
         
         private void WriteDescriptors(XmlWriter writer, HeroItem item)
         {

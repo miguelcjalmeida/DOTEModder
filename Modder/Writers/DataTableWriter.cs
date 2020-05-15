@@ -38,6 +38,6 @@ namespace Modder.Writers
         }
 
         protected abstract string GetFilePath(string distPath);
-        protected abstract void WriteContent(XmlWriter writer, TContent content);
+        protected abstract void WriteContent(XmlWriter writer, TContent skills);
     }
 }

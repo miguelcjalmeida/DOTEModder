@@ -9,8 +9,8 @@ namespace Modder.Writers.Skills
         protected override string GetFilePath(string distPath)
             => $"{distPath}/Configuration/SkillConfigs.xml";
 
-        protected override void WriteContent(XmlWriter writer, IList<Skill> items)
-            => items.ForEach(x => WriteSkillConfig(writer, x));
+        protected override void WriteContent(XmlWriter writer, IList<Skill> skills)
+            => skills.ForEach(x => WriteSkillConfig(writer, x));
         
         private void WriteSkillConfig(XmlWriter writer, Skill skill)
         {
@@ -27,8 +27,8 @@ namespace Modder.Writers.Skills
                 WriteBoolAttribute(writer, "DeactivateOnNewTurn", level.DeactivateOnNewTurn);
                 WriteStringAttribute(writer, "DamagesTargetsPath", level.DamagesTargetsPath);
                 WriteStringAttribute(writer, "OwnerVFXPath", level.OwnerVFXPath);
-                WriteStringAttribute(writer, "OwnerSFXPath", level.OwnerSFXPath);
                 WriteStringAttribute(writer, "TargetVFXPath", level.TargetVFXPath);
+                WriteStringAttribute(writer, "OwnerSFXPath", level.OwnerSFXPath);
                 WriteStringAttribute(writer, "DialogVFXPath", level.DialogVFXPath);
                 WriteStringAttribute(writer, "TargetSFXPath", level.TargetSFXPath);
                 writer.WriteEndElement();

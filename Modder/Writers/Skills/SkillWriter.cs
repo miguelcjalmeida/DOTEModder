@@ -8,7 +8,7 @@ namespace Modder.Writers.Skills
         public void Write(string distPath, IList<Skill> items)
         {
             new SkillConfigsWriter().Write(distPath, items);
-            // new SkillGuiWriter().Write(distPath, items);
+            new SkillGuiWriter().Write(distPath, items);
             // new SkillSimulationWriter().Write(distPath, items);
         }
     }

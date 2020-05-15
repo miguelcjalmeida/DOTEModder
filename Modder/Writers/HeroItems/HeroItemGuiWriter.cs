@@ -9,8 +9,8 @@ namespace Modder.Writers.HeroItems
         protected override string GetFilePath(string distPath)
             => $"{distPath}/Gui/GuiElements_ItemHero.xml";
         
-        protected override void WriteContent(XmlWriter writer, IList<HeroItem> items)
-            => items.ForEach(x => WriteGuiElement(writer, x));
+        protected override void WriteContent(XmlWriter writer, IList<HeroItem> skills)
+            => skills.ForEach(x => WriteGuiElement(writer, x));
         
         private static void WriteGuiElement(XmlWriter writer, HeroItem item)
         {

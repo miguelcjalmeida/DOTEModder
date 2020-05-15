@@ -19,8 +19,8 @@ namespace Modder.Writers
         protected override string GetFilePath(string distPath)
             => $"{distPath}/Localization/{_languageFolder}/ED_Localization_Locales.xml";
         
-        protected override void WriteContent(XmlWriter writer, IList<Localization> localizations)
-            => localizations.ForEach(x => WriteLocalization(writer, x));
+        protected override void WriteContent(XmlWriter writer, IList<Localization> skills)
+            => skills.ForEach(x => WriteLocalization(writer, x));
         
         private void WriteLocalization(XmlWriter writer, Localization item)
         {
