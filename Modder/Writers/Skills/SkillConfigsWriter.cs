@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using System.Xml;
 using Modder.Entities.Skill;
 
@@ -10,7 +11,7 @@ namespace Modder.Writers.Skills
             => $"{distPath}/Configuration/SkillConfigs.xml";
 
         protected override void WriteContent(XmlWriter writer, IList<Skill> skills)
-            => skills.ForEach(x => WriteSkillConfig(writer, x));
+            => skills.Where(x => !x.HiddenFromConfigurationFile).ForEach(x => WriteSkillConfig(writer, x));
         
         private void WriteSkillConfig(XmlWriter writer, Skill skill)
         {

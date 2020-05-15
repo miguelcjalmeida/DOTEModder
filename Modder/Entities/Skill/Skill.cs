@@ -10,6 +10,7 @@ namespace Modder.Entities.Skill
         public Description Description { get; set; }
         public string Icon { get; set; }
         public IList<SkillLevel> Levels { get; set; }
+        public bool HiddenFromConfigurationFile { get; set; }
 
         public string Identifier
         {

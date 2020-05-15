@@ -17,6 +17,7 @@ namespace Modder.Loaders.Skills
         public IList<Skill> LoadFromAssets(string assetsPath)
         {
             var skills = new SkillConfigurationXmlLoader().LoadFromAssets(assetsPath);
+            new SkillHardcodedLoader(skills).Populate();
             new SkillGuiXmlLoader(skills).PopulateFromAssets(assetsPath);
             new SkillSimulationXmlLoader(skills).PopulateFromAssets(assetsPath);
             new TitleDescriptionEntityPopulator<Skill>(_localizations).PopulateWith(skills);

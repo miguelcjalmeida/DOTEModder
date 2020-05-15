@@ -13,7 +13,6 @@ namespace Modder.Writers.Skills
         protected override void WriteContent(XmlWriter writer, IList<Skill> skills)
         {
             skills.ForEach(x => WriteGuiElement(writer, x));
-            GetHardcodedSkills().ForEach(x => WriteGuiElement(writer, x));
         }
 
         private void WriteGuiElement(XmlWriter writer, Skill skill)
@@ -57,19 +56,6 @@ namespace Modder.Writers.Skills
             writer.WriteAttributeString("Size", size);
             writer.WriteAttributeString("Path", path);
             writer.WriteEndElement();
-        }
-
-        private IList<Skill> GetHardcodedSkills()
-        {
-            var identifiers = new List<string> { "Skill_A0010" };
-            return identifiers
-                .Select(identifier => new Skill
-                {
-                    Identifier = identifier,
-                    Icon = $"GUI/DynamicBitmaps/Skills/{identifier}",
-                    Levels = new List<SkillLevel> { new SkillLevel { IsActive = true } }
-                })
-                .ToList();
         }
     }
 }

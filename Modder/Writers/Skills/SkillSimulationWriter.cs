@@ -15,7 +15,6 @@ namespace Modder.Writers.Skills
         {
             WriteSkillClass(writer);
             skills.ForEach(x => WriteDescriptors(writer, x));
-            GetHardcodedSkills().ForEach(x => WriteDescriptors(writer, x));
         }
 
         private void WriteSkillClass(XmlWriter writer)
@@ -66,48 +65,6 @@ namespace Modder.Writers.Skills
             writer.WriteAttributeString("Value", Formatter.FormatNumericValue(modifier.Value));
             if (modifier.Path != null) writer.WriteAttributeString("Path", modifier.Path);
             writer.WriteEndElement();
-        }
-
-        private IList<Skill> GetHardcodedSkills()
-        {
-            var descriptors = new List<SkillDescriptor>
-            {
-                new SkillDescriptor
-                {
-                    AppliesToTarget = false,
-                    Modifiers = new List<ModifierDescriptor>
-                    {
-                        new ModifierDescriptor
-                        {
-                            TargetProperty = TargetProperty.Skill_A0010_Effect,
-                            Operation = Operation.Addition,
-                            Value = 1f,
-                            Path = "../Room/Mob"
-                        }
-                    }
-                }
-            };
-
-            return new List<Skill>
-            {
-                new Skill
-                {
-                    Identifier = "Skill_A0010",
-                    Levels = new List<SkillLevel>
-                    {
-                        new SkillLevel
-                        {
-                            Level = 1,
-                            Descriptors = descriptors
-                        },
-                        new SkillLevel
-                        {
-                            Level = 2,
-                            Descriptors = descriptors
-                        }
-                    }
-                }
-            };
         }
     }
 }
