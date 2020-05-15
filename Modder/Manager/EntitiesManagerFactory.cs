@@ -3,6 +3,7 @@ using Modder.Loaders.Localizations;
 using Modder.Loaders.Skills;
 using Modder.Writers;
 using Modder.Writers.HeroItems;
+using Modder.Writers.Localizations;
 using Modder.Writers.Skills;
 
 namespace Modder.Manager

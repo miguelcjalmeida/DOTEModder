@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Xml;
 using Modder.Entities.Localization;
 
-namespace Modder.Writers
+namespace Modder.Writers.Localizations
 {
     public class SingleLanguageLocalizationWriter : BaseDataTableWriter<IList<Localization>>
     {

@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using Modder.Entities.Localization;
 
-namespace Modder.Writers
+namespace Modder.Writers.Localizations
 {
     public class LocalizationWriter : DataTableWriter<IList<Localization>>
     {

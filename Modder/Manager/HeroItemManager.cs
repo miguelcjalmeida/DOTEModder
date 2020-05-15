@@ -4,6 +4,7 @@ using Modder.Entities.Localization;
 using Modder.Loaders.HeroItems;
 using Modder.Writers;
 using Modder.Writers.HeroItems;
+using Modder.Writers.Localizations;
 
 namespace Modder.Manager
 {

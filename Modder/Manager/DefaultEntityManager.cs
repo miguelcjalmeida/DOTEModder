@@ -3,6 +3,7 @@ using System.Linq;
 using Modder.Entities.Localization;
 using Modder.Loaders;
 using Modder.Writers;
+using Modder.Writers.Localizations;
 
 namespace Modder.Manager
 {
