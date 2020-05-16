@@ -21,76 +21,73 @@ namespace Mod.Example
             
             var manager = new EntitiesManagerFactory().Create(assetsDirectory, distDirectory);
             var skills = manager.SkillManager.Load();
+            skills[0].Description.English = "cool!";
+            skills[1].Title.French = "cool too!";
+
+            var items = manager.HeroItemManager.Load();
+            items.Add(CreateDagger());
+
             manager.SkillManager.Save(skills);
-            
-            AddNewItem(manager);
+            manager.HeroItemManager.Save(items);
         }
         
-        private static void AddNewItem(EntitiesManager manager)
+        private static HeroItem CreateDagger() => new HeroItem
         {
-            var items = manager.HeroItemManager.Load();
-            var dagger = new HeroItem
+            Title = new Description
             {
-                Title = new Description
+                English = "Dagger",
+                French = "Daggery",
+                German = "Daggur"
+            },
+            Description = new Description
+            {
+                English = "Quick & deadly",
+                French = "Rapida e mortal",
+                German = "Quickka n mortal"
+            },
+            Category = ItemCategory.ItemHero_Weapon,
+            Name = "WeaponDagger",
+            AttackType = AttackType.Sword,
+            DropCriteria = new DropCriteria
+            {
+                MaxLevel = 10,
+                MinLevel = 0,
+                ProbabilityWeight = 100
+            },
+            IconPath = "GUI/DynamicBitmaps/Items/Weapon002",
+            WeaponType = WeaponType.Weapon_Sword,
+            SkillIDs = new List<string>(),
+            Descriptors = new List<HeroItemDescriptor>()
+            {
+                new HeroItemDescriptor
                 {
-                    English = "Dagger",
-                    French = "Daggery",
-                    German = "Daggur"
-                },
-                Description = new Description
-                {
-                    English = "Quick & deadly",
-                    French = "Rapida e mortal",
-                    German = "Quickka n mortal"
-                },
-                Category = ItemCategory.ItemHero_Weapon,
-                Name = "WeaponDagger",
-                AttackType = AttackType.Sword,
-                DropCriteria = new DropCriteria
-                {
-                    MaxLevel = 10,
-                    MinLevel = 0,
-                    ProbabilityWeight = 100
-                },
-                IconPath = "GUI/DynamicBitmaps/Items/Weapon002",
-                WeaponType = WeaponType.Weapon_Sword,
-                SkillIDs = new List<string>(),
-                Descriptors = new List<HeroItemDescriptor>()
-                {
-                    new HeroItemDescriptor
+                    Rarity = new ItemRarity
                     {
-                        Rarity = new ItemRarity
+                        Name = RarityName.Common,
+                        DropCriteria = new DropCriteria
                         {
-                            Name = RarityName.Common,
-                            DropCriteria = new DropCriteria
-                            {
-                                MinLevel = 0,
-                                MaxLevel = 10,
-                                ProbabilityWeight = 100
-                            }
+                            MinLevel = 0,
+                            MaxLevel = 10,
+                            ProbabilityWeight = 100
+                        }
+                    },
+                    Modifiers = new List<ModifierDescriptor>
+                    {
+                        new ModifierDescriptor
+                        {
+                            TargetProperty = TargetProperty.AttackCooldown,
+                            Operation = Operation.Subtraction,
+                            Value = 0.2f
                         },
-                        Modifiers = new List<ModifierDescriptor>
+                        new ModifierDescriptor
                         {
-                            new ModifierDescriptor
-                            {
-                                TargetProperty = TargetProperty.AttackCooldown,
-                                Operation = Operation.Subtraction,
-                                Value = 0.2f
-                            },
-                            new ModifierDescriptor
-                            {
-                                TargetProperty = TargetProperty.MoveSpeed,
-                                Operation = Operation.Addition,
-                                Value = 2f
-                            }
+                            TargetProperty = TargetProperty.MoveSpeed,
+                            Operation = Operation.Addition,
+                            Value = 2f
                         }
                     }
                 }
-            };
-
-            items.Add(dagger);
-            manager.HeroItemManager.Save(items);
-            Console.WriteLine(items.Last());
-        }
+            }
+        };
     }
 }
