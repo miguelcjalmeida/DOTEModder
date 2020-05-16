@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Warning: this XML is automatically generated from the XLS. Do not modify!-->
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BluePrintConfig Name="SpecialModule_Crystal" ModuleCategory="SpecialModule" ModuleName="SpecialModule_Crystal" ModuleLevel="1"/>
+  <BluePrintConfig Name="SpecialModule_Crystal_Armory" ModuleCategory="SpecialModule" ModuleName="SpecialModule_Crystal_Armory" ModuleLevel="1"/>
+  <BluePrintConfig Name="SpecialModule_Crystal_Heal" ModuleCategory="SpecialModule" ModuleName="SpecialModule_Crystal_Heal" ModuleLevel="1"/>
+  <BluePrintConfig Name="SpecialModule_Crystal_Drill" ModuleCategory="SpecialModule" ModuleName="SpecialModule_Crystal_Drill" ModuleLevel="1"/>
+  <BluePrintConfig Name="SpecialModule_Crystal_Library" ModuleCategory="SpecialModule" ModuleName="SpecialModule_Crystal_Library" ModuleLevel="1"/>
+  <BluePrintConfig Name="SpecialModule_Crystal_Respawn" ModuleCategory="SpecialModule" ModuleName="SpecialModule_Crystal_Respawn" ModuleLevel="1"/>
+  <BluePrintConfig Name="SpecialModule_Crystal_Sanitary" ModuleCategory="SpecialModule" ModuleName="SpecialModule_Crystal_Sanitary" ModuleLevel="1"/>
+  <BluePrintConfig Name="SpecialModule_Artifact" ModuleCategory="SpecialModule" ModuleName="SpecialModule_Artifact" ModuleLevel="1"/>
+  <BluePrintConfig Name="SpecialModule_DustFactory" ModuleCategory="SpecialModule" ModuleName="SpecialModule_DustFactory" ModuleLevel="1"/>
+  <BluePrintConfig Name="SpecialModule_CryoCapsule" ModuleCategory="SpecialModule" ModuleName="SpecialModule_CryoCapsule" ModuleLevel="1"/>
+  <BluePrintConfig Name="SpecialModule_Stele" ModuleCategory="SpecialModule" ModuleName="SpecialModule_Stele" ModuleLevel="1"/>
+  <BluePrintConfig Name="MajorModule_Major0001_LVL1" ModuleCategory="MajorModule" ModuleName="MajorModule_Major0001" ModuleLevel="1" ResearchScienceCost="32"/>
+  <BluePrintConfig Name="MajorModule_Major0001_LVL2" ModuleCategory="MajorModule" ModuleName="MajorModule_Major0001" ModuleLevel="2" ResearchScienceCost="46"/>
+  <BluePrintConfig Name="MajorModule_Major0001_LVL3" ModuleCategory="MajorModule" ModuleName="MajorModule_Major0001" ModuleLevel="3" ResearchScienceCost="65"/>
+  <BluePrintConfig Name="MajorModule_Major0001_LVL4" ModuleCategory="MajorModule" ModuleName="MajorModule_Major0001" ModuleLevel="4" ResearchScienceCost="100"/>
+  <BluePrintConfig Name="MajorModule_Major0002_LVL1" ModuleCategory="MajorModule" ModuleName="MajorModule_Major0002" ModuleLevel="1" ResearchScienceCost="32"/>
+  <BluePrintConfig Name="MajorModule_Major0002_LVL2" ModuleCategory="MajorModule" ModuleName="MajorModule_Major0002" ModuleLevel="2" ResearchScienceCost="46"/>
+  <BluePrintConfig Name="MajorModule_Major0002_LVL3" ModuleCategory="MajorModule" ModuleName="MajorModule_Major0002" ModuleLevel="3" ResearchScienceCost="65"/>
+  <BluePrintConfig Name="MajorModule_Major0002_LVL4" ModuleCategory="MajorModule" ModuleName="MajorModule_Major0002" ModuleLevel="4" ResearchScienceCost="100"/>
+  <BluePrintConfig Name="MajorModule_Major0003_LVL1" ModuleCategory="MajorModule" ModuleName="MajorModule_Major0003" ModuleLevel="1" ResearchScienceCost="32"/>
+  <BluePrintConfig Name="MajorModule_Major0003_LVL2" ModuleCategory="MajorModule" ModuleName="MajorModule_Major0003" ModuleLevel="2" ResearchScienceCost="46"/>
+  <BluePrintConfig Name="MajorModule_Major0003_LVL3" ModuleCategory="MajorModule" ModuleName="MajorModule_Major0003" ModuleLevel="3" ResearchScienceCost="65"/>
+  <BluePrintConfig Name="MajorModule_Major0003_LVL4" ModuleCategory="MajorModule" ModuleName="MajorModule_Major0003" ModuleLevel="4" ResearchScienceCost="100"/>
+  <BluePrintConfig Name="MajorModule_Major0004_LVL1" ModuleCategory="MajorModule" ModuleName="MajorModule_Major0004" ModuleLevel="1" ResearchScienceCost="48"/>
+  <BluePrintConfig Name="MajorModule_Major0004_LVL2" ModuleCategory="MajorModule" ModuleName="MajorModule_Major0004" ModuleLevel="2" ResearchScienceCost="36"/>
+  <BluePrintConfig Name="MajorModule_Major0004_LVL3" ModuleCategory="MajorModule" ModuleName="MajorModule_Major0004" ModuleLevel="3" ResearchScienceCost="48"/>
+  <BluePrintConfig Name="MajorModule_Major0004_LVL4" ModuleCategory="MajorModule" ModuleName="MajorModule_Major0004" ModuleLevel="4" ResearchScienceCost="60"/>
+  <BluePrintConfig Name="MajorModule_Major0005_LVL1" ModuleCategory="MajorModule" ModuleName="MajorModule_Major0005" ModuleLevel="1" ResearchScienceCost="48"/>
+  <BluePrintConfig Name="MajorModule_Major0005_LVL2" ModuleCategory="MajorModule" ModuleName="MajorModule_Major0005" ModuleLevel="2" ResearchScienceCost="36"/>
+  <BluePrintConfig Name="MajorModule_Major0005_LVL3" ModuleCategory="MajorModule" ModuleName="MajorModule_Major0005" ModuleLevel="3" ResearchScienceCost="48"/>
+  <BluePrintConfig Name="MajorModule_Major0005_LVL4" ModuleCategory="MajorModule" ModuleName="MajorModule_Major0005" ModuleLevel="4" ResearchScienceCost="60"/>
+  <BluePrintConfig Name="MajorModule_Major0006_LVL1" ModuleCategory="MajorModule" ModuleName="MajorModule_Major0006" ModuleLevel="1" ResearchScienceCost="48" AdditionalLocalizationKey=""/>
+  <BluePrintConfig Name="MajorModule_Major0007_LVL1" ModuleCategory="MajorModule" ModuleName="MajorModule_Major0007" ModuleLevel="1" ResearchScienceCost="60" AdditionalLocalizationKey=""/>
+  <BluePrintConfig Name="MajorModule_Major0008_LVL1" ModuleCategory="MajorModule" ModuleName="MajorModule_Major0008" ModuleLevel="1" ResearchScienceCost="48" AdditionalLocalizationKey=""/>
+  <BluePrintConfig Name="MajorModule_Major0008_LVL2" ModuleCategory="MajorModule" ModuleName="MajorModule_Major0008" ModuleLevel="2" ResearchScienceCost="36" AdditionalLocalizationKey=""/>
+  <BluePrintConfig Name="MajorModule_Major0008_LVL3" ModuleCategory="MajorModule" ModuleName="MajorModule_Major0008" ModuleLevel="3" ResearchScienceCost="48" AdditionalLocalizationKey=""/>
+  <BluePrintConfig Name="MajorModule_Major0008_LVL4" ModuleCategory="MajorModule" ModuleName="MajorModule_Major0008" ModuleLevel="4" ResearchScienceCost="60" AdditionalLocalizationKey=""/>
+  <BluePrintConfig Name="MinorModule_Minor0001_LVL1" ModuleCategory="MinorModule_Support" ModuleName="MinorModule_Minor0001" ModuleLevel="1" ResearchScienceCost="25"/>
+  <BluePrintConfig Name="MinorModule_Minor0001_LVL2" ModuleCategory="MinorModule_Support" ModuleName="MinorModule_Minor0001" ModuleLevel="2" ResearchScienceCost="25"/>
+  <BluePrintConfig Name="MinorModule_Minor0001_LVL3" ModuleCategory="MinorModule_Support" ModuleName="MinorModule_Minor0001" ModuleLevel="3" ResearchScienceCost="34"/>
+  <BluePrintConfig Name="MinorModule_Minor0001_LVL4" ModuleCategory="MinorModule_Support" ModuleName="MinorModule_Minor0001" ModuleLevel="4" ResearchScienceCost="43"/>
+  <BluePrintConfig Name="MinorModule_Minor0002_LVL1" ModuleCategory="MinorModule_Support" ModuleName="MinorModule_Minor0002" ModuleLevel="1" ResearchScienceCost="23"/>
+  <BluePrintConfig Name="MinorModule_Minor0002_LVL2" ModuleCategory="MinorModule_Support" ModuleName="MinorModule_Minor0002" ModuleLevel="2" ResearchScienceCost="23"/>
+  <BluePrintConfig Name="MinorModule_Minor0002_LVL3" ModuleCategory="MinorModule_Support" ModuleName="MinorModule_Minor0002" ModuleLevel="3" ResearchScienceCost="29"/>
+  <BluePrintConfig Name="MinorModule_Minor0002_LVL4" ModuleCategory="MinorModule_Support" ModuleName="MinorModule_Minor0002" ModuleLevel="4" ResearchScienceCost="37"/>
+  <BluePrintConfig Name="MinorModule_Minor0003_LVL1" ModuleCategory="MinorModule_Support" ModuleName="MinorModule_Minor0003" ModuleLevel="1" ResearchScienceCost="17"/>
+  <BluePrintConfig Name="MinorModule_Minor0003_LVL2" ModuleCategory="MinorModule_Support" ModuleName="MinorModule_Minor0003" ModuleLevel="2" ResearchScienceCost="17"/>
+  <BluePrintConfig Name="MinorModule_Minor0003_LVL3" ModuleCategory="MinorModule_Support" ModuleName="MinorModule_Minor0003" ModuleLevel="3" ResearchScienceCost="23"/>
+  <BluePrintConfig Name="MinorModule_Minor0003_LVL4" ModuleCategory="MinorModule_Support" ModuleName="MinorModule_Minor0003" ModuleLevel="4" ResearchScienceCost="31"/>
+  <BluePrintConfig Name="MinorModule_Minor0013_LVL1" ModuleCategory="MinorModule_Support" ModuleName="MinorModule_Minor0013" ModuleLevel="1" ResearchScienceCost="35" AdditionalLocalizationKey=""/>
+  <BluePrintConfig Name="MinorModule_Minor0013_LVL2" ModuleCategory="MinorModule_Support" ModuleName="MinorModule_Minor0013" ModuleLevel="2" ResearchScienceCost="35" AdditionalLocalizationKey=""/>
+  <BluePrintConfig Name="MinorModule_Minor0013_LVL3" ModuleCategory="MinorModule_Support" ModuleName="MinorModule_Minor0013" ModuleLevel="3" ResearchScienceCost="46" AdditionalLocalizationKey=""/>
+  <BluePrintConfig Name="MinorModule_Minor0013_LVL4" ModuleCategory="MinorModule_Support" ModuleName="MinorModule_Minor0013" ModuleLevel="4" ResearchScienceCost="70" AdditionalLocalizationKey=""/>
+  <BluePrintConfig Name="MinorModule_Minor0019_LVL1" ModuleCategory="MinorModule_Support" ModuleName="MinorModule_Minor0019" ModuleLevel="1" ResearchScienceCost="35" AdditionalLocalizationKey="%Module_Prop_Minor0019_Addition"/>
+  <BluePrintConfig Name="MinorModule_Minor0019_LVL2" ModuleCategory="MinorModule_Support" ModuleName="MinorModule_Minor0019" ModuleLevel="2" ResearchScienceCost="35" AdditionalLocalizationKey="%Module_Prop_Minor0019_Addition"/>
+  <BluePrintConfig Name="MinorModule_Minor0019_LVL3" ModuleCategory="MinorModule_Support" ModuleName="MinorModule_Minor0019" ModuleLevel="3" ResearchScienceCost="46" AdditionalLocalizationKey="%Module_Prop_Minor0019_Addition"/>
+  <BluePrintConfig Name="MinorModule_Minor0019_LVL4" ModuleCategory="MinorModule_Support" ModuleName="MinorModule_Minor0019" ModuleLevel="4" ResearchScienceCost="70" AdditionalLocalizationKey="%Module_Prop_Minor0019_Addition"/>
+  <BluePrintConfig Name="MinorModule_Minor0020_LVL1" ModuleCategory="MinorModule_Support" ModuleName="MinorModule_Minor0020" ModuleLevel="1" ResearchScienceCost="35" AdditionalLocalizationKey="%Module_Prop_Minor0020_Addition"/>
+  <BluePrintConfig Name="MinorModule_Minor0020_LVL2" ModuleCategory="MinorModule_Support" ModuleName="MinorModule_Minor0020" ModuleLevel="2" ResearchScienceCost="35" AdditionalLocalizationKey="%Module_Prop_Minor0020_Addition"/>
+  <BluePrintConfig Name="MinorModule_Minor0020_LVL3" ModuleCategory="MinorModule_Support" ModuleName="MinorModule_Minor0020" ModuleLevel="3" ResearchScienceCost="46" AdditionalLocalizationKey="%Module_Prop_Minor0020_Addition"/>
+  <BluePrintConfig Name="MinorModule_Minor0020_LVL4" ModuleCategory="MinorModule_Support" ModuleName="MinorModule_Minor0020" ModuleLevel="4" ResearchScienceCost="70" AdditionalLocalizationKey="%Module_Prop_Minor0020_Addition"/>
+  <BluePrintConfig Name="MinorModule_Minor0004_LVL1" ModuleCategory="MinorModule_Offense" ModuleName="MinorModule_Minor0004" ModuleLevel="1" ResearchScienceCost="17"/>
+  <BluePrintConfig Name="MinorModule_Minor0004_LVL2" ModuleCategory="MinorModule_Offense" ModuleName="MinorModule_Minor0004" ModuleLevel="2" ResearchScienceCost="17"/>
+  <BluePrintConfig Name="MinorModule_Minor0004_LVL3" ModuleCategory="MinorModule_Offense" ModuleName="MinorModule_Minor0004" ModuleLevel="3" ResearchScienceCost="23"/>
+  <BluePrintConfig Name="MinorModule_Minor0004_LVL4" ModuleCategory="MinorModule_Offense" ModuleName="MinorModule_Minor0004" ModuleLevel="4" ResearchScienceCost="31"/>
+  <BluePrintConfig Name="MinorModule_Minor0005_LVL1" ModuleCategory="MinorModule_Offense" ModuleName="MinorModule_Minor0005" ModuleLevel="1" ResearchScienceCost="23"/>
+  <BluePrintConfig Name="MinorModule_Minor0005_LVL2" ModuleCategory="MinorModule_Offense" ModuleName="MinorModule_Minor0005" ModuleLevel="2" ResearchScienceCost="23"/>
+  <BluePrintConfig Name="MinorModule_Minor0005_LVL3" ModuleCategory="MinorModule_Offense" ModuleName="MinorModule_Minor0005" ModuleLevel="3" ResearchScienceCost="29"/>
+  <BluePrintConfig Name="MinorModule_Minor0005_LVL4" ModuleCategory="MinorModule_Offense" ModuleName="MinorModule_Minor0005" ModuleLevel="4" ResearchScienceCost="37"/>
+  <BluePrintConfig Name="MinorModule_Minor0006_LVL1" ModuleCategory="MinorModule_Offense" ModuleName="MinorModule_Minor0006" ModuleLevel="1" ResearchScienceCost="35"/>
+  <BluePrintConfig Name="MinorModule_Minor0006_LVL2" ModuleCategory="MinorModule_Offense" ModuleName="MinorModule_Minor0006" ModuleLevel="2" ResearchScienceCost="35"/>
+  <BluePrintConfig Name="MinorModule_Minor0006_LVL3" ModuleCategory="MinorModule_Offense" ModuleName="MinorModule_Minor0006" ModuleLevel="3" ResearchScienceCost="46"/>
+  <BluePrintConfig Name="MinorModule_Minor0006_LVL4" ModuleCategory="MinorModule_Offense" ModuleName="MinorModule_Minor0006" ModuleLevel="4" ResearchScienceCost="70"/>
+  <BluePrintConfig Name="MinorModule_Minor0011_LVL1" ModuleCategory="MinorModule_Offense" ModuleName="MinorModule_Minor0011" ModuleLevel="1" ResearchScienceCost="29" AdditionalLocalizationKey=""/>
+  <BluePrintConfig Name="MinorModule_Minor0011_LVL2" ModuleCategory="MinorModule_Offense" ModuleName="MinorModule_Minor0011" ModuleLevel="2" ResearchScienceCost="29" AdditionalLocalizationKey=""/>
+  <BluePrintConfig Name="MinorModule_Minor0011_LVL3" ModuleCategory="MinorModule_Offense" ModuleName="MinorModule_Minor0011" ModuleLevel="3" ResearchScienceCost="38" AdditionalLocalizationKey=""/>
+  <BluePrintConfig Name="MinorModule_Minor0011_LVL4" ModuleCategory="MinorModule_Offense" ModuleName="MinorModule_Minor0011" ModuleLevel="4" ResearchScienceCost="60" AdditionalLocalizationKey=""/>
+  <BluePrintConfig Name="MinorModule_Minor0014_LVL1" ModuleCategory="MinorModule_Offense" ModuleName="MinorModule_Minor0014" ModuleLevel="1" ResearchScienceCost="35" AdditionalLocalizationKey=""/>
+  <BluePrintConfig Name="MinorModule_Minor0014_LVL2" ModuleCategory="MinorModule_Offense" ModuleName="MinorModule_Minor0014" ModuleLevel="2" ResearchScienceCost="35" AdditionalLocalizationKey=""/>
+  <BluePrintConfig Name="MinorModule_Minor0014_LVL3" ModuleCategory="MinorModule_Offense" ModuleName="MinorModule_Minor0014" ModuleLevel="3" ResearchScienceCost="46" AdditionalLocalizationKey=""/>
+  <BluePrintConfig Name="MinorModule_Minor0014_LVL4" ModuleCategory="MinorModule_Offense" ModuleName="MinorModule_Minor0014" ModuleLevel="4" ResearchScienceCost="70" AdditionalLocalizationKey=""/>
+  <BluePrintConfig Name="MinorModule_Minor0016_LVL1" ModuleCategory="MinorModule_Offense" ModuleName="MinorModule_Minor0016" ModuleLevel="1" ResearchScienceCost="29" AdditionalLocalizationKey=""/>
+  <BluePrintConfig Name="MinorModule_Minor0016_LVL2" ModuleCategory="MinorModule_Offense" ModuleName="MinorModule_Minor0016" ModuleLevel="2" ResearchScienceCost="29" AdditionalLocalizationKey=""/>
+  <BluePrintConfig Name="MinorModule_Minor0016_LVL3" ModuleCategory="MinorModule_Offense" ModuleName="MinorModule_Minor0016" ModuleLevel="3" ResearchScienceCost="38" AdditionalLocalizationKey=""/>
+  <BluePrintConfig Name="MinorModule_Minor0016_LVL4" ModuleCategory="MinorModule_Offense" ModuleName="MinorModule_Minor0016" ModuleLevel="4" ResearchScienceCost="60" AdditionalLocalizationKey=""/>
+  <BluePrintConfig Name="MinorModule_Minor0007_LVL1" ModuleCategory="MinorModule_Debuff" ModuleName="MinorModule_Minor0007" ModuleLevel="1" ResearchScienceCost="20"/>
+  <BluePrintConfig Name="MinorModule_Minor0007_LVL2" ModuleCategory="MinorModule_Debuff" ModuleName="MinorModule_Minor0007" ModuleLevel="2" ResearchScienceCost="20"/>
+  <BluePrintConfig Name="MinorModule_Minor0007_LVL3" ModuleCategory="MinorModule_Debuff" ModuleName="MinorModule_Minor0007" ModuleLevel="3" ResearchScienceCost="26"/>
+  <BluePrintConfig Name="MinorModule_Minor0007_LVL4" ModuleCategory="MinorModule_Debuff" ModuleName="MinorModule_Minor0007" ModuleLevel="4" ResearchScienceCost="35"/>
+  <BluePrintConfig Name="MinorModule_Minor0009_LVL1" ModuleCategory="MinorModule_Debuff" ModuleName="MinorModule_Minor0009" ModuleLevel="1" ResearchScienceCost="20"/>
+  <BluePrintConfig Name="MinorModule_Minor0009_LVL2" ModuleCategory="MinorModule_Debuff" ModuleName="MinorModule_Minor0009" ModuleLevel="2" ResearchScienceCost="20"/>
+  <BluePrintConfig Name="MinorModule_Minor0009_LVL3" ModuleCategory="MinorModule_Debuff" ModuleName="MinorModule_Minor0009" ModuleLevel="3" ResearchScienceCost="26"/>
+  <BluePrintConfig Name="MinorModule_Minor0009_LVL4" ModuleCategory="MinorModule_Debuff" ModuleName="MinorModule_Minor0009" ModuleLevel="4" ResearchScienceCost="35"/>
+  <BluePrintConfig Name="MinorModule_Minor0010_LVL1" ModuleCategory="MinorModule_Debuff" ModuleName="MinorModule_Minor0010" ModuleLevel="1" ResearchScienceCost="25" AdditionalLocalizationKey=""/>
+  <BluePrintConfig Name="MinorModule_Minor0010_LVL2" ModuleCategory="MinorModule_Debuff" ModuleName="MinorModule_Minor0010" ModuleLevel="2" ResearchScienceCost="25" AdditionalLocalizationKey=""/>
+  <BluePrintConfig Name="MinorModule_Minor0010_LVL3" ModuleCategory="MinorModule_Debuff" ModuleName="MinorModule_Minor0010" ModuleLevel="3" ResearchScienceCost="34" AdditionalLocalizationKey=""/>
+  <BluePrintConfig Name="MinorModule_Minor0010_LVL4" ModuleCategory="MinorModule_Debuff" ModuleName="MinorModule_Minor0010" ModuleLevel="4" ResearchScienceCost="43" AdditionalLocalizationKey=""/>
+  <BluePrintConfig Name="MinorModule_Minor0012_LVL1" ModuleCategory="MinorModule_Debuff" ModuleName="MinorModule_Minor0012" ModuleLevel="1" ResearchScienceCost="35" AdditionalLocalizationKey=""/>
+  <BluePrintConfig Name="MinorModule_Minor0012_LVL2" ModuleCategory="MinorModule_Debuff" ModuleName="MinorModule_Minor0012" ModuleLevel="2" ResearchScienceCost="35" AdditionalLocalizationKey=""/>
+  <BluePrintConfig Name="MinorModule_Minor0012_LVL3" ModuleCategory="MinorModule_Debuff" ModuleName="MinorModule_Minor0012" ModuleLevel="3" ResearchScienceCost="46" AdditionalLocalizationKey=""/>
+  <BluePrintConfig Name="MinorModule_Minor0012_LVL4" ModuleCategory="MinorModule_Debuff" ModuleName="MinorModule_Minor0012" ModuleLevel="4" ResearchScienceCost="70" AdditionalLocalizationKey=""/>
+  <BluePrintConfig Name="MinorModule_Minor0015_LVL1" ModuleCategory="MinorModule_Debuff" ModuleName="MinorModule_Minor0015" ModuleLevel="1" ResearchScienceCost="35" AdditionalLocalizationKey=""/>
+  <BluePrintConfig Name="MinorModule_Minor0015_LVL2" ModuleCategory="MinorModule_Debuff" ModuleName="MinorModule_Minor0015" ModuleLevel="2" ResearchScienceCost="35" AdditionalLocalizationKey=""/>
+  <BluePrintConfig Name="MinorModule_Minor0015_LVL3" ModuleCategory="MinorModule_Debuff" ModuleName="MinorModule_Minor0015" ModuleLevel="3" ResearchScienceCost="46" AdditionalLocalizationKey=""/>
+  <BluePrintConfig Name="MinorModule_Minor0015_LVL4" ModuleCategory="MinorModule_Debuff" ModuleName="MinorModule_Minor0015" ModuleLevel="4" ResearchScienceCost="70" AdditionalLocalizationKey=""/>
+  <BluePrintConfig Name="MinorModule_Minor0017_LVL1" ModuleCategory="MinorModule_Debuff" ModuleName="MinorModule_Minor0017" ModuleLevel="1" ResearchScienceCost="29" AdditionalLocalizationKey=""/>
+  <BluePrintConfig Name="MinorModule_Minor0017_LVL2" ModuleCategory="MinorModule_Debuff" ModuleName="MinorModule_Minor0017" ModuleLevel="2" ResearchScienceCost="29" AdditionalLocalizationKey=""/>
+  <BluePrintConfig Name="MinorModule_Minor0017_LVL3" ModuleCategory="MinorModule_Debuff" ModuleName="MinorModule_Minor0017" ModuleLevel="3" ResearchScienceCost="38" AdditionalLocalizationKey=""/>
+  <BluePrintConfig Name="MinorModule_Minor0017_LVL4" ModuleCategory="MinorModule_Debuff" ModuleName="MinorModule_Minor0017" ModuleLevel="4" ResearchScienceCost="60" AdditionalLocalizationKey=""/>
+</Datatable>

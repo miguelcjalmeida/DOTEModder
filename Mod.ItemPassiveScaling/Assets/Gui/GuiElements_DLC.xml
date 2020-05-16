@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GuiElement Name="DLC001">
+    <Title>%DLC001_TITLE</Title>
+    <Description>%DLC001_DESCRIPTION</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/DLC/DLC001"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="DLC002">
+    <Title>%DLC002_TITLE</Title>
+    <Description>%DLC002_DESCRIPTION</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/DLC/DLC002"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="DLC003">
+    <Title>%DLC003_TITLE</Title>
+    <Description>%DLC003_DESCRIPTION</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/DLC/DLC003"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="DLC004">
+    <Title>%DLC004_TITLE</Title>
+    <Description>%DLC004_DESCRIPTION</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/DLC/DLC004"/>
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="DLC007">
+    <Title>%DLC007_TITLE</Title>
+    <Description>%DLC007_DESCRIPTION</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/DLC/DLC007"/>
+    </Icons>
+  </GuiElement>
+</Datatable>

@@ -1,0 +1,784 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Warning: this XML is automatically generated from the XLS. Do not modify!-->
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SkillConfig Name="Skill_P0001" />
+  <SkillConfig Name="Skill_P0001_LVL2" />
+  <SkillConfig Name="Skill_P0001_LVL3" />
+  <SkillConfig Name="Skill_P0001Rarity0" />
+  <SkillConfig Name="Skill_P0001Rarity0_LVL2" />
+  <SkillConfig Name="Skill_P0001Rarity0_LVL3" />
+  <SkillConfig Name="Skill_P0001Rarity1" />
+  <SkillConfig Name="Skill_P0001Rarity1_LVL2" />
+  <SkillConfig Name="Skill_P0001Rarity1_LVL3" />
+  <SkillConfig Name="Skill_P0001Rarity2" />
+  <SkillConfig Name="Skill_P0001Rarity2_LVL2" />
+  <SkillConfig Name="Skill_P0001Rarity2_LVL3" />
+  <SkillConfig Name="Skill_P0002" />
+  <SkillConfig Name="Skill_P0002_LVL2" />
+  <SkillConfig Name="Skill_P0002Rarity0" />
+  <SkillConfig Name="Skill_P0002Rarity0_LVL2" />
+  <SkillConfig Name="Skill_P0002Rarity1" />
+  <SkillConfig Name="Skill_P0002Rarity1_LVL2" />
+  <SkillConfig Name="Skill_P0002Rarity2" />
+  <SkillConfig Name="Skill_P0002Rarity2_LVL2" />
+  <SkillConfig Name="Skill_P0003" />
+  <SkillConfig Name="Skill_P0003_LVL2" />
+  <SkillConfig Name="Skill_P0003Rarity0" />
+  <SkillConfig Name="Skill_P0003Rarity0_LVL2" />
+  <SkillConfig Name="Skill_P0003Rarity1" />
+  <SkillConfig Name="Skill_P0003Rarity1_LVL2" />
+  <SkillConfig Name="Skill_P0003Rarity2" />
+  <SkillConfig Name="Skill_P0003Rarity2_LVL2" />
+  <SkillConfig Name="Skill_P0004" />
+  <SkillConfig Name="Skill_P0004_LVL2" />
+  <SkillConfig Name="Skill_P0004Rarity0" />
+  <SkillConfig Name="Skill_P0004Rarity0_LVL2" />
+  <SkillConfig Name="Skill_P0004Rarity1" />
+  <SkillConfig Name="Skill_P0004Rarity1_LVL2" />
+  <SkillConfig Name="Skill_P0004Rarity2" />
+  <SkillConfig Name="Skill_P0004Rarity2_LVL2" />
+  <SkillConfig Name="Skill_P0005" />
+  <SkillConfig Name="Skill_P0005_LVL2" />
+  <SkillConfig Name="Skill_P0005Rarity0" />
+  <SkillConfig Name="Skill_P0005Rarity0_LVL2" />
+  <SkillConfig Name="Skill_P0005Rarity1" />
+  <SkillConfig Name="Skill_P0005Rarity1_LVL2" />
+  <SkillConfig Name="Skill_P0005Rarity2" />
+  <SkillConfig Name="Skill_P0005Rarity2_LVL2" />
+  <SkillConfig Name="Skill_P0006" TargetVFXPath="VFX/Skills/FX_Skills_09_Kneecapped" TargetSFXPath="Master/Skill/Kneecapped" />
+  <SkillConfig Name="Skill_P0006_LVL2" TargetVFXPath="VFX/Skills/FX_Skills_09_Kneecapped" TargetSFXPath="Master/Skill/Kneecapped" />
+  <SkillConfig Name="Skill_P0006Rarity0" TargetVFXPath="VFX/Skills/FX_Skills_09_Kneecapped" TargetSFXPath="Master/Skill/Kneecapped" />
+  <SkillConfig Name="Skill_P0006Rarity0_LVL2" TargetVFXPath="VFX/Skills/FX_Skills_09_Kneecapped" TargetSFXPath="Master/Skill/Kneecapped" />
+  <SkillConfig Name="Skill_P0006Rarity1" TargetVFXPath="VFX/Skills/FX_Skills_09_Kneecapped" TargetSFXPath="Master/Skill/Kneecapped" />
+  <SkillConfig Name="Skill_P0006Rarity1_LVL2" TargetVFXPath="VFX/Skills/FX_Skills_09_Kneecapped" TargetSFXPath="Master/Skill/Kneecapped" />
+  <SkillConfig Name="Skill_P0006Rarity2" TargetVFXPath="VFX/Skills/FX_Skills_09_Kneecapped" TargetSFXPath="Master/Skill/Kneecapped" />
+  <SkillConfig Name="Skill_P0006Rarity2_LVL2" TargetVFXPath="VFX/Skills/FX_Skills_09_Kneecapped" TargetSFXPath="Master/Skill/Kneecapped" />
+  <SkillConfig Name="Skill_P0007" />
+  <SkillConfig Name="Skill_P0007_LVL2" />
+  <SkillConfig Name="Skill_P0007Rarity0" />
+  <SkillConfig Name="Skill_P0007Rarity0_LVL2" />
+  <SkillConfig Name="Skill_P0007Rarity1" />
+  <SkillConfig Name="Skill_P0007Rarity1_LVL2" />
+  <SkillConfig Name="Skill_P0007Rarity2" />
+  <SkillConfig Name="Skill_P0007Rarity2_LVL2" />
+  <SkillConfig Name="Skill_P0008" />
+  <SkillConfig Name="Skill_P0008_LVL2" />
+  <SkillConfig Name="Skill_P0008_LVL3" />
+  <SkillConfig Name="Skill_P0008Rarity0" />
+  <SkillConfig Name="Skill_P0008Rarity0_LVL2" />
+  <SkillConfig Name="Skill_P0008Rarity0_LVL3" />
+  <SkillConfig Name="Skill_P0008Rarity1" />
+  <SkillConfig Name="Skill_P0008Rarity1_LVL2" />
+  <SkillConfig Name="Skill_P0008Rarity1_LVL3" />
+  <SkillConfig Name="Skill_P0008Rarity2" />
+  <SkillConfig Name="Skill_P0008Rarity2_LVL2" />
+  <SkillConfig Name="Skill_P0008Rarity2_LVL3" />
+  <SkillConfig Name="Skill_P0009" />
+  <SkillConfig Name="Skill_P0009_LVL2" />
+  <SkillConfig Name="Skill_P0009Rarity0" />
+  <SkillConfig Name="Skill_P0009Rarity0_LVL2" />
+  <SkillConfig Name="Skill_P0009Rarity1" />
+  <SkillConfig Name="Skill_P0009Rarity1_LVL2" />
+  <SkillConfig Name="Skill_P0009Rarity2" />
+  <SkillConfig Name="Skill_P0009Rarity2_LVL2" />
+  <SkillConfig Name="Skill_P0010" TargetVFXPath="VFX/Skills/FX_Skills_02_VerbalAbuse" TargetSFXPath="Master/Skill/VerbalAbuse_Effect" />
+  <SkillConfig Name="Skill_P0010_LVL2" TargetVFXPath="VFX/Skills/FX_Skills_02_VerbalAbuse" TargetSFXPath="Master/Skill/VerbalAbuse_Effect" />
+  <SkillConfig Name="Skill_P0010Rarity0" TargetVFXPath="VFX/Skills/FX_Skills_02_VerbalAbuse" TargetSFXPath="Master/Skill/VerbalAbuse_Effect" />
+  <SkillConfig Name="Skill_P0010Rarity0_LVL2" TargetVFXPath="VFX/Skills/FX_Skills_02_VerbalAbuse" TargetSFXPath="Master/Skill/VerbalAbuse_Effect" />
+  <SkillConfig Name="Skill_P0010Rarity1" TargetVFXPath="VFX/Skills/FX_Skills_02_VerbalAbuse" TargetSFXPath="Master/Skill/VerbalAbuse_Effect" />
+  <SkillConfig Name="Skill_P0010Rarity1_LVL2" TargetVFXPath="VFX/Skills/FX_Skills_02_VerbalAbuse" TargetSFXPath="Master/Skill/VerbalAbuse_Effect" />
+  <SkillConfig Name="Skill_P0010Rarity2" TargetVFXPath="VFX/Skills/FX_Skills_02_VerbalAbuse" TargetSFXPath="Master/Skill/VerbalAbuse_Effect" />
+  <SkillConfig Name="Skill_P0010Rarity2_LVL2" TargetVFXPath="VFX/Skills/FX_Skills_02_VerbalAbuse" TargetSFXPath="Master/Skill/VerbalAbuse_Effect" />
+  <SkillConfig Name="Skill_P0011" />
+  <SkillConfig Name="Skill_P0011_LVL2" />
+  <SkillConfig Name="Skill_P0011Rarity0" />
+  <SkillConfig Name="Skill_P0011Rarity0_LVL2" />
+  <SkillConfig Name="Skill_P0011Rarity1" />
+  <SkillConfig Name="Skill_P0011Rarity1_LVL2" />
+  <SkillConfig Name="Skill_P0011Rarity2" />
+  <SkillConfig Name="Skill_P0011Rarity2_LVL2" />
+  <SkillConfig Name="Skill_P0012" TargetVFXPath="VFX/Skills/FX_Skills_02_VerbalAbuse" TargetSFXPath="Master/Skill/VerbalAbuse_Effect" />
+  <SkillConfig Name="Skill_P0012_LVL2" TargetVFXPath="VFX/Skills/FX_Skills_02_VerbalAbuse" TargetSFXPath="Master/Skill/VerbalAbuse_Effect" />
+  <SkillConfig Name="Skill_P0012Rarity0" TargetVFXPath="VFX/Skills/FX_Skills_02_VerbalAbuse" TargetSFXPath="Master/Skill/VerbalAbuse_Effect" />
+  <SkillConfig Name="Skill_P0012Rarity0_LVL2" TargetVFXPath="VFX/Skills/FX_Skills_02_VerbalAbuse" TargetSFXPath="Master/Skill/VerbalAbuse_Effect" />
+  <SkillConfig Name="Skill_P0012Rarity1" TargetVFXPath="VFX/Skills/FX_Skills_02_VerbalAbuse" TargetSFXPath="Master/Skill/VerbalAbuse_Effect" />
+  <SkillConfig Name="Skill_P0012Rarity1_LVL2" TargetVFXPath="VFX/Skills/FX_Skills_02_VerbalAbuse" TargetSFXPath="Master/Skill/VerbalAbuse_Effect" />
+  <SkillConfig Name="Skill_P0012Rarity2" TargetVFXPath="VFX/Skills/FX_Skills_02_VerbalAbuse" TargetSFXPath="Master/Skill/VerbalAbuse_Effect" />
+  <SkillConfig Name="Skill_P0012Rarity2_LVL2" TargetVFXPath="VFX/Skills/FX_Skills_02_VerbalAbuse" TargetSFXPath="Master/Skill/VerbalAbuse_Effect" />
+  <SkillConfig Name="Skill_P0021" TargetVFXPath="VFX/Skills/FX_Skills_08_WarFace" TargetSFXPath="Master/Skill/WarFace" />
+  <SkillConfig Name="Skill_P0021_LVL2" TargetVFXPath="VFX/Skills/FX_Skills_08_WarFace" TargetSFXPath="Master/Skill/WarFace" />
+  <SkillConfig Name="Skill_P0021Rarity0" TargetVFXPath="VFX/Skills/FX_Skills_08_WarFace" TargetSFXPath="Master/Skill/WarFace" />
+  <SkillConfig Name="Skill_P0021Rarity0_LVL2" TargetVFXPath="VFX/Skills/FX_Skills_08_WarFace" TargetSFXPath="Master/Skill/WarFace" />
+  <SkillConfig Name="Skill_P0021Rarity1" TargetVFXPath="VFX/Skills/FX_Skills_08_WarFace" TargetSFXPath="Master/Skill/WarFace" />
+  <SkillConfig Name="Skill_P0021Rarity1_LVL2" TargetVFXPath="VFX/Skills/FX_Skills_08_WarFace" TargetSFXPath="Master/Skill/WarFace" />
+  <SkillConfig Name="Skill_P0021Rarity2" TargetVFXPath="VFX/Skills/FX_Skills_08_WarFace" TargetSFXPath="Master/Skill/WarFace" />
+  <SkillConfig Name="Skill_P0021Rarity2_LVL2" TargetVFXPath="VFX/Skills/FX_Skills_08_WarFace" TargetSFXPath="Master/Skill/WarFace" />
+  <SkillConfig Name="Skill_P0022" TargetVFXPath="VFX/Skills/FX_Skills_06_Paramedic" TargetSFXPath="Master/Skill/Paramedic" />
+  <SkillConfig Name="Skill_P0022_LVL2" TargetVFXPath="VFX/Skills/FX_Skills_06_Paramedic" TargetSFXPath="Master/Skill/Paramedic" />
+  <SkillConfig Name="Skill_P0022Rarity0" TargetVFXPath="VFX/Skills/FX_Skills_06_Paramedic" TargetSFXPath="Master/Skill/Paramedic" />
+  <SkillConfig Name="Skill_P0022Rarity0_LVL2" TargetVFXPath="VFX/Skills/FX_Skills_06_Paramedic" TargetSFXPath="Master/Skill/Paramedic" />
+  <SkillConfig Name="Skill_P0022Rarity1" TargetVFXPath="VFX/Skills/FX_Skills_06_Paramedic" TargetSFXPath="Master/Skill/Paramedic" />
+  <SkillConfig Name="Skill_P0022Rarity1_LVL2" TargetVFXPath="VFX/Skills/FX_Skills_06_Paramedic" TargetSFXPath="Master/Skill/Paramedic" />
+  <SkillConfig Name="Skill_P0022Rarity2" TargetVFXPath="VFX/Skills/FX_Skills_06_Paramedic" TargetSFXPath="Master/Skill/Paramedic" />
+  <SkillConfig Name="Skill_P0022Rarity2_LVL2" TargetVFXPath="VFX/Skills/FX_Skills_06_Paramedic" TargetSFXPath="Master/Skill/Paramedic" />
+  <SkillConfig Name="Skill_P0023" TargetVFXPath="VFX/Skills/FX_Skills_06_Paramedic" TargetSFXPath="Master/Skill/Paramedic" />
+  <SkillConfig Name="Skill_P0023_LVL2" TargetVFXPath="VFX/Skills/FX_Skills_06_Paramedic" TargetSFXPath="Master/Skill/Paramedic" />
+  <SkillConfig Name="Skill_P0023Rarity0" TargetVFXPath="VFX/Skills/FX_Skills_06_Paramedic" TargetSFXPath="Master/Skill/Paramedic" />
+  <SkillConfig Name="Skill_P0023Rarity0_LVL2" TargetVFXPath="VFX/Skills/FX_Skills_06_Paramedic" TargetSFXPath="Master/Skill/Paramedic" />
+  <SkillConfig Name="Skill_P0023Rarity1" TargetVFXPath="VFX/Skills/FX_Skills_06_Paramedic" TargetSFXPath="Master/Skill/Paramedic" />
+  <SkillConfig Name="Skill_P0023Rarity1_LVL2" TargetVFXPath="VFX/Skills/FX_Skills_06_Paramedic" TargetSFXPath="Master/Skill/Paramedic" />
+  <SkillConfig Name="Skill_P0023Rarity2" TargetVFXPath="VFX/Skills/FX_Skills_06_Paramedic" TargetSFXPath="Master/Skill/Paramedic" />
+  <SkillConfig Name="Skill_P0023Rarity2_LVL2" TargetVFXPath="VFX/Skills/FX_Skills_06_Paramedic" TargetSFXPath="Master/Skill/Paramedic" />
+  <SkillConfig Name="Skill_P0024" />
+  <SkillConfig Name="Skill_P0024_LVL2" />
+  <SkillConfig Name="Skill_P0024Rarity0" />
+  <SkillConfig Name="Skill_P0024Rarity0_LVL2" />
+  <SkillConfig Name="Skill_P0024Rarity1" />
+  <SkillConfig Name="Skill_P0024Rarity1_LVL2" />
+  <SkillConfig Name="Skill_P0024Rarity2" />
+  <SkillConfig Name="Skill_P0024Rarity2_LVL2" />
+  <SkillConfig Name="Skill_P0025" />
+  <SkillConfig Name="Skill_P0025_LVL2" />
+  <SkillConfig Name="Skill_P0025_LVL3" />
+  <SkillConfig Name="Skill_P0025Rarity0" />
+  <SkillConfig Name="Skill_P0025Rarity0_LVL2" />
+  <SkillConfig Name="Skill_P0025Rarity0_LVL3" />
+  <SkillConfig Name="Skill_P0025Rarity1" />
+  <SkillConfig Name="Skill_P0025Rarity1_LVL2" />
+  <SkillConfig Name="Skill_P0025Rarity1_LVL3" />
+  <SkillConfig Name="Skill_P0025Rarity2" />
+  <SkillConfig Name="Skill_P0025Rarity2_LVL2" />
+  <SkillConfig Name="Skill_P0025Rarity2_LVL3" />
+  <SkillConfig Name="Skill_P0026" DialogVFXPath="VFX/Skills/FX_Skills_09_Kneecapped" />
+  <SkillConfig Name="Skill_P0026_LVL2" />
+  <SkillConfig Name="Skill_P0026Rarity0" DialogVFXPath="VFX/Skills/FX_Skills_09_Kneecapped" />
+  <SkillConfig Name="Skill_P0026Rarity0_LVL2" />
+  <SkillConfig Name="Skill_P0026Rarity1" DialogVFXPath="VFX/Skills/FX_Skills_09_Kneecapped" />
+  <SkillConfig Name="Skill_P0026Rarity1_LVL2" />
+  <SkillConfig Name="Skill_P0026Rarity2" DialogVFXPath="VFX/Skills/FX_Skills_09_Kneecapped" />
+  <SkillConfig Name="Skill_P0026Rarity2_LVL2" />
+  <SkillConfig Name="Skill_P0028" />
+  <SkillConfig Name="Skill_P0028_LVL2" />
+  <SkillConfig Name="Skill_P0028Rarity0" />
+  <SkillConfig Name="Skill_P0028Rarity0_LVL2" />
+  <SkillConfig Name="Skill_P0028Rarity1" />
+  <SkillConfig Name="Skill_P0028Rarity1_LVL2" />
+  <SkillConfig Name="Skill_P0028Rarity2" />
+  <SkillConfig Name="Skill_P0028Rarity2_LVL2" />
+  <SkillConfig Name="Skill_P0029" />
+  <SkillConfig Name="Skill_P0029_LVL2" />
+  <SkillConfig Name="Skill_P0029Rarity0" />
+  <SkillConfig Name="Skill_P0029Rarity0_LVL2" />
+  <SkillConfig Name="Skill_P0029Rarity1" />
+  <SkillConfig Name="Skill_P0029Rarity1_LVL2" />
+  <SkillConfig Name="Skill_P0029Rarity2" />
+  <SkillConfig Name="Skill_P0029Rarity2_LVL2" />
+  <SkillConfig Name="Skill_P0030" />
+  <SkillConfig Name="Skill_P0030_LVL2" />
+  <SkillConfig Name="Skill_P0030_LVL3" />
+  <SkillConfig Name="Skill_P0030Rarity0" />
+  <SkillConfig Name="Skill_P0030Rarity0_LVL2" />
+  <SkillConfig Name="Skill_P0030Rarity0_LVL3" />
+  <SkillConfig Name="Skill_P0030Rarity1" />
+  <SkillConfig Name="Skill_P0030Rarity1_LVL2" />
+  <SkillConfig Name="Skill_P0030Rarity1_LVL3" />
+  <SkillConfig Name="Skill_P0030Rarity2" />
+  <SkillConfig Name="Skill_P0030Rarity2_LVL2" />
+  <SkillConfig Name="Skill_P0030Rarity2_LVL3" />
+  <SkillConfig Name="Skill_P0031" TargetVFXPath="VFX/Skills/FX_Skills_06_Paramedic" TargetSFXPath="Master/Skill/Paramedic" />
+  <SkillConfig Name="Skill_P0031_LVL2" TargetVFXPath="VFX/Skills/FX_Skills_06_Paramedic" TargetSFXPath="Master/Skill/Paramedic" />
+  <SkillConfig Name="Skill_P0031Rarity0" TargetVFXPath="VFX/Skills/FX_Skills_06_Paramedic" TargetSFXPath="Master/Skill/Paramedic" />
+  <SkillConfig Name="Skill_P0031Rarity0_LVL2" TargetVFXPath="VFX/Skills/FX_Skills_06_Paramedic" TargetSFXPath="Master/Skill/Paramedic" />
+  <SkillConfig Name="Skill_P0031Rarity1" TargetVFXPath="VFX/Skills/FX_Skills_06_Paramedic" TargetSFXPath="Master/Skill/Paramedic" />
+  <SkillConfig Name="Skill_P0031Rarity1_LVL2" TargetVFXPath="VFX/Skills/FX_Skills_06_Paramedic" TargetSFXPath="Master/Skill/Paramedic" />
+  <SkillConfig Name="Skill_P0031Rarity2" TargetVFXPath="VFX/Skills/FX_Skills_06_Paramedic" TargetSFXPath="Master/Skill/Paramedic" />
+  <SkillConfig Name="Skill_P0031Rarity2_LVL2" TargetVFXPath="VFX/Skills/FX_Skills_06_Paramedic" TargetSFXPath="Master/Skill/Paramedic" />
+  <SkillConfig Name="Skill_P0032" />
+  <SkillConfig Name="Skill_P0032_LVL2" />
+  <SkillConfig Name="Skill_P0032Rarity0" />
+  <SkillConfig Name="Skill_P0032Rarity0_LVL2" />
+  <SkillConfig Name="Skill_P0032Rarity1" />
+  <SkillConfig Name="Skill_P0032Rarity1_LVL2" />
+  <SkillConfig Name="Skill_P0032Rarity2" />
+  <SkillConfig Name="Skill_P0032Rarity2_LVL2" />
+  <SkillConfig Name="Skill_P0033" />
+  <SkillConfig Name="Skill_P0033_LVL2" />
+  <SkillConfig Name="Skill_P0033_LVL3" />
+  <SkillConfig Name="Skill_P0033Rarity0" />
+  <SkillConfig Name="Skill_P0033Rarity0_LVL2" />
+  <SkillConfig Name="Skill_P0033Rarity0_LVL3" />
+  <SkillConfig Name="Skill_P0033Rarity1" />
+  <SkillConfig Name="Skill_P0033Rarity1_LVL2" />
+  <SkillConfig Name="Skill_P0033Rarity1_LVL3" />
+  <SkillConfig Name="Skill_P0033Rarity2" />
+  <SkillConfig Name="Skill_P0033Rarity2_LVL2" />
+  <SkillConfig Name="Skill_P0033Rarity2_LVL3" />
+  <SkillConfig Name="Skill_P0034" />
+  <SkillConfig Name="Skill_P0034_LVL2" />
+  <SkillConfig Name="Skill_P0034Rarity0" />
+  <SkillConfig Name="Skill_P0034Rarity0_LVL2" />
+  <SkillConfig Name="Skill_P0034Rarity1" />
+  <SkillConfig Name="Skill_P0034Rarity1_LVL2" />
+  <SkillConfig Name="Skill_P0034Rarity2" />
+  <SkillConfig Name="Skill_P0034Rarity2_LVL2" />
+  <SkillConfig Name="Skill_P0035" />
+  <SkillConfig Name="Skill_P0035_LVL2" />
+  <SkillConfig Name="Skill_P0035Rarity0" />
+  <SkillConfig Name="Skill_P0035Rarity0_LVL2" />
+  <SkillConfig Name="Skill_P0035Rarity1" />
+  <SkillConfig Name="Skill_P0035Rarity1_LVL2" />
+  <SkillConfig Name="Skill_P0035Rarity2" />
+  <SkillConfig Name="Skill_P0035Rarity2_LVL2" />
+  <SkillConfig Name="Skill_P0036" />
+  <SkillConfig Name="Skill_P0036Rarity0" />
+  <SkillConfig Name="Skill_P0036Rarity1" />
+  <SkillConfig Name="Skill_P0036Rarity2" />
+  <SkillConfig Name="Skill_P0037" />
+  <SkillConfig Name="Skill_P0037_LVL2" />
+  <SkillConfig Name="Skill_P0037_LVL3" />
+  <SkillConfig Name="Skill_P0037Rarity0" />
+  <SkillConfig Name="Skill_P0037Rarity0_LVL2" />
+  <SkillConfig Name="Skill_P0037Rarity0_LVL3" />
+  <SkillConfig Name="Skill_P0037Rarity1" />
+  <SkillConfig Name="Skill_P0037Rarity1_LVL2" />
+  <SkillConfig Name="Skill_P0037Rarity1_LVL3" />
+  <SkillConfig Name="Skill_P0037Rarity2" />
+  <SkillConfig Name="Skill_P0037Rarity2_LVL2" />
+  <SkillConfig Name="Skill_P0037Rarity2_LVL3" />
+  <SkillConfig Name="Skill_P0038" />
+  <SkillConfig Name="Skill_P0038Rarity0" />
+  <SkillConfig Name="Skill_P0038Rarity1" />
+  <SkillConfig Name="Skill_P0038Rarity2" />
+  <SkillConfig Name="Skill_P0039" />
+  <SkillConfig Name="Skill_P0039_LVL2" />
+  <SkillConfig Name="Skill_P0039_LVL3" />
+  <SkillConfig Name="Skill_P0039Rarity0" />
+  <SkillConfig Name="Skill_P0039Rarity0_LVL2" />
+  <SkillConfig Name="Skill_P0039Rarity0_LVL3" />
+  <SkillConfig Name="Skill_P0039Rarity1" />
+  <SkillConfig Name="Skill_P0039Rarity1_LVL2" />
+  <SkillConfig Name="Skill_P0039Rarity1_LVL3" />
+  <SkillConfig Name="Skill_P0039Rarity2" />
+  <SkillConfig Name="Skill_P0039Rarity2_LVL2" />
+  <SkillConfig Name="Skill_P0039Rarity2_LVL3" />
+  <SkillConfig Name="Skill_P0040" />
+  <SkillConfig Name="Skill_P0040_LVL2" />
+  <SkillConfig Name="Skill_P0040Rarity0" />
+  <SkillConfig Name="Skill_P0040Rarity0_LVL2" />
+  <SkillConfig Name="Skill_P0040Rarity1" />
+  <SkillConfig Name="Skill_P0040Rarity1_LVL2" />
+  <SkillConfig Name="Skill_P0040Rarity2" />
+  <SkillConfig Name="Skill_P0040Rarity2_LVL2" />
+  <SkillConfig Name="Skill_P0041" />
+  <SkillConfig Name="Skill_P0041Rarity0" />
+  <SkillConfig Name="Skill_P0041Rarity1" />
+  <SkillConfig Name="Skill_P0041Rarity2" />
+  <SkillConfig Name="Skill_P0042" />
+  <SkillConfig Name="Skill_P0042_LVL2" />
+  <SkillConfig Name="Skill_P0042_LVL3" />
+  <SkillConfig Name="Skill_P0042_LVL4" />
+  <SkillConfig Name="Skill_P0042_LVL5" />
+  <SkillConfig Name="Skill_P0042_LVL6" />
+  <SkillConfig Name="Skill_P0042Rarity0" />
+  <SkillConfig Name="Skill_P0042Rarity0_LVL2" />
+  <SkillConfig Name="Skill_P0042Rarity0_LVL3" />
+  <SkillConfig Name="Skill_P0042Rarity0_LVL4" />
+  <SkillConfig Name="Skill_P0042Rarity0_LVL5" />
+  <SkillConfig Name="Skill_P0042Rarity0_LVL6" />
+  <SkillConfig Name="Skill_P0042Rarity1" />
+  <SkillConfig Name="Skill_P0042Rarity1_LVL2" />
+  <SkillConfig Name="Skill_P0042Rarity1_LVL3" />
+  <SkillConfig Name="Skill_P0042Rarity1_LVL4" />
+  <SkillConfig Name="Skill_P0042Rarity1_LVL5" />
+  <SkillConfig Name="Skill_P0042Rarity1_LVL6" />
+  <SkillConfig Name="Skill_P0042Rarity2" />
+  <SkillConfig Name="Skill_P0042Rarity2_LVL2" />
+  <SkillConfig Name="Skill_P0042Rarity2_LVL3" />
+  <SkillConfig Name="Skill_P0042Rarity2_LVL4" />
+  <SkillConfig Name="Skill_P0042Rarity2_LVL5" />
+  <SkillConfig Name="Skill_P0042Rarity2_LVL6" />
+  <SkillConfig Name="Skill_P0101" />
+  <SkillConfig Name="Skill_P0101_LVL2" />
+  <SkillConfig Name="Skill_P0101Rarity0" />
+  <SkillConfig Name="Skill_P0101Rarity0_LVL2" />
+  <SkillConfig Name="Skill_P0101Rarity1" />
+  <SkillConfig Name="Skill_P0101Rarity1_LVL2" />
+  <SkillConfig Name="Skill_P0101Rarity2" />
+  <SkillConfig Name="Skill_P0101Rarity2_LVL2" />
+  <SkillConfig Name="Skill_P0102" />
+  <SkillConfig Name="Skill_P0102_LVL2" />
+  <SkillConfig Name="Skill_P0102Rarity0" />
+  <SkillConfig Name="Skill_P0102Rarity0_LVL2" />
+  <SkillConfig Name="Skill_P0102Rarity1" />
+  <SkillConfig Name="Skill_P0102Rarity1_LVL2" />
+  <SkillConfig Name="Skill_P0102Rarity2" />
+  <SkillConfig Name="Skill_P0102Rarity2_LVL2" />
+  <SkillConfig Name="Skill_P0103" />
+  <SkillConfig Name="Skill_P0103_LVL2" />
+  <SkillConfig Name="Skill_P0103Rarity0" />
+  <SkillConfig Name="Skill_P0103Rarity0_LVL2" />
+  <SkillConfig Name="Skill_P0103Rarity1" />
+  <SkillConfig Name="Skill_P0103Rarity1_LVL2" />
+  <SkillConfig Name="Skill_P0103Rarity2" />
+  <SkillConfig Name="Skill_P0103Rarity2_LVL2" />
+  <SkillConfig Name="Skill_P0104" />
+  <SkillConfig Name="Skill_P0104Rarity0" />
+  <SkillConfig Name="Skill_P0104Rarity1" />
+  <SkillConfig Name="Skill_P0104Rarity2" />
+  <SkillConfig Name="Skill_P0105" />
+  <SkillConfig Name="Skill_P0105Rarity0" />
+  <SkillConfig Name="Skill_P0105Rarity1" />
+  <SkillConfig Name="Skill_P0105Rarity2" />
+  <SkillConfig Name="Skill_P0200" DialogVFXPath="VFX/Skills/FX_Skills_06_Paramedic" />
+  <SkillConfig Name="Skill_P0200Rarity0" DialogVFXPath="VFX/Skills/FX_Skills_06_Paramedic" />
+  <SkillConfig Name="Skill_P0200Rarity1" DialogVFXPath="VFX/Skills/FX_Skills_06_Paramedic" />
+  <SkillConfig Name="Skill_P0200Rarity2" DialogVFXPath="VFX/Skills/FX_Skills_06_Paramedic" />
+  <SkillConfig Name="Skill_P0201" DialogVFXPath="VFX/Skills/FX_Skills_03_PsychoKiller" />
+  <SkillConfig Name="Skill_P0201Rarity0" DialogVFXPath="VFX/Skills/FX_Skills_03_PsychoKiller" />
+  <SkillConfig Name="Skill_P0201Rarity1" DialogVFXPath="VFX/Skills/FX_Skills_03_PsychoKiller" />
+  <SkillConfig Name="Skill_P0201Rarity2" DialogVFXPath="VFX/Skills/FX_Skills_03_PsychoKiller" />
+  <SkillConfig Name="Skill_P0202" DialogVFXPath="VFX/Skills/FX_Skills_06_Paramedic" />
+  <SkillConfig Name="Skill_P0202Rarity0" DialogVFXPath="VFX/Skills/FX_Skills_06_Paramedic" />
+  <SkillConfig Name="Skill_P0202Rarity1" DialogVFXPath="VFX/Skills/FX_Skills_06_Paramedic" />
+  <SkillConfig Name="Skill_P0202Rarity2" DialogVFXPath="VFX/Skills/FX_Skills_06_Paramedic" />
+  <SkillConfig Name="Skill_P0300" />
+  <SkillConfig Name="Skill_P0300Rarity0" />
+  <SkillConfig Name="Skill_P0300Rarity1" />
+  <SkillConfig Name="Skill_P0300Rarity2" />
+  <SkillConfig Name="Skill_P0043" />
+  <SkillConfig Name="Skill_P0043_LVL2" />
+  <SkillConfig Name="Skill_P0043_LVL3" />
+  <SkillConfig Name="Skill_P0043Rarity0" />
+  <SkillConfig Name="Skill_P0043Rarity0_LVL2" />
+  <SkillConfig Name="Skill_P0043Rarity0_LVL3" />
+  <SkillConfig Name="Skill_P0043Rarity1" />
+  <SkillConfig Name="Skill_P0043Rarity1_LVL2" />
+  <SkillConfig Name="Skill_P0043Rarity1_LVL3" />
+  <SkillConfig Name="Skill_P0043Rarity2" />
+  <SkillConfig Name="Skill_P0043Rarity2_LVL2" />
+  <SkillConfig Name="Skill_P0043Rarity2_LVL3" />
+  <SkillConfig Name="Skill_P0044" />
+  <SkillConfig Name="Skill_P0044Rarity0" />
+  <SkillConfig Name="Skill_P0044Rarity1" />
+  <SkillConfig Name="Skill_P0044Rarity2" />
+  <SkillConfig Name="Skill_P0045" />
+  <SkillConfig Name="Skill_P0045_LVL2" />
+  <SkillConfig Name="Skill_P0045_LVL3" />
+  <SkillConfig Name="Skill_P0045Rarity0" />
+  <SkillConfig Name="Skill_P0045Rarity0_LVL2" />
+  <SkillConfig Name="Skill_P0045Rarity0_LVL3" />
+  <SkillConfig Name="Skill_P0045Rarity1" />
+  <SkillConfig Name="Skill_P0045Rarity1_LVL2" />
+  <SkillConfig Name="Skill_P0045Rarity1_LVL3" />
+  <SkillConfig Name="Skill_P0045Rarity2" />
+  <SkillConfig Name="Skill_P0045Rarity2_LVL2" />
+  <SkillConfig Name="Skill_P0045Rarity2_LVL3" />
+  <SkillConfig Name="Skill_P0046" />
+  <SkillConfig Name="Skill_P0046_LVL2" />
+  <SkillConfig Name="Skill_P0046Rarity0" />
+  <SkillConfig Name="Skill_P0046Rarity0_LVL2" />
+  <SkillConfig Name="Skill_P0046Rarity1" />
+  <SkillConfig Name="Skill_P0046Rarity1_LVL2" />
+  <SkillConfig Name="Skill_P0046Rarity2" />
+  <SkillConfig Name="Skill_P0046Rarity2_LVL2" />
+  <SkillConfig Name="Skill_P0047" />
+  <SkillConfig Name="Skill_P0047_LVL2" />
+  <SkillConfig Name="Skill_P0047Rarity0" />
+  <SkillConfig Name="Skill_P0047Rarity0_LVL2" />
+  <SkillConfig Name="Skill_P0047Rarity1" />
+  <SkillConfig Name="Skill_P0047Rarity1_LVL2" />
+  <SkillConfig Name="Skill_P0047Rarity2" />
+  <SkillConfig Name="Skill_P0047Rarity2_LVL2" />
+  <SkillConfig Name="Skill_P0048" />
+  <SkillConfig Name="Skill_P0048_LVL2" />
+  <SkillConfig Name="Skill_P0048_LVL3" />
+  <SkillConfig Name="Skill_P0048_LVL4" />
+  <SkillConfig Name="Skill_P0048_LVL5" />
+  <SkillConfig Name="Skill_P0048_LVL6" />
+  <SkillConfig Name="Skill_P0048Rarity0" />
+  <SkillConfig Name="Skill_P0048Rarity0_LVL2" />
+  <SkillConfig Name="Skill_P0048Rarity0_LVL3" />
+  <SkillConfig Name="Skill_P0048Rarity0_LVL4" />
+  <SkillConfig Name="Skill_P0048Rarity0_LVL5" />
+  <SkillConfig Name="Skill_P0048Rarity0_LVL6" />
+  <SkillConfig Name="Skill_P0048Rarity1" />
+  <SkillConfig Name="Skill_P0048Rarity1_LVL2" />
+  <SkillConfig Name="Skill_P0048Rarity1_LVL3" />
+  <SkillConfig Name="Skill_P0048Rarity1_LVL4" />
+  <SkillConfig Name="Skill_P0048Rarity1_LVL5" />
+  <SkillConfig Name="Skill_P0048Rarity1_LVL6" />
+  <SkillConfig Name="Skill_P0048Rarity2" />
+  <SkillConfig Name="Skill_P0048Rarity2_LVL2" />
+  <SkillConfig Name="Skill_P0048Rarity2_LVL3" />
+  <SkillConfig Name="Skill_P0048Rarity2_LVL4" />
+  <SkillConfig Name="Skill_P0048Rarity2_LVL5" />
+  <SkillConfig Name="Skill_P0048Rarity2_LVL6" />
+  <SkillConfig Name="Skill_P0500" />
+  <SkillConfig Name="Skill_P0500Rarity0" />
+  <SkillConfig Name="Skill_P0500Rarity1" />
+  <SkillConfig Name="Skill_P0500Rarity2" />
+  <SkillConfig Name="Skill_P0501" />
+  <SkillConfig Name="Skill_P0501Rarity0" />
+  <SkillConfig Name="Skill_P0501Rarity1" />
+  <SkillConfig Name="Skill_P0501Rarity2" />
+  <SkillConfig Name="Skill_P0502" />
+  <SkillConfig Name="Skill_P0502Rarity0" />
+  <SkillConfig Name="Skill_P0502Rarity1" />
+  <SkillConfig Name="Skill_P0502Rarity2" />
+  <SkillConfig Name="Skill_P0503" />
+  <SkillConfig Name="Skill_P0503Rarity0" />
+  <SkillConfig Name="Skill_P0503Rarity1" />
+  <SkillConfig Name="Skill_P0503Rarity2" />
+  <SkillConfig Name="Skill_P0504" />
+  <SkillConfig Name="Skill_P0504Rarity0" />
+  <SkillConfig Name="Skill_P0504Rarity1" />
+  <SkillConfig Name="Skill_P0504Rarity2" />
+  <SkillConfig Name="Skill_A0001" IsActive="1" Duration="9" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_01_RunAway" OwnerSFXPath="Master/Skill/Runaway" />
+  <SkillConfig Name="Skill_A0001_LVL2" IsActive="1" Duration="9" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_01_RunAway" OwnerSFXPath="Master/Skill/Runaway" />
+  <SkillConfig Name="Skill_A0001_LVL3" IsActive="1" Duration="9" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_01_RunAway" OwnerSFXPath="Master/Skill/Runaway" />
+  <SkillConfig Name="Skill_A0001Rarity0" IsActive="1" Duration="9" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_01_RunAway" OwnerSFXPath="Master/Skill/Runaway" />
+  <SkillConfig Name="Skill_A0001Rarity0_LVL2" IsActive="1" Duration="9" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_01_RunAway" OwnerSFXPath="Master/Skill/Runaway" />
+  <SkillConfig Name="Skill_A0001Rarity0_LVL3" IsActive="1" Duration="9" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_01_RunAway" OwnerSFXPath="Master/Skill/Runaway" />
+  <SkillConfig Name="Skill_A0001Rarity1" IsActive="1" Duration="9" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_01_RunAway" OwnerSFXPath="Master/Skill/Runaway" />
+  <SkillConfig Name="Skill_A0001Rarity1_LVL2" IsActive="1" Duration="9" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_01_RunAway" OwnerSFXPath="Master/Skill/Runaway" />
+  <SkillConfig Name="Skill_A0001Rarity1_LVL3" IsActive="1" Duration="9" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_01_RunAway" OwnerSFXPath="Master/Skill/Runaway" />
+  <SkillConfig Name="Skill_A0001Rarity2" IsActive="1" Duration="9" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_01_RunAway" OwnerSFXPath="Master/Skill/Runaway" />
+  <SkillConfig Name="Skill_A0001Rarity2_LVL2" IsActive="1" Duration="9" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_01_RunAway" OwnerSFXPath="Master/Skill/Runaway" />
+  <SkillConfig Name="Skill_A0001Rarity2_LVL3" IsActive="1" Duration="9" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_01_RunAway" OwnerSFXPath="Master/Skill/Runaway" />
+  <SkillConfig Name="Skill_A0002" IsActive="1" Duration="9" CooldownTurnsCount="3" DamagesTargetsPath="./Hero" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_02_VerbalAbuse" TargetSFXPath="Master/Skill/VerbalAbuse_Effect" />
+  <SkillConfig Name="Skill_A0002_LVL2" IsActive="1" Duration="9" CooldownTurnsCount="3" DamagesTargetsPath="./Hero" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_02_VerbalAbuse" TargetSFXPath="Master/Skill/VerbalAbuse_Effect" />
+  <SkillConfig Name="Skill_A0002Rarity0" IsActive="1" Duration="9" CooldownTurnsCount="3" DamagesTargetsPath="./Hero" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_02_VerbalAbuse" TargetSFXPath="Master/Skill/VerbalAbuse_Effect" />
+  <SkillConfig Name="Skill_A0002Rarity0_LVL2" IsActive="1" Duration="9" CooldownTurnsCount="3" DamagesTargetsPath="./Hero" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_02_VerbalAbuse" TargetSFXPath="Master/Skill/VerbalAbuse_Effect" />
+  <SkillConfig Name="Skill_A0002Rarity1" IsActive="1" Duration="9" CooldownTurnsCount="3" DamagesTargetsPath="./Hero" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_02_VerbalAbuse" TargetSFXPath="Master/Skill/VerbalAbuse_Effect" />
+  <SkillConfig Name="Skill_A0002Rarity1_LVL2" IsActive="1" Duration="9" CooldownTurnsCount="3" DamagesTargetsPath="./Hero" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_02_VerbalAbuse" TargetSFXPath="Master/Skill/VerbalAbuse_Effect" />
+  <SkillConfig Name="Skill_A0002Rarity2" IsActive="1" Duration="9" CooldownTurnsCount="3" DamagesTargetsPath="./Hero" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_02_VerbalAbuse" TargetSFXPath="Master/Skill/VerbalAbuse_Effect" />
+  <SkillConfig Name="Skill_A0002Rarity2_LVL2" IsActive="1" Duration="9" CooldownTurnsCount="3" DamagesTargetsPath="./Hero" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_02_VerbalAbuse" TargetSFXPath="Master/Skill/VerbalAbuse_Effect" />
+  <SkillConfig Name="Skill_A0003" IsActive="1" Duration="7" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_03_PsychoKiller" OwnerSFXPath="Master/Skill/PsychoKiller" />
+  <SkillConfig Name="Skill_A0003_LVL2" IsActive="1" Duration="7" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_03_PsychoKiller" OwnerSFXPath="Master/Skill/PsychoKiller" />
+  <SkillConfig Name="Skill_A0003_LVL3" IsActive="1" Duration="7" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_03_PsychoKiller" OwnerSFXPath="Master/Skill/PsychoKiller" />
+  <SkillConfig Name="Skill_A0003Rarity0" IsActive="1" Duration="7" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_03_PsychoKiller" OwnerSFXPath="Master/Skill/PsychoKiller" />
+  <SkillConfig Name="Skill_A0003Rarity0_LVL2" IsActive="1" Duration="7" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_03_PsychoKiller" OwnerSFXPath="Master/Skill/PsychoKiller" />
+  <SkillConfig Name="Skill_A0003Rarity0_LVL3" IsActive="1" Duration="7" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_03_PsychoKiller" OwnerSFXPath="Master/Skill/PsychoKiller" />
+  <SkillConfig Name="Skill_A0003Rarity1" IsActive="1" Duration="7" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_03_PsychoKiller" OwnerSFXPath="Master/Skill/PsychoKiller" />
+  <SkillConfig Name="Skill_A0003Rarity1_LVL2" IsActive="1" Duration="7" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_03_PsychoKiller" OwnerSFXPath="Master/Skill/PsychoKiller" />
+  <SkillConfig Name="Skill_A0003Rarity1_LVL3" IsActive="1" Duration="7" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_03_PsychoKiller" OwnerSFXPath="Master/Skill/PsychoKiller" />
+  <SkillConfig Name="Skill_A0003Rarity2" IsActive="1" Duration="7" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_03_PsychoKiller" OwnerSFXPath="Master/Skill/PsychoKiller" />
+  <SkillConfig Name="Skill_A0003Rarity2_LVL2" IsActive="1" Duration="7" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_03_PsychoKiller" OwnerSFXPath="Master/Skill/PsychoKiller" />
+  <SkillConfig Name="Skill_A0003Rarity2_LVL3" IsActive="1" Duration="7" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_03_PsychoKiller" OwnerSFXPath="Master/Skill/PsychoKiller" />
+  <SkillConfig Name="Skill_A0004" IsActive="1" Duration="9" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_04_WarCry" OwnerSFXPath="Master/Skill/WarCry" />
+  <SkillConfig Name="Skill_A0004_LVL2" IsActive="1" Duration="9" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_04_WarCry" OwnerSFXPath="Master/Skill/WarCry" />
+  <SkillConfig Name="Skill_A0004Rarity0" IsActive="1" Duration="9" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_04_WarCry" OwnerSFXPath="Master/Skill/WarCry" />
+  <SkillConfig Name="Skill_A0004Rarity0_LVL2" IsActive="1" Duration="9" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_04_WarCry" OwnerSFXPath="Master/Skill/WarCry" />
+  <SkillConfig Name="Skill_A0004Rarity1" IsActive="1" Duration="9" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_04_WarCry" OwnerSFXPath="Master/Skill/WarCry" />
+  <SkillConfig Name="Skill_A0004Rarity1_LVL2" IsActive="1" Duration="9" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_04_WarCry" OwnerSFXPath="Master/Skill/WarCry" />
+  <SkillConfig Name="Skill_A0004Rarity2" IsActive="1" Duration="9" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_04_WarCry" OwnerSFXPath="Master/Skill/WarCry" />
+  <SkillConfig Name="Skill_A0004Rarity2_LVL2" IsActive="1" Duration="9" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_04_WarCry" OwnerSFXPath="Master/Skill/WarCry" />
+  <SkillConfig Name="Skill_A0005" IsActive="1" Duration="9" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_05_EngageTurtleMode" OwnerSFXPath="Master/Skill/EngageTurtleMode" />
+  <SkillConfig Name="Skill_A0005_LVL2" IsActive="1" Duration="9" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_05_EngageTurtleMode" OwnerSFXPath="Master/Skill/EngageTurtleMode" />
+  <SkillConfig Name="Skill_A0005Rarity0" IsActive="1" Duration="9" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_05_EngageTurtleMode" OwnerSFXPath="Master/Skill/EngageTurtleMode" />
+  <SkillConfig Name="Skill_A0005Rarity0_LVL2" IsActive="1" Duration="9" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_05_EngageTurtleMode" OwnerSFXPath="Master/Skill/EngageTurtleMode" />
+  <SkillConfig Name="Skill_A0005Rarity1" IsActive="1" Duration="9" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_05_EngageTurtleMode" OwnerSFXPath="Master/Skill/EngageTurtleMode" />
+  <SkillConfig Name="Skill_A0005Rarity1_LVL2" IsActive="1" Duration="9" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_05_EngageTurtleMode" OwnerSFXPath="Master/Skill/EngageTurtleMode" />
+  <SkillConfig Name="Skill_A0005Rarity2" IsActive="1" Duration="9" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_05_EngageTurtleMode" OwnerSFXPath="Master/Skill/EngageTurtleMode" />
+  <SkillConfig Name="Skill_A0005Rarity2_LVL2" IsActive="1" Duration="9" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_05_EngageTurtleMode" OwnerSFXPath="Master/Skill/EngageTurtleMode" />
+  <SkillConfig Name="Skill_A0006" IsActive="1" Duration="10" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_06_Paramedic" TargetSFXPath="Master/Skill/Paramedic" />
+  <SkillConfig Name="Skill_A0006_LVL2" IsActive="1" Duration="10" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_06_Paramedic" TargetSFXPath="Master/Skill/Paramedic" />
+  <SkillConfig Name="Skill_A0006_LVL3" IsActive="1" Duration="10" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_06_Paramedic" TargetSFXPath="Master/Skill/Paramedic" />
+  <SkillConfig Name="Skill_A0006Rarity0" IsActive="1" Duration="10" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_06_Paramedic" TargetSFXPath="Master/Skill/Paramedic" />
+  <SkillConfig Name="Skill_A0006Rarity0_LVL2" IsActive="1" Duration="10" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_06_Paramedic" TargetSFXPath="Master/Skill/Paramedic" />
+  <SkillConfig Name="Skill_A0006Rarity0_LVL3" IsActive="1" Duration="10" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_06_Paramedic" TargetSFXPath="Master/Skill/Paramedic" />
+  <SkillConfig Name="Skill_A0006Rarity1" IsActive="1" Duration="10" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_06_Paramedic" TargetSFXPath="Master/Skill/Paramedic" />
+  <SkillConfig Name="Skill_A0006Rarity1_LVL2" IsActive="1" Duration="10" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_06_Paramedic" TargetSFXPath="Master/Skill/Paramedic" />
+  <SkillConfig Name="Skill_A0006Rarity1_LVL3" IsActive="1" Duration="10" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_06_Paramedic" TargetSFXPath="Master/Skill/Paramedic" />
+  <SkillConfig Name="Skill_A0006Rarity2" IsActive="1" Duration="10" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_06_Paramedic" TargetSFXPath="Master/Skill/Paramedic" />
+  <SkillConfig Name="Skill_A0006Rarity2_LVL2" IsActive="1" Duration="10" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_06_Paramedic" TargetSFXPath="Master/Skill/Paramedic" />
+  <SkillConfig Name="Skill_A0006Rarity2_LVL3" IsActive="1" Duration="10" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_06_Paramedic" TargetSFXPath="Master/Skill/Paramedic" />
+  <SkillConfig Name="Skill_A0007" IsActive="1" Duration="6" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_07_SurgicalStriker" OwnerSFXPath="Master/Skill/SurgicalStriker" />
+  <SkillConfig Name="Skill_A0007_LVL2" IsActive="1" Duration="6" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_07_SurgicalStriker" OwnerSFXPath="Master/Skill/SurgicalStriker" />
+  <SkillConfig Name="Skill_A0007Rarity0" IsActive="1" Duration="6" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_07_SurgicalStriker" OwnerSFXPath="Master/Skill/SurgicalStriker" />
+  <SkillConfig Name="Skill_A0007Rarity0_LVL2" IsActive="1" Duration="6" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_07_SurgicalStriker" OwnerSFXPath="Master/Skill/SurgicalStriker" />
+  <SkillConfig Name="Skill_A0007Rarity1" IsActive="1" Duration="6" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_07_SurgicalStriker" OwnerSFXPath="Master/Skill/SurgicalStriker" />
+  <SkillConfig Name="Skill_A0007Rarity1_LVL2" IsActive="1" Duration="6" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_07_SurgicalStriker" OwnerSFXPath="Master/Skill/SurgicalStriker" />
+  <SkillConfig Name="Skill_A0007Rarity2" IsActive="1" Duration="6" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_07_SurgicalStriker" OwnerSFXPath="Master/Skill/SurgicalStriker" />
+  <SkillConfig Name="Skill_A0007Rarity2_LVL2" IsActive="1" Duration="6" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_07_SurgicalStriker" OwnerSFXPath="Master/Skill/SurgicalStriker" />
+  <SkillConfig Name="Skill_A0008" IsActive="1" Duration="8" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_08_WarFace" OwnerSFXPath="Master/Skill/WarFace" />
+  <SkillConfig Name="Skill_A0008_LVL2" IsActive="1" Duration="8" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_08_WarFace" OwnerSFXPath="Master/Skill/WarFace" />
+  <SkillConfig Name="Skill_A0008Rarity0" IsActive="1" Duration="8" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_08_WarFace" OwnerSFXPath="Master/Skill/WarFace" />
+  <SkillConfig Name="Skill_A0008Rarity0_LVL2" IsActive="1" Duration="8" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_08_WarFace" OwnerSFXPath="Master/Skill/WarFace" />
+  <SkillConfig Name="Skill_A0008Rarity1" IsActive="1" Duration="8" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_08_WarFace" OwnerSFXPath="Master/Skill/WarFace" />
+  <SkillConfig Name="Skill_A0008Rarity1_LVL2" IsActive="1" Duration="8" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_08_WarFace" OwnerSFXPath="Master/Skill/WarFace" />
+  <SkillConfig Name="Skill_A0008Rarity2" IsActive="1" Duration="8" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_08_WarFace" OwnerSFXPath="Master/Skill/WarFace" />
+  <SkillConfig Name="Skill_A0008Rarity2_LVL2" IsActive="1" Duration="8" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_08_WarFace" OwnerSFXPath="Master/Skill/WarFace" />
+  <SkillConfig Name="Skill_A0009" IsActive="1" Duration="6" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_09_Kneecapped" TargetSFXPath="Master/Skill/Kneecapped" />
+  <SkillConfig Name="Skill_A0009_LVL2" IsActive="1" Duration="6" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_09_Kneecapped" TargetSFXPath="Master/Skill/Kneecapped" />
+  <SkillConfig Name="Skill_A0009Rarity0" IsActive="1" Duration="6" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_09_Kneecapped" TargetSFXPath="Master/Skill/Kneecapped" />
+  <SkillConfig Name="Skill_A0009Rarity0_LVL2" IsActive="1" Duration="6" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_09_Kneecapped" TargetSFXPath="Master/Skill/Kneecapped" />
+  <SkillConfig Name="Skill_A0009Rarity1" IsActive="1" Duration="6" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_09_Kneecapped" TargetSFXPath="Master/Skill/Kneecapped" />
+  <SkillConfig Name="Skill_A0009Rarity1_LVL2" IsActive="1" Duration="6" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_09_Kneecapped" TargetSFXPath="Master/Skill/Kneecapped" />
+  <SkillConfig Name="Skill_A0009Rarity2" IsActive="1" Duration="6" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_09_Kneecapped" TargetSFXPath="Master/Skill/Kneecapped" />
+  <SkillConfig Name="Skill_A0009Rarity2_LVL2" IsActive="1" Duration="6" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_09_Kneecapped" TargetSFXPath="Master/Skill/Kneecapped" />
+  <SkillConfig Name="Skill_A0011" IsActive="1" Duration="9" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_11_Sacrifice" OwnerSFXPath="Master/Skill/Sacrifice" />
+  <SkillConfig Name="Skill_A0011_LVL2" IsActive="1" Duration="9" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_11_Sacrifice" OwnerSFXPath="Master/Skill/Sacrifice" />
+  <SkillConfig Name="Skill_A0011Rarity0" IsActive="1" Duration="9" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_11_Sacrifice" OwnerSFXPath="Master/Skill/Sacrifice" />
+  <SkillConfig Name="Skill_A0011Rarity0_LVL2" IsActive="1" Duration="9" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_11_Sacrifice" OwnerSFXPath="Master/Skill/Sacrifice" />
+  <SkillConfig Name="Skill_A0011Rarity1" IsActive="1" Duration="9" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_11_Sacrifice" OwnerSFXPath="Master/Skill/Sacrifice" />
+  <SkillConfig Name="Skill_A0011Rarity1_LVL2" IsActive="1" Duration="9" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_11_Sacrifice" OwnerSFXPath="Master/Skill/Sacrifice" />
+  <SkillConfig Name="Skill_A0011Rarity2" IsActive="1" Duration="9" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_11_Sacrifice" OwnerSFXPath="Master/Skill/Sacrifice" />
+  <SkillConfig Name="Skill_A0011Rarity2_LVL2" IsActive="1" Duration="9" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_11_Sacrifice" OwnerSFXPath="Master/Skill/Sacrifice" />
+  <SkillConfig Name="Skill_A0012" IsActive="1" Duration="9" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_12_AIAlgo" OwnerSFXPath="Master/Skill/VerbalAbuse_Effect" />
+  <SkillConfig Name="Skill_A0012_LVL2" IsActive="1" Duration="9" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_12_AIAlgo" OwnerSFXPath="Master/Skill/VerbalAbuse_Effect" />
+  <SkillConfig Name="Skill_A0012_LVL3" IsActive="1" Duration="9" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_12_AIAlgo" OwnerSFXPath="Master/Skill/VerbalAbuse_Effect" />
+  <SkillConfig Name="Skill_A0012Rarity0" IsActive="1" Duration="9" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_12_AIAlgo" OwnerSFXPath="Master/Skill/VerbalAbuse_Effect" />
+  <SkillConfig Name="Skill_A0012Rarity0_LVL2" IsActive="1" Duration="9" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_12_AIAlgo" OwnerSFXPath="Master/Skill/VerbalAbuse_Effect" />
+  <SkillConfig Name="Skill_A0012Rarity0_LVL3" IsActive="1" Duration="9" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_12_AIAlgo" OwnerSFXPath="Master/Skill/VerbalAbuse_Effect" />
+  <SkillConfig Name="Skill_A0012Rarity1" IsActive="1" Duration="9" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_12_AIAlgo" OwnerSFXPath="Master/Skill/VerbalAbuse_Effect" />
+  <SkillConfig Name="Skill_A0012Rarity1_LVL2" IsActive="1" Duration="9" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_12_AIAlgo" OwnerSFXPath="Master/Skill/VerbalAbuse_Effect" />
+  <SkillConfig Name="Skill_A0012Rarity1_LVL3" IsActive="1" Duration="9" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_12_AIAlgo" OwnerSFXPath="Master/Skill/VerbalAbuse_Effect" />
+  <SkillConfig Name="Skill_A0012Rarity2" IsActive="1" Duration="9" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_12_AIAlgo" OwnerSFXPath="Master/Skill/VerbalAbuse_Effect" />
+  <SkillConfig Name="Skill_A0012Rarity2_LVL2" IsActive="1" Duration="9" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_12_AIAlgo" OwnerSFXPath="Master/Skill/VerbalAbuse_Effect" />
+  <SkillConfig Name="Skill_A0012Rarity2_LVL3" IsActive="1" Duration="9" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_12_AIAlgo" OwnerSFXPath="Master/Skill/VerbalAbuse_Effect" />
+  <SkillConfig Name="Skill_A0013" IsActive="1" Duration="9" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_13_ToxicCloud" TargetSFXPath="Master/Skill/Crawler" />
+  <SkillConfig Name="Skill_A0013_LVL2" IsActive="1" Duration="9" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_13_ToxicCloud" TargetSFXPath="Master/Skill/Crawler" />
+  <SkillConfig Name="Skill_A0013Rarity0" IsActive="1" Duration="9" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_13_ToxicCloud" TargetSFXPath="Master/Skill/Crawler" />
+  <SkillConfig Name="Skill_A0013Rarity0_LVL2" IsActive="1" Duration="9" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_13_ToxicCloud" TargetSFXPath="Master/Skill/Crawler" />
+  <SkillConfig Name="Skill_A0013Rarity1" IsActive="1" Duration="9" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_13_ToxicCloud" TargetSFXPath="Master/Skill/Crawler" />
+  <SkillConfig Name="Skill_A0013Rarity1_LVL2" IsActive="1" Duration="9" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_13_ToxicCloud" TargetSFXPath="Master/Skill/Crawler" />
+  <SkillConfig Name="Skill_A0013Rarity2" IsActive="1" Duration="9" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_13_ToxicCloud" TargetSFXPath="Master/Skill/Crawler" />
+  <SkillConfig Name="Skill_A0013Rarity2_LVL2" IsActive="1" Duration="9" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_13_ToxicCloud" TargetSFXPath="Master/Skill/Crawler" />
+  <SkillConfig Name="Skill_A0014" IsActive="1" Duration="8" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_14_Webslinger" TargetSFXPath="Master/Skill/Webslinger" />
+  <SkillConfig Name="Skill_A0014_LVL2" IsActive="1" Duration="8" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_14_Webslinger" TargetSFXPath="Master/Skill/Webslinger" />
+  <SkillConfig Name="Skill_A0014Rarity0" IsActive="1" Duration="8" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_14_Webslinger" TargetSFXPath="Master/Skill/Webslinger" />
+  <SkillConfig Name="Skill_A0014Rarity0_LVL2" IsActive="1" Duration="8" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_14_Webslinger" TargetSFXPath="Master/Skill/Webslinger" />
+  <SkillConfig Name="Skill_A0014Rarity1" IsActive="1" Duration="8" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_14_Webslinger" TargetSFXPath="Master/Skill/Webslinger" />
+  <SkillConfig Name="Skill_A0014Rarity1_LVL2" IsActive="1" Duration="8" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_14_Webslinger" TargetSFXPath="Master/Skill/Webslinger" />
+  <SkillConfig Name="Skill_A0014Rarity2" IsActive="1" Duration="8" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_14_Webslinger" TargetSFXPath="Master/Skill/Webslinger" />
+  <SkillConfig Name="Skill_A0014Rarity2_LVL2" IsActive="1" Duration="8" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_14_Webslinger" TargetSFXPath="Master/Skill/Webslinger" />
+  <SkillConfig Name="Skill_A0015" IsActive="1" Duration="10" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_15_Crawler" OwnerSFXPath="Master/Skill/Crawler" />
+  <SkillConfig Name="Skill_A0015_LVL2" IsActive="1" Duration="10" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_15_Crawler" OwnerSFXPath="Master/Skill/Crawler" />
+  <SkillConfig Name="Skill_A0015Rarity0" IsActive="1" Duration="10" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_15_Crawler" OwnerSFXPath="Master/Skill/Crawler" />
+  <SkillConfig Name="Skill_A0015Rarity0_LVL2" IsActive="1" Duration="10" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_15_Crawler" OwnerSFXPath="Master/Skill/Crawler" />
+  <SkillConfig Name="Skill_A0015Rarity1" IsActive="1" Duration="10" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_15_Crawler" OwnerSFXPath="Master/Skill/Crawler" />
+  <SkillConfig Name="Skill_A0015Rarity1_LVL2" IsActive="1" Duration="10" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_15_Crawler" OwnerSFXPath="Master/Skill/Crawler" />
+  <SkillConfig Name="Skill_A0015Rarity2" IsActive="1" Duration="10" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_15_Crawler" OwnerSFXPath="Master/Skill/Crawler" />
+  <SkillConfig Name="Skill_A0015Rarity2_LVL2" IsActive="1" Duration="10" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_15_Crawler" OwnerSFXPath="Master/Skill/Crawler" />
+  <SkillConfig Name="Skill_A0016" IsActive="1" Duration="8" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_16_LastSupper" TargetSFXPath="Master/Skill/Paramedic" />
+  <SkillConfig Name="Skill_A0016_LVL2" IsActive="1" Duration="8" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_16_LastSupper" TargetSFXPath="Master/Skill/Paramedic" />
+  <SkillConfig Name="Skill_A0016_LVL3" IsActive="1" Duration="8" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_16_LastSupper" TargetSFXPath="Master/Skill/Paramedic" />
+  <SkillConfig Name="Skill_A0016Rarity0" IsActive="1" Duration="8" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_16_LastSupper" TargetSFXPath="Master/Skill/Paramedic" />
+  <SkillConfig Name="Skill_A0016Rarity0_LVL2" IsActive="1" Duration="8" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_16_LastSupper" TargetSFXPath="Master/Skill/Paramedic" />
+  <SkillConfig Name="Skill_A0016Rarity0_LVL3" IsActive="1" Duration="8" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_16_LastSupper" TargetSFXPath="Master/Skill/Paramedic" />
+  <SkillConfig Name="Skill_A0016Rarity1" IsActive="1" Duration="8" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_16_LastSupper" TargetSFXPath="Master/Skill/Paramedic" />
+  <SkillConfig Name="Skill_A0016Rarity1_LVL2" IsActive="1" Duration="8" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_16_LastSupper" TargetSFXPath="Master/Skill/Paramedic" />
+  <SkillConfig Name="Skill_A0016Rarity1_LVL3" IsActive="1" Duration="8" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_16_LastSupper" TargetSFXPath="Master/Skill/Paramedic" />
+  <SkillConfig Name="Skill_A0016Rarity2" IsActive="1" Duration="8" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_16_LastSupper" TargetSFXPath="Master/Skill/Paramedic" />
+  <SkillConfig Name="Skill_A0016Rarity2_LVL2" IsActive="1" Duration="8" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_16_LastSupper" TargetSFXPath="Master/Skill/Paramedic" />
+  <SkillConfig Name="Skill_A0016Rarity2_LVL3" IsActive="1" Duration="8" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_16_LastSupper" TargetSFXPath="Master/Skill/Paramedic" />
+  <SkillConfig Name="Skill_A0018" IsActive="1" Duration="10" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" />
+  <SkillConfig Name="Skill_A0018_LVL2" IsActive="1" Duration="10" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" />
+  <SkillConfig Name="Skill_A0018Rarity0" IsActive="1" Duration="10" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" />
+  <SkillConfig Name="Skill_A0018Rarity0_LVL2" IsActive="1" Duration="10" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" />
+  <SkillConfig Name="Skill_A0018Rarity1" IsActive="1" Duration="10" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" />
+  <SkillConfig Name="Skill_A0018Rarity1_LVL2" IsActive="1" Duration="10" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" />
+  <SkillConfig Name="Skill_A0018Rarity2" IsActive="1" Duration="10" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" />
+  <SkillConfig Name="Skill_A0018Rarity2_LVL2" IsActive="1" Duration="10" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" />
+  <SkillConfig Name="Skill_A0019" IsActive="1" Duration="9" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_05_EngageTurtleMode" TargetSFXPath="Master/Skill/EngageTurtleMode" />
+  <SkillConfig Name="Skill_A0019_LVL2" IsActive="1" Duration="9" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_05_EngageTurtleMode" TargetSFXPath="Master/Skill/EngageTurtleMode" />
+  <SkillConfig Name="Skill_A0019Rarity0" IsActive="1" Duration="9" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_05_EngageTurtleMode" TargetSFXPath="Master/Skill/EngageTurtleMode" />
+  <SkillConfig Name="Skill_A0019Rarity0_LVL2" IsActive="1" Duration="9" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_05_EngageTurtleMode" TargetSFXPath="Master/Skill/EngageTurtleMode" />
+  <SkillConfig Name="Skill_A0019Rarity1" IsActive="1" Duration="9" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_05_EngageTurtleMode" TargetSFXPath="Master/Skill/EngageTurtleMode" />
+  <SkillConfig Name="Skill_A0019Rarity1_LVL2" IsActive="1" Duration="9" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_05_EngageTurtleMode" TargetSFXPath="Master/Skill/EngageTurtleMode" />
+  <SkillConfig Name="Skill_A0019Rarity2" IsActive="1" Duration="9" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_05_EngageTurtleMode" TargetSFXPath="Master/Skill/EngageTurtleMode" />
+  <SkillConfig Name="Skill_A0019Rarity2_LVL2" IsActive="1" Duration="9" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_05_EngageTurtleMode" TargetSFXPath="Master/Skill/EngageTurtleMode" />
+  <SkillConfig Name="Skill_A0020" IsActive="1" Duration="4" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_20_Banner" TargetSFXPath="Master/Skill/WarFace" />
+  <SkillConfig Name="Skill_A0020_LVL2" IsActive="1" Duration="5" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_20_Banner" TargetSFXPath="Master/Skill/WarFace" />
+  <SkillConfig Name="Skill_A0020_LVL3" IsActive="1" Duration="6" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_20_Banner" TargetSFXPath="Master/Skill/WarFace" />
+  <SkillConfig Name="Skill_A0020Rarity0" IsActive="1" Duration="4" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_20_Banner" TargetSFXPath="Master/Skill/WarFace" />
+  <SkillConfig Name="Skill_A0020Rarity0_LVL2" IsActive="1" Duration="5" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_20_Banner" TargetSFXPath="Master/Skill/WarFace" />
+  <SkillConfig Name="Skill_A0020Rarity0_LVL3" IsActive="1" Duration="6" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_20_Banner" TargetSFXPath="Master/Skill/WarFace" />
+  <SkillConfig Name="Skill_A0020Rarity1" IsActive="1" Duration="4" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_20_Banner" TargetSFXPath="Master/Skill/WarFace" />
+  <SkillConfig Name="Skill_A0020Rarity1_LVL2" IsActive="1" Duration="5" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_20_Banner" TargetSFXPath="Master/Skill/WarFace" />
+  <SkillConfig Name="Skill_A0020Rarity1_LVL3" IsActive="1" Duration="6" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_20_Banner" TargetSFXPath="Master/Skill/WarFace" />
+  <SkillConfig Name="Skill_A0020Rarity2" IsActive="1" Duration="4" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_20_Banner" TargetSFXPath="Master/Skill/WarFace" />
+  <SkillConfig Name="Skill_A0020Rarity2_LVL2" IsActive="1" Duration="5" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_20_Banner" TargetSFXPath="Master/Skill/WarFace" />
+  <SkillConfig Name="Skill_A0020Rarity2_LVL3" IsActive="1" Duration="6" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_20_Banner" TargetSFXPath="Master/Skill/WarFace" />
+  <SkillConfig Name="Skill_A0021" IsActive="1" Duration="8" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_21_RiskyWay" OwnerSFXPath="Master/Skill/SurgicalStriker" />
+  <SkillConfig Name="Skill_A0021_LVL2" IsActive="1" Duration="8" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_21_RiskyWay" OwnerSFXPath="Master/Skill/SurgicalStriker" />
+  <SkillConfig Name="Skill_A0021Rarity0" IsActive="1" Duration="8" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_21_RiskyWay" OwnerSFXPath="Master/Skill/SurgicalStriker" />
+  <SkillConfig Name="Skill_A0021Rarity0_LVL2" IsActive="1" Duration="8" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_21_RiskyWay" OwnerSFXPath="Master/Skill/SurgicalStriker" />
+  <SkillConfig Name="Skill_A0021Rarity1" IsActive="1" Duration="8" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_21_RiskyWay" OwnerSFXPath="Master/Skill/SurgicalStriker" />
+  <SkillConfig Name="Skill_A0021Rarity1_LVL2" IsActive="1" Duration="8" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_21_RiskyWay" OwnerSFXPath="Master/Skill/SurgicalStriker" />
+  <SkillConfig Name="Skill_A0021Rarity2" IsActive="1" Duration="8" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_21_RiskyWay" OwnerSFXPath="Master/Skill/SurgicalStriker" />
+  <SkillConfig Name="Skill_A0021Rarity2_LVL2" IsActive="1" Duration="8" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_21_RiskyWay" OwnerSFXPath="Master/Skill/SurgicalStriker" />
+  <SkillConfig Name="Skill_A0022" IsActive="1" Duration="9" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_07_SurgicalStriker" TargetSFXPath="Master/Skill/SurgicalStriker" />
+  <SkillConfig Name="Skill_A0022_LVL2" IsActive="1" Duration="9" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_07_SurgicalStriker" TargetSFXPath="Master/Skill/SurgicalStriker" />
+  <SkillConfig Name="Skill_A0022_LVL3" IsActive="1" Duration="9" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_07_SurgicalStriker" TargetSFXPath="Master/Skill/SurgicalStriker" />
+  <SkillConfig Name="Skill_A0022Rarity0" IsActive="1" Duration="9" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_07_SurgicalStriker" TargetSFXPath="Master/Skill/SurgicalStriker" />
+  <SkillConfig Name="Skill_A0022Rarity0_LVL2" IsActive="1" Duration="9" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_07_SurgicalStriker" TargetSFXPath="Master/Skill/SurgicalStriker" />
+  <SkillConfig Name="Skill_A0022Rarity0_LVL3" IsActive="1" Duration="9" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_07_SurgicalStriker" TargetSFXPath="Master/Skill/SurgicalStriker" />
+  <SkillConfig Name="Skill_A0022Rarity1" IsActive="1" Duration="9" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_07_SurgicalStriker" TargetSFXPath="Master/Skill/SurgicalStriker" />
+  <SkillConfig Name="Skill_A0022Rarity1_LVL2" IsActive="1" Duration="9" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_07_SurgicalStriker" TargetSFXPath="Master/Skill/SurgicalStriker" />
+  <SkillConfig Name="Skill_A0022Rarity1_LVL3" IsActive="1" Duration="9" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_07_SurgicalStriker" TargetSFXPath="Master/Skill/SurgicalStriker" />
+  <SkillConfig Name="Skill_A0022Rarity2" IsActive="1" Duration="9" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_07_SurgicalStriker" TargetSFXPath="Master/Skill/SurgicalStriker" />
+  <SkillConfig Name="Skill_A0022Rarity2_LVL2" IsActive="1" Duration="9" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_07_SurgicalStriker" TargetSFXPath="Master/Skill/SurgicalStriker" />
+  <SkillConfig Name="Skill_A0022Rarity2_LVL3" IsActive="1" Duration="9" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_07_SurgicalStriker" TargetSFXPath="Master/Skill/SurgicalStriker" />
+  <SkillConfig Name="Skill_A0023" IsActive="1" Duration="10" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_23_BudgetCuts" TargetSFXPath="Master/Skill/VerbalAbuse_Effect" />
+  <SkillConfig Name="Skill_A0023_LVL2" IsActive="1" Duration="10" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_23_BudgetCuts" DialogVFXPath="VFX/Skills/FX_Skills_23_BudgetCuts" TargetSFXPath="Master/Skill/VerbalAbuse_Effect" />
+  <SkillConfig Name="Skill_A0023Rarity0" IsActive="1" Duration="10" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_23_BudgetCuts" TargetSFXPath="Master/Skill/VerbalAbuse_Effect" />
+  <SkillConfig Name="Skill_A0023Rarity0_LVL2" IsActive="1" Duration="10" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_23_BudgetCuts" DialogVFXPath="VFX/Skills/FX_Skills_23_BudgetCuts" TargetSFXPath="Master/Skill/VerbalAbuse_Effect" />
+  <SkillConfig Name="Skill_A0023Rarity1" IsActive="1" Duration="10" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_23_BudgetCuts" TargetSFXPath="Master/Skill/VerbalAbuse_Effect" />
+  <SkillConfig Name="Skill_A0023Rarity1_LVL2" IsActive="1" Duration="10" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_23_BudgetCuts" DialogVFXPath="VFX/Skills/FX_Skills_23_BudgetCuts" TargetSFXPath="Master/Skill/VerbalAbuse_Effect" />
+  <SkillConfig Name="Skill_A0023Rarity2" IsActive="1" Duration="10" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_23_BudgetCuts" TargetSFXPath="Master/Skill/VerbalAbuse_Effect" />
+  <SkillConfig Name="Skill_A0023Rarity2_LVL2" IsActive="1" Duration="10" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_23_BudgetCuts" DialogVFXPath="VFX/Skills/FX_Skills_23_BudgetCuts" TargetSFXPath="Master/Skill/VerbalAbuse_Effect" />
+  <SkillConfig Name="Skill_A0024" IsActive="1" Duration="8" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_24_Biohazard" OwnerSFXPath="Master/Skill/Crawler" />
+  <SkillConfig Name="Skill_A0024_LVL2" IsActive="1" Duration="8" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_24_Biohazard" OwnerSFXPath="Master/Skill/Crawler" />
+  <SkillConfig Name="Skill_A0024Rarity0" IsActive="1" Duration="8" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_24_Biohazard" OwnerSFXPath="Master/Skill/Crawler" />
+  <SkillConfig Name="Skill_A0024Rarity0_LVL2" IsActive="1" Duration="8" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_24_Biohazard" OwnerSFXPath="Master/Skill/Crawler" />
+  <SkillConfig Name="Skill_A0024Rarity1" IsActive="1" Duration="8" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_24_Biohazard" OwnerSFXPath="Master/Skill/Crawler" />
+  <SkillConfig Name="Skill_A0024Rarity1_LVL2" IsActive="1" Duration="8" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_24_Biohazard" OwnerSFXPath="Master/Skill/Crawler" />
+  <SkillConfig Name="Skill_A0024Rarity2" IsActive="1" Duration="8" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_24_Biohazard" OwnerSFXPath="Master/Skill/Crawler" />
+  <SkillConfig Name="Skill_A0024Rarity2_LVL2" IsActive="1" Duration="8" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_24_Biohazard" OwnerSFXPath="Master/Skill/Crawler" />
+  <SkillConfig Name="Skill_A0025" IsActive="1" Duration="1" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_25_Grenade_Mob" TargetSFXPath="Master/Skill/SurgicalStriker" />
+  <SkillConfig Name="Skill_A0025_LVL2" IsActive="1" Duration="1" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_25_Grenade_Mob" TargetSFXPath="Master/Skill/SurgicalStriker" />
+  <SkillConfig Name="Skill_A0025_LVL3" IsActive="1" Duration="1" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_25_Grenade_Mob" TargetSFXPath="Master/Skill/SurgicalStriker" />
+  <SkillConfig Name="Skill_A0025Rarity0" IsActive="1" Duration="1" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_25_Grenade_Mob" TargetSFXPath="Master/Skill/SurgicalStriker" />
+  <SkillConfig Name="Skill_A0025Rarity0_LVL2" IsActive="1" Duration="1" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_25_Grenade_Mob" TargetSFXPath="Master/Skill/SurgicalStriker" />
+  <SkillConfig Name="Skill_A0025Rarity0_LVL3" IsActive="1" Duration="1" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_25_Grenade_Mob" TargetSFXPath="Master/Skill/SurgicalStriker" />
+  <SkillConfig Name="Skill_A0025Rarity1" IsActive="1" Duration="1" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_25_Grenade_Mob" TargetSFXPath="Master/Skill/SurgicalStriker" />
+  <SkillConfig Name="Skill_A0025Rarity1_LVL2" IsActive="1" Duration="1" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_25_Grenade_Mob" TargetSFXPath="Master/Skill/SurgicalStriker" />
+  <SkillConfig Name="Skill_A0025Rarity1_LVL3" IsActive="1" Duration="1" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_25_Grenade_Mob" TargetSFXPath="Master/Skill/SurgicalStriker" />
+  <SkillConfig Name="Skill_A0025Rarity2" IsActive="1" Duration="1" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_25_Grenade_Mob" TargetSFXPath="Master/Skill/SurgicalStriker" />
+  <SkillConfig Name="Skill_A0025Rarity2_LVL2" IsActive="1" Duration="1" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_25_Grenade_Mob" TargetSFXPath="Master/Skill/SurgicalStriker" />
+  <SkillConfig Name="Skill_A0025Rarity2_LVL3" IsActive="1" Duration="1" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_25_Grenade_Mob" TargetSFXPath="Master/Skill/SurgicalStriker" />
+  <SkillConfig Name="Skill_A0026" IsActive="1" Duration="8" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_26_OutOfControle" OwnerSFXPath="Master/Skill/SurgicalStriker" />
+  <SkillConfig Name="Skill_A0026_LVL2" IsActive="1" Duration="8" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_26_OutOfControle" OwnerSFXPath="Master/Skill/SurgicalStriker" />
+  <SkillConfig Name="Skill_A0026_LVL3" IsActive="1" Duration="8" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_26_OutOfControle" OwnerSFXPath="Master/Skill/SurgicalStriker" />
+  <SkillConfig Name="Skill_A0026Rarity0" IsActive="1" Duration="8" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_26_OutOfControle" OwnerSFXPath="Master/Skill/SurgicalStriker" />
+  <SkillConfig Name="Skill_A0026Rarity0_LVL2" IsActive="1" Duration="8" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_26_OutOfControle" OwnerSFXPath="Master/Skill/SurgicalStriker" />
+  <SkillConfig Name="Skill_A0026Rarity0_LVL3" IsActive="1" Duration="8" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_26_OutOfControle" OwnerSFXPath="Master/Skill/SurgicalStriker" />
+  <SkillConfig Name="Skill_A0026Rarity1" IsActive="1" Duration="8" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_26_OutOfControle" OwnerSFXPath="Master/Skill/SurgicalStriker" />
+  <SkillConfig Name="Skill_A0026Rarity1_LVL2" IsActive="1" Duration="8" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_26_OutOfControle" OwnerSFXPath="Master/Skill/SurgicalStriker" />
+  <SkillConfig Name="Skill_A0026Rarity1_LVL3" IsActive="1" Duration="8" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_26_OutOfControle" OwnerSFXPath="Master/Skill/SurgicalStriker" />
+  <SkillConfig Name="Skill_A0026Rarity2" IsActive="1" Duration="8" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_26_OutOfControle" OwnerSFXPath="Master/Skill/SurgicalStriker" />
+  <SkillConfig Name="Skill_A0026Rarity2_LVL2" IsActive="1" Duration="8" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_26_OutOfControle" OwnerSFXPath="Master/Skill/SurgicalStriker" />
+  <SkillConfig Name="Skill_A0026Rarity2_LVL3" IsActive="1" Duration="8" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_26_OutOfControle" OwnerSFXPath="Master/Skill/SurgicalStriker" />
+  <SkillConfig Name="Skill_A0027" IsActive="1" Duration="10" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_27_FireStorm" TargetSFXPath="Master/Skill/SurgicalStriker" />
+  <SkillConfig Name="Skill_A0027_LVL2" IsActive="1" Duration="10" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_27_FireStorm" TargetSFXPath="Master/Skill/SurgicalStriker" />
+  <SkillConfig Name="Skill_A0027_LVL3" IsActive="1" Duration="10" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_27_FireStorm" TargetSFXPath="Master/Skill/SurgicalStriker" />
+  <SkillConfig Name="Skill_A0027Rarity0" IsActive="1" Duration="10" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_27_FireStorm" TargetSFXPath="Master/Skill/SurgicalStriker" />
+  <SkillConfig Name="Skill_A0027Rarity0_LVL2" IsActive="1" Duration="10" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_27_FireStorm" TargetSFXPath="Master/Skill/SurgicalStriker" />
+  <SkillConfig Name="Skill_A0027Rarity0_LVL3" IsActive="1" Duration="10" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_27_FireStorm" TargetSFXPath="Master/Skill/SurgicalStriker" />
+  <SkillConfig Name="Skill_A0027Rarity1" IsActive="1" Duration="10" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_27_FireStorm" TargetSFXPath="Master/Skill/SurgicalStriker" />
+  <SkillConfig Name="Skill_A0027Rarity1_LVL2" IsActive="1" Duration="10" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_27_FireStorm" TargetSFXPath="Master/Skill/SurgicalStriker" />
+  <SkillConfig Name="Skill_A0027Rarity1_LVL3" IsActive="1" Duration="10" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_27_FireStorm" TargetSFXPath="Master/Skill/SurgicalStriker" />
+  <SkillConfig Name="Skill_A0027Rarity2" IsActive="1" Duration="10" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_27_FireStorm" TargetSFXPath="Master/Skill/SurgicalStriker" />
+  <SkillConfig Name="Skill_A0027Rarity2_LVL2" IsActive="1" Duration="10" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_27_FireStorm" TargetSFXPath="Master/Skill/SurgicalStriker" />
+  <SkillConfig Name="Skill_A0027Rarity2_LVL3" IsActive="1" Duration="10" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_27_FireStorm" TargetSFXPath="Master/Skill/SurgicalStriker" />
+  <SkillConfig Name="Skill_A0028" IsActive="1" Duration="8" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_28_IcyWind" OwnerSFXPath="Master/Skill/SurgicalStriker" />
+  <SkillConfig Name="Skill_A0028_LVL2" IsActive="1" Duration="8" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_28_IcyWind" OwnerSFXPath="Master/Skill/SurgicalStriker" />
+  <SkillConfig Name="Skill_A0028_LVL3" IsActive="1" Duration="8" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_28_IcyWind" OwnerSFXPath="Master/Skill/SurgicalStriker" />
+  <SkillConfig Name="Skill_A0028Rarity0" IsActive="1" Duration="8" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_28_IcyWind" OwnerSFXPath="Master/Skill/SurgicalStriker" />
+  <SkillConfig Name="Skill_A0028Rarity0_LVL2" IsActive="1" Duration="8" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_28_IcyWind" OwnerSFXPath="Master/Skill/SurgicalStriker" />
+  <SkillConfig Name="Skill_A0028Rarity0_LVL3" IsActive="1" Duration="8" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_28_IcyWind" OwnerSFXPath="Master/Skill/SurgicalStriker" />
+  <SkillConfig Name="Skill_A0028Rarity1" IsActive="1" Duration="8" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_28_IcyWind" OwnerSFXPath="Master/Skill/SurgicalStriker" />
+  <SkillConfig Name="Skill_A0028Rarity1_LVL2" IsActive="1" Duration="8" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_28_IcyWind" OwnerSFXPath="Master/Skill/SurgicalStriker" />
+  <SkillConfig Name="Skill_A0028Rarity1_LVL3" IsActive="1" Duration="8" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_28_IcyWind" OwnerSFXPath="Master/Skill/SurgicalStriker" />
+  <SkillConfig Name="Skill_A0028Rarity2" IsActive="1" Duration="8" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_28_IcyWind" OwnerSFXPath="Master/Skill/SurgicalStriker" />
+  <SkillConfig Name="Skill_A0028Rarity2_LVL2" IsActive="1" Duration="8" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_28_IcyWind" OwnerSFXPath="Master/Skill/SurgicalStriker" />
+  <SkillConfig Name="Skill_A0028Rarity2_LVL3" IsActive="1" Duration="8" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_28_IcyWind" OwnerSFXPath="Master/Skill/SurgicalStriker" />
+  <SkillConfig Name="Skill_A0029" IsActive="1" Duration="11" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_29_Dust_Drainer" OwnerSFXPath="Master/Skill/DustScanner" />
+  <SkillConfig Name="Skill_A0029_LVL2" IsActive="1" Duration="11" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_29_Dust_Drainer" OwnerSFXPath="Master/Skill/DustScanner" />
+  <SkillConfig Name="Skill_A0029Rarity0" IsActive="1" Duration="11" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_29_Dust_Drainer" OwnerSFXPath="Master/Skill/DustScanner" />
+  <SkillConfig Name="Skill_A0029Rarity0_LVL2" IsActive="1" Duration="11" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_29_Dust_Drainer" OwnerSFXPath="Master/Skill/DustScanner" />
+  <SkillConfig Name="Skill_A0029Rarity1" IsActive="1" Duration="11" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_29_Dust_Drainer" OwnerSFXPath="Master/Skill/DustScanner" />
+  <SkillConfig Name="Skill_A0029Rarity1_LVL2" IsActive="1" Duration="11" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_29_Dust_Drainer" OwnerSFXPath="Master/Skill/DustScanner" />
+  <SkillConfig Name="Skill_A0029Rarity2" IsActive="1" Duration="11" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_29_Dust_Drainer" OwnerSFXPath="Master/Skill/DustScanner" />
+  <SkillConfig Name="Skill_A0029Rarity2_LVL2" IsActive="1" Duration="11" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_29_Dust_Drainer" OwnerSFXPath="Master/Skill/DustScanner" />
+  <SkillConfig Name="Skill_A0030" IsActive="1" Duration="8" CooldownTurnsCount="4" OwnerVFXPath="VFX/Skills/FX_Skills_30_Endlessly_Adaptive" OwnerSFXPath="Master/Skill/StructuralAnalysis" />
+  <SkillConfig Name="Skill_A0030_LVL2" IsActive="1" Duration="8" CooldownTurnsCount="4" OwnerVFXPath="VFX/Skills/FX_Skills_30_Endlessly_Adaptive" OwnerSFXPath="Master/Skill/StructuralAnalysis" />
+  <SkillConfig Name="Skill_A0030Rarity0" IsActive="1" Duration="8" CooldownTurnsCount="4" OwnerVFXPath="VFX/Skills/FX_Skills_30_Endlessly_Adaptive" OwnerSFXPath="Master/Skill/StructuralAnalysis" />
+  <SkillConfig Name="Skill_A0030Rarity0_LVL2" IsActive="1" Duration="8" CooldownTurnsCount="4" OwnerVFXPath="VFX/Skills/FX_Skills_30_Endlessly_Adaptive" OwnerSFXPath="Master/Skill/StructuralAnalysis" />
+  <SkillConfig Name="Skill_A0030Rarity1" IsActive="1" Duration="8" CooldownTurnsCount="4" OwnerVFXPath="VFX/Skills/FX_Skills_30_Endlessly_Adaptive" OwnerSFXPath="Master/Skill/StructuralAnalysis" />
+  <SkillConfig Name="Skill_A0030Rarity1_LVL2" IsActive="1" Duration="8" CooldownTurnsCount="4" OwnerVFXPath="VFX/Skills/FX_Skills_30_Endlessly_Adaptive" OwnerSFXPath="Master/Skill/StructuralAnalysis" />
+  <SkillConfig Name="Skill_A0030Rarity2" IsActive="1" Duration="8" CooldownTurnsCount="4" OwnerVFXPath="VFX/Skills/FX_Skills_30_Endlessly_Adaptive" OwnerSFXPath="Master/Skill/StructuralAnalysis" />
+  <SkillConfig Name="Skill_A0030Rarity2_LVL2" IsActive="1" Duration="8" CooldownTurnsCount="4" OwnerVFXPath="VFX/Skills/FX_Skills_30_Endlessly_Adaptive" OwnerSFXPath="Master/Skill/StructuralAnalysis" />
+  <SkillConfig Name="Skill_A0031" IsActive="1" Duration="4" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_31_MoreSandvitch" TargetVFXPath="VFX/Skills/FX_Skills_31_MoreSandvitch_Target" OwnerSFXPath="Master/Skill/MoreSandvitch" />
+  <SkillConfig Name="Skill_A0031_LVL2" IsActive="1" Duration="4" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_31_MoreSandvitch" TargetVFXPath="VFX/Skills/FX_Skills_31_MoreSandvitch_Target" OwnerSFXPath="Master/Skill/MoreSandvitch" />
+  <SkillConfig Name="Skill_A0031_LVL3" IsActive="1" Duration="4" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_31_MoreSandvitch" TargetVFXPath="VFX/Skills/FX_Skills_31_MoreSandvitch_Target" OwnerSFXPath="Master/Skill/MoreSandvitch" />
+  <SkillConfig Name="Skill_A0031Rarity0" IsActive="1" Duration="4" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_31_MoreSandvitch" TargetVFXPath="VFX/Skills/FX_Skills_31_MoreSandvitch_Target" OwnerSFXPath="Master/Skill/MoreSandvitch" />
+  <SkillConfig Name="Skill_A0031Rarity0_LVL2" IsActive="1" Duration="4" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_31_MoreSandvitch" TargetVFXPath="VFX/Skills/FX_Skills_31_MoreSandvitch_Target" OwnerSFXPath="Master/Skill/MoreSandvitch" />
+  <SkillConfig Name="Skill_A0031Rarity0_LVL3" IsActive="1" Duration="4" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_31_MoreSandvitch" TargetVFXPath="VFX/Skills/FX_Skills_31_MoreSandvitch_Target" OwnerSFXPath="Master/Skill/MoreSandvitch" />
+  <SkillConfig Name="Skill_A0031Rarity1" IsActive="1" Duration="4" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_31_MoreSandvitch" TargetVFXPath="VFX/Skills/FX_Skills_31_MoreSandvitch_Target" OwnerSFXPath="Master/Skill/MoreSandvitch" />
+  <SkillConfig Name="Skill_A0031Rarity1_LVL2" IsActive="1" Duration="4" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_31_MoreSandvitch" TargetVFXPath="VFX/Skills/FX_Skills_31_MoreSandvitch_Target" OwnerSFXPath="Master/Skill/MoreSandvitch" />
+  <SkillConfig Name="Skill_A0031Rarity1_LVL3" IsActive="1" Duration="4" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_31_MoreSandvitch" TargetVFXPath="VFX/Skills/FX_Skills_31_MoreSandvitch_Target" OwnerSFXPath="Master/Skill/MoreSandvitch" />
+  <SkillConfig Name="Skill_A0031Rarity2" IsActive="1" Duration="4" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_31_MoreSandvitch" TargetVFXPath="VFX/Skills/FX_Skills_31_MoreSandvitch_Target" OwnerSFXPath="Master/Skill/MoreSandvitch" />
+  <SkillConfig Name="Skill_A0031Rarity2_LVL2" IsActive="1" Duration="4" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_31_MoreSandvitch" TargetVFXPath="VFX/Skills/FX_Skills_31_MoreSandvitch_Target" OwnerSFXPath="Master/Skill/MoreSandvitch" />
+  <SkillConfig Name="Skill_A0031Rarity2_LVL3" IsActive="1" Duration="4" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_31_MoreSandvitch" TargetVFXPath="VFX/Skills/FX_Skills_31_MoreSandvitch_Target" OwnerSFXPath="Master/Skill/MoreSandvitch" />
+  <SkillConfig Name="Skill_A0032" IsActive="1" Duration="8" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_32_Qualitydesign" OwnerSFXPath="Master/Skill/Qualitydesign" />
+  <SkillConfig Name="Skill_A0032_LVL2" IsActive="1" Duration="8" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_32_Qualitydesign" OwnerSFXPath="Master/Skill/Qualitydesign" />
+  <SkillConfig Name="Skill_A0032Rarity0" IsActive="1" Duration="8" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_32_Qualitydesign" OwnerSFXPath="Master/Skill/Qualitydesign" />
+  <SkillConfig Name="Skill_A0032Rarity0_LVL2" IsActive="1" Duration="8" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_32_Qualitydesign" OwnerSFXPath="Master/Skill/Qualitydesign" />
+  <SkillConfig Name="Skill_A0032Rarity1" IsActive="1" Duration="8" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_32_Qualitydesign" OwnerSFXPath="Master/Skill/Qualitydesign" />
+  <SkillConfig Name="Skill_A0032Rarity1_LVL2" IsActive="1" Duration="8" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_32_Qualitydesign" OwnerSFXPath="Master/Skill/Qualitydesign" />
+  <SkillConfig Name="Skill_A0032Rarity2" IsActive="1" Duration="8" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_32_Qualitydesign" OwnerSFXPath="Master/Skill/Qualitydesign" />
+  <SkillConfig Name="Skill_A0032Rarity2_LVL2" IsActive="1" Duration="8" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_32_Qualitydesign" OwnerSFXPath="Master/Skill/Qualitydesign" />
+  <SkillConfig Name="Skill_A0033" IsActive="1" Duration="5" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_33_SpoonfulsofLove" TargetVFXPath="VFX/Skills/FX_Skills_33_SpoonfulsofLove_Target" OwnerSFXPath="Master/Skill/SpoonfulsofLove" />
+  <SkillConfig Name="Skill_A0033_LVL2" IsActive="1" Duration="6" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_33_SpoonfulsofLove" TargetVFXPath="VFX/Skills/FX_Skills_33_SpoonfulsofLove_Target" OwnerSFXPath="Master/Skill/SpoonfulsofLove" />
+  <SkillConfig Name="Skill_A0033_LVL3" IsActive="1" Duration="7" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_33_SpoonfulsofLove" TargetVFXPath="VFX/Skills/FX_Skills_33_SpoonfulsofLove_Target" OwnerSFXPath="Master/Skill/SpoonfulsofLove" />
+  <SkillConfig Name="Skill_A0033Rarity0" IsActive="1" Duration="5" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_33_SpoonfulsofLove" TargetVFXPath="VFX/Skills/FX_Skills_33_SpoonfulsofLove_Target" OwnerSFXPath="Master/Skill/SpoonfulsofLove" />
+  <SkillConfig Name="Skill_A0033Rarity0_LVL2" IsActive="1" Duration="6" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_33_SpoonfulsofLove" TargetVFXPath="VFX/Skills/FX_Skills_33_SpoonfulsofLove_Target" OwnerSFXPath="Master/Skill/SpoonfulsofLove" />
+  <SkillConfig Name="Skill_A0033Rarity0_LVL3" IsActive="1" Duration="7" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_33_SpoonfulsofLove" TargetVFXPath="VFX/Skills/FX_Skills_33_SpoonfulsofLove_Target" OwnerSFXPath="Master/Skill/SpoonfulsofLove" />
+  <SkillConfig Name="Skill_A0033Rarity1" IsActive="1" Duration="5" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_33_SpoonfulsofLove" TargetVFXPath="VFX/Skills/FX_Skills_33_SpoonfulsofLove_Target" OwnerSFXPath="Master/Skill/SpoonfulsofLove" />
+  <SkillConfig Name="Skill_A0033Rarity1_LVL2" IsActive="1" Duration="6" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_33_SpoonfulsofLove" TargetVFXPath="VFX/Skills/FX_Skills_33_SpoonfulsofLove_Target" OwnerSFXPath="Master/Skill/SpoonfulsofLove" />
+  <SkillConfig Name="Skill_A0033Rarity1_LVL3" IsActive="1" Duration="7" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_33_SpoonfulsofLove" TargetVFXPath="VFX/Skills/FX_Skills_33_SpoonfulsofLove_Target" OwnerSFXPath="Master/Skill/SpoonfulsofLove" />
+  <SkillConfig Name="Skill_A0033Rarity2" IsActive="1" Duration="5" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_33_SpoonfulsofLove" TargetVFXPath="VFX/Skills/FX_Skills_33_SpoonfulsofLove_Target" OwnerSFXPath="Master/Skill/SpoonfulsofLove" />
+  <SkillConfig Name="Skill_A0033Rarity2_LVL2" IsActive="1" Duration="6" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_33_SpoonfulsofLove" TargetVFXPath="VFX/Skills/FX_Skills_33_SpoonfulsofLove_Target" OwnerSFXPath="Master/Skill/SpoonfulsofLove" />
+  <SkillConfig Name="Skill_A0033Rarity2_LVL3" IsActive="1" Duration="7" CooldownTurnsCount="2" OwnerVFXPath="VFX/Skills/FX_Skills_33_SpoonfulsofLove" TargetVFXPath="VFX/Skills/FX_Skills_33_SpoonfulsofLove_Target" OwnerSFXPath="Master/Skill/SpoonfulsofLove" />
+  <SkillConfig Name="Skill_A0034" IsActive="1" Duration="3" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_34_UbberCharge" OwnerSFXPath="Master/Skill/UbberCharge" />
+  <SkillConfig Name="Skill_A0034_LVL2" IsActive="1" Duration="4" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_34_UbberCharge" OwnerSFXPath="Master/Skill/UbberCharge" />
+  <SkillConfig Name="Skill_A0034_LVL3" IsActive="1" Duration="5" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_34_UbberCharge" OwnerSFXPath="Master/Skill/UbberCharge" />
+  <SkillConfig Name="Skill_A0034Rarity0" IsActive="1" Duration="3" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_34_UbberCharge" OwnerSFXPath="Master/Skill/UbberCharge" />
+  <SkillConfig Name="Skill_A0034Rarity0_LVL2" IsActive="1" Duration="4" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_34_UbberCharge" OwnerSFXPath="Master/Skill/UbberCharge" />
+  <SkillConfig Name="Skill_A0034Rarity0_LVL3" IsActive="1" Duration="5" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_34_UbberCharge" OwnerSFXPath="Master/Skill/UbberCharge" />
+  <SkillConfig Name="Skill_A0034Rarity1" IsActive="1" Duration="3" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_34_UbberCharge" OwnerSFXPath="Master/Skill/UbberCharge" />
+  <SkillConfig Name="Skill_A0034Rarity1_LVL2" IsActive="1" Duration="4" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_34_UbberCharge" OwnerSFXPath="Master/Skill/UbberCharge" />
+  <SkillConfig Name="Skill_A0034Rarity1_LVL3" IsActive="1" Duration="5" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_34_UbberCharge" OwnerSFXPath="Master/Skill/UbberCharge" />
+  <SkillConfig Name="Skill_A0034Rarity2" IsActive="1" Duration="3" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_34_UbberCharge" OwnerSFXPath="Master/Skill/UbberCharge" />
+  <SkillConfig Name="Skill_A0034Rarity2_LVL2" IsActive="1" Duration="4" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_34_UbberCharge" OwnerSFXPath="Master/Skill/UbberCharge" />
+  <SkillConfig Name="Skill_A0034Rarity2_LVL3" IsActive="1" Duration="5" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_34_UbberCharge" OwnerSFXPath="Master/Skill/UbberCharge" />
+  <SkillConfig Name="Skill_A0035" IsActive="1" Duration="0.2" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_35_Training_Target" OwnerSFXPath="Master/Skill/Pokemon" />
+  <SkillConfig Name="Skill_A0035Rarity0" IsActive="1" Duration="0.2" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_35_Training_Target" OwnerSFXPath="Master/Skill/Pokemon" />
+  <SkillConfig Name="Skill_A0035Rarity1" IsActive="1" Duration="0.2" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_35_Training_Target" OwnerSFXPath="Master/Skill/Pokemon" />
+  <SkillConfig Name="Skill_A0035Rarity2" IsActive="1" Duration="0.2" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_00_Cast" TargetVFXPath="VFX/Skills/FX_Skills_35_Training_Target" OwnerSFXPath="Master/Skill/Pokemon" />
+  <SkillConfig Name="Skill_A0036" IsActive="1" Duration="8" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_01_RunAway" TargetVFXPath="VFX/Skills/x" OwnerSFXPath="Master/Skill/AfromanSpeed" />
+  <SkillConfig Name="Skill_A0036_LVL2" IsActive="1" Duration="8" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_01_RunAway" TargetVFXPath="VFX/Skills/x" OwnerSFXPath="Master/Skill/AfromanSpeed" />
+  <SkillConfig Name="Skill_A0036_LVL3" IsActive="1" Duration="8" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_01_RunAway" TargetVFXPath="VFX/Skills/x" OwnerSFXPath="Master/Skill/AfromanSpeed" />
+  <SkillConfig Name="Skill_A0036Rarity0" IsActive="1" Duration="8" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_01_RunAway" TargetVFXPath="VFX/Skills/x" OwnerSFXPath="Master/Skill/AfromanSpeed" />
+  <SkillConfig Name="Skill_A0036Rarity0_LVL2" IsActive="1" Duration="8" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_01_RunAway" TargetVFXPath="VFX/Skills/x" OwnerSFXPath="Master/Skill/AfromanSpeed" />
+  <SkillConfig Name="Skill_A0036Rarity0_LVL3" IsActive="1" Duration="8" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_01_RunAway" TargetVFXPath="VFX/Skills/x" OwnerSFXPath="Master/Skill/AfromanSpeed" />
+  <SkillConfig Name="Skill_A0036Rarity1" IsActive="1" Duration="8" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_01_RunAway" TargetVFXPath="VFX/Skills/x" OwnerSFXPath="Master/Skill/AfromanSpeed" />
+  <SkillConfig Name="Skill_A0036Rarity1_LVL2" IsActive="1" Duration="8" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_01_RunAway" TargetVFXPath="VFX/Skills/x" OwnerSFXPath="Master/Skill/AfromanSpeed" />
+  <SkillConfig Name="Skill_A0036Rarity1_LVL3" IsActive="1" Duration="8" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_01_RunAway" TargetVFXPath="VFX/Skills/x" OwnerSFXPath="Master/Skill/AfromanSpeed" />
+  <SkillConfig Name="Skill_A0036Rarity2" IsActive="1" Duration="8" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_01_RunAway" TargetVFXPath="VFX/Skills/x" OwnerSFXPath="Master/Skill/AfromanSpeed" />
+  <SkillConfig Name="Skill_A0036Rarity2_LVL2" IsActive="1" Duration="8" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_01_RunAway" TargetVFXPath="VFX/Skills/x" OwnerSFXPath="Master/Skill/AfromanSpeed" />
+  <SkillConfig Name="Skill_A0036Rarity2_LVL3" IsActive="1" Duration="8" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_01_RunAway" TargetVFXPath="VFX/Skills/x" OwnerSFXPath="Master/Skill/AfromanSpeed" />
+  <SkillConfig Name="Skill_A0037" IsActive="1" Duration="0" CooldownTurnsCount="7" DeactivateOnNewTurn="true" OwnerVFXPath="VFX/Skills/FX_Skills_37_UrgentCall" OwnerSFXPath="Master/Skill/UrgentCall" />
+  <SkillConfig Name="Skill_A0037Rarity0" IsActive="1" Duration="0" CooldownTurnsCount="7" DeactivateOnNewTurn="true" OwnerVFXPath="VFX/Skills/FX_Skills_37_UrgentCall" OwnerSFXPath="Master/Skill/UrgentCall" />
+  <SkillConfig Name="Skill_A0037Rarity1" IsActive="1" Duration="0" CooldownTurnsCount="7" DeactivateOnNewTurn="true" OwnerVFXPath="VFX/Skills/FX_Skills_37_UrgentCall" OwnerSFXPath="Master/Skill/UrgentCall" />
+  <SkillConfig Name="Skill_A0037Rarity2" IsActive="1" Duration="0" CooldownTurnsCount="7" DeactivateOnNewTurn="true" OwnerVFXPath="VFX/Skills/FX_Skills_37_UrgentCall" OwnerSFXPath="Master/Skill/UrgentCall" />
+  <SkillConfig Name="Skill_A0038" IsActive="1" Duration="10" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_38_RecyclingBeast_Cast" TargetVFXPath="VFX/Skills/FX_Skills_38_RecyclingBeast_Target" OwnerSFXPath="Master/Skill/Bulldozer" />
+  <SkillConfig Name="Skill_A0038_LVL2" IsActive="1" Duration="10" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_38_RecyclingBeast_Cast" TargetVFXPath="VFX/Skills/FX_Skills_38_RecyclingBeast_Target" OwnerSFXPath="Master/Skill/Bulldozer" />
+  <SkillConfig Name="Skill_A0038Rarity0" IsActive="1" Duration="10" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_38_RecyclingBeast_Cast" TargetVFXPath="VFX/Skills/FX_Skills_38_RecyclingBeast_Target" OwnerSFXPath="Master/Skill/Bulldozer" />
+  <SkillConfig Name="Skill_A0038Rarity0_LVL2" IsActive="1" Duration="10" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_38_RecyclingBeast_Cast" TargetVFXPath="VFX/Skills/FX_Skills_38_RecyclingBeast_Target" OwnerSFXPath="Master/Skill/Bulldozer" />
+  <SkillConfig Name="Skill_A0038Rarity1" IsActive="1" Duration="10" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_38_RecyclingBeast_Cast" TargetVFXPath="VFX/Skills/FX_Skills_38_RecyclingBeast_Target" OwnerSFXPath="Master/Skill/Bulldozer" />
+  <SkillConfig Name="Skill_A0038Rarity1_LVL2" IsActive="1" Duration="10" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_38_RecyclingBeast_Cast" TargetVFXPath="VFX/Skills/FX_Skills_38_RecyclingBeast_Target" OwnerSFXPath="Master/Skill/Bulldozer" />
+  <SkillConfig Name="Skill_A0038Rarity2" IsActive="1" Duration="10" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_38_RecyclingBeast_Cast" TargetVFXPath="VFX/Skills/FX_Skills_38_RecyclingBeast_Target" OwnerSFXPath="Master/Skill/Bulldozer" />
+  <SkillConfig Name="Skill_A0038Rarity2_LVL2" IsActive="1" Duration="10" CooldownTurnsCount="3" OwnerVFXPath="VFX/Skills/FX_Skills_38_RecyclingBeast_Cast" TargetVFXPath="VFX/Skills/FX_Skills_38_RecyclingBeast_Target" OwnerSFXPath="Master/Skill/Bulldozer" />
+  <SkillConfig Name="Skill_A0039" IsActive="1" Duration="5" CooldownTurnsCount="5" OwnerVFXPath="VFX/Skills/FX_Skills_39_TowerOfBabble_Cast" TargetVFXPath="VFX/Skills/FX_Skills_39_TowerOfBabble_Target" OwnerSFXPath="Master/Skill/MarsAttack" />
+  <SkillConfig Name="Skill_A0039_LVL2" IsActive="1" Duration="5" CooldownTurnsCount="5" OwnerVFXPath="VFX/Skills/FX_Skills_39_TowerOfBabble_Cast" TargetVFXPath="VFX/Skills/FX_Skills_39_TowerOfBabble_Target" OwnerSFXPath="Master/Skill/MarsAttack" />
+  <SkillConfig Name="Skill_A0039Rarity0" IsActive="1" Duration="5" CooldownTurnsCount="5" OwnerVFXPath="VFX/Skills/FX_Skills_39_TowerOfBabble_Cast" TargetVFXPath="VFX/Skills/FX_Skills_39_TowerOfBabble_Target" OwnerSFXPath="Master/Skill/MarsAttack" />
+  <SkillConfig Name="Skill_A0039Rarity0_LVL2" IsActive="1" Duration="5" CooldownTurnsCount="5" OwnerVFXPath="VFX/Skills/FX_Skills_39_TowerOfBabble_Cast" TargetVFXPath="VFX/Skills/FX_Skills_39_TowerOfBabble_Target" OwnerSFXPath="Master/Skill/MarsAttack" />
+  <SkillConfig Name="Skill_A0039Rarity1" IsActive="1" Duration="5" CooldownTurnsCount="5" OwnerVFXPath="VFX/Skills/FX_Skills_39_TowerOfBabble_Cast" TargetVFXPath="VFX/Skills/FX_Skills_39_TowerOfBabble_Target" OwnerSFXPath="Master/Skill/MarsAttack" />
+  <SkillConfig Name="Skill_A0039Rarity1_LVL2" IsActive="1" Duration="5" CooldownTurnsCount="5" OwnerVFXPath="VFX/Skills/FX_Skills_39_TowerOfBabble_Cast" TargetVFXPath="VFX/Skills/FX_Skills_39_TowerOfBabble_Target" OwnerSFXPath="Master/Skill/MarsAttack" />
+  <SkillConfig Name="Skill_A0039Rarity2" IsActive="1" Duration="5" CooldownTurnsCount="5" OwnerVFXPath="VFX/Skills/FX_Skills_39_TowerOfBabble_Cast" TargetVFXPath="VFX/Skills/FX_Skills_39_TowerOfBabble_Target" OwnerSFXPath="Master/Skill/MarsAttack" />
+  <SkillConfig Name="Skill_A0039Rarity2_LVL2" IsActive="1" Duration="5" CooldownTurnsCount="5" OwnerVFXPath="VFX/Skills/FX_Skills_39_TowerOfBabble_Cast" TargetVFXPath="VFX/Skills/FX_Skills_39_TowerOfBabble_Target" OwnerSFXPath="Master/Skill/MarsAttack" />
+</Datatable>

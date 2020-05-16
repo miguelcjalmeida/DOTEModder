@@ -1,0 +1,818 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Warning: this XML is automatically generated from the XLS. Do not modify!-->
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SimulationDescriptor Name="SpecialModule_Crystal" Type="MajorModule">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="FoodProd" Operation="Addition" Value="4"/>
+      <SimulationModifierDescriptor TargetProperty="IndustryProd" Operation="Addition" Value="5"/>
+      <SimulationModifierDescriptor TargetProperty="ScienceProd" Operation="Addition" Value="2"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="SpecialModule_Crystal_Armory" Type="MajorModule">
+    <SimulationModifierDescriptors/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="SpecialModule_Crystal_Heal" Type="MajorModule">
+    <SimulationModifierDescriptors/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="SpecialModule_Crystal_Drill" Type="MajorModule">
+    <SimulationModifierDescriptors/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="SpecialModule_Crystal_Library" Type="MajorModule">
+    <SimulationModifierDescriptors/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="SpecialModule_Crystal_Respawn" Type="MajorModule">
+    <SimulationModifierDescriptors/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="SpecialModule_Crystal_Sanitary" Type="MajorModule">
+    <SimulationModifierDescriptors/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="SpecialModule_Artifact" Type="MajorModule">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="700"/>
+      <SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="20"/>
+      <SimulationModifierDescriptor TargetProperty="HealthBarHeight" Operation="Addition" Value="27"/>
+      <SimulationModifierDescriptor TargetProperty="PopulationWeight" Operation="Multiplication" Value="0"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="SpecialModule_DustFactory" Type="MajorModule">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="700"/>
+      <SimulationModifierDescriptor TargetProperty="ZoneAttackRadius" Operation="Addition" Value="-1"/>
+      <SimulationModifierDescriptor TargetProperty="ZoneAttackPowerOnMobs" Operation="Addition" Value="100"/>
+      <SimulationModifierDescriptor TargetProperty="ZoneAttackPowerOnHeroes" Operation="Addition" Value="100"/>
+      <SimulationModifierDescriptor TargetProperty="ZoneAttackPowerOnModules" Operation="Addition" Value="100"/>
+      <SimulationModifierDescriptor TargetProperty="ZoneAttackPowerOnNPCs" Operation="Addition" Value="100"/>
+      <SimulationModifierDescriptor TargetProperty="PopulationWeight" Operation="Multiplication" Value="0"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="SpecialModule_CryoCapsule" Type="MajorModule">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="700"/>
+      <SimulationModifierDescriptor TargetProperty="PopulationWeight" Operation="Multiplication" Value="0"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="SpecialModule_Stele" Type="MajorModule">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="20"/>
+      <SimulationModifierDescriptor TargetProperty="HealthBarHeight" Operation="Addition" Value="27"/>
+      <SimulationModifierDescriptor TargetProperty="PopulationWeight" Operation="Multiplication" Value="0"/>
+      <SimulationModifierDescriptor TargetProperty="HealthRegenGamePhaseIndependent" Operation="Multiplication" Value="0"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MajorModule_Major0001" Type="MajorModule">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="260"/>
+      <SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="16"/>
+      <SimulationModifierDescriptor TargetProperty="FoodProd" Operation="Addition" Value="3"/>
+      <BinarySimulationModifierDescriptor TargetProperty="FoodProdOperatorBonus" Operation="Addition" Left="$(OperatorWit)" BinaryOperation="Multiplication" Right="0.5"/>
+      <BinarySimulationModifierDescriptor TargetProperty="FoodProdOperatorBonus" Operation="Addition" Left="$(RoomOperatorWit)" BinaryOperation="Multiplication" Right="0.5"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MajorModule_Major0001_LVL2" Type="MajorModuleLevel">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="50"/>
+      <SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="4"/>
+      <SimulationModifierDescriptor TargetProperty="FoodProd" Operation="Addition" Value="1"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MajorModule_Major0001_LVL3" Type="MajorModuleLevel">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="60"/>
+      <SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="5"/>
+      <SimulationModifierDescriptor TargetProperty="FoodProd" Operation="Addition" Value="1"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MajorModule_Major0001_LVL4" Type="MajorModuleLevel">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="70"/>
+      <SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="6"/>
+      <SimulationModifierDescriptor TargetProperty="HealthBarHeight" Operation="Addition" Value="20"/>
+      <SimulationModifierDescriptor TargetProperty="FoodProd" Operation="Addition" Value="1"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MajorModule_Major0002" Type="MajorModule">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="300"/>
+      <SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="18"/>
+      <SimulationModifierDescriptor TargetProperty="IndustryProd" Operation="Addition" Value="3"/>
+      <BinarySimulationModifierDescriptor TargetProperty="IndustryProdOperatorBonus" Operation="Addition" Left="$(OperatorWit)" BinaryOperation="Multiplication" Right="0.5"/>
+      <BinarySimulationModifierDescriptor TargetProperty="IndustryProdOperatorBonus" Operation="Addition" Left="$(RoomOperatorWit)" BinaryOperation="Multiplication" Right="0.5"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MajorModule_Major0002_LVL2" Type="MajorModuleLevel">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="50"/>
+      <SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="4"/>
+      <SimulationModifierDescriptor TargetProperty="IndustryProd" Operation="Addition" Value="1"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MajorModule_Major0002_LVL3" Type="MajorModuleLevel">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="60"/>
+      <SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="5"/>
+      <SimulationModifierDescriptor TargetProperty="IndustryProd" Operation="Addition" Value="1"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MajorModule_Major0002_LVL4" Type="MajorModuleLevel">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="70"/>
+      <SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="6"/>
+      <SimulationModifierDescriptor TargetProperty="HealthBarHeight" Operation="Addition" Value="20"/>
+      <SimulationModifierDescriptor TargetProperty="IndustryProd" Operation="Addition" Value="1"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MajorModule_Major0003" Type="MajorModule">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="300"/>
+      <SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="18"/>
+      <SimulationModifierDescriptor TargetProperty="ScienceProd" Operation="Addition" Value="3"/>
+      <BinarySimulationModifierDescriptor TargetProperty="ScienceProdOperatorBonus" Operation="Addition" Left="$(OperatorWit)" BinaryOperation="Multiplication" Right="0.5"/>
+      <BinarySimulationModifierDescriptor TargetProperty="ScienceProdOperatorBonus" Operation="Addition" Left="$(RoomOperatorWit)" BinaryOperation="Multiplication" Right="0.5"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MajorModule_Major0003_LVL2" Type="MajorModuleLevel">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="50"/>
+      <SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="4"/>
+      <SimulationModifierDescriptor TargetProperty="ScienceProd" Operation="Addition" Value="1"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MajorModule_Major0003_LVL3" Type="MajorModuleLevel">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="60"/>
+      <SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="5"/>
+      <SimulationModifierDescriptor TargetProperty="ScienceProd" Operation="Addition" Value="1"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MajorModule_Major0003_LVL4" Type="MajorModuleLevel">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="70"/>
+      <SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="6"/>
+      <SimulationModifierDescriptor TargetProperty="HealthBarHeight" Operation="Addition" Value="20"/>
+      <SimulationModifierDescriptor TargetProperty="ScienceProd" Operation="Addition" Value="1"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MajorModule_Major0004" Type="MajorModule">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="230"/>
+      <SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="15"/>
+      <SimulationModifierDescriptor TargetProperty="DungeonMajorModulesDefensePercent" Operation="Addition" Value="1.2"/>
+      <SimulationModifierDescriptor TargetProperty="DungeonMinorModulesDefensePercent" Operation="Addition" Value="1.2"/>
+      <SimulationModifierDescriptor TargetProperty="DungeonMajorModulesDefensePercent_OperatorWitMultiplier" Operation="Addition" Value="0.012"/>
+      <SimulationModifierDescriptor TargetProperty="DungeonMinorModulesDefensePercent_OperatorWitMultiplier" Operation="Addition" Value="0.012"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MajorModule_Major0004_LVL2" Type="MajorModuleLevel">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="35"/>
+      <SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="4"/>
+      <SimulationModifierDescriptor TargetProperty="DungeonMajorModulesDefensePercent" Operation="Addition" Value="0.2"/>
+      <SimulationModifierDescriptor TargetProperty="DungeonMinorModulesDefensePercent" Operation="Addition" Value="0.2"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MajorModule_Major0004_LVL3" Type="MajorModuleLevel">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="45"/>
+      <SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="4"/>
+      <SimulationModifierDescriptor TargetProperty="DungeonMajorModulesDefensePercent" Operation="Addition" Value="0.3"/>
+      <SimulationModifierDescriptor TargetProperty="DungeonMinorModulesDefensePercent" Operation="Addition" Value="0.3"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MajorModule_Major0004_LVL4" Type="MajorModuleLevel">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="55"/>
+      <SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="4"/>
+      <SimulationModifierDescriptor TargetProperty="HealthBarHeight" Operation="Addition" Value="10"/>
+      <SimulationModifierDescriptor TargetProperty="DungeonMajorModulesDefensePercent" Operation="Addition" Value="0.3"/>
+      <SimulationModifierDescriptor TargetProperty="DungeonMinorModulesDefensePercent" Operation="Addition" Value="0.3"/>
+      <SimulationModifierDescriptor TargetProperty="DungeonMajorModulesDefensePercent_OperatorWitMultiplier" Operation="Addition" Value="0.005"/>
+      <SimulationModifierDescriptor TargetProperty="DungeonMinorModulesDefensePercent_OperatorWitMultiplier" Operation="Addition" Value="0.005"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MajorModule_Major0005" Type="MajorModule">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="250"/>
+      <SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="15"/>
+      <SimulationModifierDescriptor TargetProperty="DungeonHeroesAttackPowerPercent" Operation="Addition" Value="0.18"/>
+      <SimulationModifierDescriptor TargetProperty="DungeonHeroesAttackPowerPercent_OperatorWitMultiplier" Operation="Addition" Value="0.012"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MajorModule_Major0005_LVL2" Type="MajorModuleLevel">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="40"/>
+      <SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="4"/>
+      <SimulationModifierDescriptor TargetProperty="DungeonHeroesAttackPowerPercent" Operation="Addition" Value="0.025"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MajorModule_Major0005_LVL3" Type="MajorModuleLevel">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="50"/>
+      <SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="4"/>
+      <SimulationModifierDescriptor TargetProperty="HealthBarHeight" Operation="Addition" Value="10"/>
+      <SimulationModifierDescriptor TargetProperty="DungeonHeroesAttackPowerPercent" Operation="Addition" Value="0.025"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MajorModule_Major0005_LVL4" Type="MajorModuleLevel">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="60"/>
+      <SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="4"/>
+      <SimulationModifierDescriptor TargetProperty="HealthBarHeight" Operation="Addition" Value="5"/>
+      <SimulationModifierDescriptor TargetProperty="DungeonHeroesAttackPowerPercent" Operation="Addition" Value="0.025"/>
+      <SimulationModifierDescriptor TargetProperty="DungeonHeroesAttackPowerPercent_OperatorWitMultiplier" Operation="Addition" Value="0.006"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MajorModule_Major0006" Type="MajorModule">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="320"/>
+      <SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="20"/>
+      <SimulationModifierDescriptor TargetProperty="HealthBarHeight" Operation="Addition" Value="22"/>
+      <SimulationModifierDescriptor TargetProperty="Merchant_tooltip" Operation="Addition" Value="1"/>
+      <BinarySimulationModifierDescriptor TargetProperty="DustProdOperatorBonus" Operation="Addition" Left="$(OperatorWit)" BinaryOperation="Division" Right="10"/>
+      <BinarySimulationModifierDescriptor TargetProperty="DustProdOperatorBonus" Operation="Addition" Left="$(RoomOperatorWit)" BinaryOperation="Division" Right="10"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MajorModule_Major0007" Type="MajorModule">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="320"/>
+      <SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="20"/>
+      <SimulationModifierDescriptor TargetProperty="Generator_tooltip" Operation="Addition" Value="1"/>
+      <BinarySimulationModifierDescriptor TargetProperty="DustLootOperatorBonus" Operation="Addition" Left="$(OperatorWit)" BinaryOperation="Multiplication" Right="0.005"/>
+      <BinarySimulationModifierDescriptor TargetProperty="DustLootOperatorBonus" Operation="Addition" Left="$(RoomOperatorWit)" BinaryOperation="Multiplication" Right="0.005"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MajorModule_Major0008" Type="MajorModule">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="300"/>
+      <SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="18"/>
+      <SimulationModifierDescriptor TargetProperty="HealFoodCostCoeffPCT" Operation="Subtraction" Value="0.15"/>
+      <SimulationModifierDescriptor TargetProperty="DungeonHeroesDefensePercent" Operation="Addition" Value="0.02"/>
+      <SimulationModifierDescriptor TargetProperty="DungeonNPCsDefensePercent" Operation="Addition" Value="0.02"/>
+      <SimulationModifierDescriptor TargetProperty="DungeonHeroesDefensePercent_OperatorWitMultiplier" Operation="Addition" Value="0.012"/>
+      <SimulationModifierDescriptor TargetProperty="DungeonNPCsDefensePercent_OperatorWitMultiplier" Operation="Addition" Value="0.012"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MajorModule_Major0008_LVL2" Type="MajorModuleLevel">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="50"/>
+      <SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="4"/>
+      <SimulationModifierDescriptor TargetProperty="HealFoodCostCoeffPCT" Operation="Subtraction" Value="0.03"/>
+      <SimulationModifierDescriptor TargetProperty="DungeonHeroesDefensePercent" Operation="Addition" Value="0.08"/>
+      <SimulationModifierDescriptor TargetProperty="DungeonNPCsDefensePercent" Operation="Addition" Value="0.08"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MajorModule_Major0008_LVL3" Type="MajorModuleLevel">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="60"/>
+      <SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="5"/>
+      <SimulationModifierDescriptor TargetProperty="HealFoodCostCoeffPCT" Operation="Subtraction" Value="0.03"/>
+      <SimulationModifierDescriptor TargetProperty="DungeonHeroesDefensePercent" Operation="Addition" Value="0.08"/>
+      <SimulationModifierDescriptor TargetProperty="DungeonNPCsDefensePercent" Operation="Addition" Value="0.08"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MajorModule_Major0008_LVL4" Type="MajorModuleLevel">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="70"/>
+      <SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="6"/>
+      <SimulationModifierDescriptor TargetProperty="HealFoodCostCoeffPCT" Operation="Subtraction" Value="0.04"/>
+      <SimulationModifierDescriptor TargetProperty="DungeonHeroesDefensePercent" Operation="Addition" Value="0.08"/>
+      <SimulationModifierDescriptor TargetProperty="DungeonNPCsDefensePercent" Operation="Addition" Value="0.08"/>
+      <SimulationModifierDescriptor TargetProperty="DungeonHeroesDefensePercent_OperatorWitMultiplier" Operation="Addition" Value="0.012"/>
+      <SimulationModifierDescriptor TargetProperty="DungeonNPCsDefensePercent_OperatorWitMultiplier" Operation="Addition" Value="0.012"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MinorModule_Minor0001" Type="MinorModule_Support">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="220"/>
+      <SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="15"/>
+      <SimulationModifierDescriptor TargetProperty="RoomHeroesHealthRegenAdd" Operation="Addition" Value="7"/>
+      <SimulationModifierDescriptor TargetProperty="RoomNPCsHealthRegenAdd" Operation="Addition" Value="7"/>
+      <SimulationModifierDescriptor TargetProperty="HealthRegenWithoutMobBonus" Operation="Addition" Value="50"/>
+      <SimulationModifierDescriptor TargetProperty="SupportHealingEffect" Operation="Addition" Value="1" Path="./Room/Hero"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MinorModule_Minor0001_LVL2" Type="MinorModule_SupportLevel">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="35"/>
+      <SimulationModifierDescriptor TargetProperty="RoomHeroesHealthRegenAdd" Operation="Addition" Value="4"/>
+      <SimulationModifierDescriptor TargetProperty="RoomNPCsHealthRegenAdd" Operation="Addition" Value="4"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MinorModule_Minor0001_LVL3" Type="MinorModule_SupportLevel">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="45"/>
+      <SimulationModifierDescriptor TargetProperty="RoomHeroesHealthRegenAdd" Operation="Addition" Value="4"/>
+      <SimulationModifierDescriptor TargetProperty="RoomNPCsHealthRegenAdd" Operation="Addition" Value="4"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MinorModule_Minor0001_LVL4" Type="MinorModule_SupportLevel">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="55"/>
+      <SimulationModifierDescriptor TargetProperty="RoomHeroesHealthRegenAdd" Operation="Addition" Value="5"/>
+      <SimulationModifierDescriptor TargetProperty="RoomNPCsHealthRegenAdd" Operation="Addition" Value="5"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MinorModule_Minor0002" Type="MinorModule_Support">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="240"/>
+      <SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="15"/>
+      <SimulationModifierDescriptor TargetProperty="RoomHeroesAttackPowerPercent" Operation="Addition" Value="0.15"/>
+      <SimulationModifierDescriptor TargetProperty="SupportBoosterEffect" Operation="Addition" Value="1" Path="./Room/Hero"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MinorModule_Minor0002_LVL2" Type="MinorModule_SupportLevel">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="35"/>
+      <SimulationModifierDescriptor TargetProperty="RoomHeroesAttackPowerPercent" Operation="Addition" Value="0.05"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MinorModule_Minor0002_LVL3" Type="MinorModule_SupportLevel">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="35"/>
+      <SimulationModifierDescriptor TargetProperty="RoomHeroesAttackPowerPercent" Operation="Addition" Value="0.05"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MinorModule_Minor0002_LVL4" Type="MinorModule_SupportLevel">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="55"/>
+      <SimulationModifierDescriptor TargetProperty="RoomHeroesAttackPowerPercent" Operation="Addition" Value="0.06"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MinorModule_Minor0003" Type="MinorModule_Support">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="270"/>
+      <SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="15"/>
+      <SimulationModifierDescriptor TargetProperty="RoomHeroesDefensePercent" Operation="Addition" Value="0.3"/>
+      <SimulationModifierDescriptor TargetProperty="RoomNPCsDefensePercent" Operation="Addition" Value="0.3"/>
+      <SimulationModifierDescriptor TargetProperty="SupportSonarEffect" Operation="Addition" Value="1" Path="./Room/Hero"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MinorModule_Minor0003_LVL2" Type="MinorModule_SupportLevel">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="40"/>
+      <SimulationModifierDescriptor TargetProperty="RoomHeroesDefensePercent" Operation="Addition" Value="0.17"/>
+      <SimulationModifierDescriptor TargetProperty="RoomNPCsDefensePercent" Operation="Addition" Value="0.17"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MinorModule_Minor0003_LVL3" Type="MinorModule_SupportLevel">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="50"/>
+      <SimulationModifierDescriptor TargetProperty="RoomHeroesDefensePercent" Operation="Addition" Value="0.18"/>
+      <SimulationModifierDescriptor TargetProperty="RoomNPCsDefensePercent" Operation="Addition" Value="0.18"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MinorModule_Minor0003_LVL4" Type="MinorModule_SupportLevel">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="60"/>
+      <SimulationModifierDescriptor TargetProperty="RoomHeroesDefensePercent" Operation="Addition" Value="0.19"/>
+      <SimulationModifierDescriptor TargetProperty="RoomNPCsDefensePercent" Operation="Addition" Value="0.19"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MinorModule_Minor0013" Type="MinorModule_Support">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="200"/>
+      <SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="15"/>
+      <SimulationModifierDescriptor TargetProperty="HealthBarHeight" Operation="Subtraction" Value="10"/>
+      <SimulationModifierDescriptor TargetProperty="ModuleOperatorWit" Operation="Addition" Value="1"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MinorModule_Minor0013_LVL2" Type="MinorModule_SupportLevel">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="30"/>
+      <SimulationModifierDescriptor TargetProperty="ModuleOperatorWit" Operation="Addition" Value="0.5"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MinorModule_Minor0013_LVL3" Type="MinorModule_SupportLevel">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="30"/>
+      <SimulationModifierDescriptor TargetProperty="ModuleOperatorWit" Operation="Addition" Value="0.5"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MinorModule_Minor0013_LVL4" Type="MinorModule_SupportLevel">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="30"/>
+      <SimulationModifierDescriptor TargetProperty="ModuleOperatorWit" Operation="Addition" Value="0.5"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MinorModule_Minor0019" Type="MinorModule_Support">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="240"/>
+      <SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="15"/>
+      <SimulationModifierDescriptor TargetProperty="FIDSQuantityPerKill" Operation="Addition" Value="1"/>
+      <SimulationModifierDescriptor TargetProperty="FIDSRewardKillCount" Operation="Addition" Value="6"/>
+      <SimulationModifierDescriptor TargetProperty="FIDSResourcePerKill" Operation="Addition" Value="1"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MinorModule_Minor0019_LVL2" Type="MinorModule_SupportLevel">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="35"/>
+      <SimulationModifierDescriptor TargetProperty="FIDSRewardKillCount" Operation="Subtraction" Value="1"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MinorModule_Minor0019_LVL3" Type="MinorModule_SupportLevel">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="35"/>
+      <SimulationModifierDescriptor TargetProperty="FIDSQuantityPerKill" Operation="Addition" Value="1"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MinorModule_Minor0019_LVL4" Type="MinorModule_SupportLevel">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="55"/>
+      <SimulationModifierDescriptor TargetProperty="FIDSRewardKillCount" Operation="Subtraction" Value="1"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MinorModule_Minor0020" Type="MinorModule_Support">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="240"/>
+      <SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="15"/>
+      <SimulationModifierDescriptor TargetProperty="HealthBarHeight" Operation="Subtraction" Value="5"/>
+      <SimulationModifierDescriptor TargetProperty="FIDSQuantityPerKill" Operation="Addition" Value="1"/>
+      <SimulationModifierDescriptor TargetProperty="FIDSRewardKillCount" Operation="Addition" Value="6"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MinorModule_Minor0020_LVL2" Type="MinorModule_SupportLevel">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="35"/>
+      <SimulationModifierDescriptor TargetProperty="FIDSRewardKillCount" Operation="Subtraction" Value="1"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MinorModule_Minor0020_LVL3" Type="MinorModule_SupportLevel">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="35"/>
+      <SimulationModifierDescriptor TargetProperty="FIDSQuantityPerKill" Operation="Addition" Value="1"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MinorModule_Minor0020_LVL4" Type="MinorModule_SupportLevel">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="55"/>
+      <SimulationModifierDescriptor TargetProperty="FIDSRewardKillCount" Operation="Subtraction" Value="1"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MinorModule_Minor0004" Type="MinorModule_Offense">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="200"/>
+      <SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="15"/>
+      <SimulationModifierDescriptor TargetProperty="HealthBarHeight" Operation="Subtraction" Value="5"/>
+      <SimulationModifierDescriptor TargetProperty="AttackRange" Operation="Addition" Value="100"/>
+      <SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Addition" Value="9"/>
+      <SimulationModifierDescriptor TargetProperty="AttackCooldown" Operation="Addition" Value="0.5"/>
+      <SimulationModifierDescriptor TargetProperty="MaximumAttackPower" Operation="Addition" Value="999"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MinorModule_Minor0004_LVL2" Type="MinorModule_OffenseLevel">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="30"/>
+      <SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Addition" Value="1"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MinorModule_Minor0004_LVL3" Type="MinorModule_OffenseLevel">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="35"/>
+      <SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Addition" Value="2"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MinorModule_Minor0004_LVL4" Type="MinorModule_OffenseLevel">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="40"/>
+      <SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Addition" Value="2"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MinorModule_Minor0005" Type="MinorModule_Offense">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="280"/>
+      <SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="15"/>
+      <SimulationModifierDescriptor TargetProperty="AttackRange" Operation="Addition" Value="100"/>
+      <SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Addition" Value="35"/>
+      <SimulationModifierDescriptor TargetProperty="AttackCooldown" Operation="Addition" Value="1"/>
+      <SimulationModifierDescriptor TargetProperty="MaximumAttackPower" Operation="Addition" Value="999"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MinorModule_Minor0005_LVL2" Type="MinorModule_OffenseLevel">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="35"/>
+      <SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Addition" Value="6"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MinorModule_Minor0005_LVL3" Type="MinorModule_OffenseLevel">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="45"/>
+      <SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Addition" Value="7"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MinorModule_Minor0005_LVL4" Type="MinorModule_OffenseLevel">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="55"/>
+      <SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Addition" Value="8"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MinorModule_Minor0006" Type="MinorModule_Offense">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="320"/>
+      <SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="15"/>
+      <SimulationModifierDescriptor TargetProperty="AttackRange" Operation="Addition" Value="100"/>
+      <SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Addition" Value="5"/>
+      <SimulationModifierDescriptor TargetProperty="AttackCooldown" Operation="Addition" Value="2"/>
+      <SimulationModifierDescriptor TargetProperty="MaximumAttackPower" Operation="Addition" Value="999"/>
+      <SimulationModifierDescriptor TargetProperty="ZoneAttackRadius" Operation="Addition" Value="35"/>
+      <SimulationModifierDescriptor TargetProperty="ZoneAttackPowerOnMobs" Operation="Addition" Value="15"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MinorModule_Minor0006_LVL2" Type="MinorModule_OffenseLevel">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="50"/>
+      <SimulationModifierDescriptor TargetProperty="ZoneAttackPowerOnMobs" Operation="Addition" Value="2"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MinorModule_Minor0006_LVL3" Type="MinorModule_OffenseLevel">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="55"/>
+      <SimulationModifierDescriptor TargetProperty="ZoneAttackPowerOnMobs" Operation="Addition" Value="2"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MinorModule_Minor0006_LVL4" Type="MinorModule_OffenseLevel">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="60"/>
+      <SimulationModifierDescriptor TargetProperty="ZoneAttackRadius" Operation="Addition" Value="5"/>
+      <SimulationModifierDescriptor TargetProperty="ZoneAttackPowerOnMobs" Operation="Addition" Value="3"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MinorModule_Minor0011" Type="MinorModule_Offense">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="280"/>
+      <SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="15"/>
+      <SimulationModifierDescriptor TargetProperty="AttackRange" Operation="Addition" Value="100"/>
+      <SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Addition" Value="5"/>
+      <SimulationModifierDescriptor TargetProperty="AttackCooldown" Operation="Addition" Value="0.1"/>
+      <SimulationModifierDescriptor TargetProperty="MaximumAttackPower" Operation="Addition" Value="999"/>
+      <SimulationModifierDescriptor TargetProperty="HeatCooling" Operation="Addition" Value="6.5"/>
+      <SimulationModifierDescriptor TargetProperty="HeatMaximum" Operation="Addition" Value="22"/>
+      <SimulationModifierDescriptor TargetProperty="OverheatingDuration" Operation="Addition" Value="6"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MinorModule_Minor0011_LVL2" Type="MinorModule_OffenseLevel">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="50"/>
+      <SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Addition" Value="1"/>
+      <SimulationModifierDescriptor TargetProperty="HeatCooling" Operation="Addition" Value="0.4"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MinorModule_Minor0011_LVL3" Type="MinorModule_OffenseLevel">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="70"/>
+      <SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Addition" Value="2"/>
+      <SimulationModifierDescriptor TargetProperty="HeatCooling" Operation="Addition" Value="0.4"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MinorModule_Minor0011_LVL4" Type="MinorModule_OffenseLevel">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="50"/>
+      <SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Addition" Value="2"/>
+      <SimulationModifierDescriptor TargetProperty="HeatCooling" Operation="Addition" Value="0.4"/>
+      <SimulationModifierDescriptor TargetProperty="OverheatingDuration" Operation="Subtraction" Value="1"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MinorModule_Minor0014" Type="MinorModule_Offense">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="320"/>
+      <SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="15"/>
+      <SimulationModifierDescriptor TargetProperty="AttackRange" Operation="Addition" Value="100"/>
+      <SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Addition" Value="5"/>
+      <SimulationModifierDescriptor TargetProperty="AttackCooldown" Operation="Addition" Value="4"/>
+      <SimulationModifierDescriptor TargetProperty="MaximumAttackPower" Operation="Addition" Value="999"/>
+      <SimulationModifierDescriptor TargetProperty="ZoneAttackRadius" Operation="Addition" Value="100"/>
+      <SimulationModifierDescriptor TargetProperty="ZoneAttackPowerOnMobs" Operation="Addition" Value="24"/>
+      <SimulationModifierDescriptor TargetProperty="ZoneAttackPowerOnHeroes" Operation="Addition" Value="20"/>
+      <SimulationModifierDescriptor TargetProperty="ZoneAttackPowerOnNPCs" Operation="Addition" Value="20"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MinorModule_Minor0014_LVL2" Type="MinorModule_OffenseLevel">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="50"/>
+      <SimulationModifierDescriptor TargetProperty="ZoneAttackPowerOnMobs" Operation="Addition" Value="4"/>
+      <SimulationModifierDescriptor TargetProperty="ZoneAttackPowerOnHeroes" Operation="Addition" Value="4"/>
+      <SimulationModifierDescriptor TargetProperty="ZoneAttackPowerOnNPCs" Operation="Addition" Value="4"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MinorModule_Minor0014_LVL3" Type="MinorModule_OffenseLevel">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="55"/>
+      <SimulationModifierDescriptor TargetProperty="ZoneAttackPowerOnMobs" Operation="Addition" Value="4"/>
+      <SimulationModifierDescriptor TargetProperty="ZoneAttackPowerOnHeroes" Operation="Addition" Value="4"/>
+      <SimulationModifierDescriptor TargetProperty="ZoneAttackPowerOnNPCs" Operation="Addition" Value="4"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MinorModule_Minor0014_LVL4" Type="MinorModule_OffenseLevel">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="60"/>
+      <SimulationModifierDescriptor TargetProperty="ZoneAttackPowerOnMobs" Operation="Addition" Value="6"/>
+      <SimulationModifierDescriptor TargetProperty="ZoneAttackPowerOnHeroes" Operation="Addition" Value="6"/>
+      <SimulationModifierDescriptor TargetProperty="ZoneAttackPowerOnNPCs" Operation="Addition" Value="6"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MinorModule_Minor0016" Type="MinorModule_Offense">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="280"/>
+      <SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="15"/>
+      <SimulationModifierDescriptor TargetProperty="AttackRange" Operation="Addition" Value="100"/>
+      <SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Addition" Value="1"/>
+      <SimulationModifierDescriptor TargetProperty="AttackCooldown" Operation="Addition" Value="2.5"/>
+      <SimulationModifierDescriptor TargetProperty="ScienceAttackPowerBonus" Operation="Addition" Value="1"/>
+      <SimulationModifierDescriptor TargetProperty="MaximumAttackPower_displayed" Operation="Addition" Value="100"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MinorModule_Minor0016_LVL2" Type="MinorModule_OffenseLevel">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="50"/>
+      <SimulationModifierDescriptor TargetProperty="ScienceAttackPowerBonus" Operation="Addition" Value="0.1"/>
+      <SimulationModifierDescriptor TargetProperty="MaximumAttackPower_displayed" Operation="Addition" Value="30"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MinorModule_Minor0016_LVL3" Type="MinorModule_OffenseLevel">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="70"/>
+      <SimulationModifierDescriptor TargetProperty="ScienceAttackPowerBonus" Operation="Addition" Value="0.1"/>
+      <SimulationModifierDescriptor TargetProperty="MaximumAttackPower_displayed" Operation="Addition" Value="30"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MinorModule_Minor0016_LVL4" Type="MinorModule_OffenseLevel">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="50"/>
+      <SimulationModifierDescriptor TargetProperty="ScienceAttackPowerBonus" Operation="Addition" Value="0.1"/>
+      <SimulationModifierDescriptor TargetProperty="MaximumAttackPower_displayed" Operation="Addition" Value="30"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MinorModule_Minor0007" Type="MinorModule_Debuff">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="210"/>
+      <SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="15"/>
+      <SimulationModifierDescriptor TargetProperty="RoomMobsMoveSpeedPercent" Operation="Subtraction" Value="0.3"/>
+      <SimulationModifierDescriptor TargetProperty="DebuffSpeedReducerEffect" Operation="Addition" Value="1" Path="./Room/Mob"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MinorModule_Minor0007_LVL2" Type="MinorModule_DebuffLevel">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="35"/>
+      <SimulationModifierDescriptor TargetProperty="RoomMobsMoveSpeedPercent" Operation="Subtraction" Value="0.06"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MinorModule_Minor0007_LVL3" Type="MinorModule_DebuffLevel">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="45"/>
+      <SimulationModifierDescriptor TargetProperty="RoomMobsMoveSpeedPercent" Operation="Subtraction" Value="0.06"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MinorModule_Minor0007_LVL4" Type="MinorModule_DebuffLevel">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="55"/>
+      <SimulationModifierDescriptor TargetProperty="RoomMobsMoveSpeedPercent" Operation="Subtraction" Value="0.07"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MinorModule_Minor0009" Type="MinorModule_Debuff">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="320"/>
+      <SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="15"/>
+      <SimulationModifierDescriptor TargetProperty="RoomMobsDamageOverTime" Operation="Addition" Value="4"/>
+      <SimulationModifierDescriptor TargetProperty="RoomMobsDefenseDiv" Operation="Multiplication" Value="2"/>
+      <SimulationModifierDescriptor TargetProperty="DebuffDefenseEffect" Operation="Addition" Value="1" Path="./Room/Mob"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MinorModule_Minor0009_LVL2" Type="MinorModule_DebuffLevel">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="50"/>
+      <SimulationModifierDescriptor TargetProperty="RoomMobsDamageOverTime" Operation="Addition" Value="1"/>
+      <SimulationModifierDescriptor TargetProperty="RoomMobsDefenseDiv" Operation="Multiplication" Value="1.2"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MinorModule_Minor0009_LVL3" Type="MinorModule_DebuffLevel">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="55"/>
+      <SimulationModifierDescriptor TargetProperty="RoomMobsDamageOverTime" Operation="Addition" Value="1"/>
+      <SimulationModifierDescriptor TargetProperty="RoomMobsDefenseDiv" Operation="Multiplication" Value="1.2"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MinorModule_Minor0009_LVL4" Type="MinorModule_DebuffLevel">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="60"/>
+      <SimulationModifierDescriptor TargetProperty="RoomMobsDamageOverTime" Operation="Addition" Value="2"/>
+      <SimulationModifierDescriptor TargetProperty="RoomMobsDefenseDiv" Operation="Multiplication" Value="1.2"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MinorModule_Minor0010" Type="MinorModule_Debuff">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="260"/>
+      <SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="15"/>
+      <SimulationModifierDescriptor TargetProperty="HPByKill" Operation="Addition" Value="100"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MinorModule_Minor0010_LVL2" Type="MinorModule_DebuffLevel">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="35"/>
+      <SimulationModifierDescriptor TargetProperty="HPByKill" Operation="Addition" Value="50"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MinorModule_Minor0010_LVL3" Type="MinorModule_DebuffLevel">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="45"/>
+      <SimulationModifierDescriptor TargetProperty="HPByKill" Operation="Addition" Value="50"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MinorModule_Minor0010_LVL4" Type="MinorModule_DebuffLevel">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="55"/>
+      <SimulationModifierDescriptor TargetProperty="HPByKill" Operation="Addition" Value="50"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MinorModule_Minor0012" Type="MinorModule_Debuff">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="300"/>
+      <SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="15"/>
+      <SimulationModifierDescriptor TargetProperty="HealthBarHeight" Operation="Addition" Value="20"/>
+      <SimulationModifierDescriptor TargetProperty="LureMaxEnergy" Operation="Addition" Value="150"/>
+      <SimulationModifierDescriptor TargetProperty="LureActivationDelay" Operation="Addition" Value="9"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MinorModule_Minor0012_LVL2" Type="MinorModule_DebuffLevel">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="50"/>
+      <SimulationModifierDescriptor TargetProperty="LureMaxEnergy" Operation="Addition" Value="50"/>
+      <SimulationModifierDescriptor TargetProperty="LureActivationDelay" Operation="Subtraction" Value="0.5"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MinorModule_Minor0012_LVL3" Type="MinorModule_DebuffLevel">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="60"/>
+      <SimulationModifierDescriptor TargetProperty="LureMaxEnergy" Operation="Addition" Value="50"/>
+      <SimulationModifierDescriptor TargetProperty="LureActivationDelay" Operation="Subtraction" Value="0.5"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MinorModule_Minor0012_LVL4" Type="MinorModule_DebuffLevel">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="70"/>
+      <SimulationModifierDescriptor TargetProperty="LureMaxEnergy" Operation="Addition" Value="50"/>
+      <SimulationModifierDescriptor TargetProperty="LureActivationDelay" Operation="Subtraction" Value="0.5"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MinorModule_Minor0015" Type="MinorModule_Debuff">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="260"/>
+      <SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="15"/>
+      <SimulationModifierDescriptor TargetProperty="AttackRange" Operation="Addition" Value="100"/>
+      <SimulationModifierDescriptor TargetProperty="AttackCooldown" Operation="Addition" Value="5"/>
+      <SimulationModifierDescriptor TargetProperty="Troublemaker_tooltip" Operation="Addition" Value="6"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MinorModule_Minor0015_LVL2" Type="MinorModule_DebuffLevel">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="35"/>
+      <SimulationModifierDescriptor TargetProperty="AttackCooldown" Operation="Subtraction" Value="0.5"/>
+      <SimulationModifierDescriptor TargetProperty="Troublemaker_tooltip" Operation="Addition" Value="7"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MinorModule_Minor0015_LVL3" Type="MinorModule_DebuffLevel">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="45"/>
+      <SimulationModifierDescriptor TargetProperty="AttackCooldown" Operation="Subtraction" Value="0.5"/>
+      <SimulationModifierDescriptor TargetProperty="Troublemaker_tooltip" Operation="Addition" Value="8"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MinorModule_Minor0015_LVL4" Type="MinorModule_DebuffLevel">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="55"/>
+      <SimulationModifierDescriptor TargetProperty="AttackCooldown" Operation="Subtraction" Value="0.5"/>
+      <SimulationModifierDescriptor TargetProperty="Troublemaker_tooltip" Operation="Addition" Value="9"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MinorModule_Minor0017" Type="MinorModule_Debuff">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="280"/>
+      <SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="15"/>
+      <SimulationModifierDescriptor TargetProperty="AttackRange" Operation="Addition" Value="100"/>
+      <SimulationModifierDescriptor TargetProperty="AttackCooldown" Operation="Addition" Value="3"/>
+      <SimulationModifierDescriptor TargetProperty="PoisonDuration_tooltip" Operation="Addition" Value="8"/>
+      <SimulationModifierDescriptor TargetProperty="PoisonValue_tooltip" Operation="Addition" Value="22"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MinorModule_Minor0017_LVL2" Type="MinorModule_DebuffLevel">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="50"/>
+      <SimulationModifierDescriptor TargetProperty="AttackCooldown" Operation="Subtraction" Value="0.5"/>
+      <SimulationModifierDescriptor TargetProperty="PoisonDuration_tooltip" Operation="Addition" Value="1"/>
+      <SimulationModifierDescriptor TargetProperty="PoisonValue_tooltip" Operation="Addition" Value="8"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MinorModule_Minor0017_LVL3" Type="MinorModule_DebuffLevel">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="70"/>
+      <SimulationModifierDescriptor TargetProperty="AttackCooldown" Operation="Subtraction" Value="0.5"/>
+      <SimulationModifierDescriptor TargetProperty="PoisonDuration_tooltip" Operation="Addition" Value="1"/>
+      <SimulationModifierDescriptor TargetProperty="PoisonValue_tooltip" Operation="Addition" Value="8"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="MinorModule_Minor0017_LVL4" Type="MinorModule_DebuffLevel">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="50"/>
+      <SimulationModifierDescriptor TargetProperty="AttackCooldown" Operation="Subtraction" Value="0.5"/>
+      <SimulationModifierDescriptor TargetProperty="PoisonDuration_tooltip" Operation="Addition" Value="1"/>
+      <SimulationModifierDescriptor TargetProperty="PoisonValue_tooltip" Operation="Addition" Value="8"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+</Datatable>

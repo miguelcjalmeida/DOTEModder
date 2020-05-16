@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+	<SimulationDescriptor Name="Dungeon" Type="Class">
+		<SimulationPropertyDescriptors>
+			<SimulationPropertyDescriptor Name="RoomPowerDustCost" BaseValue="10" />
+			<SimulationPropertyDescriptor Name="DustHealthValue" BaseValue="40" />
+			<SimulationPropertyDescriptor Name="MaxDustStock" BaseValue="400" />
+
+			<SimulationPropertyDescriptor Name="FoodProd" Composition="Sum" />
+			<SimulationPropertyDescriptor Name="IndustryProd" Composition="Sum" />
+			<SimulationPropertyDescriptor Name="DustProd" Composition="Sum" />
+			<SimulationPropertyDescriptor Name="ScienceProd" Composition="Sum" />
+
+      <SimulationPropertyDescriptor Name="OrganicNoRegenEffect" BaseValue="1" />
+      <SimulationPropertyDescriptor Name="OrganicReplaceByDefenseEffect" BaseValue="0" />
+      <SimulationPropertyDescriptor Name="InfirmaryNoRegenEffect" BaseValue="1" />
+      <SimulationPropertyDescriptor Name="InfirmaryReplaceByDefenseEffect" BaseValue="0" />
+
+			<!-- Initial FIDS stocks (/!\ FIS only used in level 1 /!\) -->
+			<SimulationPropertyDescriptor Name="InitFoodStock" Composition="Sum" />
+			<SimulationPropertyDescriptor Name="InitIndustryStock" Composition="Sum" />
+			<SimulationPropertyDescriptor Name="InitScienceStock" Composition="Sum" />
+			<SimulationPropertyDescriptor Name="InitDustStock" Composition="Sum" />
+			<SimulationPropertyDescriptor Name="InitDustStockPctBonus" Composition="Sum" />
+			<SimulationPropertyDescriptor Name="InitDustStockPctBonusToConvert" />
+			<SimulationPropertyDescriptor Name="InitDustStockBonusMax" Composition="Sum" BaseValue="20" />
+
+			<SimulationPropertyDescriptor Name="ScoreModifier" BaseValue="1" Composition="Sum" />
+			<SimulationPropertyDescriptor Name="ResearchingBP" Composition="Sum" />
+			<SimulationPropertyDescriptor Name="MobSpeedIfResearchingBP" Composition="Sum"  />
+			<SimulationPropertyDescriptor Name="MobSpeedCoef" Composition="Sum" BaseValue="1" />
+
+			<SimulationPropertyDescriptor Name="ModuleDamagePerTurn" Composition="Sum"/>
+			<SimulationPropertyDescriptor Name="UpcomingPositiveEvents" Composition="Sum" />
+
+		</SimulationPropertyDescriptors>
+
+		<SimulationModifierDescriptors>
+			<!-- Data for Heroes -->
+			<SimulationModifierDescriptor TargetProperty="ResearchingBP" Operation="Addition" Value="$(ResearchingBP)" Path="Dungeon/Room/Hero" />
+
+			<BinarySimulationModifierDescriptor TargetProperty="MobSpeedCoef" Operation="Addition" Left="$(MobSpeedIfResearchingBP)" BinaryOperation="Multiplication" Right="$(ResearchingBP)" />
+			<SimulationModifierDescriptor TargetProperty="MoveSpeed" Operation="Multiplication" Value="$(MobSpeedCoef)" Path="Dungeon/Room/Mob" />
+
+			<!-- Bulldozer Operator skill - keeps dust from a floor to another -->
+			<BinarySimulationModifierDescriptor TargetProperty="InitDustStockPctBonus" Operation="Addition" Left="$(InitDustStockPctBonusToConvert)" BinaryOperation="Division" Right="100" />
+
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<!-- Level modifiers -->
+	<SimulationDescriptor Name="Dungeon_Level1" Type="Dungeon">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="InitFoodStock" Operation="Addition" Value="10" />
+			<SimulationModifierDescriptor TargetProperty="InitIndustryStock" Operation="Addition" Value="18" />
+			<SimulationModifierDescriptor TargetProperty="InitDustStock" Operation="Addition" Value="24" />
+			<SimulationModifierDescriptor TargetProperty="InitScienceStock" Operation="Addition" Value="10" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Dungeon_Level2" Type="Dungeon">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="InitDustStock" Operation="Addition" Value="24" />
+			<SimulationModifierDescriptor TargetProperty="DustLootProbability" Operation="Multiplication" Value="0.95" Path="Dungeon/Room/Mob" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Dungeon_Level3" Type="Dungeon">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="InitDustStock" Operation="Addition" Value="24" />
+			<SimulationModifierDescriptor TargetProperty="DustLootProbability" Operation="Multiplication" Value="0.8" Path="Dungeon/Room/Mob" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Dungeon_Level4" Type="Dungeon">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="InitDustStock" Operation="Addition" Value="24" />
+			<SimulationModifierDescriptor TargetProperty="DustLootProbability" Operation="Multiplication" Value="0.7" Path="Dungeon/Room/Mob" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Dungeon_Level5" Type="Dungeon">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="InitDustStock" Operation="Addition" Value="24" />
+			<SimulationModifierDescriptor TargetProperty="DustLootProbability" Operation="Multiplication" Value="0.6" Path="Dungeon/Room/Mob" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Dungeon_Level6" Type="Dungeon">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="InitDustStock" Operation="Addition" Value="20" />
+			<SimulationModifierDescriptor TargetProperty="DustLootProbability" Operation="Multiplication" Value="0.5" Path="Dungeon/Room/Mob" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Dungeon_Level7" Type="Dungeon">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="InitDustStock" Operation="Addition" Value="20" />
+			<SimulationModifierDescriptor TargetProperty="DustLootProbability" Operation="Multiplication" Value="0.45" Path="Dungeon/Room/Mob" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Dungeon_Level8" Type="Dungeon">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="InitDustStock" Operation="Addition" Value="16" />
+			<SimulationModifierDescriptor TargetProperty="DustLootProbability" Operation="Multiplication" Value="0.4" Path="Dungeon/Room/Mob" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Dungeon_Level9" Type="Dungeon">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="InitDustStock" Operation="Addition" Value="16" />
+			<SimulationModifierDescriptor TargetProperty="DustLootProbability" Operation="Multiplication" Value="0.36" Path="Dungeon/Room/Mob" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Dungeon_Level10" Type="Dungeon">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="InitDustStock" Operation="Addition" Value="16" />
+			<SimulationModifierDescriptor TargetProperty="DustLootProbability" Operation="Multiplication" Value="0.32" Path="Dungeon/Room/Mob" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Dungeon_Level11" Type="Dungeon">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="InitDustStock" Operation="Addition" Value="12" />
+			<SimulationModifierDescriptor TargetProperty="DustLootProbability" Operation="Multiplication" Value="0.25" Path="Dungeon/Room/Mob" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Dungeon_Level12" Type="Dungeon">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="InitDustStock" Operation="Addition" Value="12" />
+			<SimulationModifierDescriptor TargetProperty="DustLootProbability" Operation="Multiplication" Value="0.2" Path="Dungeon/Room/Mob" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Dungeon_Endless" Type="Dungeon">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="InitDustStock" Operation="Addition" Value="12" />
+			<SimulationModifierDescriptor TargetProperty="DustLootProbability" Operation="Multiplication" Value="0.2" Path="Dungeon/Room/Mob" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<!-- Difficulty modifiers -->
+	<SimulationDescriptor Name="Dungeon_Difficulty_Easy" Type="DungeonDifficulty">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="InitFoodStock" Operation="Addition" Value="4" />
+			<SimulationModifierDescriptor TargetProperty="InitIndustryStock" Operation="Addition" Value="8" />
+			<SimulationModifierDescriptor TargetProperty="InitDustStock" Operation="Addition" Value="4" />
+			<SimulationModifierDescriptor TargetProperty="InitScienceStock" Operation="Addition" Value="4" />
+			<SimulationModifierDescriptor TargetProperty="DustHealthValue" Operation="Multiplication" Value="1.5" />
+
+			<SimulationModifierDescriptor TargetProperty="FoodProd" Operation="Addition" Value="2" />
+			<SimulationModifierDescriptor TargetProperty="IndustryProd" Operation="Addition" Value="3" />
+			<SimulationModifierDescriptor TargetProperty="ScienceProd" Operation="Addition" Value="1" />
+
+			<SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Multiplication" Value="0.75" Path="Dungeon/Room/Mob" />
+			<SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Multiplication" Value="0.5" Path="Dungeon/Room/Mob" />
+			<SimulationModifierDescriptor TargetProperty="ZoneAttackPowerOnHeroes" Operation="Multiplication" Value="0.6" Path="Dungeon/Room/Mob" />
+			<SimulationModifierDescriptor TargetProperty="ZoneAttackPowerOnNPCs" Operation="Multiplication" Value="0.6" Path="Dungeon/Room/Mob" />
+			<SimulationModifierDescriptor TargetProperty="ZoneAttackPowerOnModules" Operation="Multiplication" Value="0.6" Path="Dungeon/Room/Mob" />
+			<SimulationModifierDescriptor TargetProperty="DustLootProbability" Operation="Multiplication" Value="1.2" Path="Dungeon/Room/Mob" />
+
+			<SimulationModifierDescriptor TargetProperty="ScoreModifier" Operation="Multiplication" Value="0.5" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Dungeon_Difficulty_Normal" Type="DungeonDifficulty">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Multiplication" Value="1.1" Path="Dungeon/Room/Mob" />
+			<SimulationModifierDescriptor TargetProperty="DustLootProbability" Operation="Multiplication" Value="0.75" Path="Dungeon/Room/Mob" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<!-- Ship modifiers -->
+	<SimulationDescriptor Name="Dungeon_Ship_Basic" Type="DungeonShip">
+		<SimulationModifierDescriptors>
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Dungeon_Ship_Infirmary" Type="DungeonShip">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="InitFoodStock" Operation="Addition" Value="10" />
+			<SimulationModifierDescriptor TargetProperty="IndustryProd" Operation="Addition" Value="2" />
+			<SimulationModifierDescriptor TargetProperty="AllowHealthRegenPassive" Operation="Multiplication" Value="0" Path="Dungeon/Room/Hero" />
+			<SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Multiplication" Value="2" Path="Dungeon/Room/Hero" />
+			<SimulationModifierDescriptor TargetProperty="HealFoodCostCoeff" Operation="Multiplication" Value="0.5" Path="Dungeon/Room/Hero" />
+      <SimulationModifierDescriptor TargetProperty="InfirmaryNoRegenEffect" Operation="Force" Value="0" Path="Dungeon/Room/Hero" />
+      <SimulationModifierDescriptor TargetProperty="InfirmaryReplaceByDefenseEffect" Operation="Force" Value="1" Path="Dungeon/Room/Hero" />
+      <SimulationModifierDescriptor TargetProperty="InfirmaryNoRegenEffect" Operation="Force" Value="0" Path="Dungeon/Room/MajorModule" />
+      <SimulationModifierDescriptor TargetProperty="InfirmaryReplaceByDefenseEffect" Operation="Force" Value="1" Path="Dungeon/Room/MajorModule" />
+
+			<SimulationModifierDescriptor TargetProperty="ScoreModifier" Operation="Multiplication" Value="1.2" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Dungeon_Ship_Drill" Type="DungeonShip">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="FoodProd" Operation="Addition" Value="3" />
+			<SimulationModifierDescriptor TargetProperty="IndustryProd" Operation="Addition" Value="4" />
+			<SimulationModifierDescriptor TargetProperty="ScienceProd" Operation="Addition" Value="1" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Dungeon_Ship_Armory" Type="DungeonShip">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="InitIndustryStock" Operation="Addition" Value="10" />
+			<SimulationModifierDescriptor TargetProperty="FoodProd" Operation="Addition" Value="-1" />
+			<SimulationModifierDescriptor TargetProperty="ScienceProd" Operation="Addition" Value="-1" />
+			<SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Multiplication" Value="2" Path="Dungeon/Room/Hero" />
+			<SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Multiplication" Value="1.2" Path="Dungeon/Room/Mob" />
+
+			<SimulationModifierDescriptor TargetProperty="ScoreModifier" Operation="Multiplication" Value="1.2" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Dungeon_Ship_Refreezerator" Type="DungeonShip">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="InitFoodStock" Operation="Addition" Value="40" />
+			<SimulationModifierDescriptor TargetProperty="InitIndustryStock" Operation="Addition" Value="20" />
+			<SimulationModifierDescriptor TargetProperty="InitScienceStock" Operation="Addition" Value="10" />
+			<SimulationModifierDescriptor TargetProperty="InitDustStock" Operation="Addition" Value="5" />
+			<SimulationModifierDescriptor TargetProperty="ScienceProd" Operation="Addition" Value="1" />
+			<SimulationModifierDescriptor TargetProperty="MoveSpeed" Operation="Multiplication" Value="1.25" Path="Dungeon/Room/Hero" />
+			<SimulationModifierDescriptor TargetProperty="Defense" Operation="Multiplication" Value="2" Path="Dungeon/Room/Hero" />
+			<SimulationModifierDescriptor TargetProperty="ZoneControlAffected" Operation="Multiplication" Value="0" Path="Dungeon/Room/Hero" />
+
+			<SimulationModifierDescriptor TargetProperty="ScoreModifier" Operation="Multiplication" Value="1.2" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Dungeon_Ship_Sanitary" Type="DungeonShip">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="ScienceProd" Operation="Addition" Value="-1" />
+			<SimulationModifierDescriptor TargetProperty="IndustryProd" Operation="Addition" Value="-1" />
+			<SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Multiplication" Value="1.25" Path="Dungeon/Room/Mob" />
+			<SimulationModifierDescriptor TargetProperty="DustLootProbability" Operation="Multiplication" Value="0.9" Path="Dungeon/Room/Mob" />
+			<SimulationModifierDescriptor TargetProperty="HealFoodCostCoeff" Operation="Multiplication" Value="2" Path="Dungeon/Room/Hero" />
+			<SimulationModifierDescriptor TargetProperty="MobSpeedIfResearchingBP" Operation="Addition" Value="0.3" />
+
+			<SimulationModifierDescriptor TargetProperty="ScoreModifier" Operation="Multiplication" Value="1.5" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Dungeon_Ship_Library" Type="DungeonShip">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="InitFoodStock" Operation="Addition" Value="10" />
+			<SimulationModifierDescriptor TargetProperty="InitIndustryStock" Operation="Addition" Value="10" />
+			<SimulationModifierDescriptor TargetProperty="InitScienceStock" Operation="Addition" Value="10" />
+			<SimulationModifierDescriptor TargetProperty="InitDustStock" Operation="Addition" Value="6" />
+			<SimulationModifierDescriptor TargetProperty="FoodProd" Operation="Addition" Value="2" />
+			<SimulationModifierDescriptor TargetProperty="Wit" Operation="Multiplication" Value="2" Path="Dungeon/Room/Hero" />
+			<SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Multiplication" Value="0.5" Path="Dungeon/Room/Hero" />
+
+			<SimulationModifierDescriptor TargetProperty="ScoreModifier" Operation="Multiplication" Value="1.2" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Dungeon_Ship_Organic" Type="DungeonShip">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="ModuleDamagePerTurn" Operation="Addition" Value="15" />
+			<SimulationModifierDescriptor TargetProperty="OrganicEffect" Operation="Addition" Value="1" Path="Dungeon/Room" />
+			<SimulationModifierDescriptor TargetProperty="MoveSpeed" Operation="Multiplication" Value="1.2" Path="Dungeon/Room/Mob" />
+      <SimulationModifierDescriptor TargetProperty="OrganicNoRegenEffect" Operation="Force" Value="0" Path="Dungeon/Room/MajorModule" />
+      <SimulationModifierDescriptor TargetProperty="OrganicNoRegenEffect" Operation="Force" Value="0" Path="Dungeon/Room/MinorModule" />
+      <SimulationModifierDescriptor TargetProperty="OrganicReplaceByDefenseEffect" Operation="Force" Value="1" Path="Dungeon/Room/MajorModule" />
+      <SimulationModifierDescriptor TargetProperty="OrganicReplaceByDefenseEffect" Operation="Force" Value="1" Path="Dungeon/Room/MinorModule" />
+      
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Dungeon_ResearchingBP" Type="DungeonFlag">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="ResearchingBP" Operation="Addition" Value="1" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+</Datatable>

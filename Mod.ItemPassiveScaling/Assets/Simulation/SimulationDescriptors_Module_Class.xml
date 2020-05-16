@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+	<!-- __________ MAJOR __________ -->
+
+	<SimulationDescriptor Name="MajorModule" Type="Class">
+		<SimulationPropertyDescriptors>
+			<SimulationPropertyDescriptor Name="MaxHealth" Composition="Sum" />
+			<SimulationPropertyDescriptor Name="HealthRegen" Composition="Sum" />
+			<SimulationPropertyDescriptor Name="HealthRegenGamePhaseIndependent" Composition="Sum" />
+			<SimulationPropertyDescriptor Name="HealFoodCostCoeffPercent" Composition="Sum" BaseValue="0" />
+			<SimulationPropertyDescriptor Name="DamageOverTime" Composition="Sum" />
+			<SimulationPropertyDescriptor Name="Defense" Composition="Sum" MaxValue="75"/>
+			<SimulationPropertyDescriptor Name="EssebRegenEffect" Composition="Sum" MaxValue="75" />
+
+			<SimulationPropertyDescriptor Name="FoodProd" />
+			<SimulationPropertyDescriptor Name="IndustryProd" />
+			<SimulationPropertyDescriptor Name="DustProd" />
+			<SimulationPropertyDescriptor Name="ScienceProd" />
+
+			<SimulationPropertyDescriptor Name="AttackRange" Composition="Sum" />
+			<SimulationPropertyDescriptor Name="AttackPower" Composition="Sum" />
+			<SimulationPropertyDescriptor Name="MaximumAttackPower" Composition="Sum" />
+			<SimulationPropertyDescriptor Name="AttackHitCount" Composition="Sum" BaseValue="1" />
+			<SimulationPropertyDescriptor Name="AttackCooldown" Composition="Sum" />
+			<SimulationPropertyDescriptor Name="ZoneAttackRadius" Composition="Sum" MinValue="Negative" />
+			<SimulationPropertyDescriptor Name="ZoneAttackPowerOnMobs" Composition="Sum" />
+			<SimulationPropertyDescriptor Name="ZoneAttackPowerOnHeroes" Composition="Sum" />
+			<SimulationPropertyDescriptor Name="ZoneAttackPowerOnModules" Composition="Sum" />
+			<SimulationPropertyDescriptor Name="ZoneAttackPowerOnNPCs" Composition="Sum" />
+
+			<SimulationPropertyDescriptor Name="OperatorWit" BaseValue="0" Composition="Sum" />
+			<SimulationPropertyDescriptor Name="ReparatorWit" BaseValue="0" Composition="Sum" />
+
+			<SimulationPropertyDescriptor Name="RoomOperatorWit" BaseValue="0" />
+			<!-- set by room -->
+			<SimulationPropertyDescriptor Name="RoomOperatorWitAndOperatorWit" BaseValue="0" />
+			<!-- Temp -->
+
+			<SimulationPropertyDescriptor Name="HealthBarHeight" BaseValue="35" />
+
+			<SimulationPropertyDescriptor Name="FoodProdOperatorBonus" RoundingFunction="Ceil" />
+			<SimulationPropertyDescriptor Name="IndustryProdOperatorBonus" RoundingFunction="Ceil" />
+			<SimulationPropertyDescriptor Name="ScienceProdOperatorBonus" RoundingFunction="Ceil" />
+			<SimulationPropertyDescriptor Name="DustProdOperatorBonus" RoundingFunction="Ceil" />
+			<SimulationPropertyDescriptor Name="DustLootOperatorBonus" />
+			<SimulationPropertyDescriptor Name="PopulationWeight" BaseValue="2.25" Composition="Sum" />
+
+			<SimulationPropertyDescriptor Name="RoomHeroesHealthRegenAdd" BaseValue="0" Composition="Sum" />
+
+			<SimulationPropertyDescriptor Name="OrganicNoRegenEffect" BaseValue="1" />
+			<SimulationPropertyDescriptor Name="OrganicReplaceByDefenseEffect" BaseValue="0" />
+
+			<!-- Fake value for tooltips -->
+			<SimulationPropertyDescriptor Name="Merchant_tooltip" />
+			<SimulationPropertyDescriptor Name="Generator_tooltip" />
+
+			<!-- Skills effects -->
+			<SimulationPropertyDescriptor Name="Skill_A0012_Effect" Composition="Sum" />
+			<SimulationPropertyDescriptor Name="Skill_A0025_Effect" Composition="Sum" />
+			<SimulationPropertyDescriptor Name="Skill_P0023_Effect" Composition="Sum" />
+			<SimulationPropertyDescriptor Name="Skill_A0030_Effect" Composition="Sum" />
+			<SimulationPropertyDescriptor Name="Skill_A0032_Effect" Composition="Sum" />
+
+			<SimulationPropertyDescriptor Name="DungeonMajorModulesDefensePercent" BaseValue="0" Composition="Sum" />
+			<SimulationPropertyDescriptor Name="DungeonMinorModulesDefensePercent" BaseValue="0" Composition="Sum" />
+			<SimulationPropertyDescriptor Name="DungeonMajorModulesDefensePercent_OperatorWitMultiplier" BaseValue="0" Composition="Sum" />
+			<SimulationPropertyDescriptor Name="DungeonMinorModulesDefensePercent_OperatorWitMultiplier" BaseValue="0" Composition="Sum" />
+
+			<SimulationPropertyDescriptor Name="DungeonHeroesAttackPowerPercent" BaseValue="0" Composition="Sum" />
+			<SimulationPropertyDescriptor Name="DungeonHeroesAttackPowerPercent_OperatorWitMultiplier" BaseValue="0" Composition="Sum" />
+
+			<SimulationPropertyDescriptor Name="DungeonHeroesDefensePercent" BaseValue="0" Composition="Sum" />
+			<SimulationPropertyDescriptor Name="DungeonNPCsDefensePercent" BaseValue="0" Composition="Sum" />
+			<SimulationPropertyDescriptor Name="DungeonHeroesDefensePercent_OperatorWitMultiplier" BaseValue="0" Composition="Sum" />
+			<SimulationPropertyDescriptor Name="DungeonNPCsDefensePercent_OperatorWitMultiplier" BaseValue="0" Composition="Sum" />
+
+			<SimulationPropertyDescriptor Name="InstantDamageOverTime" Composition="Sum" />
+			<!-- to differentiate the effect in tooltip -->
+
+			<!-- Used to count modules in parent room -->
+			<SimulationPropertyDescriptor Name="ModuleCount" BaseValue="1" />
+
+      <!-- Pod bools -->
+      <SimulationPropertyDescriptor Name="InfirmaryNoRegenEffect" BaseValue="1" />
+      <SimulationPropertyDescriptor Name="InfirmaryReplaceByDefenseEffect" BaseValue="0" />
+
+		</SimulationPropertyDescriptors>
+
+		<SimulationModifierDescriptors>
+			<BinarySimulationModifierDescriptor TargetProperty="HealthRegen" Operation="Addition" Left="$(ReparatorWit)" BinaryOperation="Multiplication" Right="2" />
+
+			<!-- Operator bonuses -->
+			<SimulationModifierDescriptor TargetProperty="FoodProd" Operation="Addition" Value="$(FoodProdOperatorBonus)" />
+			<SimulationModifierDescriptor TargetProperty="IndustryProd" Operation="Addition" Value="$(IndustryProdOperatorBonus)" />
+			<SimulationModifierDescriptor TargetProperty="ScienceProd" Operation="Addition" Value="$(ScienceProdOperatorBonus)" />
+			<SimulationModifierDescriptor TargetProperty="DustProd" Operation="Addition" Value="$(DustProdOperatorBonus)" />
+			<SimulationModifierDescriptor TargetProperty="DustLootProbability" Operation="Addition" Value="$(DustLootOperatorBonus)" Path="../Dungeon/Room/Mob" />
+
+			<BinarySimulationModifierDescriptor TargetProperty="RoomOperatorWitAndOperatorWit" Operation="Addition" Left="$(OperatorWit)" BinaryOperation="Addition" Right="${RoomOperatorWit}" />
+
+			<BinarySimulationModifierDescriptor TargetProperty="DungeonMajorModulesDefensePercent" Operation="Addition" Left="$(RoomOperatorWitAndOperatorWit)" BinaryOperation="Multiplication" Right="${DungeonMajorModulesDefensePercent_OperatorWitMultiplier}" />
+			<BinarySimulationModifierDescriptor TargetProperty="DungeonMinorModulesDefensePercent" Operation="Addition" Left="$(RoomOperatorWitAndOperatorWit)" BinaryOperation="Multiplication" Right="${DungeonMinorModulesDefensePercent_OperatorWitMultiplier}" />
+			<BinarySimulationModifierDescriptor TargetProperty="DungeonHeroesAttackPowerPercent" Operation="Addition" Left="$(RoomOperatorWitAndOperatorWit)" BinaryOperation="Multiplication" Right="${DungeonHeroesAttackPowerPercent_OperatorWitMultiplier}" />
+
+			<BinarySimulationModifierDescriptor TargetProperty="DungeonHeroesDefensePercent" Operation="Addition" Left="$(RoomOperatorWitAndOperatorWit)" BinaryOperation="Multiplication" Right="${DungeonHeroesDefensePercent_OperatorWitMultiplier}" />
+			<BinarySimulationModifierDescriptor TargetProperty="DungeonNPCsDefensePercent" Operation="Addition" Left="$(RoomOperatorWitAndOperatorWit)" BinaryOperation="Multiplication" Right="${DungeonNPCsDefensePercent_OperatorWitMultiplier}" />
+
+			<SimulationModifierDescriptor TargetProperty="DamageOverTime" Operation="Addition" Value="$(InstantDamageOverTime)" />
+
+			<!-- Dungeon major/minor modules defense modifiers -->
+			<SimulationModifierDescriptor TargetProperty="Defense" Operation="Percent" Value="${DungeonMajorModulesDefensePercent}" Path="../Dungeon/Room/MajorModule" />
+			<SimulationModifierDescriptor TargetProperty="Defense" Operation="Percent" Value="${DungeonMinorModulesDefensePercent}" Path="../Dungeon/Room/MinorModule" />
+
+			<!-- Dungeon heroes attack modifier -->
+			<SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Percent" Value="${DungeonHeroesAttackPowerPercent}" Path="../Dungeon/Room/Hero" />
+
+			<!-- Dungeon heroes defense/healcost modifier -->
+			<SimulationModifierDescriptor TargetProperty="Defense" Operation="Percent" Value="${DungeonHeroesDefensePercent}" Path="../Dungeon/Room/Hero" />
+			<SimulationModifierDescriptor TargetProperty="Defense" Operation="Percent" Value="${DungeonNPCsDefensePercent}" Path="../Dungeon/Room/Hero" />
+			<!-- <SimulationModifierDescriptor TargetProperty="HealFoodCostCoeff" Operation="Multiplication" Value="${HealFoodCostCoeffPercent}" Path="../Dungeon/Room/Hero" /> -->
+			<BinarySimulationModifierDescriptor TargetProperty="HealFoodCostCoeff" Operation="Division" Left="1" BinaryOperation="Addition" Right="$(HealFoodCostCoeffPercent)" Path="../Dungeon/Room/Hero" />
+
+			<!-- Room heroes health regen modifiers -->
+			<SimulationModifierDescriptor TargetProperty="HealthRegen" Operation="Addition" Value="${RoomHeroesHealthRegenAdd}" Path="./Room/Hero" />
+
+			<!-- Esseb repair skill -->
+			<BinarySimulationModifierDescriptor TargetProperty="HealthRegenGamePhaseIndependent" Operation="Addition" Left="${EssebRegenEffect}" BinaryOperation="Multiplication" Right="$(OrganicNoRegenEffect)" />
+			<BinarySimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Left="${EssebRegenEffect}" BinaryOperation="Multiplication" Right="$(OrganicReplaceByDefenseEffect)" />
+
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="MajorModule_Unpowered" Type="ModuleFlag">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="FoodProd" Operation="Multiplication" Value="0" />
+			<SimulationModifierDescriptor TargetProperty="IndustryProd" Operation="Multiplication" Value="0" />
+			<SimulationModifierDescriptor TargetProperty="DustProd" Operation="Multiplication" Value="0" />
+			<SimulationModifierDescriptor TargetProperty="ScienceProd" Operation="Multiplication" Value="0" />
+			<SimulationModifierDescriptor TargetProperty="HealFoodCostCoeffPercent" Operation="Multiplication" Value="0" />
+
+			<SimulationModifierDescriptor TargetProperty="DungeonMajorModulesDefensePercent" Operation="Multiplication" Value="0" />
+			<SimulationModifierDescriptor TargetProperty="DungeonMinorModulesDefensePercent" Operation="Multiplication" Value="0" />
+			<SimulationModifierDescriptor TargetProperty="DungeonMajorModulesDefensePercent_OperatorWitMultiplier" Operation="Multiplication" Value="0" />
+			<SimulationModifierDescriptor TargetProperty="DungeonMinorModulesDefensePercent_OperatorWitMultiplier" Operation="Multiplication" Value="0" />
+			<SimulationModifierDescriptor TargetProperty="DungeonHeroesAttackPowerPercent" Operation="Multiplication" Value="0" />
+			<SimulationModifierDescriptor TargetProperty="DungeonHeroesAttackPowerPercent_OperatorWitMultiplier" Operation="Multiplication" Value="0" />
+			<SimulationModifierDescriptor TargetProperty="DungeonHeroesDefensePercent_OperatorWitMultiplier" Operation="Multiplication" Value="0" />
+			<SimulationModifierDescriptor TargetProperty="DungeonNPCsDefensePercent_OperatorWitMultiplier" Operation="Multiplication" Value="0" />
+
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<!--============ Stele Events ============ -->
+	<!-- Positive -->
+	<SimulationDescriptor Name="SpecialModule_Stele_Pos_Speed" Type="MajorModuleLevel">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="8"/>
+			<SimulationModifierDescriptor TargetProperty="MoveSpeed" Operation="Percent" Value="1" Path="../Dungeon/Room/Hero"/>
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="SpecialModule_Stele_Pos_AutoRepair" Type="MajorModuleLevel">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="5"/>
+			<BinarySimulationModifierDescriptor TargetProperty="HealthRegen" Operation="Addition" Left="20" BinaryOperation="Multiplication" Right="$(OrganicNoRegenEffect)" Path="../Dungeon/Room/MinorModule" />
+			<BinarySimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Left="20" BinaryOperation="Multiplication" Right="$(OrganicReplaceByDefenseEffect)" Path="../Dungeon/Room/MinorModule" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="SpecialModule_Stele_Pos_Abundance" Type="MajorModuleLevel">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="3"/>
+			<SimulationModifierDescriptor TargetProperty="IndustryProd" Operation="Percent" Value="0.5" Path="../Dungeon"/>
+			<SimulationModifierDescriptor TargetProperty="FoodProd" Operation="Percent" Value="0.5" Path="../Dungeon"/>
+			<SimulationModifierDescriptor TargetProperty="ScienceProd" Operation="Percent" Value="0.5" Path="../Dungeon"/>
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="SpecialModule_Stele_Pos_AllOperators" Type="MajorModuleLevel">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="3"/>
+			<SimulationModifierDescriptor TargetProperty="Wit" Operation="Addition" Value="4" Path="../Dungeon/Room/Hero"/>
+			<SimulationModifierDescriptor TargetProperty="OperateCapacity" Operation="Addition" Value="1" Path="../Dungeon/Room/Hero"/>
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="SpecialModule_Stele_Pos_HealthRegenAlone" Type="MajorModuleLevel">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="5"/>
+      <BinarySimulationModifierDescriptor TargetProperty="HealthRegenIfAlone" Operation="Addition" Left="20" BinaryOperation="Multiplication" Right="$(InfirmaryNoRegenEffect)" Path="../Dungeon/Room/Hero" />
+      <BinarySimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Left="20" BinaryOperation="Multiplication" Right="$(InfirmaryReplaceByDefenseEffect)" Path="../Dungeon/Room/Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<!-- Negative -->
+	<!-- FPS drops in strategic mode (+ auto regen = too many AGE updates)
+	<SimulationDescriptor Name="SpecialModule_Stele_Neg_Bleed" Type="MajorModuleLevel">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="2"/>
+			<SimulationModifierDescriptor TargetProperty="DamageOverTime" Operation="Addition" Value="2" Path="../Dungeon/Room/Hero"/>
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+	-->
+
+	<SimulationDescriptor Name="SpecialModule_Stele_Neg_Ignored" Type="MajorModuleLevel">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="2"/>
+			<SimulationModifierDescriptor TargetProperty="Stealth" Operation="Addition" Value="1" Path="../Dungeon/Room/Hero"/>
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="SpecialModule_Stele_Neg_ExpansiveHeal" Type="MajorModuleLevel">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="3"/>
+			<SimulationModifierDescriptor TargetProperty="HealFoodCostCoeff" Operation="Multiplication" Value="2" Path="../Dungeon/Room/Hero"/>
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="SpecialModule_Stele_Neg_NoOperator" Type="MajorModuleLevel">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="3"/>
+			<SimulationModifierDescriptor TargetProperty="OperateCapacity" Operation="Multiplication" Value="0" Path="../Dungeon/Room/Hero"/>
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<!-- Neutral -->
+	<SimulationDescriptor Name="SpecialModule_Stele_Neu_DefWeakCrystal" Type="MajorModuleLevel">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="4"/>
+			<SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="100" Path="../Dungeon/Room/Hero"/>
+			<SimulationModifierDescriptor TargetProperty="DustHealthValue" Operation="Multiplication" Value="0.6" Path="../Dungeon"/>
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="SpecialModule_Stele_Neu_SlowPowerful" Type="MajorModuleLevel">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="4"/>
+			<SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Percent" Value="0.8" Path="../Dungeon/Room/Hero"/>
+			<SimulationModifierDescriptor TargetProperty="MoveSpeed" Operation="Percent" Value="-0.3" Path="../Dungeon/Room/Hero"/>
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="SpecialModule_Stele_Neu_FoodPerMob" Type="MajorModuleLevel">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="3"/>
+			<SimulationModifierDescriptor TargetProperty="FoodBonusPerMobKilled" Operation="Addition" Value="0.5" Path="../Dungeon/Room/Hero"/>
+			<SimulationModifierDescriptor TargetProperty="FoodProd" Operation="Multiplication" Value="0" Path="../Dungeon"/>
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="SpecialModule_Stele_Neu_FriendlyFire" Type="MajorModuleLevel">
+		<!-- to do: level two -->
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="3"/>
+			<SimulationModifierDescriptor TargetProperty="ZoneAttackPowerOnHeroes" Operation="Addition" Value="15" Path="../Dungeon/Room/Hero"/>
+			<SimulationModifierDescriptor TargetProperty="ZoneAttackPowerOnNPCs" Operation="Addition" Value="7" Path="../Dungeon/Room/Hero"/>
+			<SimulationModifierDescriptor TargetProperty="ZoneAttackRadius" Operation="Addition" Value="100" Path="../Dungeon/Room/Hero"/>
+			<SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Percent" Value="-0.25" Path="../Dungeon/Room/Mob"/>
+			<SimulationModifierDescriptor TargetProperty="Defense" Operation="Percent" Value="-0.5" Path="../Dungeon/Room/Mob"/>
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="SpecialModule_Stele_Neu_ProModules" Type="MajorModuleLevel">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="7"/>
+			<SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Multiplication" Value="1.8" Path="../Dungeon/Room/MinorModule"/>
+			<SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Multiplication" Value="0.5" Path="../Dungeon/Room/Hero"/>
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<!--
+	<SimulationDescriptor Name="SpecialModule_Stele_Neu_FastButWeakMob" Type="MajorModuleLevel">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="4"/>
+			<SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Multiplication" Value="0.25" Path="../Dungeon/Room/Mob"/>
+			<SimulationModifierDescriptor TargetProperty="MoveSpeed" Operation="Percent" Value="1" Path="../Dungeon/Room/Mob"/>
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+	-->
+
+	<SimulationDescriptor Name="SpecialModule_Stele_Neu_KeepDistance" Type="MajorModuleLevel">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="5"/>
+			<SimulationModifierDescriptor TargetProperty="Defense" Operation="Multiplication" Value="0" Path="../Dungeon/Room/Hero"/>
+			<SimulationModifierDescriptor TargetProperty="MoveSpeed" Operation="Percent" Value="0.3" Path="../Dungeon/Room/Hero"/>
+			<SimulationModifierDescriptor TargetProperty="ModuleAttackPowerPercentByWitIfAlone" Operation="Addition" Value="0.2" Path="../Dungeon/Room/Hero"/>
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<!-- __________ MINOR __________ -->
+
+	<SimulationDescriptor Name="MinorModule" Type="Class">
+		<SimulationPropertyDescriptors>
+			<SimulationPropertyDescriptor Name="MaxHealth" Composition="Sum" />
+			<SimulationPropertyDescriptor Name="HealthRegen" Composition="Sum" />
+			<SimulationPropertyDescriptor Name="HealthRegenGamePhaseIndependent" Composition="Sum" />
+			<SimulationPropertyDescriptor Name="DamageOverTime" Composition="Sum" />
+			<SimulationPropertyDescriptor Name="Defense" Composition="Sum" MaxValue="75"/>
+			<SimulationPropertyDescriptor Name="EssebRegenEffect" Composition="Sum" MaxValue="75" />
+			<SimulationPropertyDescriptor Name="OrganicNoRegenEffect" BaseValue="1" />
+			<SimulationPropertyDescriptor Name="OrganicReplaceByDefenseEffect" BaseValue="0" />
+
+			<SimulationPropertyDescriptor Name="AttackRange" Composition="Sum" />
+			<SimulationPropertyDescriptor Name="AttackPower" Composition="Sum" />
+			<SimulationPropertyDescriptor Name="MaximumAttackPower" Composition="Sum" />
+			<SimulationPropertyDescriptor Name="MaximumAttackPower_displayed" Composition="Sum" />
+			<SimulationPropertyDescriptor Name="ScienceAttackPowerBonus" Composition="Sum" />
+			<SimulationPropertyDescriptor Name="AttackHitCount" Composition="Sum" BaseValue="1" />
+			<SimulationPropertyDescriptor Name="AttackCooldown" Composition="Sum" />
+			<SimulationPropertyDescriptor Name="ZoneAttackRadius" Composition="Sum" MinValue="Negative" />
+			<SimulationPropertyDescriptor Name="ZoneAttackPowerOnMobs" Composition="Sum" />
+			<SimulationPropertyDescriptor Name="ZoneAttackPowerOnHeroes" Composition="Sum" />
+			<SimulationPropertyDescriptor Name="ZoneAttackPowerOnModules" Composition="Sum" />
+			<SimulationPropertyDescriptor Name="ZoneAttackPowerOnNPCs" Composition="Sum" />
+
+			<SimulationPropertyDescriptor Name="HPByKill" Composition="Sum" />
+			<SimulationPropertyDescriptor Name="FIDSQuantityPerKill" Composition="Sum" />
+			<SimulationPropertyDescriptor Name="FIDSResourcePerKill" Composition="Sum" />
+			<SimulationPropertyDescriptor Name="FIDSRewardKillCount" Composition="Sum" />
+
+			<SimulationPropertyDescriptor Name="HeatCooling" Composition="Sum" />
+			<SimulationPropertyDescriptor Name="HeatMaximum" Composition="Sum" />
+			<SimulationPropertyDescriptor Name="OverheatingDuration" Composition="Sum" />
+
+			<SimulationPropertyDescriptor Name="LureMaxEnergy" Composition="Sum" />
+			<SimulationPropertyDescriptor Name="LureActivationDelay" Composition="Sum" />
+
+			<SimulationPropertyDescriptor Name="ReparatorWit" BaseValue="0" Composition="Sum" />
+
+			<SimulationPropertyDescriptor Name="ModuleOperatorWit" BaseValue="0" />
+
+			<SimulationPropertyDescriptor Name="HealthBarHeight" BaseValue="35" />
+
+			<SimulationPropertyDescriptor Name="PopulationWeight" BaseValue="1.25" Composition="Sum" />
+			<SimulationPropertyDescriptor Name="RoomMobCount" />
+			<SimulationPropertyDescriptor Name="IsWithMob" MaxValue="1"/>
+			<SimulationPropertyDescriptor Name="IsWithoutMob" MinValue="Negative" />
+
+			<SimulationPropertyDescriptor Name="RoomHeroesHealthRegenAdd" BaseValue="0" Composition="Sum" />
+			<SimulationPropertyDescriptor Name="RoomHeroesHealthRegenAddFinal" BaseValue="0" Composition="Sum" />
+			<SimulationPropertyDescriptor Name="HealthRegenWithoutMobBonus" BaseValue="0" />
+			<SimulationPropertyDescriptor Name="HealthRegenWithoutMobBonusPercent" BaseValue="0" />
+			<SimulationPropertyDescriptor Name="RoomNPCsHealthRegenAdd" BaseValue="0" Composition="Sum" />
+			<SimulationPropertyDescriptor Name="RoomNPCsHealthRegenAddFinal" BaseValue="0" Composition="Sum" />
+			<SimulationPropertyDescriptor Name="RoomHeroesAttackPowerPercent" BaseValue="0" Composition="Sum" />
+			<SimulationPropertyDescriptor Name="RoomHeroesDefensePercent" BaseValue="0" Composition="Sum" />
+			<SimulationPropertyDescriptor Name="RoomNPCsDefensePercent" BaseValue="0" Composition="Sum" />
+			<SimulationPropertyDescriptor Name="RoomMobsMoveSpeedPercent" BaseValue="0" Composition="Sum" MinValue="Negative" />
+			<SimulationPropertyDescriptor Name="RoomMobsDefenseDiv" BaseValue="1" Composition="Sum" />
+			<SimulationPropertyDescriptor Name="RoomMobsDamageOverTime" Composition="Sum" MinValue="Negative" />
+			<SimulationPropertyDescriptor Name="InstantDamageOverTime" Composition="Sum" />
+			<!-- to differentiate the effect in tooltip -->
+			<SimulationPropertyDescriptor Name="NotPacifist" BaseValue="1" />
+			<!-- Boolean -->
+
+			<!-- Fake value for tooltips -->
+			<SimulationPropertyDescriptor Name="Troublemaker_tooltip" /> 
+			<SimulationPropertyDescriptor Name="PoisonDuration_tooltip" />
+			<SimulationPropertyDescriptor Name="PoisonValue_tooltip" />
+
+			<SimulationPropertyDescriptor Name="Skill_A0030_Effect" Composition="Sum" />
+			<SimulationPropertyDescriptor Name="Skill_A0032_Effect" Composition="Sum" />
+			<SimulationPropertyDescriptor Name="Skill_A0033_Effect" Composition="Sum" />
+
+
+			<!-- Used to count modules in parent room -->
+			<SimulationPropertyDescriptor Name="ModuleCount" BaseValue="1" />
+		</SimulationPropertyDescriptors>
+
+		<SimulationModifierDescriptors>
+			<BinarySimulationModifierDescriptor TargetProperty="HealthRegen" Operation="Addition" Left="$(ReparatorWit)" BinaryOperation="Multiplication" Right="2" />
+
+			<SimulationModifierDescriptor TargetProperty="MaximumAttackPower" Operation="Addition" Value="$(MaximumAttackPower_displayed)" />
+
+			<!-- Computation "is Without Mob" -->
+			<SimulationModifierDescriptor TargetProperty="IsWithMob" Operation="Addition" Value="$(RoomMobCount)" />
+			<BinarySimulationModifierDescriptor TargetProperty="IsWithoutMob" Operation="Addition" Left="1" BinaryOperation="Subtraction" Right="$(IsWithMob)" />
+
+			<BinarySimulationModifierDescriptor TargetProperty="HealthRegenWithoutMobBonusPercent" Operation="Addition" Left="${HealthRegenWithoutMobBonus}" BinaryOperation="Division" Right="100" />
+			<SimulationModifierDescriptor TargetProperty="RoomHeroesHealthRegenAddFinal" Operation="Addition" Value="$(RoomHeroesHealthRegenAdd)" />
+			<SimulationModifierDescriptor TargetProperty="RoomNPCsHealthRegenAddFinal" Operation="Addition" Value="$(RoomNPCsHealthRegenAdd)" />
+			<BinarySimulationModifierDescriptor TargetProperty="RoomHeroesHealthRegenAddFinal" Operation="Percent" Left="${HealthRegenWithoutMobBonusPercent}" BinaryOperation="Multiplication" Right="$(IsWithoutMob)" />
+			<BinarySimulationModifierDescriptor TargetProperty="RoomNPCsHealthRegenAddFinal" Operation="Percent" Left="${HealthRegenWithoutMobBonusPercent}" BinaryOperation="Multiplication" Right="$(IsWithoutMob)" />
+
+			<!-- Room heroes/NPCs health regen modifiers -->
+			<SimulationModifierDescriptor TargetProperty="HealthRegen" Operation="Addition" Value="${RoomHeroesHealthRegenAddFinal}" Path="./Room/Hero" />
+			<SimulationModifierDescriptor TargetProperty="HealthRegen" Operation="Addition" Value="${RoomNPCsHealthRegenAddFinal}" Path="./Room/NPC" />
+
+			<!-- Room heroes attack power modifier -->
+			<SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Percent" Value="${RoomHeroesAttackPowerPercent}" Path="./Room/Hero" />
+
+			<!-- Room heroes/NPCs defense modifiers -->
+			<SimulationModifierDescriptor TargetProperty="Defense" Operation="Percent" Value="${RoomHeroesDefensePercent}" Path="./Room/Hero" />
+			<SimulationModifierDescriptor TargetProperty="Defense" Operation="Percent" Value="${RoomNPCsDefensePercent}" Path="./Room/NPC" />
+
+			<!-- Room mobs move speed modifier -->
+			<SimulationModifierDescriptor TargetProperty="MoveSpeed" Operation="Percent" Value="${RoomMobsMoveSpeedPercent}" Path="./Room/Mob" />
+
+			<!-- Room mobs defense modifier -->
+			<SimulationModifierDescriptor TargetProperty="Defense" Operation="Division" Value="${RoomMobsDefenseDiv}" Path="./Room/Mob" />
+
+			<!-- Room mobs Health Regen modifier -->
+			<SimulationModifierDescriptor TargetProperty="DamageOverTime" Operation="Addition" Value="${RoomMobsDamageOverTime}" Path="./Room/Mob" />
+			<SimulationModifierDescriptor TargetProperty="DamageOverTime" Operation="Addition" Value="$(InstantDamageOverTime)" />
+
+			<SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Multiplication" Value="$(NotPacifist)" />
+			<SimulationModifierDescriptor TargetProperty="ZoneAttackPowerOnMobs" Operation="Multiplication" Value="$(NotPacifist)" />
+			<SimulationModifierDescriptor TargetProperty="ZoneAttackPowerOnHeroes" Operation="Multiplication" Value="$(NotPacifist)" />
+			<SimulationModifierDescriptor TargetProperty="ZoneAttackPowerOnModules" Operation="Multiplication" Value="$(NotPacifist)" />
+			<SimulationModifierDescriptor TargetProperty="ZoneAttackPowerOnNPCs" Operation="Multiplication" Value="$(NotPacifist)" />
+
+			<!-- Esseb repair skill -->
+			<BinarySimulationModifierDescriptor TargetProperty="HealthRegenGamePhaseIndependent" Operation="Addition" Left="${EssebRegenEffect}" BinaryOperation="Multiplication" Right="$(OrganicNoRegenEffect)" />
+			<BinarySimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Left="${EssebRegenEffect}" BinaryOperation="Multiplication" Right="$(OrganicReplaceByDefenseEffect)" />
+
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="MinorModule_Unpowered" Type="ModuleFlag">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="RoomHeroesHealthRegenAddFinal" Operation="Multiplication" Value="0" />
+			<SimulationModifierDescriptor TargetProperty="HealthRegenWithoutMobBonus" Operation="Multiplication" Value="0" />
+			<SimulationModifierDescriptor TargetProperty="RoomNPCsHealthRegenAddFinal" Operation="Multiplication" Value="0" />
+			<SimulationModifierDescriptor TargetProperty="HPByKill" Operation="Multiplication" Value="0" />
+			<SimulationModifierDescriptor TargetProperty="FIDSQuantityPerKill" Operation="Multiplication" Value="0" />
+
+			<SimulationModifierDescriptor TargetProperty="RoomHeroesAttackPowerPercent" Operation="Multiplication" Value="0" />
+			<SimulationModifierDescriptor TargetProperty="RoomHeroesDefensePercent" Operation="Multiplication" Value="0" />
+			<SimulationModifierDescriptor TargetProperty="RoomNPCsDefensePercent" Operation="Multiplication" Value="0" />
+			<SimulationModifierDescriptor TargetProperty="RoomMobsMoveSpeedPercent" Operation="Multiplication" Value="0" />
+			<SimulationModifierDescriptor TargetProperty="RoomMobsDefenseDiv" Operation="Multiplication" Value="0" />
+			<SimulationModifierDescriptor TargetProperty="RoomMobsDamageOverTime" Operation="Multiplication" Value="0" />
+			<SimulationModifierDescriptor TargetProperty="ModuleOperatorWit" Operation="Multiplication" Value="0" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+</Datatable>

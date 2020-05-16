@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+	<!-- Auto ship achievements -->
+	<LocalAchievementDefinition Name="DRILL_WINNER" StatisticName="DRILL_LEVELS" StatisticTriggerValue="24" Network="true" />
+
+	<!-- Special ship achievements -->
+	<LocalAchievementDefinition Name="SURVIVOR" StatisticName="HERO_DEATH_NEGATIVE" StatisticTriggerValue="1" Network="true" />
+	<!-- Do not change trigger value for this stat -->
+	<LocalAchievementDefinition Name="HEALER" StatisticName="HEAL_FOOD_USED" StatisticTriggerValue="1000" Network="true" />
+
+	<!-- MP achievements -->
+	<LocalAchievementDefinition Name="FLOOR_1_REACHED_MULTI" StatisticName="MULTIPLAYER_BEST_FLOOR" StatisticTriggerValue="1" Network="true"/>
+
+	<!-- Misc. achievements -->
+	<LocalAchievementDefinition Name="BUILDER" StatisticName="MODULES_BUILT_CURRENT_FLOOR" StatisticTriggerValue="50" Network="true" />
+	<LocalAchievementDefinition Name="STORER" StatisticName="FIS_STOCK" StatisticTriggerValue="300" Network="true" />
+	<LocalAchievementDefinition Name="SPRINTER" StatisticName="PAUSE_USES_NEGATIVE" StatisticTriggerValue="1" Network="true" />
+	<!-- Do not change trigger value for this stat -->
+	<LocalAchievementDefinition Name="PROTECTOR" StatisticName="CRYSTAL_HITS_NEGATIVE" StatisticTriggerValue="1" Network="true" />
+	<!-- Do not change trigger value for this stat -->
+
+	<LocalAchievementDefinition Name="POD_WINNER" StatisticName="POD_VICTORY" StatisticTriggerValue="1" Network="true" />
+	<LocalAchievementDefinition Name="INFIRMARY_WINNER" StatisticName="INFIRMARY_VICTORY" StatisticTriggerValue="1" Network="true" />
+	<LocalAchievementDefinition Name="ARMORY_WINNER" StatisticName="ARMORY_VICTORY" StatisticTriggerValue="1" Network="true" />
+	<LocalAchievementDefinition Name="LIBRARY_WINNER" StatisticName="LIBRARY_VICTORY" StatisticTriggerValue="1" Network="true" />
+	<LocalAchievementDefinition Name="SANITARY_WINNER" StatisticName="SANITARY_VICTORY" StatisticTriggerValue="1" Network="true" />
+	<LocalAchievementDefinition Name="REFREEZERATOR_WINNER" StatisticName="REFREEZERATOR_VICTORY" StatisticTriggerValue="1" Network="true" />
+	<LocalAchievementDefinition Name="MULTIPLAYER_WINNER" StatisticName="MULTIPLAYER_VICTORIES" StatisticTriggerValue="1" Network="true" />
+
+	<LocalAchievementDefinition Name="OPENER" StatisticName="EVERY_DOOR_VICTORY" StatisticTriggerValue="1" Network="true" />
+	<LocalAchievementDefinition Name="LEVELER" StatisticName="MAX_LEVEL_HEROES" StatisticTriggerValue="1" Network="true" />
+	<LocalAchievementDefinition Name="UNLOCKER" StatisticName="ANY_HERO_UNLOCKS" StatisticTriggerValue="1" Network="true" />
+	<LocalAchievementDefinition Name="RECRUITER" StatisticName="FULL_TEAM" StatisticTriggerValue="1" Network="true" />
+	<LocalAchievementDefinition Name="OPENER_EXPERT" StatisticName="DOORS_OPENED" StatisticTriggerValue="10000" Network="true" />
+	<LocalAchievementDefinition Name="RESEARCHER" StatisticName="RESEARCHED_ALL" StatisticTriggerValue="1" Network="true" />
+	<LocalAchievementDefinition Name="COLLECTOR" StatisticName="PICTURES_UNLOCKED" StatisticTriggerValue="51" Network="true" />
+
+	<!-- G2G achievements -->
+	<LocalAchievementDefinition Name="NO_RECRUITMENT_WINNER" StatisticName="RECRUITMENT_NEGATIVE" StatisticTriggerValue="1" Network="true" />
+	<LocalAchievementDefinition Name="EVERY_FACTION_WINNER" StatisticName="EVERY_FACTION_VICTORY" StatisticTriggerValue="1" Network="true" />
+	<LocalAchievementDefinition Name="FLY_YOU_FOOLS" StatisticName="LAST_STAND" StatisticTriggerValue="1" Network="true" />
+
+	<!-- Hero achievements -->
+	<LocalAchievementDefinition Name="HERO_H0001_WINNER" StatisticName="HERO_H0001_VICTORY" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0002_WINNER" StatisticName="HERO_H0002_VICTORY" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0003_WINNER" StatisticName="HERO_H0003_VICTORY" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0004_WINNER" StatisticName="HERO_H0004_VICTORY" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0005_WINNER" StatisticName="HERO_H0005_VICTORY" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0006_WINNER" StatisticName="HERO_H0006_VICTORY" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0007_WINNER" StatisticName="HERO_H0007_VICTORY" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0008_WINNER" StatisticName="HERO_H0008_VICTORY" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0009_WINNER" StatisticName="HERO_H0009_VICTORY" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0010_WINNER" StatisticName="HERO_H0010_VICTORY" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0011_WINNER" StatisticName="HERO_H0011_VICTORY" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0012_WINNER" StatisticName="HERO_H0012_VICTORY" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0013_WINNER" StatisticName="HERO_H0013_VICTORY" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0014_WINNER" StatisticName="HERO_H0014_VICTORY" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0015_WINNER" StatisticName="HERO_H0015_VICTORY" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0016_WINNER" StatisticName="HERO_H0016_VICTORY" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0017_WINNER" StatisticName="HERO_H0017_VICTORY" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0018_WINNER" StatisticName="HERO_H0018_VICTORY" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0019_WINNER" StatisticName="HERO_H0019_VICTORY" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0020_WINNER" StatisticName="HERO_H0020_VICTORY" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0021_WINNER" StatisticName="HERO_H0021_VICTORY" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0022_WINNER" StatisticName="HERO_H0022_VICTORY" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0023_WINNER" StatisticName="HERO_H0023_VICTORY" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0024_WINNER" StatisticName="HERO_H0024_VICTORY" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0025_WINNER" StatisticName="HERO_H0025_VICTORY" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0026_WINNER" StatisticName="HERO_H0026_VICTORY" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0027_WINNER" StatisticName="HERO_H0027_VICTORY" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0028_WINNER" StatisticName="HERO_H0028_VICTORY" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0029_WINNER" StatisticName="HERO_H0029_VICTORY" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0030_WINNER" StatisticName="HERO_H0030_VICTORY" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0031_WINNER" StatisticName="HERO_H0031_VICTORY" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0032_WINNER" StatisticName="HERO_H0032_VICTORY" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0033_WINNER" StatisticName="HERO_H0033_VICTORY" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0034_WINNER" StatisticName="HERO_H0034_VICTORY" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0035_WINNER" StatisticName="HERO_H0035_VICTORY" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0036_WINNER" StatisticName="HERO_H0036_VICTORY" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0037_WINNER" StatisticName="HERO_H0037_VICTORY" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0038_WINNER" StatisticName="HERO_H0038_VICTORY" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0039_WINNER" StatisticName="HERO_H0039_VICTORY" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0040_WINNER" StatisticName="HERO_H0040_VICTORY" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0041_WINNER" StatisticName="HERO_H0041_VICTORY" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0042_WINNER" StatisticName="HERO_H0042_VICTORY" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0043_WINNER" StatisticName="HERO_H0043_VICTORY" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0044_WINNER" StatisticName="HERO_H0044_VICTORY" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0045_WINNER" StatisticName="HERO_H0045_VICTORY" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0046_WINNER" StatisticName="HERO_H0046_VICTORY" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0047_WINNER" StatisticName="HERO_H0047_VICTORY" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0048_WINNER" StatisticName="HERO_H0048_VICTORY" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0049_WINNER" StatisticName="HERO_H0049_VICTORY" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0050_WINNER" StatisticName="HERO_H0050_VICTORY" StatisticTriggerValue="1" />
+
+	<LocalAchievementDefinition Name="HERO_H0001_UNLOCKER" StatisticName="HERO_H0001_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0002_UNLOCKER" StatisticName="HERO_H0002_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0003_UNLOCKER" StatisticName="HERO_H0003_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0004_UNLOCKER" StatisticName="HERO_H0004_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0005_UNLOCKER" StatisticName="HERO_H0005_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0006_UNLOCKER" StatisticName="HERO_H0006_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0007_UNLOCKER" StatisticName="HERO_H0007_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0008_UNLOCKER" StatisticName="HERO_H0008_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0009_UNLOCKER" StatisticName="HERO_H0009_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0010_UNLOCKER" StatisticName="HERO_H0010_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0011_UNLOCKER" StatisticName="HERO_H0011_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0012_UNLOCKER" StatisticName="HERO_H0012_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0013_UNLOCKER" StatisticName="HERO_H0013_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0014_UNLOCKER" StatisticName="HERO_H0014_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0015_UNLOCKER" StatisticName="HERO_H0015_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0016_UNLOCKER" StatisticName="HERO_H0016_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0017_UNLOCKER" StatisticName="HERO_H0017_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0018_UNLOCKER" StatisticName="HERO_H0018_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0019_UNLOCKER" StatisticName="HERO_H0019_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0020_UNLOCKER" StatisticName="HERO_H0020_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0021_UNLOCKER" StatisticName="HERO_H0021_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0022_UNLOCKER" StatisticName="HERO_H0022_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0023_UNLOCKER" StatisticName="HERO_H0023_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0024_UNLOCKER" StatisticName="HERO_H0024_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0025_UNLOCKER" StatisticName="HERO_H0025_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0026_UNLOCKER" StatisticName="HERO_H0026_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0027_UNLOCKER" StatisticName="HERO_H0027_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0028_UNLOCKER" StatisticName="HERO_H0028_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0029_UNLOCKER" StatisticName="HERO_H0029_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0030_UNLOCKER" StatisticName="HERO_H0030_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0031_UNLOCKER" StatisticName="HERO_H0031_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0032_UNLOCKER" StatisticName="HERO_H0032_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0033_UNLOCKER" StatisticName="HERO_H0033_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0034_UNLOCKER" StatisticName="HERO_H0034_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0035_UNLOCKER" StatisticName="HERO_H0035_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0036_UNLOCKER" StatisticName="HERO_H0036_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0037_UNLOCKER" StatisticName="HERO_H0037_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0038_UNLOCKER" StatisticName="HERO_H0038_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0039_UNLOCKER" StatisticName="HERO_H0039_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0040_UNLOCKER" StatisticName="HERO_H0040_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0041_UNLOCKER" StatisticName="HERO_H0041_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0042_UNLOCKER" StatisticName="HERO_H0042_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0043_UNLOCKER" StatisticName="HERO_H0043_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0044_UNLOCKER" StatisticName="HERO_H0044_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0045_UNLOCKER" StatisticName="HERO_H0045_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0046_UNLOCKER" StatisticName="HERO_H0046_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0047_UNLOCKER" StatisticName="HERO_H0047_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0048_UNLOCKER" StatisticName="HERO_H0048_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0049_UNLOCKER" StatisticName="HERO_H0049_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0050_UNLOCKER" StatisticName="HERO_H0050_UNLOCKS" StatisticTriggerValue="1" />
+
+	<LocalAchievementDefinition Name="HERO_H0001_DISCOVERER" StatisticName="HERO_H0001_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0002_DISCOVERER" StatisticName="HERO_H0002_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0003_DISCOVERER" StatisticName="HERO_H0003_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0004_DISCOVERER" StatisticName="HERO_H0004_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0005_DISCOVERER" StatisticName="HERO_H0005_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0006_DISCOVERER" StatisticName="HERO_H0006_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0007_DISCOVERER" StatisticName="HERO_H0007_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0008_DISCOVERER" StatisticName="HERO_H0008_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0009_DISCOVERER" StatisticName="HERO_H0009_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0010_DISCOVERER" StatisticName="HERO_H0010_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0011_DISCOVERER" StatisticName="HERO_H0011_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0012_DISCOVERER" StatisticName="HERO_H0012_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0013_DISCOVERER" StatisticName="HERO_H0013_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0014_DISCOVERER" StatisticName="HERO_H0014_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0015_DISCOVERER" StatisticName="HERO_H0015_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0016_DISCOVERER" StatisticName="HERO_H0016_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0017_DISCOVERER" StatisticName="HERO_H0017_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0018_DISCOVERER" StatisticName="HERO_H0018_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0019_DISCOVERER" StatisticName="HERO_H0019_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0020_DISCOVERER" StatisticName="HERO_H0020_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0021_DISCOVERER" StatisticName="HERO_H0021_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0022_DISCOVERER" StatisticName="HERO_H0022_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0023_DISCOVERER" StatisticName="HERO_H0023_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0024_DISCOVERER" StatisticName="HERO_H0024_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0025_DISCOVERER" StatisticName="HERO_H0025_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0026_DISCOVERER" StatisticName="HERO_H0026_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0027_DISCOVERER" StatisticName="HERO_H0027_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0028_DISCOVERER" StatisticName="HERO_H0028_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0029_DISCOVERER" StatisticName="HERO_H0029_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0030_DISCOVERER" StatisticName="HERO_H0030_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0031_DISCOVERER" StatisticName="HERO_H0031_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0032_DISCOVERER" StatisticName="HERO_H0032_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0033_DISCOVERER" StatisticName="HERO_H0033_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0034_DISCOVERER" StatisticName="HERO_H0034_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0035_DISCOVERER" StatisticName="HERO_H0035_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0036_DISCOVERER" StatisticName="HERO_H0036_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0037_DISCOVERER" StatisticName="HERO_H0037_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0038_DISCOVERER" StatisticName="HERO_H0038_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0039_DISCOVERER" StatisticName="HERO_H0039_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0040_DISCOVERER" StatisticName="HERO_H0040_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0041_DISCOVERER" StatisticName="HERO_H0041_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0042_DISCOVERER" StatisticName="HERO_H0042_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0043_DISCOVERER" StatisticName="HERO_H0043_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0044_DISCOVERER" StatisticName="HERO_H0044_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0045_DISCOVERER" StatisticName="HERO_H0045_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0046_DISCOVERER" StatisticName="HERO_H0046_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0047_DISCOVERER" StatisticName="HERO_H0047_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0048_DISCOVERER" StatisticName="HERO_H0048_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0049_DISCOVERER" StatisticName="HERO_H0049_UNLOCKS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="HERO_H0050_DISCOVERER" StatisticName="HERO_H0050_UNLOCKS" StatisticTriggerValue="1" />
+
+
+	<!-- Level achievements -->
+	<LocalAchievementDefinition Name="FLOOR_1_REACHED" StatisticName="BEST_FLOOR" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="FLOOR_2_REACHED" StatisticName="BEST_FLOOR" StatisticTriggerValue="2" />
+	<LocalAchievementDefinition Name="FLOOR_3_REACHED" StatisticName="BEST_FLOOR" StatisticTriggerValue="3" />
+	<LocalAchievementDefinition Name="FLOOR_4_REACHED" StatisticName="BEST_FLOOR" StatisticTriggerValue="4" />
+	<LocalAchievementDefinition Name="FLOOR_5_REACHED" StatisticName="BEST_FLOOR" StatisticTriggerValue="5" />
+	<LocalAchievementDefinition Name="FLOOR_6_REACHED" StatisticName="BEST_FLOOR" StatisticTriggerValue="6" />
+	<LocalAchievementDefinition Name="FLOOR_7_REACHED" StatisticName="BEST_FLOOR" StatisticTriggerValue="7" />
+	<LocalAchievementDefinition Name="FLOOR_8_REACHED" StatisticName="BEST_FLOOR" StatisticTriggerValue="8" />
+	<LocalAchievementDefinition Name="FLOOR_9_REACHED" StatisticName="BEST_FLOOR" StatisticTriggerValue="9" />
+	<LocalAchievementDefinition Name="FLOOR_10_REACHED" StatisticName="BEST_FLOOR" StatisticTriggerValue="10" />
+	<LocalAchievementDefinition Name="FLOOR_11_REACHED" StatisticName="BEST_FLOOR" StatisticTriggerValue="11" />
+	<LocalAchievementDefinition Name="FLOOR_12_REACHED" StatisticName="BEST_FLOOR" StatisticTriggerValue="12" />
+
+
+	<!-- Mob achievements -->
+	<LocalAchievementDefinition Name="N_TRASHS_KILLER" StatisticName="N_TRASHS_KILLED" StatisticTriggerValue="50" />
+	<LocalAchievementDefinition Name="N_FLYINGS_KILLER" StatisticName="N_FLYINGS_KILLED" StatisticTriggerValue="50" />
+	<LocalAchievementDefinition Name="N_CRYSTOPHILES_KILLER" StatisticName="N_CRYSTOPHILES_KILLED" StatisticTriggerValue="50" />
+	<LocalAchievementDefinition Name="N_HUNTERS_KILLER" StatisticName="N_HUNTERS_KILLED" StatisticTriggerValue="50" />
+	<LocalAchievementDefinition Name="N_KAMIKAZES_KILLER" StatisticName="N_KAMIKAZES_KILLED" StatisticTriggerValue="50" />
+	<LocalAchievementDefinition Name="S_TRASHS_KILLER" StatisticName="S_TRASHS_KILLED" StatisticTriggerValue="50" />
+	<LocalAchievementDefinition Name="S_BULLDOZERS_KILLER" StatisticName="S_BULLDOZERS_KILLED" StatisticTriggerValue="50" />
+	<LocalAchievementDefinition Name="S_SUPPORTERS_KILLER" StatisticName="S_SUPPORTERS_KILLED" StatisticTriggerValue="50" />
+	<LocalAchievementDefinition Name="S_ZONERS_KILLER" StatisticName="S_ZONERS_KILLED" StatisticTriggerValue="50" />
+	<LocalAchievementDefinition Name="C_TRASHS_KILLER" StatisticName="C_TRASHS_KILLED" StatisticTriggerValue="50" />
+	<LocalAchievementDefinition Name="C_DEBUFFERS_KILLER" StatisticName="C_DEBUFFERS_KILLED" StatisticTriggerValue="50" />
+	<LocalAchievementDefinition Name="C_KAMIKAZES_KILLER" StatisticName="C_KAMIKAZES_KILLED" StatisticTriggerValue="50" />
+	<LocalAchievementDefinition Name="C_KEEPERS_KILLER" StatisticName="C_KEEPERS_KILLED" StatisticTriggerValue="50" />
+	<LocalAchievementDefinition Name="H_HUNTERS_KILLER" StatisticName="H_HUNTERS_KILLED" StatisticTriggerValue="50" />
+	<LocalAchievementDefinition Name="H_DOOROPENERS_KILLER" StatisticName="H_DOOROPENERS_KILLED" StatisticTriggerValue="50" />
+	<LocalAchievementDefinition Name="H_DEBUFFERS_KILLER" StatisticName="H_DEBUFFERS_KILLED" StatisticTriggerValue="50" />
+	<LocalAchievementDefinition Name="V_VULTUS_KILLER" StatisticName="V_VULTUS_KILLED" StatisticTriggerValue="50" />
+	<LocalAchievementDefinition Name="V_TRASHS_KILLER" StatisticName="V_TRASHS_KILLED" StatisticTriggerValue="50" />
+	<LocalAchievementDefinition Name="V_DEBUFFERS_KILLER" StatisticName="V_DEBUFFERS_KILLED" StatisticTriggerValue="50" />
+	<LocalAchievementDefinition Name="H_ASSASSINS_KILLER" StatisticName="H_ASSASSINS_KILLED" StatisticTriggerValue="50" />
+	<LocalAchievementDefinition Name="H_ZONERS_KILLER" StatisticName="H_ZONERS_KILLED" StatisticTriggerValue="50" />
+
+	<!-- Module achievements -->
+	<LocalAchievementDefinition Name="MAJORMODULE_MAJOR0001_RESEARCHED_CURRENT_GAME" StatisticName="MAJORMODULE_MAJOR0001_LEVEL" StatisticTriggerValue="1" Volatile="true" />
+	<LocalAchievementDefinition Name="MAJORMODULE_MAJOR0002_RESEARCHED_CURRENT_GAME" StatisticName="MAJORMODULE_MAJOR0002_LEVEL" StatisticTriggerValue="1" Volatile="true" />
+	<LocalAchievementDefinition Name="MAJORMODULE_MAJOR0003_RESEARCHED_CURRENT_GAME" StatisticName="MAJORMODULE_MAJOR0003_LEVEL" StatisticTriggerValue="1" Volatile="true" />
+	<LocalAchievementDefinition Name="MAJORMODULE_MAJOR0004_RESEARCHED_CURRENT_GAME" StatisticName="MAJORMODULE_MAJOR0004_LEVEL" StatisticTriggerValue="1" Volatile="true" />
+	<LocalAchievementDefinition Name="MAJORMODULE_MAJOR0005_RESEARCHED_CURRENT_GAME" StatisticName="MAJORMODULE_MAJOR0005_LEVEL" StatisticTriggerValue="1" Volatile="true" />
+	<LocalAchievementDefinition Name="MAJORMODULE_MAJOR0006_RESEARCHED_CURRENT_GAME" StatisticName="MAJORMODULE_MAJOR0006_LEVEL" StatisticTriggerValue="1" Volatile="true" />
+	<LocalAchievementDefinition Name="MAJORMODULE_MAJOR0007_RESEARCHED_CURRENT_GAME" StatisticName="MAJORMODULE_MAJOR0007_LEVEL" StatisticTriggerValue="1" Volatile="true" />
+	<LocalAchievementDefinition Name="MAJORMODULE_MAJOR0008_RESEARCHED_CURRENT_GAME" StatisticName="MAJORMODULE_MAJOR0008_LEVEL" StatisticTriggerValue="1" Volatile="true" />
+	<LocalAchievementDefinition Name="MAJORMODULE_MAJOR0009_RESEARCHED_CURRENT_GAME" StatisticName="MAJORMODULE_MAJOR0009_LEVEL" StatisticTriggerValue="1" Volatile="true" />
+	<LocalAchievementDefinition Name="MAJORMODULE_MAJOR0010_RESEARCHED_CURRENT_GAME" StatisticName="MAJORMODULE_MAJOR0010_LEVEL" StatisticTriggerValue="1" Volatile="true" />
+
+	<LocalAchievementDefinition Name="MINORMODULE_MINOR0001_RESEARCHED_CURRENT_GAME" StatisticName="MINORMODULE_MINOR0001_LEVEL" StatisticTriggerValue="1" Volatile="true" />
+	<LocalAchievementDefinition Name="MINORMODULE_MINOR0002_RESEARCHED_CURRENT_GAME" StatisticName="MINORMODULE_MINOR0002_LEVEL" StatisticTriggerValue="1" Volatile="true" />
+	<LocalAchievementDefinition Name="MINORMODULE_MINOR0003_RESEARCHED_CURRENT_GAME" StatisticName="MINORMODULE_MINOR0003_LEVEL" StatisticTriggerValue="1" Volatile="true" />
+	<LocalAchievementDefinition Name="MINORMODULE_MINOR0004_RESEARCHED_CURRENT_GAME" StatisticName="MINORMODULE_MINOR0004_LEVEL" StatisticTriggerValue="1" Volatile="true" />
+	<LocalAchievementDefinition Name="MINORMODULE_MINOR0005_RESEARCHED_CURRENT_GAME" StatisticName="MINORMODULE_MINOR0005_LEVEL" StatisticTriggerValue="1" Volatile="true" />
+	<LocalAchievementDefinition Name="MINORMODULE_MINOR0006_RESEARCHED_CURRENT_GAME" StatisticName="MINORMODULE_MINOR0006_LEVEL" StatisticTriggerValue="1" Volatile="true" />
+	<LocalAchievementDefinition Name="MINORMODULE_MINOR0007_RESEARCHED_CURRENT_GAME" StatisticName="MINORMODULE_MINOR0007_LEVEL" StatisticTriggerValue="1" Volatile="true" />
+	<LocalAchievementDefinition Name="MINORMODULE_MINOR0008_RESEARCHED_CURRENT_GAME" StatisticName="MINORMODULE_MINOR0008_LEVEL" StatisticTriggerValue="1" Volatile="true" />
+	<LocalAchievementDefinition Name="MINORMODULE_MINOR0009_RESEARCHED_CURRENT_GAME" StatisticName="MINORMODULE_MINOR0009_LEVEL" StatisticTriggerValue="1" Volatile="true" />
+	<LocalAchievementDefinition Name="MINORMODULE_MINOR0010_RESEARCHED_CURRENT_GAME" StatisticName="MINORMODULE_MINOR0010_LEVEL" StatisticTriggerValue="1" Volatile="true" />
+	<LocalAchievementDefinition Name="MINORMODULE_MINOR0011_RESEARCHED_CURRENT_GAME" StatisticName="MINORMODULE_MINOR0011_LEVEL" StatisticTriggerValue="1" Volatile="true" />
+	<LocalAchievementDefinition Name="MINORMODULE_MINOR0012_RESEARCHED_CURRENT_GAME" StatisticName="MINORMODULE_MINOR0012_LEVEL" StatisticTriggerValue="1" Volatile="true" />
+	<LocalAchievementDefinition Name="MINORMODULE_MINOR0013_RESEARCHED_CURRENT_GAME" StatisticName="MINORMODULE_MINOR0013_LEVEL" StatisticTriggerValue="1" Volatile="true" />
+	<LocalAchievementDefinition Name="MINORMODULE_MINOR0014_RESEARCHED_CURRENT_GAME" StatisticName="MINORMODULE_MINOR0014_LEVEL" StatisticTriggerValue="1" Volatile="true" />
+	<LocalAchievementDefinition Name="MINORMODULE_MINOR0015_RESEARCHED_CURRENT_GAME" StatisticName="MINORMODULE_MINOR0015_LEVEL" StatisticTriggerValue="1" Volatile="true" />
+	<LocalAchievementDefinition Name="MINORMODULE_MINOR0016_RESEARCHED_CURRENT_GAME" StatisticName="MINORMODULE_MINOR0016_LEVEL" StatisticTriggerValue="1" Volatile="true" />
+	<LocalAchievementDefinition Name="MINORMODULE_MINOR0017_RESEARCHED_CURRENT_GAME" StatisticName="MINORMODULE_MINOR0017_LEVEL" StatisticTriggerValue="1" Volatile="true" />
+	<LocalAchievementDefinition Name="MINORMODULE_MINOR0018_RESEARCHED_CURRENT_GAME" StatisticName="MINORMODULE_MINOR0018_LEVEL" StatisticTriggerValue="1" Volatile="true" />
+	<LocalAchievementDefinition Name="MINORMODULE_MINOR0019_RESEARCHED_CURRENT_GAME" StatisticName="MINORMODULE_MINOR0019_LEVEL" StatisticTriggerValue="1" Volatile="true" />
+	<LocalAchievementDefinition Name="MINORMODULE_MINOR0020_RESEARCHED_CURRENT_GAME" StatisticName="MINORMODULE_MINOR0020_LEVEL" StatisticTriggerValue="1" Volatile="true" />
+
+	<LocalAchievementDefinition Name="MAJORMODULE_MAJOR0001_FULLY_RESEARCHED" StatisticName="MAJORMODULE_MAJOR0001_BEST_LEVEL" StatisticTriggerValue="4" />
+	<LocalAchievementDefinition Name="MAJORMODULE_MAJOR0002_FULLY_RESEARCHED" StatisticName="MAJORMODULE_MAJOR0002_BEST_LEVEL" StatisticTriggerValue="4" />
+	<LocalAchievementDefinition Name="MAJORMODULE_MAJOR0003_FULLY_RESEARCHED" StatisticName="MAJORMODULE_MAJOR0003_BEST_LEVEL" StatisticTriggerValue="4" />
+	<LocalAchievementDefinition Name="MAJORMODULE_MAJOR0004_FULLY_RESEARCHED" StatisticName="MAJORMODULE_MAJOR0004_BEST_LEVEL" StatisticTriggerValue="4" />
+	<LocalAchievementDefinition Name="MAJORMODULE_MAJOR0005_FULLY_RESEARCHED" StatisticName="MAJORMODULE_MAJOR0005_BEST_LEVEL" StatisticTriggerValue="4" />
+	<LocalAchievementDefinition Name="MAJORMODULE_MAJOR0006_FULLY_RESEARCHED" StatisticName="MAJORMODULE_MAJOR0006_BEST_LEVEL" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="MAJORMODULE_MAJOR0007_FULLY_RESEARCHED" StatisticName="MAJORMODULE_MAJOR0007_BEST_LEVEL" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="MAJORMODULE_MAJOR0008_FULLY_RESEARCHED" StatisticName="MAJORMODULE_MAJOR0008_BEST_LEVEL" StatisticTriggerValue="4" />
+	<LocalAchievementDefinition Name="MAJORMODULE_MAJOR0009_FULLY_RESEARCHED" StatisticName="MAJORMODULE_MAJOR0009_BEST_LEVEL" StatisticTriggerValue="4" />
+	<LocalAchievementDefinition Name="MAJORMODULE_MAJOR0010_FULLY_RESEARCHED" StatisticName="MAJORMODULE_MAJOR0010_BEST_LEVEL" StatisticTriggerValue="4" />
+
+	<LocalAchievementDefinition Name="MINORMODULE_MINOR0001_FULLY_RESEARCHED" StatisticName="MINORMODULE_MINOR0001_BEST_LEVEL" StatisticTriggerValue="4" />
+	<LocalAchievementDefinition Name="MINORMODULE_MINOR0002_FULLY_RESEARCHED" StatisticName="MINORMODULE_MINOR0002_BEST_LEVEL" StatisticTriggerValue="4" />
+	<LocalAchievementDefinition Name="MINORMODULE_MINOR0003_FULLY_RESEARCHED" StatisticName="MINORMODULE_MINOR0003_BEST_LEVEL" StatisticTriggerValue="4" />
+	<LocalAchievementDefinition Name="MINORMODULE_MINOR0004_FULLY_RESEARCHED" StatisticName="MINORMODULE_MINOR0004_BEST_LEVEL" StatisticTriggerValue="4" />
+	<LocalAchievementDefinition Name="MINORMODULE_MINOR0005_FULLY_RESEARCHED" StatisticName="MINORMODULE_MINOR0005_BEST_LEVEL" StatisticTriggerValue="4" />
+	<LocalAchievementDefinition Name="MINORMODULE_MINOR0006_FULLY_RESEARCHED" StatisticName="MINORMODULE_MINOR0006_BEST_LEVEL" StatisticTriggerValue="4" />
+	<LocalAchievementDefinition Name="MINORMODULE_MINOR0007_FULLY_RESEARCHED" StatisticName="MINORMODULE_MINOR0007_BEST_LEVEL" StatisticTriggerValue="4" />
+	<LocalAchievementDefinition Name="MINORMODULE_MINOR0008_FULLY_RESEARCHED" StatisticName="MINORMODULE_MINOR0008_BEST_LEVEL" StatisticTriggerValue="4" />
+	<LocalAchievementDefinition Name="MINORMODULE_MINOR0009_FULLY_RESEARCHED" StatisticName="MINORMODULE_MINOR0009_BEST_LEVEL" StatisticTriggerValue="4" />
+	<LocalAchievementDefinition Name="MINORMODULE_MINOR0010_FULLY_RESEARCHED" StatisticName="MINORMODULE_MINOR0010_BEST_LEVEL" StatisticTriggerValue="4" />
+	<LocalAchievementDefinition Name="MINORMODULE_MINOR0011_FULLY_RESEARCHED" StatisticName="MINORMODULE_MINOR0011_BEST_LEVEL" StatisticTriggerValue="4" />
+	<LocalAchievementDefinition Name="MINORMODULE_MINOR0012_FULLY_RESEARCHED" StatisticName="MINORMODULE_MINOR0012_BEST_LEVEL" StatisticTriggerValue="4" />
+	<LocalAchievementDefinition Name="MINORMODULE_MINOR0013_FULLY_RESEARCHED" StatisticName="MINORMODULE_MINOR0013_BEST_LEVEL" StatisticTriggerValue="4" />
+	<LocalAchievementDefinition Name="MINORMODULE_MINOR0014_FULLY_RESEARCHED" StatisticName="MINORMODULE_MINOR0014_BEST_LEVEL" StatisticTriggerValue="4" />
+	<LocalAchievementDefinition Name="MINORMODULE_MINOR0015_FULLY_RESEARCHED" StatisticName="MINORMODULE_MINOR0015_BEST_LEVEL" StatisticTriggerValue="4" />
+	<LocalAchievementDefinition Name="MINORMODULE_MINOR0016_FULLY_RESEARCHED" StatisticName="MINORMODULE_MINOR0016_BEST_LEVEL" StatisticTriggerValue="4" />
+	<LocalAchievementDefinition Name="MINORMODULE_MINOR0017_FULLY_RESEARCHED" StatisticName="MINORMODULE_MINOR0017_BEST_LEVEL" StatisticTriggerValue="4" />
+	<LocalAchievementDefinition Name="MINORMODULE_MINOR0018_FULLY_RESEARCHED" StatisticName="MINORMODULE_MINOR0018_BEST_LEVEL" StatisticTriggerValue="4" />
+	<LocalAchievementDefinition Name="MINORMODULE_MINOR0019_FULLY_RESEARCHED" StatisticName="MINORMODULE_MINOR0019_BEST_LEVEL" StatisticTriggerValue="4" />
+	<LocalAchievementDefinition Name="MINORMODULE_MINOR0020_FULLY_RESEARCHED" StatisticName="MINORMODULE_MINOR0020_BEST_LEVEL" StatisticTriggerValue="4" />
+
+	<!-- Story achievements -->
+	<LocalAchievementDefinition Name="STORY_COMPLETER_DOWNFALL" StatisticName="STORY_COMPLETED_DOWNFALL" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="STORY_COMPLETER_WHO_TALKED" StatisticName="STORY_COMPLETED_WHO_TALKED" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="STORY_COMPLETER_HOTVENGEANCE" StatisticName="STORY_COMPLETED_HOTVENGEANCE" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="STORY_COMPLETER_WHISKEY_TANGO_FOXTROT" StatisticName="STORY_COMPLETED_WHISKEY_TANGO_FOXTROT" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="STORY_COMPLETER_THIEF_GUARD" StatisticName="STORY_COMPLETED_THIEF_GUARD" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="STORY_COMPLETER_MATTER_OF_TRUTHS" StatisticName="STORY_COMPLETED_MATTER_OF_TRUTHS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="STORY_COMPLETER_BUGEATER" StatisticName="STORY_COMPLETED_BUGEATER" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="STORY_COMPLETER_HEAL_THE_LAME" StatisticName="STORY_COMPLETED_HEAL_THE_LAME" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="STORY_COMPLETER_FLAME_WARS" StatisticName="STORY_COMPLETED_FLAME_WARS" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="STORY_COMPLETER_WITH_HONOR" StatisticName="STORY_COMPLETED_WITH_HONOR" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="STORY_COMPLETER_AUSTRALIUM" StatisticName="STORY_COMPLETED_AUSTRALIUM" StatisticTriggerValue="1" />
+
+	<LocalAchievementDefinition Name="EXPERT" StatisticName="EXPERT_PROGRESS" Network="true" >
+		<SubAchievements>
+			<string>MAJORMODULE_MAJOR0001_FULLY_RESEARCHED</string>
+			<string>MAJORMODULE_MAJOR0002_FULLY_RESEARCHED</string>
+			<string>MAJORMODULE_MAJOR0003_FULLY_RESEARCHED</string>
+			<string>MAJORMODULE_MAJOR0004_FULLY_RESEARCHED</string>
+			<string>MAJORMODULE_MAJOR0005_FULLY_RESEARCHED</string>
+			<string>MAJORMODULE_MAJOR0006_FULLY_RESEARCHED</string>
+			<string>MAJORMODULE_MAJOR0007_FULLY_RESEARCHED</string>
+			<string>MINORMODULE_MINOR0001_FULLY_RESEARCHED</string>
+			<string>MINORMODULE_MINOR0002_FULLY_RESEARCHED</string>
+			<string>MINORMODULE_MINOR0003_FULLY_RESEARCHED</string>
+			<string>MINORMODULE_MINOR0004_FULLY_RESEARCHED</string>
+			<string>MINORMODULE_MINOR0005_FULLY_RESEARCHED</string>
+			<string>MINORMODULE_MINOR0006_FULLY_RESEARCHED</string>
+			<string>MINORMODULE_MINOR0007_FULLY_RESEARCHED</string>
+			<string>MINORMODULE_MINOR0009_FULLY_RESEARCHED</string>
+			<string>MINORMODULE_MINOR0010_FULLY_RESEARCHED</string>
+			<string>MINORMODULE_MINOR0011_FULLY_RESEARCHED</string>
+			<string>MINORMODULE_MINOR0012_FULLY_RESEARCHED</string>
+			<string>MINORMODULE_MINOR0013_FULLY_RESEARCHED</string>
+			<string>MINORMODULE_MINOR0014_FULLY_RESEARCHED</string>
+			<string>MINORMODULE_MINOR0015_FULLY_RESEARCHED</string>
+			<string>MINORMODULE_MINOR0016_FULLY_RESEARCHED</string>
+			<string>MINORMODULE_MINOR0017_FULLY_RESEARCHED</string>
+			<string>MINORMODULE_MINOR0019_FULLY_RESEARCHED</string>
+			<string>MINORMODULE_MINOR0020_FULLY_RESEARCHED</string>
+		</SubAchievements>
+	</LocalAchievementDefinition>
+
+
+	<LocalAchievementDefinition Name="SAVIOR" StatisticName="SAVIOR_PROGRESS" Network="true" >
+		<SubAchievements>
+			<string>HERO_H0001_WINNER</string>
+			<string>HERO_H0002_WINNER</string>
+			<string>HERO_H0003_WINNER</string>
+			<string>HERO_H0004_WINNER</string>
+			<string>HERO_H0005_WINNER</string>
+			<string>HERO_H0006_WINNER</string>
+			<string>HERO_H0007_WINNER</string>
+			<string>HERO_H0008_WINNER</string>
+			<string>HERO_H0009_WINNER</string>
+			<string>HERO_H0010_WINNER</string>
+			<string>HERO_H0012_WINNER</string>
+			<string>HERO_H0013_WINNER</string>
+			<string>HERO_H0014_WINNER</string>
+			<string>HERO_H0015_WINNER</string>
+			<string>HERO_H0016_WINNER</string>
+			<string>HERO_H0017_WINNER</string>
+			<string>HERO_H0021_WINNER</string>
+			<string>HERO_H0022_WINNER</string>
+			<string>HERO_H0023_WINNER</string>
+			<string>HERO_H0024_WINNER</string>
+			<string>HERO_H0028_WINNER</string>
+		</SubAchievements>
+	</LocalAchievementDefinition>
+
+	<LocalAchievementDefinition Name="KILLER" StatisticName="KILLER_PROGRESS" Network="true" >
+		<SubAchievements>
+			<string>N_TRASHS_KILLER</string>
+			<string>N_FLYINGS_KILLER</string>
+			<string>N_CRYSTOPHILES_KILLER</string>
+			<string>N_HUNTERS_KILLER</string>
+			<string>N_KAMIKAZES_KILLER</string>
+			<string>S_TRASHS_KILLER</string>
+			<string>S_BULLDOZERS_KILLER</string>
+			<string>S_SUPPORTERS_KILLER</string>
+			<string>S_ZONERS_KILLER</string>
+			<string>C_TRASHS_KILLER</string>
+			<string>C_DEBUFFERS_KILLER</string>
+			<string>C_KAMIKAZES_KILLER</string>
+			<string>C_KEEPERS_KILLER</string>
+			<string>H_HUNTERS_KILLER</string>
+			<string>H_DOOROPENERS_KILLER</string>
+			<string>H_DEBUFFERS_KILLER</string>
+			<string>V_DEBUFFERS_KILLER</string>
+			<string>V_VULTUS_KILLER</string>
+			<string>V_TRASHS_KILLER</string>
+		</SubAchievements>
+	</LocalAchievementDefinition>
+
+	<!-- <LocalAchievementDefinition Name="COLLECTOR" StatisticName="COLLECTOR_PROGRESS" Network="true" >
+    <SubAchievements>
+    </SubAchievements>
+  </LocalAchievementDefinition> -->
+
+	<LocalAchievementDefinition Name="ENDLESSDAY_SPECIALHERO_WINNER" StatisticName="ENDLESSDAY_SPECIALHERO_VICTORY" StatisticTriggerValue="1" Network="true" />
+
+	<!-- G2G / Rescue Team -->
+	<LocalAchievementDefinition Name="ORGANIC_WINNER" StatisticName="ORGANIC_VICTORY" StatisticTriggerValue="1" Network="true"/>
+	<LocalAchievementDefinition Name="RESCUE_TEAM_WINNER" StatisticName="RESCUE_TEAM_VICTORY" StatisticTriggerValue="1" Network="true" />
+
+	<LocalAchievementDefinition Name="HURNAS_FAMILY_KILLER" StatisticName="HURNAS_FAMILY_KILLED" Network="true" >
+		<SubAchievements>
+			<string>H_HUNTERS_KILLER</string>
+			<string>H_DOOROPENERS_KILLER</string>
+			<string>H_DEBUFFERS_KILLER</string>
+			<string>H_ASSASSINS_KILLER</string>
+			<string>H_ZONERS_KILLER</string>
+		</SubAchievements>
+	</LocalAchievementDefinition>
+
+	<LocalAchievementDefinition Name="N_TRASHS_TAMER" StatisticName="N_TRASHS_TAMED" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="N_FLYINGS_TAMER" StatisticName="N_FLYINGS_TAMED" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="N_CRYSTOPHILES_TAMER" StatisticName="N_CRYSTOPHILES_TAMED" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="N_HUNTERS_TAMER" StatisticName="N_HUNTERS_TAMED" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="N_KAMIKAZES_TAMER" StatisticName="N_KAMIKAZES_TAMED" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="S_TRASHS_TAMER" StatisticName="S_TRASHS_TAMED" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="S_BULLDOZERS_TAMER" StatisticName="S_BULLDOZERS_TAMED" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="S_SUPPORTERS_TAMER" StatisticName="S_SUPPORTERS_TAMED" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="S_ZONERS_TAMER" StatisticName="S_ZONERS_TAMED" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="C_TRASHS_TAMER" StatisticName="C_TRASHS_TAMED" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="C_DEBUFFERS_TAMER" StatisticName="C_DEBUFFERS_TAMED" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="C_KAMIKAZES_TAMER" StatisticName="C_KAMIKAZES_TAMED" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="C_KEEPERS_TAMER" StatisticName="C_KEEPERS_TAMED" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="H_HUNTERS_TAMER" StatisticName="H_HUNTERS_TAMED" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="H_DOOROPENERS_TAMER" StatisticName="H_DOOROPENERS_TAMED" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="H_DEBUFFERS_TAMER" StatisticName="H_DEBUFFERS_TAMED" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="V_VULTUS_TAMER" StatisticName="V_VULTUS_TAMED" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="V_TRASHS_TAMER" StatisticName="V_TRASHS_TAMED" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="V_DEBUFFERS_TAMER" StatisticName="V_DEBUFFERS_TAMED" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="H_ASSASSINS_TAMER" StatisticName="H_ASSASSINS_TAMED" StatisticTriggerValue="1" />
+	<LocalAchievementDefinition Name="H_ZONERS_TAMER" StatisticName="H_ZONERS_TAMED" StatisticTriggerValue="1" />
+
+	<LocalAchievementDefinition Name="TAMER" StatisticName="TAMER_PROGRESS" Network="true" >
+		<SubAchievements>
+			<string>N_TRASHS_TAMER</string>
+			<string>N_FLYINGS_TAMER</string>
+			<string>N_CRYSTOPHILES_TAMER</string>
+			<string>N_HUNTERS_TAMER</string>
+			<string>N_KAMIKAZES_TAMER</string>
+			<string>S_TRASHS_TAMER</string>
+			<string>S_BULLDOZERS_TAMER</string>
+			<string>S_SUPPORTERS_TAMER</string>
+			<string>S_ZONERS_TAMER</string>
+			<string>C_TRASHS_TAMER</string>
+			<string>C_DEBUFFERS_TAMER</string>
+			<string>C_KAMIKAZES_TAMER</string>
+			<string>C_KEEPERS_TAMER</string>
+			<string>H_HUNTERS_TAMER</string>
+			<string>H_DOOROPENERS_TAMER</string>
+			<string>H_DEBUFFERS_TAMER</string>
+			<string>V_DEBUFFERS_TAMER</string>
+			<string>V_VULTUS_TAMER</string>
+			<string>V_TRASHS_TAMER</string>
+			<string>H_ASSASSINS_TAMER</string>
+			<string>H_ZONERS_TAMER</string>
+		</SubAchievements>
+	</LocalAchievementDefinition>
+
+</Datatable>

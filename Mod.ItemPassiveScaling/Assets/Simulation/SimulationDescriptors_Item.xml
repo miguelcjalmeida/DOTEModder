@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+	<SimulationDescriptor Name="Item" Type="Class">
+		<SimulationPropertyDescriptors>
+			<SimulationPropertyDescriptor Name="Value" />
+
+			<SimulationPropertyDescriptor Name="Food" />
+			<SimulationPropertyDescriptor Name="MinFood" />
+			<SimulationPropertyDescriptor Name="MaxFood" />
+			<SimulationPropertyDescriptor Name="Industry" />
+			<SimulationPropertyDescriptor Name="MinIndustry" />
+			<SimulationPropertyDescriptor Name="MaxIndustry" />
+			<SimulationPropertyDescriptor Name="Dust" />
+			<SimulationPropertyDescriptor Name="MinDust" />
+			<SimulationPropertyDescriptor Name="MaxDust" />
+			<SimulationPropertyDescriptor Name="Science" />
+			<SimulationPropertyDescriptor Name="MinScience" />
+			<SimulationPropertyDescriptor Name="MaxScience" />
+
+			<SimulationPropertyDescriptor Name="MaxHealth" />
+			<SimulationPropertyDescriptor Name="HealthRegen" />
+			<SimulationPropertyDescriptor Name="Defense" />
+			
+			<SimulationPropertyDescriptor Name="MoveSpeed" />
+			
+			<SimulationPropertyDescriptor Name="AttackRange" />
+			<SimulationPropertyDescriptor Name="AttackPower" />
+			<SimulationPropertyDescriptor Name="AttackCooldown" />
+			<SimulationPropertyDescriptor Name="ZoneAttackRadius" />
+			<SimulationPropertyDescriptor Name="ZoneAttackPowerOnMobs" />
+			<SimulationPropertyDescriptor Name="ZoneAttackPowerOnHeroes" />
+			<SimulationPropertyDescriptor Name="ZoneAttackPowerOnModules" />
+			<SimulationPropertyDescriptor Name="ZoneAttackPowerOnNPCs" />
+
+			<SimulationPropertyDescriptor Name="WeaponSlot" />
+			<SimulationPropertyDescriptor Name="ArmorSlot" />
+			<SimulationPropertyDescriptor Name="HeadSlot" />
+		</SimulationPropertyDescriptors>
+	</SimulationDescriptor>
+	
+	<!-- FIDS -->
+	
+	<SimulationDescriptor Name="Item_Food" Type="Item">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="Value" Operation="Addition" Value="7" />
+
+			<SimulationModifierDescriptor TargetProperty="MinFood" Operation="Addition" Value="5" />
+			<SimulationModifierDescriptor TargetProperty="MaxFood" Operation="Addition" Value="10" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+	
+	<SimulationDescriptor Name="Item_Industry" Type="Item">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="Value" Operation="Addition" Value="7" />
+
+			<SimulationModifierDescriptor TargetProperty="MinIndustry" Operation="Addition" Value="5" />
+			<SimulationModifierDescriptor TargetProperty="MaxIndustry" Operation="Addition" Value="10" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+	
+	<!--
+	<SimulationDescriptor Name="Item_Dust" Type="Item">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="Value" Operation="Addition" Value="7" />
+
+			<SimulationModifierDescriptor TargetProperty="MinDust" Operation="Addition" Value="5" />
+			<SimulationModifierDescriptor TargetProperty="MaxDust" Operation="Addition" Value="10" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+	-->
+	
+	<SimulationDescriptor Name="Item_Science" Type="Item">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="Value" Operation="Addition" Value="7" />
+
+			<SimulationModifierDescriptor TargetProperty="MinScience" Operation="Addition" Value="5" />
+			<SimulationModifierDescriptor TargetProperty="MaxScience" Operation="Addition" Value="10" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+	
+	
+	<!-- Hero Items -->
+	<!--
+	<SimulationDescriptor Name="Item_SmallSword" Type="Item">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="Value" Operation="Addition" Value="100" />
+
+			<SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Addition" Value="1" />
+			<SimulationModifierDescriptor TargetProperty="AttackRange" Operation="Addition" Value="0" />
+
+			<SimulationModifierDescriptor TargetProperty="WeaponSlot" Operation="Addition" Value="1" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+	
+	<SimulationDescriptor Name="Item_EpicSword" Type="Item">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="Value" Operation="Addition" Value="500" />
+
+			<SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Addition" Value="4" />
+			<SimulationModifierDescriptor TargetProperty="AttackRange" Operation="Addition" Value="1" />
+
+			<SimulationModifierDescriptor TargetProperty="WeaponSlot" Operation="Addition" Value="1" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+	
+	<SimulationDescriptor Name="Item_PrisonGarb" Type="Item">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="Value" Operation="Addition" Value="50" />
+
+			<SimulationModifierDescriptor TargetProperty="MaxHealth" Operation="Addition" Value="2" />
+
+			<SimulationModifierDescriptor TargetProperty="ArmorSlot" Operation="Addition" Value="1" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+	-->
+	
+	<SimulationDescriptor Name="Inventory" Type="Class">
+		<SimulationPropertyDescriptors>
+			<SimulationPropertyDescriptor Name="GiftItemCost" />
+		</SimulationPropertyDescriptors>
+	</SimulationDescriptor>
+
+</Datatable>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+	<AchievementStatisticDefinition Name="POD_VICTORY" StatisticType="Int" />
+	<AchievementStatisticDefinition Name="INFIRMARY_VICTORY" StatisticType="Int" />
+	<AchievementStatisticDefinition Name="ARMORY_VICTORY" StatisticType="Int" />
+	<AchievementStatisticDefinition Name="LIBRARY_VICTORY" StatisticType="Int" />
+	<AchievementStatisticDefinition Name="SANITARY_VICTORY" StatisticType="Int" />
+	<AchievementStatisticDefinition Name="REFREEZERATOR_VICTORY" StatisticType="Int" />
+
+	<AchievementStatisticDefinition Name="EVERY_DOOR_VICTORY" StatisticType="Int" />
+	<AchievementStatisticDefinition Name="MULTIPLAYER_VICTORIES" StatisticType="Int" />
+	<AchievementStatisticDefinition Name="FULL_TEAM" StatisticType="Int" />
+	<AchievementStatisticDefinition Name="MAX_LEVEL_HEROES" StatisticType="Int" />
+	<AchievementStatisticDefinition Name="ANY_HERO_UNLOCKS" StatisticType="Int" />
+	<AchievementStatisticDefinition Name="DOORS_OPENED" StatisticType="Int" />
+	<AchievementStatisticDefinition Name="RESEARCHED_ALL" StatisticType="Int" />
+	<AchievementStatisticDefinition Name="PICTURES_UNLOCKED" StatisticType="Int" />
+
+	<AchievementStatisticDefinition Name="SAVIOR_PROGRESS" StatisticType="Int" />
+	<AchievementStatisticDefinition Name="KILLER_PROGRESS" StatisticType="Int" />
+	<AchievementStatisticDefinition Name="EXPERT_PROGRESS" StatisticType="Int" />
+	<AchievementStatisticDefinition Name="RESEARCHER_PROGRESS" StatisticType="Int" />
+	<AchievementStatisticDefinition Name="COLLECTOR_PROGRESS" StatisticType="Int" />
+
+	<AchievementStatisticDefinition Name="ORGANIC_VICTORY" StatisticType="Int" />
+	<AchievementStatisticDefinition Name="HURNAS_FAMILY_KILLED" StatisticType="Int" />
+	<AchievementStatisticDefinition Name="TAMER_PROGRESS" StatisticType="Int" />
+	<AchievementStatisticDefinition Name="RESCUE_TEAM_VICTORY" StatisticType="Int" />
+
+</Datatable>

@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using Modder.Entities.HeroItem;
 using Modder.Entities.HeroItem.Rarity;
 using Modder.Entities.HeroItem.SimulationDescriptor;
@@ -33,20 +32,20 @@ namespace Mod.Example
         
         private static HeroItem CreateDagger() => new HeroItem
         {
+            Name = "WeaponDagger",
             Title = new Description
             {
                 English = "Dagger",
-                French = "Daggery",
-                German = "Daggur"
+                French = "Dague",
+                German = "Dolch"
             },
             Description = new Description
             {
                 English = "Quick & deadly",
-                French = "Rapida e mortal",
-                German = "Quickka n mortal"
+                French = "Rapide et mortel",
+                German = "Schnell und tödlich"
             },
             Category = ItemCategory.ItemHero_Weapon,
-            Name = "WeaponDagger",
             AttackType = AttackType.Sword,
             DropCriteria = new DropCriteria
             {

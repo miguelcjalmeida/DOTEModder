@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modder", "Modder\Modder.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mod.Example", "Mod.Example\Mod.Example.csproj", "{66EBAD48-D6BA-42E2-823D-0AD865AB2592}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mod.ItemPassiveScaling", "Mod.ItemPassiveScaling\Mod.ItemPassiveScaling.csproj", "{3FEF3F36-DAF4-4EF0-917B-7FE31B96F8FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{66EBAD48-D6BA-42E2-823D-0AD865AB2592}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66EBAD48-D6BA-42E2-823D-0AD865AB2592}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66EBAD48-D6BA-42E2-823D-0AD865AB2592}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FEF3F36-DAF4-4EF0-917B-7FE31B96F8FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FEF3F36-DAF4-4EF0-917B-7FE31B96F8FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FEF3F36-DAF4-4EF0-917B-7FE31B96F8FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FEF3F36-DAF4-4EF0-917B-7FE31B96F8FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Warning: this XML is automatically generated from the XLS. Do not modify!-->
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ModuleConfig Name="SpecialModule_Crystal" AITargetType="Crystal"/>
+  <ModuleConfig Name="SpecialModule_Crystal_Armory" AITargetType="Crystal"/>
+  <ModuleConfig Name="SpecialModule_Crystal_Heal" AITargetType="Crystal"/>
+  <ModuleConfig Name="SpecialModule_Crystal_Drill" AITargetType="Crystal"/>
+  <ModuleConfig Name="SpecialModule_Crystal_Library" AITargetType="Crystal"/>
+  <ModuleConfig Name="SpecialModule_Crystal_Respawn" AITargetType="Crystal"/>
+  <ModuleConfig Name="SpecialModule_Crystal_Sanitary" AITargetType="Crystal"/>
+  <ModuleConfig Name="SpecialModule_Artifact" AITargetType="Artifact" NeedRoomPower="0"/>
+  <ModuleConfig Name="SpecialModule_DustFactory" AITargetType="SelfDestruct" NeedRoomPower="0"/>
+  <ModuleConfig Name="SpecialModule_CryoCapsule" NeedRoomPower="0"/>
+  <ModuleConfig Name="SpecialModule_Stele" AITargetType="Stele" NeedRoomPower="0" Unremovable="1"/>
+  <ModuleConfig Name="MajorModule_Major0001" AITargetType="MajorModule" SimClass="MajorModule" BuildBaseIndustryCost="20" BuildIndustryCostIncrement="5" BuildDuration="8"/>
+  <ModuleConfig Name="MajorModule_Major0002" AITargetType="MajorModule" SimClass="MajorModule" BuildBaseIndustryCost="20" BuildIndustryCostIncrement="5" BuildDuration="8"/>
+  <ModuleConfig Name="MajorModule_Major0003" AITargetType="MajorModule" SimClass="MajorModule" BuildBaseIndustryCost="20" BuildIndustryCostIncrement="5" BuildDuration="8"/>
+  <ModuleConfig Name="MajorModule_Major0004" AITargetType="MajorModule" SimClass="MajorModule" BuildBaseIndustryCost="35" BuildDuration="10"/>
+  <ModuleConfig Name="MajorModule_Major0005" AITargetType="MajorModule" SimClass="MajorModule" BuildBaseIndustryCost="35" BuildDuration="10"/>
+  <ModuleConfig Name="MajorModule_Major0006" AITargetType="MajorModule" SimClass="MajorModule" BuildBaseIndustryCost="25" BuildDuration="10" AttractMerchant="1"/>
+  <ModuleConfig Name="MajorModule_Major0007" AITargetType="MajorModule" SimClass="MajorModule" BuildBaseIndustryCost="60" BuildIndustryCostIncrement="10" BuildDuration="10" PowersRoom="true"/>
+  <ModuleConfig Name="MajorModule_Major0008" AITargetType="MajorModule" SimClass="MajorModule" BuildBaseIndustryCost="50" BuildDuration="10"/>
+  <ModuleConfig Name="MinorModule_Minor0001" AITargetType="MinorModule" SimClass="MinorModule" BuildBaseIndustryCost="8" BuildDuration="6"/>
+  <ModuleConfig Name="MinorModule_Minor0002" AITargetType="MinorModule" SimClass="MinorModule" BuildBaseIndustryCost="8" BuildDuration="9"/>
+  <ModuleConfig Name="MinorModule_Minor0003" AITargetType="MinorModule" SimClass="MinorModule" BuildBaseIndustryCost="7" BuildDuration="5"/>
+  <ModuleConfig Name="MinorModule_Minor0013" AITargetType="MinorModule" SimClass="MinorModule" BuildBaseIndustryCost="15" BuildDuration="7"/>
+  <ModuleConfig Name="MinorModule_Minor0019" AITargetType="MinorModule" SimClass="MinorModule" BuildBaseIndustryCost="12" BuildDuration="7"/>
+  <ModuleConfig Name="MinorModule_Minor0020" AITargetType="MinorModule" SimClass="MinorModule" BuildBaseIndustryCost="12" BuildDuration="7"/>
+  <ModuleConfig Name="MinorModule_Minor0004" AITargetType="MinorModule" SimClass="MinorModule" BuildBaseIndustryCost="3" BuildDuration="3" AttackType="Laser" Rotate="1"/>
+  <ModuleConfig Name="MinorModule_Minor0005" AITargetType="MinorModule" SimClass="MinorModule" BuildBaseIndustryCost="7" BuildDuration="4" AttackType="Tesla"/>
+  <ModuleConfig Name="MinorModule_Minor0006" AITargetType="MinorModule" SimClass="MinorModule" BuildBaseIndustryCost="11" BuildDuration="8" AttackType="Bomb"/>
+  <ModuleConfig Name="MinorModule_Minor0011" AITargetType="MinorModule" SimClass="MinorModule" BuildBaseIndustryCost="8" BuildDuration="7" AttackType="ModuleGun" Rotate="1"/>
+  <ModuleConfig Name="MinorModule_Minor0014" AITargetType="MinorModule" SimClass="MinorModule" BuildBaseIndustryCost="11" BuildDuration="10" AttackType="Sebastroll"/>
+  <ModuleConfig Name="MinorModule_Minor0016" AITargetType="MinorModule" SimClass="MinorModule" BuildBaseIndustryCost="9" BuildDuration="8" AttackType="ScienceLaser" Rotate="1"/>
+  <ModuleConfig Name="MinorModule_Minor0007" AITargetType="MinorModule" SimClass="MinorModule" BuildBaseIndustryCost="7" BuildDuration="6"/>
+  <ModuleConfig Name="MinorModule_Minor0009" AITargetType="MinorModule" SimClass="MinorModule" BuildBaseIndustryCost="7" BuildDuration="6"/>
+  <ModuleConfig Name="MinorModule_Minor0010" AITargetType="MinorModule" SimClass="MinorModule" BuildBaseIndustryCost="9" BuildDuration="6"/>
+  <ModuleConfig Name="MinorModule_Minor0012" AITargetType="MinorModule" SimClass="MinorModule" BuildBaseIndustryCost="14" BuildDuration="9" HasSpecialBase="1"/>
+  <ModuleConfig Name="MinorModule_Minor0015" AITargetType="MinorModule" SimClass="MinorModule" BuildBaseIndustryCost="12" BuildDuration="9" AttackType="TroubleMaker" Rotate="1"/>
+  <ModuleConfig Name="MinorModule_Minor0017" AITargetType="MinorModule" SimClass="MinorModule" BuildBaseIndustryCost="9" BuildDuration="7" AttackType="Poison" Rotate="1"/>
+</Datatable>

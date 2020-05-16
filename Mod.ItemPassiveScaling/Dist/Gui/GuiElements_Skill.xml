@@ -1,0 +1,2704 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Warning: this XML is automatically generated from the XLS. Do not modify!-->
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GuiElement Name="Skill_P0001">
+    <Title>%Skill_P0001_Title</Title>
+    <Description>%Skill_P0001_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0001" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0001Rarity0">
+    <Title>%Skill_P0001Rarity0_Title</Title>
+    <Description>%Skill_P0001Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0001" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0001Rarity1">
+    <Title>%Skill_P0001Rarity1_Title</Title>
+    <Description>%Skill_P0001Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0001" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0001Rarity2">
+    <Title>%Skill_P0001Rarity2_Title</Title>
+    <Description>%Skill_P0001Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0001" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0002">
+    <Title>%Skill_P0002_Title</Title>
+    <Description>%Skill_P0002_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0002" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0002Rarity0">
+    <Title>%Skill_P0002Rarity0_Title</Title>
+    <Description>%Skill_P0002Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0002" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0002Rarity1">
+    <Title>%Skill_P0002Rarity1_Title</Title>
+    <Description>%Skill_P0002Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0002" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0002Rarity2">
+    <Title>%Skill_P0002Rarity2_Title</Title>
+    <Description>%Skill_P0002Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0002" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0003">
+    <Title>%Skill_P0003_Title</Title>
+    <Description>%Skill_P0003_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0003" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0003Rarity0">
+    <Title>%Skill_P0003Rarity0_Title</Title>
+    <Description>%Skill_P0003Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0003" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0003Rarity1">
+    <Title>%Skill_P0003Rarity1_Title</Title>
+    <Description>%Skill_P0003Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0003" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0003Rarity2">
+    <Title>%Skill_P0003Rarity2_Title</Title>
+    <Description>%Skill_P0003Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0003" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0004">
+    <Title>%Skill_P0004_Title</Title>
+    <Description>%Skill_P0004_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0004" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0004Rarity0">
+    <Title>%Skill_P0004Rarity0_Title</Title>
+    <Description>%Skill_P0004Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0004" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0004Rarity1">
+    <Title>%Skill_P0004Rarity1_Title</Title>
+    <Description>%Skill_P0004Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0004" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0004Rarity2">
+    <Title>%Skill_P0004Rarity2_Title</Title>
+    <Description>%Skill_P0004Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0004" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0005">
+    <Title>%Skill_P0005_Title</Title>
+    <Description>%Skill_P0005_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0005" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0005Rarity0">
+    <Title>%Skill_P0005Rarity0_Title</Title>
+    <Description>%Skill_P0005Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0005" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0005Rarity1">
+    <Title>%Skill_P0005Rarity1_Title</Title>
+    <Description>%Skill_P0005Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0005" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0005Rarity2">
+    <Title>%Skill_P0005Rarity2_Title</Title>
+    <Description>%Skill_P0005Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0005" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0006">
+    <Title>%Skill_P0006_Title</Title>
+    <Description>%Skill_P0006_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0006" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0006Rarity0">
+    <Title>%Skill_P0006Rarity0_Title</Title>
+    <Description>%Skill_P0006Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0006" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0006Rarity1">
+    <Title>%Skill_P0006Rarity1_Title</Title>
+    <Description>%Skill_P0006Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0006" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0006Rarity2">
+    <Title>%Skill_P0006Rarity2_Title</Title>
+    <Description>%Skill_P0006Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0006" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0007">
+    <Title>%Skill_P0007_Title</Title>
+    <Description>%Skill_P0007_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0007" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0007Rarity0">
+    <Title>%Skill_P0007Rarity0_Title</Title>
+    <Description>%Skill_P0007Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0007" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0007Rarity1">
+    <Title>%Skill_P0007Rarity1_Title</Title>
+    <Description>%Skill_P0007Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0007" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0007Rarity2">
+    <Title>%Skill_P0007Rarity2_Title</Title>
+    <Description>%Skill_P0007Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0007" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0008">
+    <Title>%Skill_P0008_Title</Title>
+    <Description>%Skill_P0008_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0008" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0008Rarity0">
+    <Title>%Skill_P0008Rarity0_Title</Title>
+    <Description>%Skill_P0008Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0008" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0008Rarity1">
+    <Title>%Skill_P0008Rarity1_Title</Title>
+    <Description>%Skill_P0008Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0008" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0008Rarity2">
+    <Title>%Skill_P0008Rarity2_Title</Title>
+    <Description>%Skill_P0008Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0008" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0009">
+    <Title>%Skill_P0009_Title</Title>
+    <Description>%Skill_P0009_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0009" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0009Rarity0">
+    <Title>%Skill_P0009Rarity0_Title</Title>
+    <Description>%Skill_P0009Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0009" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0009Rarity1">
+    <Title>%Skill_P0009Rarity1_Title</Title>
+    <Description>%Skill_P0009Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0009" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0009Rarity2">
+    <Title>%Skill_P0009Rarity2_Title</Title>
+    <Description>%Skill_P0009Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0009" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0010">
+    <Title>%Skill_P0010_Title</Title>
+    <Description>%Skill_P0010_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0010" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0010Rarity0">
+    <Title>%Skill_P0010Rarity0_Title</Title>
+    <Description>%Skill_P0010Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0010" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0010Rarity1">
+    <Title>%Skill_P0010Rarity1_Title</Title>
+    <Description>%Skill_P0010Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0010" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0010Rarity2">
+    <Title>%Skill_P0010Rarity2_Title</Title>
+    <Description>%Skill_P0010Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0010" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0011">
+    <Title>%Skill_P0011_Title</Title>
+    <Description>%Skill_P0011_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0011" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0011Rarity0">
+    <Title>%Skill_P0011Rarity0_Title</Title>
+    <Description>%Skill_P0011Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0011" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0011Rarity1">
+    <Title>%Skill_P0011Rarity1_Title</Title>
+    <Description>%Skill_P0011Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0011" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0011Rarity2">
+    <Title>%Skill_P0011Rarity2_Title</Title>
+    <Description>%Skill_P0011Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0011" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0012">
+    <Title>%Skill_P0012_Title</Title>
+    <Description>%Skill_P0012_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0012" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0012Rarity0">
+    <Title>%Skill_P0012Rarity0_Title</Title>
+    <Description>%Skill_P0012Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0012" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0012Rarity1">
+    <Title>%Skill_P0012Rarity1_Title</Title>
+    <Description>%Skill_P0012Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0012" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0012Rarity2">
+    <Title>%Skill_P0012Rarity2_Title</Title>
+    <Description>%Skill_P0012Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0012" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0021">
+    <Title>%Skill_P0021_Title</Title>
+    <Description>%Skill_P0021_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0021" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0021Rarity0">
+    <Title>%Skill_P0021Rarity0_Title</Title>
+    <Description>%Skill_P0021Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0021" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0021Rarity1">
+    <Title>%Skill_P0021Rarity1_Title</Title>
+    <Description>%Skill_P0021Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0021" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0021Rarity2">
+    <Title>%Skill_P0021Rarity2_Title</Title>
+    <Description>%Skill_P0021Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0021" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0022">
+    <Title>%Skill_P0022_Title</Title>
+    <Description>%Skill_P0022_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0022" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0022Rarity0">
+    <Title>%Skill_P0022Rarity0_Title</Title>
+    <Description>%Skill_P0022Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0022" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0022Rarity1">
+    <Title>%Skill_P0022Rarity1_Title</Title>
+    <Description>%Skill_P0022Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0022" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0022Rarity2">
+    <Title>%Skill_P0022Rarity2_Title</Title>
+    <Description>%Skill_P0022Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0022" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0023">
+    <Title>%Skill_P0023_Title</Title>
+    <Description>%Skill_P0023_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0023" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0023Rarity0">
+    <Title>%Skill_P0023Rarity0_Title</Title>
+    <Description>%Skill_P0023Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0023" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0023Rarity1">
+    <Title>%Skill_P0023Rarity1_Title</Title>
+    <Description>%Skill_P0023Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0023" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0023Rarity2">
+    <Title>%Skill_P0023Rarity2_Title</Title>
+    <Description>%Skill_P0023Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0023" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0024">
+    <Title>%Skill_P0024_Title</Title>
+    <Description>%Skill_P0024_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0024" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0024Rarity0">
+    <Title>%Skill_P0024Rarity0_Title</Title>
+    <Description>%Skill_P0024Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0024" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0024Rarity1">
+    <Title>%Skill_P0024Rarity1_Title</Title>
+    <Description>%Skill_P0024Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0024" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0024Rarity2">
+    <Title>%Skill_P0024Rarity2_Title</Title>
+    <Description>%Skill_P0024Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0024" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0025">
+    <Title>%Skill_P0025_Title</Title>
+    <Description>%Skill_P0025_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0025" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0025Rarity0">
+    <Title>%Skill_P0025Rarity0_Title</Title>
+    <Description>%Skill_P0025Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0025" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0025Rarity1">
+    <Title>%Skill_P0025Rarity1_Title</Title>
+    <Description>%Skill_P0025Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0025" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0025Rarity2">
+    <Title>%Skill_P0025Rarity2_Title</Title>
+    <Description>%Skill_P0025Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0025" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0026">
+    <Title>%Skill_P0026_Title</Title>
+    <Description>%Skill_P0026_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0026" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0026Rarity0">
+    <Title>%Skill_P0026Rarity0_Title</Title>
+    <Description>%Skill_P0026Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0026" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0026Rarity1">
+    <Title>%Skill_P0026Rarity1_Title</Title>
+    <Description>%Skill_P0026Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0026" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0026Rarity2">
+    <Title>%Skill_P0026Rarity2_Title</Title>
+    <Description>%Skill_P0026Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0026" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0028">
+    <Title>%Skill_P0028_Title</Title>
+    <Description>%Skill_P0028_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0028" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0028Rarity0">
+    <Title>%Skill_P0028Rarity0_Title</Title>
+    <Description>%Skill_P0028Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0028" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0028Rarity1">
+    <Title>%Skill_P0028Rarity1_Title</Title>
+    <Description>%Skill_P0028Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0028" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0028Rarity2">
+    <Title>%Skill_P0028Rarity2_Title</Title>
+    <Description>%Skill_P0028Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0028" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0029">
+    <Title>%Skill_P0029_Title</Title>
+    <Description>%Skill_P0029_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0029" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0029Rarity0">
+    <Title>%Skill_P0029Rarity0_Title</Title>
+    <Description>%Skill_P0029Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0029" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0029Rarity1">
+    <Title>%Skill_P0029Rarity1_Title</Title>
+    <Description>%Skill_P0029Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0029" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0029Rarity2">
+    <Title>%Skill_P0029Rarity2_Title</Title>
+    <Description>%Skill_P0029Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0029" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0030">
+    <Title>%Skill_P0030_Title</Title>
+    <Description>%Skill_P0030_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0030" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0030Rarity0">
+    <Title>%Skill_P0030Rarity0_Title</Title>
+    <Description>%Skill_P0030Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0030" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0030Rarity1">
+    <Title>%Skill_P0030Rarity1_Title</Title>
+    <Description>%Skill_P0030Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0030" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0030Rarity2">
+    <Title>%Skill_P0030Rarity2_Title</Title>
+    <Description>%Skill_P0030Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0030" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0031">
+    <Title>%Skill_P0031_Title</Title>
+    <Description>%Skill_P0031_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0031" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0031Rarity0">
+    <Title>%Skill_P0031Rarity0_Title</Title>
+    <Description>%Skill_P0031Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0031" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0031Rarity1">
+    <Title>%Skill_P0031Rarity1_Title</Title>
+    <Description>%Skill_P0031Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0031" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0031Rarity2">
+    <Title>%Skill_P0031Rarity2_Title</Title>
+    <Description>%Skill_P0031Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0031" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0032">
+    <Title>%Skill_P0032_Title</Title>
+    <Description>%Skill_P0032_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0032" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0032Rarity0">
+    <Title>%Skill_P0032Rarity0_Title</Title>
+    <Description>%Skill_P0032Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0032" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0032Rarity1">
+    <Title>%Skill_P0032Rarity1_Title</Title>
+    <Description>%Skill_P0032Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0032" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0032Rarity2">
+    <Title>%Skill_P0032Rarity2_Title</Title>
+    <Description>%Skill_P0032Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0032" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0033">
+    <Title>%Skill_P0033_Title</Title>
+    <Description>%Skill_P0033_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0033" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0033Rarity0">
+    <Title>%Skill_P0033Rarity0_Title</Title>
+    <Description>%Skill_P0033Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0033" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0033Rarity1">
+    <Title>%Skill_P0033Rarity1_Title</Title>
+    <Description>%Skill_P0033Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0033" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0033Rarity2">
+    <Title>%Skill_P0033Rarity2_Title</Title>
+    <Description>%Skill_P0033Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0033" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0034">
+    <Title>%Skill_P0034_Title</Title>
+    <Description>%Skill_P0034_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0034" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0034Rarity0">
+    <Title>%Skill_P0034Rarity0_Title</Title>
+    <Description>%Skill_P0034Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0034" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0034Rarity1">
+    <Title>%Skill_P0034Rarity1_Title</Title>
+    <Description>%Skill_P0034Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0034" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0034Rarity2">
+    <Title>%Skill_P0034Rarity2_Title</Title>
+    <Description>%Skill_P0034Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0034" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0035">
+    <Title>%Skill_P0035_Title</Title>
+    <Description>%Skill_P0035_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0035" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0035Rarity0">
+    <Title>%Skill_P0035Rarity0_Title</Title>
+    <Description>%Skill_P0035Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0035" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0035Rarity1">
+    <Title>%Skill_P0035Rarity1_Title</Title>
+    <Description>%Skill_P0035Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0035" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0035Rarity2">
+    <Title>%Skill_P0035Rarity2_Title</Title>
+    <Description>%Skill_P0035Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0035" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0036">
+    <Title>%Skill_P0036_Title</Title>
+    <Description>%Skill_P0036_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0036" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0036Rarity0">
+    <Title>%Skill_P0036Rarity0_Title</Title>
+    <Description>%Skill_P0036Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0036" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0036Rarity1">
+    <Title>%Skill_P0036Rarity1_Title</Title>
+    <Description>%Skill_P0036Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0036" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0036Rarity2">
+    <Title>%Skill_P0036Rarity2_Title</Title>
+    <Description>%Skill_P0036Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0036" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0037">
+    <Title>%Skill_P0037_Title</Title>
+    <Description>%Skill_P0037_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0037" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0037Rarity0">
+    <Title>%Skill_P0037Rarity0_Title</Title>
+    <Description>%Skill_P0037Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0037" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0037Rarity1">
+    <Title>%Skill_P0037Rarity1_Title</Title>
+    <Description>%Skill_P0037Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0037" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0037Rarity2">
+    <Title>%Skill_P0037Rarity2_Title</Title>
+    <Description>%Skill_P0037Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0037" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0038">
+    <Title>%Skill_P0038_Title</Title>
+    <Description>%Skill_P0038_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0038" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0038Rarity0">
+    <Title>%Skill_P0038Rarity0_Title</Title>
+    <Description>%Skill_P0038Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0038" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0038Rarity1">
+    <Title>%Skill_P0038Rarity1_Title</Title>
+    <Description>%Skill_P0038Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0038" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0038Rarity2">
+    <Title>%Skill_P0038Rarity2_Title</Title>
+    <Description>%Skill_P0038Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0038" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0039">
+    <Title>%Skill_P0039_Title</Title>
+    <Description>%Skill_P0039_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0039" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0039Rarity0">
+    <Title>%Skill_P0039Rarity0_Title</Title>
+    <Description>%Skill_P0039Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0039" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0039Rarity1">
+    <Title>%Skill_P0039Rarity1_Title</Title>
+    <Description>%Skill_P0039Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0039" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0039Rarity2">
+    <Title>%Skill_P0039Rarity2_Title</Title>
+    <Description>%Skill_P0039Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0039" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0040">
+    <Title>%Skill_P0040_Title</Title>
+    <Description>%Skill_P0040_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0040" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0040Rarity0">
+    <Title>%Skill_P0040Rarity0_Title</Title>
+    <Description>%Skill_P0040Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0040" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0040Rarity1">
+    <Title>%Skill_P0040Rarity1_Title</Title>
+    <Description>%Skill_P0040Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0040" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0040Rarity2">
+    <Title>%Skill_P0040Rarity2_Title</Title>
+    <Description>%Skill_P0040Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0040" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0041">
+    <Title>%Skill_P0041_Title</Title>
+    <Description>%Skill_P0041_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0041" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0041Rarity0">
+    <Title>%Skill_P0041Rarity0_Title</Title>
+    <Description>%Skill_P0041Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0041" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0041Rarity1">
+    <Title>%Skill_P0041Rarity1_Title</Title>
+    <Description>%Skill_P0041Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0041" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0041Rarity2">
+    <Title>%Skill_P0041Rarity2_Title</Title>
+    <Description>%Skill_P0041Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0041" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0042">
+    <Title>%Skill_P0042_Title</Title>
+    <Description>%Skill_P0042_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0042" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0042Rarity0">
+    <Title>%Skill_P0042Rarity0_Title</Title>
+    <Description>%Skill_P0042Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0042" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0042Rarity1">
+    <Title>%Skill_P0042Rarity1_Title</Title>
+    <Description>%Skill_P0042Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0042" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0042Rarity2">
+    <Title>%Skill_P0042Rarity2_Title</Title>
+    <Description>%Skill_P0042Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0042" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0101">
+    <Title>%Skill_P0101_Title</Title>
+    <Description>%Skill_P0101_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0101" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0101Rarity0">
+    <Title>%Skill_P0101Rarity0_Title</Title>
+    <Description>%Skill_P0101Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0101" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0101Rarity1">
+    <Title>%Skill_P0101Rarity1_Title</Title>
+    <Description>%Skill_P0101Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0101" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0101Rarity2">
+    <Title>%Skill_P0101Rarity2_Title</Title>
+    <Description>%Skill_P0101Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0101" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0102">
+    <Title>%Skill_P0102_Title</Title>
+    <Description>%Skill_P0102_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0102" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0102Rarity0">
+    <Title>%Skill_P0102Rarity0_Title</Title>
+    <Description>%Skill_P0102Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0102" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0102Rarity1">
+    <Title>%Skill_P0102Rarity1_Title</Title>
+    <Description>%Skill_P0102Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0102" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0102Rarity2">
+    <Title>%Skill_P0102Rarity2_Title</Title>
+    <Description>%Skill_P0102Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0102" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0103">
+    <Title>%Skill_P0103_Title</Title>
+    <Description>%Skill_P0103_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0103" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0103Rarity0">
+    <Title>%Skill_P0103Rarity0_Title</Title>
+    <Description>%Skill_P0103Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0103" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0103Rarity1">
+    <Title>%Skill_P0103Rarity1_Title</Title>
+    <Description>%Skill_P0103Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0103" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0103Rarity2">
+    <Title>%Skill_P0103Rarity2_Title</Title>
+    <Description>%Skill_P0103Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0103" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0104">
+    <Title>%Skill_P0104_Title</Title>
+    <Description>%Skill_P0104_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0104" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0104Rarity0">
+    <Title>%Skill_P0104Rarity0_Title</Title>
+    <Description>%Skill_P0104Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0104" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0104Rarity1">
+    <Title>%Skill_P0104Rarity1_Title</Title>
+    <Description>%Skill_P0104Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0104" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0104Rarity2">
+    <Title>%Skill_P0104Rarity2_Title</Title>
+    <Description>%Skill_P0104Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0104" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0105">
+    <Title>%Skill_P0105_Title</Title>
+    <Description>%Skill_P0105_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0105" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0105Rarity0">
+    <Title>%Skill_P0105Rarity0_Title</Title>
+    <Description>%Skill_P0105Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0105" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0105Rarity1">
+    <Title>%Skill_P0105Rarity1_Title</Title>
+    <Description>%Skill_P0105Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0105" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0105Rarity2">
+    <Title>%Skill_P0105Rarity2_Title</Title>
+    <Description>%Skill_P0105Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0105" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0200">
+    <Title>%Skill_P0200_Title</Title>
+    <Description>%Skill_P0200_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0200" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0200Rarity0">
+    <Title>%Skill_P0200Rarity0_Title</Title>
+    <Description>%Skill_P0200Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0200" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0200Rarity1">
+    <Title>%Skill_P0200Rarity1_Title</Title>
+    <Description>%Skill_P0200Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0200" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0200Rarity2">
+    <Title>%Skill_P0200Rarity2_Title</Title>
+    <Description>%Skill_P0200Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0200" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0201">
+    <Title>%Skill_P0201_Title</Title>
+    <Description>%Skill_P0201_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0201" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0201Rarity0">
+    <Title>%Skill_P0201Rarity0_Title</Title>
+    <Description>%Skill_P0201Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0201" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0201Rarity1">
+    <Title>%Skill_P0201Rarity1_Title</Title>
+    <Description>%Skill_P0201Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0201" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0201Rarity2">
+    <Title>%Skill_P0201Rarity2_Title</Title>
+    <Description>%Skill_P0201Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0201" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0202">
+    <Title>%Skill_P0202_Title</Title>
+    <Description>%Skill_P0202_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0202" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0202Rarity0">
+    <Title>%Skill_P0202Rarity0_Title</Title>
+    <Description>%Skill_P0202Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0202" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0202Rarity1">
+    <Title>%Skill_P0202Rarity1_Title</Title>
+    <Description>%Skill_P0202Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0202" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0202Rarity2">
+    <Title>%Skill_P0202Rarity2_Title</Title>
+    <Description>%Skill_P0202Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0202" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0300">
+    <Title>%Skill_P0300_Title</Title>
+    <Description>%Skill_P0300_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0300" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0300Rarity0">
+    <Title>%Skill_P0300Rarity0_Title</Title>
+    <Description>%Skill_P0300Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0300" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0300Rarity1">
+    <Title>%Skill_P0300Rarity1_Title</Title>
+    <Description>%Skill_P0300Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0300" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0300Rarity2">
+    <Title>%Skill_P0300Rarity2_Title</Title>
+    <Description>%Skill_P0300Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0300" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0043">
+    <Title>%Skill_P0043_Title</Title>
+    <Description>%Skill_P0043_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0043" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0043Rarity0">
+    <Title>%Skill_P0043Rarity0_Title</Title>
+    <Description>%Skill_P0043Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0043" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0043Rarity1">
+    <Title>%Skill_P0043Rarity1_Title</Title>
+    <Description>%Skill_P0043Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0043" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0043Rarity2">
+    <Title>%Skill_P0043Rarity2_Title</Title>
+    <Description>%Skill_P0043Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0043" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0044">
+    <Title>%Skill_P0044_Title</Title>
+    <Description>%Skill_P0044_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0044" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0044Rarity0">
+    <Title>%Skill_P0044Rarity0_Title</Title>
+    <Description>%Skill_P0044Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0044" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0044Rarity1">
+    <Title>%Skill_P0044Rarity1_Title</Title>
+    <Description>%Skill_P0044Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0044" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0044Rarity2">
+    <Title>%Skill_P0044Rarity2_Title</Title>
+    <Description>%Skill_P0044Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0044" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0045">
+    <Title>%Skill_P0045_Title</Title>
+    <Description>%Skill_P0045_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0045" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0045Rarity0">
+    <Title>%Skill_P0045Rarity0_Title</Title>
+    <Description>%Skill_P0045Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0045" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0045Rarity1">
+    <Title>%Skill_P0045Rarity1_Title</Title>
+    <Description>%Skill_P0045Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0045" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0045Rarity2">
+    <Title>%Skill_P0045Rarity2_Title</Title>
+    <Description>%Skill_P0045Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0045" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0046">
+    <Title>%Skill_P0046_Title</Title>
+    <Description>%Skill_P0046_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0046" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0046Rarity0">
+    <Title>%Skill_P0046Rarity0_Title</Title>
+    <Description>%Skill_P0046Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0046" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0046Rarity1">
+    <Title>%Skill_P0046Rarity1_Title</Title>
+    <Description>%Skill_P0046Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0046" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0046Rarity2">
+    <Title>%Skill_P0046Rarity2_Title</Title>
+    <Description>%Skill_P0046Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0046" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0047">
+    <Title>%Skill_P0047_Title</Title>
+    <Description>%Skill_P0047_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0047" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0047Rarity0">
+    <Title>%Skill_P0047Rarity0_Title</Title>
+    <Description>%Skill_P0047Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0047" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0047Rarity1">
+    <Title>%Skill_P0047Rarity1_Title</Title>
+    <Description>%Skill_P0047Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0047" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0047Rarity2">
+    <Title>%Skill_P0047Rarity2_Title</Title>
+    <Description>%Skill_P0047Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0047" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0048">
+    <Title>%Skill_P0048_Title</Title>
+    <Description>%Skill_P0048_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0048" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0048Rarity0">
+    <Title>%Skill_P0048Rarity0_Title</Title>
+    <Description>%Skill_P0048Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0048" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0048Rarity1">
+    <Title>%Skill_P0048Rarity1_Title</Title>
+    <Description>%Skill_P0048Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0048" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0048Rarity2">
+    <Title>%Skill_P0048Rarity2_Title</Title>
+    <Description>%Skill_P0048Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0048" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0500">
+    <Title>%Skill_P0500_Title</Title>
+    <Description>%Skill_P0500_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0500" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0500Rarity0">
+    <Title>%Skill_P0500Rarity0_Title</Title>
+    <Description>%Skill_P0500Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0500" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0500Rarity1">
+    <Title>%Skill_P0500Rarity1_Title</Title>
+    <Description>%Skill_P0500Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0500" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0500Rarity2">
+    <Title>%Skill_P0500Rarity2_Title</Title>
+    <Description>%Skill_P0500Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0500" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0501">
+    <Title>%Skill_P0501_Title</Title>
+    <Description>%Skill_P0501_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0501" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0501Rarity0">
+    <Title>%Skill_P0501Rarity0_Title</Title>
+    <Description>%Skill_P0501Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0501" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0501Rarity1">
+    <Title>%Skill_P0501Rarity1_Title</Title>
+    <Description>%Skill_P0501Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0501" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0501Rarity2">
+    <Title>%Skill_P0501Rarity2_Title</Title>
+    <Description>%Skill_P0501Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0501" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0502">
+    <Title>%Skill_P0502_Title</Title>
+    <Description>%Skill_P0502_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0502" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0502Rarity0">
+    <Title>%Skill_P0502Rarity0_Title</Title>
+    <Description>%Skill_P0502Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0502" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0502Rarity1">
+    <Title>%Skill_P0502Rarity1_Title</Title>
+    <Description>%Skill_P0502Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0502" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0502Rarity2">
+    <Title>%Skill_P0502Rarity2_Title</Title>
+    <Description>%Skill_P0502Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0502" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0503">
+    <Title>%Skill_P0503_Title</Title>
+    <Description>%Skill_P0503_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0503" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0503Rarity0">
+    <Title>%Skill_P0503Rarity0_Title</Title>
+    <Description>%Skill_P0503Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0503" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0503Rarity1">
+    <Title>%Skill_P0503Rarity1_Title</Title>
+    <Description>%Skill_P0503Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0503" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0503Rarity2">
+    <Title>%Skill_P0503Rarity2_Title</Title>
+    <Description>%Skill_P0503Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0503" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0504">
+    <Title>%Skill_P0504_Title</Title>
+    <Description>%Skill_P0504_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0504" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0504Rarity0">
+    <Title>%Skill_P0504Rarity0_Title</Title>
+    <Description>%Skill_P0504Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0504" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0504Rarity1">
+    <Title>%Skill_P0504Rarity1_Title</Title>
+    <Description>%Skill_P0504Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0504" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_P0504Rarity2">
+    <Title>%Skill_P0504Rarity2_Title</Title>
+    <Description>%Skill_P0504Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_P0504" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0001">
+    <Title>%Skill_A0001_Title</Title>
+    <Description>%Skill_A0001_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0001" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0001_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0001Rarity0">
+    <Title>%Skill_A0001Rarity0_Title</Title>
+    <Description>%Skill_A0001Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0001" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0001_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0001Rarity1">
+    <Title>%Skill_A0001Rarity1_Title</Title>
+    <Description>%Skill_A0001Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0001" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0001_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0001Rarity2">
+    <Title>%Skill_A0001Rarity2_Title</Title>
+    <Description>%Skill_A0001Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0001" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0001_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0002">
+    <Title>%Skill_A0002_Title</Title>
+    <Description>%Skill_A0002_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0002" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0002_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0002Rarity0">
+    <Title>%Skill_A0002Rarity0_Title</Title>
+    <Description>%Skill_A0002Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0002" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0002_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0002Rarity1">
+    <Title>%Skill_A0002Rarity1_Title</Title>
+    <Description>%Skill_A0002Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0002" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0002_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0002Rarity2">
+    <Title>%Skill_A0002Rarity2_Title</Title>
+    <Description>%Skill_A0002Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0002" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0002_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0003">
+    <Title>%Skill_A0003_Title</Title>
+    <Description>%Skill_A0003_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0003" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0003_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0003Rarity0">
+    <Title>%Skill_A0003Rarity0_Title</Title>
+    <Description>%Skill_A0003Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0003" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0003_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0003Rarity1">
+    <Title>%Skill_A0003Rarity1_Title</Title>
+    <Description>%Skill_A0003Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0003" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0003_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0003Rarity2">
+    <Title>%Skill_A0003Rarity2_Title</Title>
+    <Description>%Skill_A0003Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0003" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0003_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0004">
+    <Title>%Skill_A0004_Title</Title>
+    <Description>%Skill_A0004_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0004" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0004_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0004Rarity0">
+    <Title>%Skill_A0004Rarity0_Title</Title>
+    <Description>%Skill_A0004Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0004" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0004_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0004Rarity1">
+    <Title>%Skill_A0004Rarity1_Title</Title>
+    <Description>%Skill_A0004Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0004" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0004_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0004Rarity2">
+    <Title>%Skill_A0004Rarity2_Title</Title>
+    <Description>%Skill_A0004Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0004" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0004_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0005">
+    <Title>%Skill_A0005_Title</Title>
+    <Description>%Skill_A0005_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0005" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0005_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0005Rarity0">
+    <Title>%Skill_A0005Rarity0_Title</Title>
+    <Description>%Skill_A0005Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0005" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0005_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0005Rarity1">
+    <Title>%Skill_A0005Rarity1_Title</Title>
+    <Description>%Skill_A0005Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0005" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0005_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0005Rarity2">
+    <Title>%Skill_A0005Rarity2_Title</Title>
+    <Description>%Skill_A0005Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0005" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0005_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0006">
+    <Title>%Skill_A0006_Title</Title>
+    <Description>%Skill_A0006_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0006" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0006_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0006Rarity0">
+    <Title>%Skill_A0006Rarity0_Title</Title>
+    <Description>%Skill_A0006Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0006" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0006_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0006Rarity1">
+    <Title>%Skill_A0006Rarity1_Title</Title>
+    <Description>%Skill_A0006Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0006" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0006_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0006Rarity2">
+    <Title>%Skill_A0006Rarity2_Title</Title>
+    <Description>%Skill_A0006Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0006" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0006_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0007">
+    <Title>%Skill_A0007_Title</Title>
+    <Description>%Skill_A0007_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0007" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0007_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0007Rarity0">
+    <Title>%Skill_A0007Rarity0_Title</Title>
+    <Description>%Skill_A0007Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0007" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0007_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0007Rarity1">
+    <Title>%Skill_A0007Rarity1_Title</Title>
+    <Description>%Skill_A0007Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0007" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0007_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0007Rarity2">
+    <Title>%Skill_A0007Rarity2_Title</Title>
+    <Description>%Skill_A0007Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0007" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0007_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0008">
+    <Title>%Skill_A0008_Title</Title>
+    <Description>%Skill_A0008_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0008" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0008_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0008Rarity0">
+    <Title>%Skill_A0008Rarity0_Title</Title>
+    <Description>%Skill_A0008Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0008" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0008_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0008Rarity1">
+    <Title>%Skill_A0008Rarity1_Title</Title>
+    <Description>%Skill_A0008Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0008" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0008_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0008Rarity2">
+    <Title>%Skill_A0008Rarity2_Title</Title>
+    <Description>%Skill_A0008Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0008" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0008_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0009">
+    <Title>%Skill_A0009_Title</Title>
+    <Description>%Skill_A0009_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0009" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0009_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0009Rarity0">
+    <Title>%Skill_A0009Rarity0_Title</Title>
+    <Description>%Skill_A0009Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0009" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0009_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0009Rarity1">
+    <Title>%Skill_A0009Rarity1_Title</Title>
+    <Description>%Skill_A0009Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0009" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0009_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0009Rarity2">
+    <Title>%Skill_A0009Rarity2_Title</Title>
+    <Description>%Skill_A0009Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0009" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0009_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0011">
+    <Title>%Skill_A0011_Title</Title>
+    <Description>%Skill_A0011_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0011" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0011_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0011Rarity0">
+    <Title>%Skill_A0011Rarity0_Title</Title>
+    <Description>%Skill_A0011Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0011" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0011_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0011Rarity1">
+    <Title>%Skill_A0011Rarity1_Title</Title>
+    <Description>%Skill_A0011Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0011" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0011_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0011Rarity2">
+    <Title>%Skill_A0011Rarity2_Title</Title>
+    <Description>%Skill_A0011Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0011" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0011_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0012">
+    <Title>%Skill_A0012_Title</Title>
+    <Description>%Skill_A0012_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0012" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0012_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0012Rarity0">
+    <Title>%Skill_A0012Rarity0_Title</Title>
+    <Description>%Skill_A0012Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0012" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0012_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0012Rarity1">
+    <Title>%Skill_A0012Rarity1_Title</Title>
+    <Description>%Skill_A0012Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0012" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0012_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0012Rarity2">
+    <Title>%Skill_A0012Rarity2_Title</Title>
+    <Description>%Skill_A0012Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0012" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0012_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0013">
+    <Title>%Skill_A0013_Title</Title>
+    <Description>%Skill_A0013_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0013" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0013_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0013Rarity0">
+    <Title>%Skill_A0013Rarity0_Title</Title>
+    <Description>%Skill_A0013Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0013" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0013_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0013Rarity1">
+    <Title>%Skill_A0013Rarity1_Title</Title>
+    <Description>%Skill_A0013Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0013" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0013_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0013Rarity2">
+    <Title>%Skill_A0013Rarity2_Title</Title>
+    <Description>%Skill_A0013Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0013" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0013_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0014">
+    <Title>%Skill_A0014_Title</Title>
+    <Description>%Skill_A0014_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0014" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0014_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0014Rarity0">
+    <Title>%Skill_A0014Rarity0_Title</Title>
+    <Description>%Skill_A0014Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0014" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0014_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0014Rarity1">
+    <Title>%Skill_A0014Rarity1_Title</Title>
+    <Description>%Skill_A0014Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0014" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0014_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0014Rarity2">
+    <Title>%Skill_A0014Rarity2_Title</Title>
+    <Description>%Skill_A0014Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0014" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0014_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0015">
+    <Title>%Skill_A0015_Title</Title>
+    <Description>%Skill_A0015_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0015" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0015_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0015Rarity0">
+    <Title>%Skill_A0015Rarity0_Title</Title>
+    <Description>%Skill_A0015Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0015" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0015_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0015Rarity1">
+    <Title>%Skill_A0015Rarity1_Title</Title>
+    <Description>%Skill_A0015Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0015" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0015_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0015Rarity2">
+    <Title>%Skill_A0015Rarity2_Title</Title>
+    <Description>%Skill_A0015Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0015" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0015_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0016">
+    <Title>%Skill_A0016_Title</Title>
+    <Description>%Skill_A0016_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0016" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0016_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0016Rarity0">
+    <Title>%Skill_A0016Rarity0_Title</Title>
+    <Description>%Skill_A0016Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0016" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0016_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0016Rarity1">
+    <Title>%Skill_A0016Rarity1_Title</Title>
+    <Description>%Skill_A0016Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0016" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0016_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0016Rarity2">
+    <Title>%Skill_A0016Rarity2_Title</Title>
+    <Description>%Skill_A0016Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0016" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0016_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0018">
+    <Title>%Skill_A0018_Title</Title>
+    <Description>%Skill_A0018_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0018" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0018_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0018Rarity0">
+    <Title>%Skill_A0018Rarity0_Title</Title>
+    <Description>%Skill_A0018Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0018" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0018_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0018Rarity1">
+    <Title>%Skill_A0018Rarity1_Title</Title>
+    <Description>%Skill_A0018Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0018" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0018_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0018Rarity2">
+    <Title>%Skill_A0018Rarity2_Title</Title>
+    <Description>%Skill_A0018Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0018" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0018_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0019">
+    <Title>%Skill_A0019_Title</Title>
+    <Description>%Skill_A0019_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0019" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0019_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0019Rarity0">
+    <Title>%Skill_A0019Rarity0_Title</Title>
+    <Description>%Skill_A0019Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0019" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0019_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0019Rarity1">
+    <Title>%Skill_A0019Rarity1_Title</Title>
+    <Description>%Skill_A0019Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0019" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0019_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0019Rarity2">
+    <Title>%Skill_A0019Rarity2_Title</Title>
+    <Description>%Skill_A0019Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0019" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0019_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0020">
+    <Title>%Skill_A0020_Title</Title>
+    <Description>%Skill_A0020_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0020" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0020_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0020Rarity0">
+    <Title>%Skill_A0020Rarity0_Title</Title>
+    <Description>%Skill_A0020Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0020" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0020_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0020Rarity1">
+    <Title>%Skill_A0020Rarity1_Title</Title>
+    <Description>%Skill_A0020Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0020" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0020_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0020Rarity2">
+    <Title>%Skill_A0020Rarity2_Title</Title>
+    <Description>%Skill_A0020Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0020" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0020_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0021">
+    <Title>%Skill_A0021_Title</Title>
+    <Description>%Skill_A0021_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0021" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0021_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0021Rarity0">
+    <Title>%Skill_A0021Rarity0_Title</Title>
+    <Description>%Skill_A0021Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0021" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0021_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0021Rarity1">
+    <Title>%Skill_A0021Rarity1_Title</Title>
+    <Description>%Skill_A0021Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0021" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0021_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0021Rarity2">
+    <Title>%Skill_A0021Rarity2_Title</Title>
+    <Description>%Skill_A0021Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0021" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0021_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0022">
+    <Title>%Skill_A0022_Title</Title>
+    <Description>%Skill_A0022_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0022" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0022_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0022Rarity0">
+    <Title>%Skill_A0022Rarity0_Title</Title>
+    <Description>%Skill_A0022Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0022" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0022_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0022Rarity1">
+    <Title>%Skill_A0022Rarity1_Title</Title>
+    <Description>%Skill_A0022Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0022" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0022_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0022Rarity2">
+    <Title>%Skill_A0022Rarity2_Title</Title>
+    <Description>%Skill_A0022Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0022" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0022_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0023">
+    <Title>%Skill_A0023_Title</Title>
+    <Description>%Skill_A0023_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0023" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0023_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0023Rarity0">
+    <Title>%Skill_A0023Rarity0_Title</Title>
+    <Description>%Skill_A0023Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0023" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0023_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0023Rarity1">
+    <Title>%Skill_A0023Rarity1_Title</Title>
+    <Description>%Skill_A0023Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0023" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0023_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0023Rarity2">
+    <Title>%Skill_A0023Rarity2_Title</Title>
+    <Description>%Skill_A0023Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0023" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0023_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0024">
+    <Title>%Skill_A0024_Title</Title>
+    <Description>%Skill_A0024_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0024" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0024_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0024Rarity0">
+    <Title>%Skill_A0024Rarity0_Title</Title>
+    <Description>%Skill_A0024Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0024" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0024_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0024Rarity1">
+    <Title>%Skill_A0024Rarity1_Title</Title>
+    <Description>%Skill_A0024Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0024" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0024_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0024Rarity2">
+    <Title>%Skill_A0024Rarity2_Title</Title>
+    <Description>%Skill_A0024Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0024" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0024_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0025">
+    <Title>%Skill_A0025_Title</Title>
+    <Description>%Skill_A0025_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0025" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0025_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0025Rarity0">
+    <Title>%Skill_A0025Rarity0_Title</Title>
+    <Description>%Skill_A0025Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0025" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0025_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0025Rarity1">
+    <Title>%Skill_A0025Rarity1_Title</Title>
+    <Description>%Skill_A0025Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0025" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0025_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0025Rarity2">
+    <Title>%Skill_A0025Rarity2_Title</Title>
+    <Description>%Skill_A0025Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0025" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0025_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0026">
+    <Title>%Skill_A0026_Title</Title>
+    <Description>%Skill_A0026_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0026" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0026_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0026Rarity0">
+    <Title>%Skill_A0026Rarity0_Title</Title>
+    <Description>%Skill_A0026Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0026" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0026_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0026Rarity1">
+    <Title>%Skill_A0026Rarity1_Title</Title>
+    <Description>%Skill_A0026Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0026" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0026_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0026Rarity2">
+    <Title>%Skill_A0026Rarity2_Title</Title>
+    <Description>%Skill_A0026Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0026" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0026_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0027">
+    <Title>%Skill_A0027_Title</Title>
+    <Description>%Skill_A0027_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0027" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0027_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0027Rarity0">
+    <Title>%Skill_A0027Rarity0_Title</Title>
+    <Description>%Skill_A0027Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0027" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0027_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0027Rarity1">
+    <Title>%Skill_A0027Rarity1_Title</Title>
+    <Description>%Skill_A0027Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0027" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0027_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0027Rarity2">
+    <Title>%Skill_A0027Rarity2_Title</Title>
+    <Description>%Skill_A0027Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0027" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0027_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0028">
+    <Title>%Skill_A0028_Title</Title>
+    <Description>%Skill_A0028_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0028" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0028_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0028Rarity0">
+    <Title>%Skill_A0028Rarity0_Title</Title>
+    <Description>%Skill_A0028Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0028" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0028_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0028Rarity1">
+    <Title>%Skill_A0028Rarity1_Title</Title>
+    <Description>%Skill_A0028Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0028" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0028_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0028Rarity2">
+    <Title>%Skill_A0028Rarity2_Title</Title>
+    <Description>%Skill_A0028Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0028" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0028_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0029">
+    <Title>%Skill_A0029_Title</Title>
+    <Description>%Skill_A0029_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0029" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0029_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0029Rarity0">
+    <Title>%Skill_A0029Rarity0_Title</Title>
+    <Description>%Skill_A0029Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0029" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0029_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0029Rarity1">
+    <Title>%Skill_A0029Rarity1_Title</Title>
+    <Description>%Skill_A0029Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0029" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0029_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0029Rarity2">
+    <Title>%Skill_A0029Rarity2_Title</Title>
+    <Description>%Skill_A0029Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0029" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0029_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0030">
+    <Title>%Skill_A0030_Title</Title>
+    <Description>%Skill_A0030_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0030" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0030_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0030Rarity0">
+    <Title>%Skill_A0030Rarity0_Title</Title>
+    <Description>%Skill_A0030Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0030" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0030_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0030Rarity1">
+    <Title>%Skill_A0030Rarity1_Title</Title>
+    <Description>%Skill_A0030Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0030" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0030_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0030Rarity2">
+    <Title>%Skill_A0030Rarity2_Title</Title>
+    <Description>%Skill_A0030Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0030" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0030_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0031">
+    <Title>%Skill_A0031_Title</Title>
+    <Description>%Skill_A0031_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0031" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0031_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0031Rarity0">
+    <Title>%Skill_A0031Rarity0_Title</Title>
+    <Description>%Skill_A0031Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0031" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0031_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0031Rarity1">
+    <Title>%Skill_A0031Rarity1_Title</Title>
+    <Description>%Skill_A0031Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0031" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0031_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0031Rarity2">
+    <Title>%Skill_A0031Rarity2_Title</Title>
+    <Description>%Skill_A0031Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0031" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0031_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0032">
+    <Title>%Skill_A0032_Title</Title>
+    <Description>%Skill_A0032_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0032" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0032_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0032Rarity0">
+    <Title>%Skill_A0032Rarity0_Title</Title>
+    <Description>%Skill_A0032Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0032" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0032_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0032Rarity1">
+    <Title>%Skill_A0032Rarity1_Title</Title>
+    <Description>%Skill_A0032Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0032" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0032_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0032Rarity2">
+    <Title>%Skill_A0032Rarity2_Title</Title>
+    <Description>%Skill_A0032Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0032" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0032_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0033">
+    <Title>%Skill_A0033_Title</Title>
+    <Description>%Skill_A0033_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0033" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0033_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0033Rarity0">
+    <Title>%Skill_A0033Rarity0_Title</Title>
+    <Description>%Skill_A0033Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0033" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0033_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0033Rarity1">
+    <Title>%Skill_A0033Rarity1_Title</Title>
+    <Description>%Skill_A0033Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0033" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0033_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0033Rarity2">
+    <Title>%Skill_A0033Rarity2_Title</Title>
+    <Description>%Skill_A0033Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0033" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0033_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0034">
+    <Title>%Skill_A0034_Title</Title>
+    <Description>%Skill_A0034_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0034" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0034_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0034Rarity0">
+    <Title>%Skill_A0034Rarity0_Title</Title>
+    <Description>%Skill_A0034Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0034" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0034_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0034Rarity1">
+    <Title>%Skill_A0034Rarity1_Title</Title>
+    <Description>%Skill_A0034Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0034" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0034_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0034Rarity2">
+    <Title>%Skill_A0034Rarity2_Title</Title>
+    <Description>%Skill_A0034Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0034" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0034_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0035">
+    <Title>%Skill_A0035_Title</Title>
+    <Description>%Skill_A0035_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0035" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0035_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0035Rarity0">
+    <Title>%Skill_A0035Rarity0_Title</Title>
+    <Description>%Skill_A0035Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0035" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0035_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0035Rarity1">
+    <Title>%Skill_A0035Rarity1_Title</Title>
+    <Description>%Skill_A0035Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0035" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0035_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0035Rarity2">
+    <Title>%Skill_A0035Rarity2_Title</Title>
+    <Description>%Skill_A0035Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0035" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0035_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0036">
+    <Title>%Skill_A0036_Title</Title>
+    <Description>%Skill_A0036_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0036" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0036_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0036Rarity0">
+    <Title>%Skill_A0036Rarity0_Title</Title>
+    <Description>%Skill_A0036Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0036" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0036_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0036Rarity1">
+    <Title>%Skill_A0036Rarity1_Title</Title>
+    <Description>%Skill_A0036Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0036" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0036_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0036Rarity2">
+    <Title>%Skill_A0036Rarity2_Title</Title>
+    <Description>%Skill_A0036Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0036" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0036_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0037">
+    <Title>%Skill_A0037_Title</Title>
+    <Description>%Skill_A0037_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0037" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0037_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0037Rarity0">
+    <Title>%Skill_A0037Rarity0_Title</Title>
+    <Description>%Skill_A0037Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0037" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0037_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0037Rarity1">
+    <Title>%Skill_A0037Rarity1_Title</Title>
+    <Description>%Skill_A0037Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0037" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0037_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0037Rarity2">
+    <Title>%Skill_A0037Rarity2_Title</Title>
+    <Description>%Skill_A0037Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0037" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0037_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0038">
+    <Title>%Skill_A0038_Title</Title>
+    <Description>%Skill_A0038_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0038" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0038_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0038Rarity0">
+    <Title>%Skill_A0038Rarity0_Title</Title>
+    <Description>%Skill_A0038Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0038" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0038_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0038Rarity1">
+    <Title>%Skill_A0038Rarity1_Title</Title>
+    <Description>%Skill_A0038Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0038" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0038_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0038Rarity2">
+    <Title>%Skill_A0038Rarity2_Title</Title>
+    <Description>%Skill_A0038Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0038" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0038_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0039">
+    <Title>%Skill_A0039_Title</Title>
+    <Description>%Skill_A0039_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0039" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0039_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0039Rarity0">
+    <Title>%Skill_A0039Rarity0_Title</Title>
+    <Description>%Skill_A0039Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0039" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0039_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0039Rarity1">
+    <Title>%Skill_A0039Rarity1_Title</Title>
+    <Description>%Skill_A0039Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0039" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0039_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0039Rarity2">
+    <Title>%Skill_A0039Rarity2_Title</Title>
+    <Description>%Skill_A0039Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0039" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0039_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0010">
+    <Title>%Skill_A0010_Title</Title>
+    <Description>%Skill_A0010_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0010" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0010_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0010Rarity0">
+    <Title>%Skill_A0010Rarity0_Title</Title>
+    <Description>%Skill_A0010Rarity0_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0010" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0010_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0010Rarity1">
+    <Title>%Skill_A0010Rarity1_Title</Title>
+    <Description>%Skill_A0010Rarity1_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0010" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0010_over" />
+    </Icons>
+  </GuiElement>
+  <GuiElement Name="Skill_A0010Rarity2">
+    <Title>%Skill_A0010Rarity2_Title</Title>
+    <Description>%Skill_A0010Rarity2_Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/Skills/Skill_A0010" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Skills/Skill_A0010_over" />
+    </Icons>
+  </GuiElement>
+</Datatable>

@@ -1,0 +1,2577 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+	<!--
+	CurveAbscissa:
+	RoomDepth, // Start room = 0, first room after that = 1, next = 2...
+	RoomDepthPercent, // Start room = 0%, furthest room (dungeon max depth) = 100%...
+	RoomOpeningIndex, // First opened room = 0
+	RoomOpeningIndexPercent, // First opened room = 0%, last opened room = 100%
+	RoomSurface,
+	IsMultiplayer, // Single player = 0, multi player = 1
+	PlayerCount,
+	Level,
+	Difficulty, // 0 = easy, 1 = normal
+	ExitWaveNumber, // First wave = 0, next wave = 1...
+	SpaceShip, // See AbscissaValue in ShipConfigs.xml
+	CrystalPhaseStatus, // 0 = default, 1 = exit found, 2 = crystal unplugged
+	PlayerWithoutHeroCount,
+	CurrentCommunityEvent, // 0 = none, 1 = Endless Day, 2 = Free Weekend 2015, 3 = Halloween
+
+	/!\ Curve points have to be sorted by ascending x value /!\
+	-->
+
+	<GameConfig Name="Default"
+
+			HeroHealPct="0.3"
+			EMPSelectionPct="0.5"
+			MaxLevelCount="12"
+			MaxHeroCount="4"
+			BackPackCapacity="4"
+			SkillLevelScienceCoef="3"
+			HiringFoodCoef="1.6"
+			DismissingFoodCoef="5"
+			RespawnFoodCoef="10"
+			WoundedDialogTriggerHealthRatio="0.25"
+			ShortLongAttackRangeThreshold="2.75"
+			TamedMobMaxLevel="3"
+			MultiplayerMinPlayerCount="2" MultiplayerMaxPlayerCount="4"
+
+			BluePrintResearchTurnCount="3"
+			NewBluePrintWeight="4" LvlPlus1BluePrintWeight="6" LvlPlus2BluePrintWeight="1"
+
+			OpenedDoorScore="10" ActionOpenedDoorScore="15" GatheredFISScore="1" KilledMobScore="1" LootedDustScore="-1" LostHeroScore="-100" LeftOverFISScore="3"
+
+			DustFactoryActivationIndustryCost="30"
+			DustFactoryExplosionProb="0.15"
+			DustFactoryMinDust="16" DustFactoryMaxDust="28"
+
+			CryoCapsuleActivationIndustryCost="20"
+			CryoCapsuleHeroProbWeight="15" CryoCapsuleFoodProbWeight="45" CryoCapsuleToxicCloudProbWeight="15"
+			CryoCapsuleMinFood="18" CryoCapsuleMaxFood="25"
+			CryoCapsuleToxicCloudTurnCount="5"
+
+			DifficultyTarget="0"
+			EventProbWeightBonusMultiplier="0.0006"
+
+			MobSpawnLevelDifficultyBaseValue="0.1"
+			HeroSpawnLevelDifficultyValue="-1000"
+			HeroItemSpawnLevelDifficultyBaseValue="-20"
+			FIDSItemSpawnLevelDifficultyBaseValue="-50"
+			RoomDustLootLevelDifficultyBaseValue="-30"
+			MerchantSpawnLevelDifficultyValue="-500"
+			ArtifactSpawnLevelDifficultyValue="-500"
+			DustFactorySpawnLevelDifficultyValue="-500"
+			CryoCapsuleSpawnLevelDifficultyValue="-500"
+			ToxicCloudSpawnLevelDifficultyValue="500"
+
+			MaxTotalMobCount="100"
+			MaxMobPerTile="10"
+			>
+
+		<InitUnlockedHeroes>
+			<InitUnlockedHero>Hero_H0001</InitUnlockedHero>
+			<InitUnlockedHero>Hero_H0002</InitUnlockedHero>
+			<InitUnlockedHero>Hero_H0003</InitUnlockedHero>
+			<InitUnlockedHero>Hero_H0007</InitUnlockedHero>
+			<InitUnlockedHero>Hero_H0019</InitUnlockedHero>
+			<InitUnlockedHero>Hero_H0011</InitUnlockedHero>
+			<InitUnlockedHero>Hero_H0018</InitUnlockedHero>
+			<InitUnlockedHero>Hero_H0021</InitUnlockedHero>
+			<InitUnlockedHero>Hero_H0022</InitUnlockedHero>
+			<InitUnlockedHero>Hero_H0023</InitUnlockedHero>
+			<InitUnlockedHero>Hero_H0024</InitUnlockedHero>
+			<InitUnlockedHero>Hero_H0025</InitUnlockedHero>
+			<InitUnlockedHero>Hero_H0026</InitUnlockedHero>
+			<InitUnlockedHero>Hero_H0027</InitUnlockedHero>
+			<InitUnlockedHero>Hero_H0028</InitUnlockedHero>
+			<!--
+			<InitUnlockedHero>Hero_H0004</InitUnlockedHero>
+			<InitUnlockedHero>Hero_H0005</InitUnlockedHero>
+			<InitUnlockedHero>Hero_H0006</InitUnlockedHero>
+			<InitUnlockedHero>Hero_H0008</InitUnlockedHero>
+			<InitUnlockedHero>Hero_H0009</InitUnlockedHero>
+			<InitUnlockedHero>Hero_H0010</InitUnlockedHero>
+			<InitUnlockedHero>Hero_H0011</InitUnlockedHero>
+			<InitUnlockedHero>Hero_H0012</InitUnlockedHero>
+			<InitUnlockedHero>Hero_H0013</InitUnlockedHero>
+			<InitUnlockedHero>Hero_H0014</InitUnlockedHero>
+			<InitUnlockedHero>Hero_H0015</InitUnlockedHero>
+			<InitUnlockedHero>Hero_H0016</InitUnlockedHero>
+			<InitUnlockedHero>Hero_H0017</InitUnlockedHero>
+			<InitUnlockedHero>Hero_H0018</InitUnlockedHero>
+			<InitUnlockedHero>Hero_H0021</InitUnlockedHero>
+			<InitUnlockedHero>Hero_H0022</InitUnlockedHero>
+			<InitUnlockedHero>Hero_H0023</InitUnlockedHero>
+			<InitUnlockedHero>Hero_H0024</InitUnlockedHero>
+			
+			-->
+		</InitUnlockedHeroes>
+
+		<!-- ============= TILESET ============= -->
+		<!--
+		0 = Random
+		1 = Sewer
+		2 = Laboratory
+		3 = Necro
+		4 = Drakken
+		5 = Ice
+		6 = Jungle
+		-->
+		<Tileset>
+			<CurveOperation Type="Addition">
+				<CurveOperation Type="Multiplication">
+					<Curve Abscissa="Level">
+						<!-- Pod -->
+						<CurvePoint X="1" Y="1" Factor="0" />
+						<CurvePoint X="3" Y="2" Factor="0" />
+						<CurvePoint X="5" Y="3" Factor="0" />
+						<CurvePoint X="7" Y="4" Factor="0" />
+						<CurvePoint X="9" Y="5" Factor="0" />
+						<CurvePoint X="11" Y="6" Factor="0" />
+					</Curve>
+					<Curve Abscissa="SpaceShip">
+						<CurvePoint X="1" Y="1" />
+					</Curve>
+				</CurveOperation>
+				<CurveOperation Type="Multiplication">
+					<Curve Abscissa="Level">
+						<!-- Infirmary -->
+						<CurvePoint X="1" Y="2" Factor="0" />
+						<CurvePoint X="3" Y="5" Factor="0" />
+						<CurvePoint X="5" Y="1" Factor="0" />
+						<CurvePoint X="7" Y="6" Factor="0" />
+						<CurvePoint X="9" Y="3" Factor="0" />
+						<CurvePoint X="11" Y="4" Factor="0" />
+					</Curve>
+					<Curve Abscissa="SpaceShip">
+						<CurvePoint X="2" Y="1" />
+					</Curve>
+				</CurveOperation>
+				<CurveOperation Type="Multiplication">
+					<Curve Abscissa="Level">
+						<!-- Drill -->
+						<CurvePoint X="1" Y="3" Factor="0" />
+						<CurvePoint X="3" Y="1" Factor="0" />
+						<CurvePoint X="5" Y="4" Factor="0" />
+						<CurvePoint X="7" Y="5" Factor="0" />
+						<CurvePoint X="9" Y="6" Factor="0" />
+						<CurvePoint X="11" Y="2" Factor="0" />
+						<CurvePoint X="13" Y="0" Factor="0" />
+					</Curve>
+					<Curve Abscissa="SpaceShip">
+						<CurvePoint X="3" Y="1" />
+					</Curve>
+				</CurveOperation>
+				<CurveOperation Type="Multiplication">
+					<Curve Abscissa="Level">
+						<!-- Armory -->
+						<CurvePoint X="1" Y="4" Factor="0" />
+						<CurvePoint X="3" Y="6" Factor="0" />
+						<CurvePoint X="5" Y="5" Factor="0" />
+						<CurvePoint X="7" Y="2" Factor="0" />
+						<CurvePoint X="9" Y="3" Factor="0" />
+						<CurvePoint X="11" Y="1" Factor="0" />
+					</Curve>
+					<Curve Abscissa="SpaceShip">
+						<CurvePoint X="4" Y="1" />
+					</Curve>
+				</CurveOperation>
+				<CurveOperation Type="Multiplication">
+					<Curve Abscissa="Level">
+						<!-- Refreezerator -->
+						<CurvePoint X="1" Y="5" Factor="0" />
+						<CurvePoint X="3" Y="1" Factor="0" />
+						<CurvePoint X="5" Y="4" Factor="0" />
+						<CurvePoint X="7" Y="6" Factor="0" />
+						<CurvePoint X="9" Y="2" Factor="0" />
+						<CurvePoint X="11" Y="3" Factor="0" />
+					</Curve>
+					<Curve Abscissa="SpaceShip">
+						<CurvePoint X="5" Y="1" />
+					</Curve>
+				</CurveOperation>
+				<CurveOperation Type="Multiplication">
+					<Curve Abscissa="Level">
+						<!-- Sanitary -->
+						<CurvePoint X="1" Y="6" Factor="0" />
+						<CurvePoint X="3" Y="5" Factor="0" />
+						<CurvePoint X="5" Y="3" Factor="0" />
+						<CurvePoint X="7" Y="4" Factor="0" />
+						<CurvePoint X="9" Y="1" Factor="0" />
+						<CurvePoint X="11" Y="2" Factor="0" />
+					</Curve>
+					<Curve Abscissa="SpaceShip">
+						<CurvePoint X="6" Y="1" />
+					</Curve>
+				</CurveOperation>
+				<CurveOperation Type="Multiplication">
+					<Curve Abscissa="Level">
+						<!-- Library -->
+						<CurvePoint X="1" Y="4" Factor="0" />
+						<CurvePoint X="3" Y="1" Factor="0" />
+						<CurvePoint X="5" Y="2" Factor="0" />
+						<CurvePoint X="7" Y="5" Factor="0" />
+						<CurvePoint X="9" Y="3" Factor="0" />
+						<CurvePoint X="11" Y="6" Factor="0" />
+					</Curve>
+					<Curve Abscissa="SpaceShip">
+						<CurvePoint X="7" Y="1" />
+					</Curve>
+				</CurveOperation>
+				<CurveOperation Type="Multiplication">
+					<Curve Abscissa="Level">
+						<!-- Organic -->
+						<CurvePoint X="1" Y="6" Factor="0" />
+						<CurvePoint X="3" Y="3" Factor="0" />
+						<CurvePoint X="5" Y="4" Factor="0" />
+						<CurvePoint X="7" Y="1" Factor="0" />
+						<CurvePoint X="9" Y="5" Factor="0" />
+						<CurvePoint X="11" Y="2" Factor="0" />
+					</Curve>
+					<Curve Abscissa="SpaceShip">
+						<CurvePoint X="8" Y="1" />
+					</Curve>
+				</CurveOperation>
+			</CurveOperation>
+		</Tileset>
+
+		<!-- ============= HERO COUNT ============= -->
+		<PlayerInitHeroCount>
+			<CurveOperation Type="Addition">
+				<CurveOperation Type="Multiplication">
+					<!-- Single player -->
+					<Curve Abscissa="IsMultiplayer">
+						<CurvePoint X="0" Y="1" />
+					</Curve>
+					<Curve Abscissa="SpaceShip" BaseValue="2">
+						<CurvePoint X="0" Y="1" />
+						<CurvePoint X="1" Y="2" />
+						<!-- Armory -->
+						<CurvePoint X="4" Y="4" />
+						<CurvePoint X="5" Y="1" />
+					</Curve>
+				</CurveOperation>
+				<CurveOperation Type="Multiplication">
+					<!-- Multiplayer -->
+					<Curve Abscissa="IsMultiplayer">
+						<CurvePoint X="1" Y="1" />
+					</Curve>
+					<Curve Abscissa="PlayerCount" BaseValue="1"/>
+					<!--
+					<CurveOperation Type="Addition">
+						<CurveOperation Type="Multiplication">
+							Armory
+							<Curve Abscissa="SpaceShip"><CurvePoint X="4" Y="1" /></Curve>
+							<Curve Abscissa="PlayerCount" BaseValue="1">
+								<CurvePoint X="2" Y="2" />
+							</Curve>
+						</CurveOperation>
+						<CurveOperation Type="Multiplication">
+							Other ships
+							<Curve Abscissa="SpaceShip" BaseValue="1"><CurvePoint X="4" Y="0" /></Curve>
+							<Curve Abscissa="PlayerCount" BaseValue="1"></Curve>
+						</CurveOperation>
+					</CurveOperation>
+					-->
+				</CurveOperation>
+			</CurveOperation>
+		</PlayerInitHeroCount>
+
+		<PlayerMaxHeroCount>
+			<Curve Abscissa="IsMultiplayer" BaseValue="4"/>
+		</PlayerMaxHeroCount>
+
+
+
+		<!-- ============= DUNGEON ROOM COUNT ============= -->
+		<DungeonRoomCountMin>
+			<CurveOperation Type="Multiplication">
+				<Curve Abscissa="Level">
+					<CurvePoint X="1" Y="12" Link="true" />
+					<CurvePoint X="8" Y="26" Link="true" />
+					<CurvePoint X="11" Y="28" Factor="0" />
+				</Curve>
+				<Curve Abscissa="PlayerCount" BaseValue="1">
+				</Curve>
+			</CurveOperation>
+		</DungeonRoomCountMin>
+
+		<DungeonRoomCountMax>
+			<CurveOperation Type="Multiplication">
+				<Curve Abscissa="Level">
+					<CurvePoint X="1" Y="16" Link="true" />
+					<CurvePoint X="9" Y="32" Link="true" />
+					<CurvePoint X="12" Y="34" Factor="0" />
+				</Curve>
+				<Curve Abscissa="PlayerCount" BaseValue="1">
+				</Curve>
+			</CurveOperation>
+		</DungeonRoomCountMax>
+
+
+
+		<!-- ============= ROOM MODULE SLOTS ============= -->
+		<RoomMajorModuleSlotProbability>
+			<CurveOperation Type="Multiplication" Max="1">
+				<CurveOperation Type="Addition" Max="1">
+					<Curve Abscissa="RoomDepth">
+						<CurvePoint X="0" Y="1" Factor="0" />
+						<CurvePoint X="4" Y="0" Factor="0" />
+					</Curve>
+					<Curve Abscissa="Level">
+						<CurvePoint X="1" Y="0.4" Link="true" />
+						<CurvePoint X="3" Y="0.35" Factor="-0.004" />
+					</Curve>
+					<Curve Abscissa="RoomSurface">
+						<CurvePoint X="0" Y="0" Factor="0.014" />
+					</Curve>
+				</CurveOperation>
+				<Curve Abscissa="SpaceShip" BaseValue="1">
+					<!-- Library / Sanitary -->
+					<CurvePoint X="7" Y="1.2" />
+					<CurvePoint X="7" Y="0.8" />
+				</Curve>
+				<CurveOperation Type="Addition">
+					<!-- Final Floor -->
+					<CurveOperation Type="Multiplication">
+						<Curve Abscissa="Level" BaseValue="0">
+							<CurvePoint X="12" Y="-0.4" />
+						</Curve>
+						<Curve Abscissa="SpaceShip" BaseValue="1">
+							<!-- except Drill -->
+							<CurvePoint X="3" Y="0" />
+						</Curve>
+					</CurveOperation>
+					<Curve Abscissa="Level" BaseValue="1"/>
+				</CurveOperation>
+			</CurveOperation>
+		</RoomMajorModuleSlotProbability>
+
+		<RoomMinorModuleSlotProbability>
+			<CurveOperation Type="Multiplication">	
+				<Curve Abscissa="SpaceShip" BaseValue="1">
+					<!-- Sanitary -->
+					<CurvePoint X="6" Y="0.9" />
+				</Curve>
+				<CurveOperation Type="Addition">
+					<!-- Final Floor -->
+					<CurveOperation Type="Multiplication">
+						<Curve Abscissa="Level" BaseValue="0">
+							<CurvePoint X="12" Y="-0.1" />
+						</Curve>
+						<Curve Abscissa="SpaceShip" BaseValue="1">
+							<!-- except Drill -->
+							<CurvePoint X="3" Y="0" />
+						</Curve>
+					</CurveOperation>
+					<Curve Abscissa="Level" BaseValue="1"/>
+				</CurveOperation>
+			</CurveOperation>
+		</RoomMinorModuleSlotProbability>
+
+		<RoomMinorModuleSlotCountMin>
+			<CurveOperation Type="Multiplication">	
+				<CurveOperation Type="Addition">
+					<CurveOperation Type="Addition" Min="1">
+						<Curve Abscissa="RoomDepth">
+							<CurvePoint X="0" Y="4" Factor="0" />
+							<CurvePoint X="3" Y="1" Factor="0" />
+						</Curve>
+						<Curve Abscissa="Level">
+							<CurvePoint X="1" Y="0" Factor="0" />
+							<CurvePoint X="3" Y="-1" Factor="0" />
+						</Curve>
+					</CurveOperation>
+					<CurveOperation Type="Multiplication">
+						<Curve Abscissa="RoomSurface">
+							<CurvePoint X="0" Y="0" Factor="0.07" />
+						</Curve>
+						<Curve Abscissa="RoomDepth">
+							<CurvePoint X="3" Y="1" Factor="0" />
+						</Curve>
+					</CurveOperation>
+				</CurveOperation>
+				<Curve Abscissa="SpaceShip" BaseValue="1">
+					<!-- Library / Sanitary -->
+					<CurvePoint X="7" Y="1.25" />
+					<CurvePoint X="7" Y="0.9" />
+				</Curve>
+			</CurveOperation>
+		</RoomMinorModuleSlotCountMin>
+
+		<RoomMinorModuleSlotCountMax>
+			<CurveOperation Type="Multiplication">	
+				<CurveOperation Type="Addition">
+					<CurveOperation Type="Addition">
+						<Curve Abscissa="RoomDepth">
+							<CurvePoint X="0" Y="7" Factor="0" />
+							<CurvePoint X="3" Y="3.8" Factor="0" />
+						</Curve>
+						<Curve Abscissa="Level">
+							<CurvePoint X="1" Y="0" Link="true" />
+							<CurvePoint X="5" Y="-1.3" Link="true" />
+							<CurvePoint X="9" Y="-1.6" Factor="0" />
+						</Curve>
+					</CurveOperation>
+					<CurveOperation Type="Multiplication">
+						<Curve Abscissa="RoomSurface">
+							<CurvePoint X="0" Y="0" Factor="0.11" />
+						</Curve>
+						<Curve Abscissa="RoomDepth">
+							<CurvePoint X="3" Y="1" Factor="0" />
+						</Curve>
+					</CurveOperation>
+				</CurveOperation>
+				<Curve Abscissa="SpaceShip" BaseValue="1">
+					<!-- Library -->
+					<CurvePoint X="7" Y="1.2" />
+					<CurvePoint X="7" Y="0.8" />
+				</Curve>
+			</CurveOperation>
+		</RoomMinorModuleSlotCountMax>
+
+
+
+		<!-- ============= ROOM MOBS DIFFICULTY ============= -->
+		<RoomDifficultyMin>
+			<CurveOperation Type="Multiplication">
+				<CurveOperation Type="Addition">
+					<CurveOperation Type="Multiplication">
+						<Curve Abscissa="RoomOpeningIndexPercent">
+							<!-- Progression in a floor 0-100% -->
+							<CurvePoint X="0" Y="0" Factor="0" />
+							<CurvePoint X="3" Y="0.05" Link="true" />
+							<CurvePoint X="25" Y="0.1" Link="true" />
+							<CurvePoint X="55" Y="0.25" Link="true" />
+							<CurvePoint X="85" Y="0.65" Link="true" />
+							<CurvePoint X="100" Y="1" />
+						</Curve>
+						<Curve Abscissa="Level">
+							<!-- ==== RANGE ==== Last room value for each floor - START (min) -->
+							<CurvePoint X="1" Y="1000" Link="true" />
+							<CurvePoint X="4" Y="2700" Link="true" />
+							<CurvePoint X="7" Y="6500" Factor="175" />
+						</Curve>
+					</CurveOperation>
+					<Curve Abscissa="Level">
+						<!-- ==== START ==== First room value for each floor (min) -->
+						<CurvePoint X="1" Y="500" Factor="0" />
+						<CurvePoint X="2" Y="950" Factor="0" />
+						<CurvePoint X="4" Y="1200" Factor="25" />
+					</Curve>
+				</CurveOperation>
+				<CurveOperation Type="Addition">
+					<CurveOperation Type="Multiplication">
+						<!-- Difficulty addition on 2 the first floors by number of players -->
+						<Curve Abscissa="PlayerCount">
+							<CurvePoint X="1" Y="0" />
+							<CurvePoint X="2" Y="0" />
+							<CurvePoint X="3" Y="0.5" />
+							<CurvePoint X="4" Y="1" />
+						</Curve>
+						<Curve Abscissa="Level">
+							<CurvePoint X="1" Y="0.5" Factor="0" />
+							<CurvePoint X="3" Y="0" Factor="0" />
+						</Curve>
+					</CurveOperation>
+					<!-- ("+1" for the multiplication) -->
+					<Curve Abscissa="Level" BaseValue="1">
+					</Curve>
+				</CurveOperation>
+			</CurveOperation>
+		</RoomDifficultyMin>
+
+		<RoomDifficultyMax>
+			<CurveOperation Type="Multiplication">
+				<CurveOperation Type="Addition">
+					<CurveOperation Type="Multiplication">
+						<Curve Abscissa="RoomOpeningIndexPercent">
+							<!-- Progression in a floor 0-100% -->
+							<CurvePoint X="0" Y="0" Factor="0" />
+							<CurvePoint X="3" Y="0.05" Link="true" />
+							<CurvePoint X="25" Y="0.1" Link="true" />
+							<CurvePoint X="55" Y="0.25" Link="true" />
+							<CurvePoint X="85" Y="0.65" Link="true" />
+							<CurvePoint X="100" Y="1" />
+						</Curve>
+						<Curve Abscissa="Level">
+							<!-- ==== RANGE ==== Last room value for each floor - START(max) -->
+							<CurvePoint X="1" Y="1400" Link="true" />
+							<CurvePoint X="4" Y="3300" Link="true" />
+							<CurvePoint X="7" Y="7400" Factor="270" />
+						</Curve>
+					</CurveOperation>
+					<Curve Abscissa="Level">
+						<!-- ==== START ==== First room value for each floor (max) -->
+						<CurvePoint X="1" Y="600" Factor="0" />
+						<CurvePoint X="2" Y="1200" Factor="0" />
+						<CurvePoint X="4" Y="1400" Factor="30" />
+					</Curve>
+				</CurveOperation>
+				<CurveOperation Type="Addition">
+					<CurveOperation Type="Multiplication">
+						<!-- Difficulty addition on the 2 first floors by number of players -->
+						<Curve Abscissa="PlayerCount">
+							<CurvePoint X="1" Y="0" />
+							<CurvePoint X="2" Y="0" />
+							<CurvePoint X="3" Y="0.5" />
+							<CurvePoint X="4" Y="1" />
+						</Curve>
+						<Curve Abscissa="Level">
+							<CurvePoint X="1" Y="0.5" Factor="0" />
+							<CurvePoint X="3" Y="0" Factor="0" />
+						</Curve>
+					</CurveOperation>
+					<!-- ("+1" for the multiplication) -->
+					<Curve Abscissa="Level" BaseValue="1">
+					</Curve>
+				</CurveOperation>
+			</CurveOperation>
+		</RoomDifficultyMax>
+
+
+
+		<!-- ============= MOB WAVES ============= -->
+		<WaveCountMin>
+			<CurveOperation Type="Addition">
+				<CurveOperation Type="Multiplication">
+					<Curve Abscissa="RoomOpeningIndexPercent">
+						<!-- Progression in a floor 0-100% -->
+						<CurvePoint X="0" Y="0" Factor="0" />
+						<CurvePoint X="3" Y="0.05" Link="true" />
+						<CurvePoint X="25" Y="0.1" Link="true" />
+						<CurvePoint X="55" Y="0.25" Link="true" />
+						<CurvePoint X="85" Y="0.65" Link="true" />
+						<CurvePoint X="100" Y="1" />
+					</Curve>
+					<Curve Abscissa="Level">
+						<!-- ==== RANGE ==== Last room value for each floor - START (min) -->
+						<CurvePoint X="1" Y="1" Factor="0" />
+					</Curve>
+				</CurveOperation>
+				<Curve Abscissa="Level">
+					<!-- ==== START ==== First room value for each floor (min) -->
+					<CurvePoint X="1" Y="1" Factor="0.25" />
+				</Curve>
+			</CurveOperation>
+		</WaveCountMin>
+
+		<WaveCountMax>
+			<CurveOperation Type="Addition">
+				<CurveOperation Type="Multiplication">
+					<Curve Abscissa="RoomOpeningIndexPercent">
+						<!-- Progression in a floor 0-100% -->
+						<CurvePoint X="0" Y="0" Factor="0" />
+						<CurvePoint X="3" Y="0.05" Link="true" />
+						<CurvePoint X="25" Y="0.1" Link="true" />
+						<CurvePoint X="55" Y="0.25" Link="true" />
+						<CurvePoint X="85" Y="0.65" Link="true" />
+						<CurvePoint X="100" Y="1" />
+					</Curve>
+					<Curve Abscissa="Level">
+						<!-- ==== RANGE ==== Last room value for each floor - START (min) -->
+						<CurvePoint X="1" Y="1" Factor="0" />
+					</Curve>
+				</CurveOperation>
+				<Curve Abscissa="Level">
+					<!-- ==== START ==== First room value for each floor (min) -->
+					<CurvePoint X="1" Y="2" Factor="0.3" />
+				</Curve>
+			</CurveOperation>
+		</WaveCountMax>
+
+		<WaveDifficultyMin>
+			<CurveOperation Type="Multiplication">
+				<CurveOperation Type="Addition">
+					<CurveOperation Type="Multiplication">
+						<Curve Abscissa="RoomOpeningIndexPercent">
+							<!-- Progression in a floor 0-100% -->
+							<CurvePoint X="0" Y="0" Factor="0" />
+							<CurvePoint X="3" Y="0.05" Link="true" />
+							<CurvePoint X="25" Y="0.1" Link="true" />
+							<CurvePoint X="55" Y="0.25" Link="true" />
+							<CurvePoint X="85" Y="0.65" Link="true" />
+							<CurvePoint X="100" Y="1" />
+						</Curve>
+						<Curve Abscissa="Level">
+							<!-- ==== RANGE ==== Last room value for each floor - START (min) -->
+							<CurvePoint X="1" Y="100" Link="true" />
+							<CurvePoint X="5" Y="1100" Link="true" />
+							<CurvePoint X="8" Y="2750" Factor="650" />
+						</Curve>
+					</CurveOperation>
+					<Curve Abscissa="Level">
+						<!-- ==== START ==== First room value for each floor (min) -->
+						<CurvePoint X="1" Y="700" Link="true" />
+						<CurvePoint X="8" Y="2450" Factor="350" />
+					</Curve>
+				</CurveOperation>
+				<CurveOperation Type="Addition">
+					<CurveOperation Type="Multiplication">
+						<!-- Difficulty addition on 2 the first floors by number of players -->
+						<Curve Abscissa="PlayerCount">
+							<CurvePoint X="1" Y="0" />
+							<CurvePoint X="2" Y="0" />
+							<CurvePoint X="3" Y="0.5" />
+							<CurvePoint X="4" Y="1" />
+						</Curve>
+						<Curve Abscissa="Level">
+							<CurvePoint X="1" Y="0.5" Factor="0" />
+							<CurvePoint X="3" Y="0" Factor="0" />
+						</Curve>
+					</CurveOperation>
+					<!-- ("+1" for the multiplication) -->
+					<Curve Abscissa="Level" BaseValue="1">
+					</Curve>
+				</CurveOperation>
+				<Curve Abscissa="CrystalPhaseStatus">
+					<!-- When the exit is found	-->
+					<CurvePoint X="0" Y="1" />
+					<CurvePoint X="1" Y="1.2" Factor="0" />
+				</Curve>
+			</CurveOperation>
+		</WaveDifficultyMin>
+
+		<WaveDifficultyMax>
+			<CurveOperation Type="Multiplication">
+				<CurveOperation Type="Addition">
+					<CurveOperation Type="Multiplication">
+						<Curve Abscissa="RoomOpeningIndexPercent">
+							<!-- Progression in a floor 0-100% -->
+							<CurvePoint X="0" Y="0" Factor="0" />
+							<CurvePoint X="3" Y="0.05" Link="true" />
+							<CurvePoint X="25" Y="0.1" Link="true" />
+							<CurvePoint X="55" Y="0.25" Link="true" />
+							<CurvePoint X="85" Y="0.65" Link="true" />
+							<CurvePoint X="100" Y="1" />
+						</Curve>
+						<Curve Abscissa="Level">
+							<!-- ==== RANGE ==== Last room value for each floor - START (max) -->
+							<CurvePoint X="1" Y="0" Link="true" />
+							<CurvePoint X="5" Y="1400" Link="true" />
+							<CurvePoint X="8" Y="3250" Factor="750" />
+						</Curve>
+					</CurveOperation>
+					<Curve Abscissa="Level">
+						<!-- ==== START ==== First room value for each floor (max) -->
+						<CurvePoint X="1" Y="1100" Link="true" />
+						<CurvePoint X="8" Y="2850" Factor="350" />
+					</Curve>
+				</CurveOperation>
+				<CurveOperation Type="Addition">
+					<CurveOperation Type="Multiplication">
+						<!-- Difficulty addition on 2 the first floors by number of players -->
+						<Curve Abscissa="PlayerCount">
+							<CurvePoint X="1" Y="0" />
+							<CurvePoint X="2" Y="0" />
+							<CurvePoint X="3" Y="0.5" />
+							<CurvePoint X="4" Y="1" />
+						</Curve>
+						<Curve Abscissa="Level">
+							<CurvePoint X="1" Y="0.5" Factor="0" />
+							<CurvePoint X="3" Y="0" Factor="0" />
+						</Curve>
+					</CurveOperation>
+					<!-- ("+1" for the multiplication) -->
+					<Curve Abscissa="Level" BaseValue="1">
+					</Curve>
+				</CurveOperation>
+				<Curve Abscissa="CrystalPhaseStatus">
+					<!-- When the exit is found	-->
+					<CurvePoint X="0" Y="1" />
+					<CurvePoint X="1" Y="1.2" Factor="0" />
+				</Curve>
+			</CurveOperation>
+		</WaveDifficultyMax>
+
+
+
+		<!-- ============= MOBS SELECTION AND SPAWN CONFIG ============= -->
+		<LevelMobClassCountMin>
+			<Curve Abscissa="Level">
+				<CurvePoint X="1" Y="3" Link="true" />
+				<CurvePoint X="9" Y="5" Factor="0" />
+			</Curve>
+		</LevelMobClassCountMin>
+
+		<LevelMobClassCountMax>
+			<Curve Abscissa="Level">
+				<CurvePoint X="1" Y="4" Link="true" />
+				<CurvePoint X="11" Y="7" Factor="0" />
+			</Curve>
+		</LevelMobClassCountMax>
+
+		<PreviousLevelMobClassCountMin>
+			<Curve Abscissa="Level">
+				<CurvePoint X="1" Y="0" Factor="0" />
+				<CurvePoint X="2" Y="1.5" Factor="0.125" />
+			</Curve>
+		</PreviousLevelMobClassCountMin>
+
+		<PreviousLevelMobClassCountMax>
+			<Curve Abscissa="Level">
+				<CurvePoint X="1" Y="0" Factor="0" />
+				<CurvePoint X="2" Y="2" Factor="0.175" />
+			</Curve>
+		</PreviousLevelMobClassCountMax>
+
+		<MobConfigs>
+
+			<!-- ============ NECRO ============ -->
+
+			<MobConfig Name="Mob_N_Trash">
+				<SelectProbWeight>
+					<Curve Abscissa="Level">
+						<CurvePoint X="1" Y="10000" Link="true" />
+						<CurvePoint X="2" Y="125" Link="true" />
+						<CurvePoint X="7" Y="0" Factor="0" />
+					</Curve>
+				</SelectProbWeight>
+				<SpawnProbWeight>
+					<Curve Abscissa="Level">
+						<CurvePoint X="1" Y="110" Factor="-5" />
+					</Curve>
+				</SpawnProbWeight>
+			</MobConfig>
+
+			<MobConfig Name="Mob_N_Flying">
+				<SelectProbWeight>
+					<Curve Abscissa="Level">
+						<CurvePoint X="1" Y="90" Link="true" />
+						<CurvePoint X="2" Y="100" Link="true" />
+						<CurvePoint X="7" Y="0" Factor="0" />
+					</Curve>
+				</SelectProbWeight>
+				<SpawnProbWeight>
+					<Curve Abscissa="Level">
+						<CurvePoint X="1" Y="90" Factor="-5" />
+					</Curve>
+				</SpawnProbWeight>
+			</MobConfig>
+
+			<MobConfig Name="Mob_N_Hunter">
+				<SelectProbWeight>
+					<Curve Abscissa="Level">
+						<CurvePoint X="1" Y="60" Link="true" />
+						<CurvePoint X="3" Y="100" Link="true" />
+						<CurvePoint X="6" Y="0" Factor="0" />
+					</Curve>
+				</SelectProbWeight>
+				<SpawnProbWeight>
+					<Curve Abscissa="Level" Max="85">
+						<CurvePoint X="1" Y="65" Factor="3" />
+					</Curve>
+				</SpawnProbWeight>
+			</MobConfig>
+
+			<MobConfig Name="Mob_N_Crystophile">
+				<SelectProbWeight>
+					<Curve Abscissa="Level">
+						<CurvePoint X="1" Y="0" Factor="0" />
+						<CurvePoint X="2" Y="25" Link="true" />
+						<CurvePoint X="4" Y="100" Link="true" />
+						<CurvePoint X="7" Y="0" Factor="0" />
+					</Curve>
+				</SelectProbWeight>
+				<SpawnProbWeight>
+					<Curve Abscissa="Level" Max="80">
+						<CurvePoint X="2" Y="65" Factor="3" />
+					</Curve>
+				</SpawnProbWeight>
+			</MobConfig>
+
+			<MobConfig Name="Mob_N_Kamikaze">
+				<SelectProbWeight>
+					<Curve Abscissa="Level">
+						<CurvePoint X="1" Y="0" Factor="0" />
+						<CurvePoint X="5" Y="50" Link="true" />
+						<CurvePoint X="7" Y="90" Link="true" />
+						<CurvePoint X="9" Y="0" Factor="0" />
+					</Curve>
+				</SelectProbWeight>
+				<SpawnProbWeight>
+					<Curve Abscissa="Level" Max="90">
+						<CurvePoint X="1" Y="0" Factor="0" />
+						<CurvePoint X="5" Y="65" Factor="3" />
+					</Curve>
+				</SpawnProbWeight>
+			</MobConfig>
+
+			<!-- ======= NECRO ELITE ======= -->
+
+			<MobConfig Name="Mob_N_Trash_Elite">
+				<SelectProbWeight>
+					<Curve Abscissa="Level">
+						<CurvePoint X="1" Y="0" Factor="0" />
+						<CurvePoint X="5" Y="80" Link="true" />
+						<CurvePoint X="6" Y="100" Link="true" />
+						<CurvePoint X="9" Y="0" Factor="0" />
+					</Curve>
+				</SelectProbWeight>
+				<SpawnProbWeight>
+					<Curve Abscissa="Level">
+						<CurvePoint X="1" Y="0" Factor="0" />
+						<CurvePoint X="5" Y="100" Factor="-5" />
+					</Curve>
+				</SpawnProbWeight>
+			</MobConfig>
+
+			<MobConfig Name="Mob_N_Flying_Elite">
+				<SelectProbWeight>
+					<Curve Abscissa="Level">
+						<CurvePoint X="1" Y="0" Factor="0" />
+						<CurvePoint X="5" Y="30" Link="true" />
+						<CurvePoint X="7" Y="100" Link="true" />
+						<CurvePoint X="10" Y="0" Factor="0" />
+					</Curve>
+				</SelectProbWeight>
+				<SpawnProbWeight>
+					<Curve Abscissa="Level" Max="100">
+						<CurvePoint X="1" Y="0" Factor="0" />
+						<CurvePoint X="5" Y="80" Factor="5" />
+					</Curve>
+				</SpawnProbWeight>
+			</MobConfig>
+
+			<MobConfig Name="Mob_N_Hunter_Elite">
+				<SelectProbWeight>
+					<Curve Abscissa="Level">
+						<CurvePoint X="1" Y="0" Factor="0" />
+						<CurvePoint X="7" Y="50" Link="true" />
+						<CurvePoint X="9" Y="100" Link="true" />
+						<CurvePoint X="12" Y="70" Factor="0" />
+					</Curve>
+				</SelectProbWeight>
+				<SpawnProbWeight>
+					<Curve Abscissa="Level" Max="100">
+						<CurvePoint X="1" Y="0" Factor="0" />
+						<CurvePoint X="7" Y="60" Factor="5" />
+					</Curve>
+				</SpawnProbWeight>
+			</MobConfig>
+
+			<MobConfig Name="Mob_N_Crystophile_Elite">
+				<SelectProbWeight>
+					<Curve Abscissa="Level">
+						<CurvePoint X="1" Y="0" Factor="0" />
+						<CurvePoint X="6" Y="40" Link="true" />
+						<CurvePoint X="8" Y="100" Link="true" />
+						<CurvePoint X="10" Y="30" Factor="0" />
+					</Curve>
+				</SelectProbWeight>
+				<SpawnProbWeight>
+					<Curve Abscissa="Level" Max="100">
+						<CurvePoint X="1" Y="0" Factor="0" />
+						<CurvePoint X="6" Y="70" Factor="3" />
+					</Curve>
+				</SpawnProbWeight>
+			</MobConfig>
+
+			<MobConfig Name="Mob_N_Kamikaze_Elite">
+				<SelectProbWeight>
+					<Curve Abscissa="Level">
+						<CurvePoint X="1" Y="0" Factor="0" />
+						<CurvePoint X="7" Y="50" Link="true" />
+						<CurvePoint X="9" Y="100" Link="true" />
+						<CurvePoint X="12" Y="55" Factor="0" />
+					</Curve>
+				</SelectProbWeight>
+				<SpawnProbWeight>
+					<Curve Abscissa="Level" Max="90">
+						<CurvePoint X="1" Y="0" Factor="0" />
+						<CurvePoint X="7" Y="60" Factor="3" />
+					</Curve>
+				</SpawnProbWeight>
+			</MobConfig>
+
+			<!-- ============ CHIMERA ============ -->
+
+			<MobConfig Name="Mob_C_Trash">
+				<SelectProbWeight>
+					<Curve Abscissa="Level">
+						<CurvePoint X="3" Y="100" Link="true" />
+						<CurvePoint X="4" Y="160" Link="true" />
+						<CurvePoint X="8" Y="0" Factor="0" />
+					</Curve>
+				</SelectProbWeight>
+				<SpawnProbWeight>
+					<Curve Abscissa="Level">
+						<CurvePoint X="3" Y="80" />
+					</Curve>
+				</SpawnProbWeight>
+			</MobConfig>
+
+			<MobConfig Name="Mob_C_Debuffer">
+				<SelectProbWeight>
+					<Curve Abscissa="Level">
+						<CurvePoint X="1" Y="10" Factor="0" />
+						<CurvePoint X="3" Y="90" Link="true" />
+						<CurvePoint X="4" Y="100" Link="true" />
+						<CurvePoint X="8" Y="0" Factor="0" />
+					</Curve>
+				</SelectProbWeight>
+				<SpawnProbWeight>
+					<Curve Abscissa="Level" Max="95">
+						<CurvePoint X="3" Y="75" Factor="4" />
+					</Curve>
+				</SpawnProbWeight>
+			</MobConfig>
+
+			<MobConfig Name="Mob_C_Kamikaze">
+				<SelectProbWeight>
+					<Curve Abscissa="Level">
+						<CurvePoint X="1" Y="0" Factor="0" />
+						<CurvePoint X="4" Y="80" Link="true" />
+						<CurvePoint X="5" Y="90" Link="true" />
+						<CurvePoint X="7" Y="40" Link="true" />
+						<CurvePoint X="9" Y="0" Factor="0" />
+					</Curve>
+				</SelectProbWeight>
+				<SpawnProbWeight>
+					<Curve Abscissa="Level" Max="60">
+						<CurvePoint X="4" Y="35" Factor="3" />
+					</Curve>
+				</SpawnProbWeight>
+			</MobConfig>
+
+			<MobConfig Name="Mob_C_Keeper">
+				<SelectProbWeight>
+					<CurveOperation Type="Multiplication">	
+						<Curve Abscissa="Level">
+							<CurvePoint X="1" Y="0" Factor="0" />
+							<CurvePoint X="7" Y="50" Link="true" />
+							<CurvePoint X="9" Y="100" Link="true" />
+							<CurvePoint X="10" Y="50" Factor="0" />
+							<CurvePoint X="11" Y="0" Factor="0" />
+						</Curve>
+						<Curve Abscissa="SpaceShip" BaseValue="1">
+							<!-- Infirmary / Refreezerator / Library -->
+							<CurvePoint X="2 " Y="0" />
+							<CurvePoint X="5 " Y="0" />
+							<CurvePoint X="7 " Y="0" />
+						</Curve>
+					</CurveOperation>	
+				</SelectProbWeight>
+				<SpawnProbWeight>
+					<Curve Abscissa="Level" Max="22">
+						<CurvePoint X="7" Y="12" Factor="2" />
+					</Curve>
+				</SpawnProbWeight>
+			</MobConfig>
+
+			<!-- ======= CHIMERA ELITE ======= -->
+
+			<MobConfig Name="Mob_C_Trash_Elite">
+				<SelectProbWeight>
+					<Curve Abscissa="Level">
+						<CurvePoint X="1" Y="0" Factor="0" />
+						<CurvePoint X="6" Y="80" Link="true" />
+						<CurvePoint X="7" Y="150" Link="true" />
+						<CurvePoint X="12" Y="25" Factor="0" />
+					</Curve>
+				</SelectProbWeight>
+				<SpawnProbWeight>
+					<Curve Abscissa="Level">
+						<CurvePoint X="1" Y="0" Factor="0" />
+						<CurvePoint X="6" Y="90" Factor="-1" />
+					</Curve>
+				</SpawnProbWeight>
+			</MobConfig>
+
+			<MobConfig Name="Mob_C_Debuffer_Elite">
+				<SelectProbWeight>
+					<Curve Abscissa="Level">
+						<CurvePoint X="1" Y="0" Factor="0" />
+						<CurvePoint X="6" Y="80" Link="true" />
+						<CurvePoint X="7" Y="100" Link="true" />
+						<CurvePoint X="10" Y="25" Factor="0" />
+					</Curve>
+				</SelectProbWeight>
+				<SpawnProbWeight>
+					<Curve Abscissa="Level" Max="95">
+						<CurvePoint X="1" Y="0" Factor="0" />
+						<CurvePoint X="6" Y="70" Factor="5" />
+					</Curve>
+				</SpawnProbWeight>
+			</MobConfig>
+
+			<MobConfig Name="Mob_C_Kamikaze_Elite">
+				<SelectProbWeight>
+					<Curve Abscissa="Level">
+						<CurvePoint X="1" Y="0" Factor="0" />
+						<CurvePoint X="9" Y="70" Link="true" />
+						<CurvePoint X="11" Y="100" Link="true" />
+						<CurvePoint X="12" Y="80" Factor="0" />
+					</Curve>
+				</SelectProbWeight>
+				<SpawnProbWeight>
+					<Curve Abscissa="Level" Max="60">
+						<CurvePoint X="4" Y="30" Factor="3" />
+					</Curve>
+				</SpawnProbWeight>
+			</MobConfig>
+
+			<MobConfig Name="Mob_C_Keeper_Elite">
+				<SelectProbWeight>
+					<CurveOperation Type="Multiplication">	
+						<Curve Abscissa="Level">
+							<CurvePoint X="1" Y="0" Factor="0" />
+							<CurvePoint X="11" Y="100" Link="true" />
+							<CurvePoint X="12" Y="80" Factor="0" />
+						</Curve>
+						<Curve Abscissa="SpaceShip" BaseValue="1">
+							<!-- Infirmary / Refreezerator / Library -->
+							<CurvePoint X="2 " Y="0" />
+							<CurvePoint X="5 " Y="0" />
+							<CurvePoint X="7 " Y="0" />
+						</Curve>
+					</CurveOperation>
+				</SelectProbWeight>
+				<SpawnProbWeight>
+					<Curve Abscissa="Level" Max="24">
+						<CurvePoint X="11" Y="10" Factor="2" />
+					</Curve>
+				</SpawnProbWeight>
+			</MobConfig>
+
+			<!-- ============ SILICS ============ -->
+
+			<MobConfig Name="Mob_S_Trash">
+				<SelectProbWeight>
+					<Curve Abscissa="Level">
+						<CurvePoint X="1" Y="70" Link="true" />
+						<CurvePoint X="3" Y="110" Link="true" />
+						<CurvePoint X="7" Y="0" Factor="0" />
+					</Curve>
+				</SelectProbWeight>
+				<SpawnProbWeight>
+					<Curve Abscissa="Level">
+						<CurvePoint X="1" Y="85" Factor="0" />
+					</Curve>
+				</SpawnProbWeight>
+			</MobConfig>
+
+			<MobConfig Name="Mob_S_Bulldozer">
+				<SelectProbWeight>
+					<Curve Abscissa="Level">
+						<CurvePoint X="1" Y="0" Factor="0" />
+						<CurvePoint X="3" Y="30" Link="true" />
+						<CurvePoint X="5" Y="90" Link="true" />
+						<CurvePoint X="8" Y="0" Factor="0" />
+					</Curve>
+				</SelectProbWeight>
+				<SpawnProbWeight>
+					<Curve Abscissa="Level" Max="95">
+						<CurvePoint X="3" Y="55" Factor="5" />
+					</Curve>
+				</SpawnProbWeight>
+			</MobConfig>
+
+			<MobConfig Name="Mob_S_Supporter">
+				<SelectProbWeight>
+					<Curve Abscissa="Level">
+						<CurvePoint X="1" Y="10" Factor="0" />
+						<CurvePoint X="2" Y="15" Link="true" />
+						<CurvePoint X="5" Y="90" Link="true" />
+						<CurvePoint X="8" Y="0" Factor="0" />
+					</Curve>
+				</SelectProbWeight>
+				<SpawnProbWeight>
+					<Curve Abscissa="Level" Max="55">
+						<CurvePoint X="1" Y="32" Factor="3" />
+					</Curve>
+				</SpawnProbWeight>
+			</MobConfig>
+
+			<MobConfig Name="Mob_S_Zoner">
+				<SelectProbWeight>
+					<Curve Abscissa="Level">
+						<CurvePoint X="4" Y="50" Link="true" />
+						<CurvePoint X="6" Y="100" Link="true" />
+						<CurvePoint X="8" Y="100" Link="true" />
+						<CurvePoint X="10" Y="20" Factor="0" />
+						<CurvePoint X="11" Y="0" Factor="0" />
+					</Curve>
+				</SelectProbWeight>
+				<SpawnProbWeight>
+					<Curve Abscissa="Level" Max="70">
+						<CurvePoint X="4" Y="40" Factor="4" />
+					</Curve>
+				</SpawnProbWeight>
+			</MobConfig>
+
+			<!-- ======= SILICS ELITE ======= -->
+
+			<MobConfig Name="Mob_S_Trash_Elite">
+				<SelectProbWeight>
+					<Curve Abscissa="Level">
+						<CurvePoint X="1" Y="0" Factor="0" />
+						<CurvePoint X="6" Y="100" Link="true" />
+						<CurvePoint X="7" Y="125" Link="true" />
+						<CurvePoint X="11" Y="25" Factor="0" />
+						<CurvePoint X="12" Y="10" Factor="0" />
+					</Curve>
+				</SelectProbWeight>
+				<SpawnProbWeight>
+					<Curve Abscissa="Level">
+						<CurvePoint X="1" Y="0" Factor="0" />
+						<CurvePoint X="6" Y="80" Factor="0" />
+					</Curve>
+				</SpawnProbWeight>
+			</MobConfig>
+
+			<MobConfig Name="Mob_S_Bulldozer_Elite">
+				<SelectProbWeight>
+					<Curve Abscissa="Level">
+						<CurvePoint X="1" Y="0" Factor="0" />
+						<CurvePoint X="7" Y="50" Link="true" />
+						<CurvePoint X="9" Y="100" Link="true" />
+						<CurvePoint X="12" Y="70" Factor="0" />
+					</Curve>
+				</SelectProbWeight>
+				<SpawnProbWeight>
+					<Curve Abscissa="Level" Max="80">
+						<CurvePoint X="1" Y="0" Factor="0" />
+						<CurvePoint X="7" Y="50" Factor="5" />
+					</Curve>
+				</SpawnProbWeight>
+			</MobConfig>
+
+			<MobConfig Name="Mob_S_Supporter_Elite">
+				<SelectProbWeight>
+					<Curve Abscissa="Level">
+						<CurvePoint X="1" Y="0" Factor="0" />
+						<CurvePoint X="7" Y="80" Link="true" />
+						<CurvePoint X="8" Y="100" Link="true" />
+						<CurvePoint X="11" Y="25" Factor="0" />
+						<CurvePoint X="12" Y="20" Factor="0" />
+					</Curve>
+				</SelectProbWeight>
+				<SpawnProbWeight>
+					<Curve Abscissa="Level">
+						<CurvePoint X="1" Y="0" Factor="0" />
+						<CurvePoint X="7" Y="35" />
+					</Curve>
+				</SpawnProbWeight>
+			</MobConfig>
+
+			<MobConfig Name="Mob_S_Zoner_Elite">
+				<SelectProbWeight>
+					<Curve Abscissa="Level">
+						<CurvePoint X="9" Y="20" Link="true" />
+						<CurvePoint X="10" Y="110" Link="true" />
+						<CurvePoint X="11" Y="100" Link="true" />
+						<CurvePoint X="12" Y="80" Factor="0" />
+					</Curve>
+				</SelectProbWeight>
+				<SpawnProbWeight>
+					<Curve Abscissa="Level" Max="70">
+						<CurvePoint X="9" Y="30" Factor="5" />
+					</Curve>
+				</SpawnProbWeight>
+			</MobConfig>
+
+			<!-- ============ HURNA ============ -->
+
+			<MobConfig Name="Mob_H_Hunter">
+				<SelectProbWeight>
+					<Curve Abscissa="Level">
+						<CurvePoint X="3" Y="60" Link="true" />
+						<CurvePoint X="4" Y="80" Link="true" />
+						<CurvePoint X="8" Y="0" Factor="0" />
+					</Curve>
+				</SelectProbWeight>
+				<SpawnProbWeight>
+					<Curve Abscissa="Level">
+						<CurvePoint X="3" Y="45" Link="true" />
+						<CurvePoint X="4" Y="70" Factor="0" />
+					</Curve>
+				</SpawnProbWeight>
+			</MobConfig>
+
+			<MobConfig Name="Mob_H_Debuffer">
+				<SelectProbWeight>
+					<Curve Abscissa="Level">
+						<CurvePoint X="3" Y="60" Link="true" />
+						<CurvePoint X="4" Y="90" Link="true" />
+						<CurvePoint X="8" Y="0" Factor="0" />
+					</Curve>
+				</SelectProbWeight>
+				<SpawnProbWeight>
+					<Curve Abscissa="Level" Max="60">
+						<CurvePoint X="4" Y="35" Factor="2" />
+					</Curve>
+				</SpawnProbWeight>
+			</MobConfig>
+
+			<MobConfig Name="Mob_H_DoorOpener">
+				<SelectProbWeight>
+					<Curve Abscissa="Level">
+						<CurvePoint X="1" Y="0" Factor="0" />
+						<CurvePoint X="5" Y="50" Link="true" />
+						<CurvePoint X="8" Y="110" Link="true" />
+						<CurvePoint X="10" Y="30" Factor="0" />
+						<CurvePoint X="11" Y="0" Factor="0" />
+					</Curve>
+				</SelectProbWeight>
+				<SpawnProbWeight>
+					<CurveOperation Type="Multiplication">
+						<Curve Abscissa="Level" Max="35">
+							<CurvePoint X="6" Y="18" Factor="2" />
+						</Curve>
+						<Curve Abscissa="CrystalPhaseStatus" BaseValue="1">
+							<!-- When the Crystal is unplugged -->
+							<CurvePoint X="2" Y="0" />
+						</Curve>
+					</CurveOperation>
+				</SpawnProbWeight>
+			</MobConfig>
+
+			<MobConfig Name="Mob_H_Zoner">
+				<SelectProbWeight>
+					<Curve Abscissa="Level">
+						<CurvePoint X="3" Y="60" Link="true" />
+						<CurvePoint X="4" Y="90" Link="true" />
+						<CurvePoint X="8" Y="0" Factor="0" />
+					</Curve>
+				</SelectProbWeight>
+				<SpawnProbWeight>
+					<Curve Abscissa="Level" Max="60">
+						<CurvePoint X="4" Y="35" Factor="2" />
+					</Curve>
+				</SpawnProbWeight>
+			</MobConfig>
+
+			<MobConfig Name="Mob_H_Assassin">
+				<SelectProbWeight>
+					<Curve Abscissa="Level">
+						<CurvePoint X="5" Y="60" Link="true" />
+						<CurvePoint X="6" Y="80" Link="true" />
+						<CurvePoint X="10" Y="0" Factor="0" />
+					</Curve>
+				</SelectProbWeight>
+				<SpawnProbWeight>
+					<Curve Abscissa="Level" Max="60">
+						<CurvePoint X="4" Y="35" Factor="2" />
+					</Curve>
+				</SpawnProbWeight>
+			</MobConfig>
+
+			<!-- ======= HURNA ELITE ======= -->
+
+			<MobConfig Name="Mob_H_Hunter_Elite">
+				<SelectProbWeight>
+					<Curve Abscissa="Level">
+						<CurvePoint X="1" Y="0" Factor="0" />
+						<CurvePoint X="7" Y="50" Link="true" />
+						<CurvePoint X="9" Y="100" Link="true" />
+						<CurvePoint X="12" Y="70" Factor="0" />
+					</Curve>
+				</SelectProbWeight>
+				<SpawnProbWeight>
+					<Curve Abscissa="Level" Max="80">
+						<CurvePoint X="7" Y="60" Factor="2" />
+					</Curve>
+				</SpawnProbWeight>
+			</MobConfig>
+
+			<MobConfig Name="Mob_H_Debuffer_Elite">
+				<SelectProbWeight>
+					<Curve Abscissa="Level">
+						<CurvePoint X="1" Y="0" Factor="0" />
+						<CurvePoint X="7" Y="50" Link="true" />
+						<CurvePoint X="9" Y="100" Link="true" />
+						<CurvePoint X="12" Y="70" Factor="0" />
+					</Curve>
+				</SelectProbWeight>
+				<SpawnProbWeight>
+					<Curve Abscissa="Level" Max="65">
+						<CurvePoint X="7" Y="35" Factor="2" />
+					</Curve>
+				</SpawnProbWeight>
+			</MobConfig>
+
+			<MobConfig Name="Mob_H_DoorOpener_Elite">
+				<SelectProbWeight>
+					<Curve Abscissa="Level">
+						<CurvePoint X="1" Y="0" Factor="0" />
+						<CurvePoint X="9" Y="20" Link="true" />
+						<CurvePoint X="10" Y="110" Link="true" />
+						<!-- before the 11-12th -->
+						<CurvePoint X="11" Y="100" Link="true" />
+						<CurvePoint X="12" Y="80" Factor="0" />
+					</Curve>
+				</SelectProbWeight>
+				<SpawnProbWeight>
+					<CurveOperation Type="Multiplication">
+						<Curve Abscissa="Level" Max="30">
+							<CurvePoint X="9" Y="15" Factor="2" />
+						</Curve>
+						<Curve Abscissa="CrystalPhaseStatus" BaseValue="1">
+							<!-- When the Crystal is unplugged -->
+							<CurvePoint X="2" Y="0" />
+						</Curve>
+					</CurveOperation>
+				</SpawnProbWeight>
+			</MobConfig>
+
+			<MobConfig Name="Mob_H_Zoner_Elite">
+				<SelectProbWeight>
+					<Curve Abscissa="Level">
+						<CurvePoint X="1" Y="0" Factor="0" />
+						<CurvePoint X="7" Y="50" Link="true" />
+						<CurvePoint X="9" Y="100" Link="true" />
+						<CurvePoint X="12" Y="70" Factor="0" />
+					</Curve>
+				</SelectProbWeight>
+				<SpawnProbWeight>
+					<Curve Abscissa="Level" Max="80">
+						<CurvePoint X="7" Y="60" Factor="2" />
+					</Curve>
+				</SpawnProbWeight>
+			</MobConfig>
+
+			<MobConfig Name="Mob_H_Assassin_Elite">
+				<SelectProbWeight>
+					<Curve Abscissa="Level">
+						<CurvePoint X="7" Y="20" Link="true" />
+						<CurvePoint X="11" Y="100" Link="true" />
+						<CurvePoint X="12" Y="70" Factor="0" />
+					</Curve>
+				</SelectProbWeight>
+				<SpawnProbWeight>
+					<Curve Abscissa="Level" Max="65">
+						<CurvePoint X="7" Y="35" Factor="2" />
+					</Curve>
+				</SpawnProbWeight>
+			</MobConfig>
+
+			<!-- ======= VULTU ======= -->			
+
+			<MobConfig Name="Mob_V_Trash">
+				<SelectProbWeight>
+					<Curve Abscissa="Level">
+						<CurvePoint X="1" Y="0" Factor="0" />
+						<CurvePoint X="4" Y="40" Link="true" />
+						<CurvePoint X="6" Y="100" Link="true" />
+						<CurvePoint X="10" Y="0" Factor="0" />
+					</Curve>
+				</SelectProbWeight>
+				<SpawnProbWeight> 
+					<Curve Abscissa="Level" Max="90"> 
+						<CurvePoint X="4" Y="60" Factor="5" /> 
+					</Curve>
+				</SpawnProbWeight>
+			</MobConfig>
+
+			<MobConfig Name="Mob_V_Vultu">
+				<SelectProbWeight>
+					<Curve Abscissa="Level">
+						<CurvePoint X="1" Y="0" Factor="0" />
+						<CurvePoint X="3" Y="15" Link="true" />
+						<CurvePoint X="7" Y="80" Link="true" />
+						<CurvePoint X="8" Y="80" Link="true" />
+						<CurvePoint X="12" Y="0" Factor="0" />
+					</Curve>
+				</SelectProbWeight>
+				<SpawnProbWeight>
+					<Curve Abscissa="Level" Max="80">
+						<CurvePoint X="3" Y="10" Factor="0" /> 
+					</Curve>
+				</SpawnProbWeight>
+			</MobConfig>			
+
+			<MobConfig Name="Mob_V_Debuffer">
+				<SelectProbWeight>
+					<Curve Abscissa="Level">
+						<CurvePoint X="1" Y="0" Factor="0" />
+						<CurvePoint X="7" Y="60" Link="true" />
+						<CurvePoint X="8" Y="80" Link="true" />
+						<CurvePoint X="12" Y="0" Factor="0" />
+					</Curve>
+				</SelectProbWeight>
+				<SpawnProbWeight>
+					<Curve Abscissa="Level" Max="30">
+						<CurvePoint X="7" Y="20" Factor="2" />
+					</Curve>
+				</SpawnProbWeight>
+			</MobConfig>					
+
+			<!-- ======= VULTU ELITE ======= -->
+
+			<MobConfig Name="Mob_V_Trash_Elite">
+				<SelectProbWeight>
+					<Curve Abscissa="Level">
+						<CurvePoint X="1" Y="0" Factor="0" />
+						<CurvePoint X="8" Y="30" Link="true" />
+						<CurvePoint X="10" Y="90" Link="true" />
+						<CurvePoint X="13" Y="15" Factor="0" />
+					</Curve>
+				</SelectProbWeight>
+				<SpawnProbWeight>
+					<Curve Abscissa="Level" Max="90">
+						<CurvePoint X="8" Y="60" Factor="5" />
+					</Curve>
+				</SpawnProbWeight>
+			</MobConfig>
+
+			<MobConfig Name="Mob_V_Vultu_Elite">
+				<SelectProbWeight>
+					<Curve Abscissa="Level">
+						<CurvePoint X="1" Y="0" Factor="0" />
+						<CurvePoint X="7" Y="15" Link="true" />
+						<CurvePoint X="11" Y="80" Link="true" />
+						<CurvePoint X="12" Y="80" Link="true" />
+						<CurvePoint X="13" Y="30" Factor="0" />
+					</Curve>
+				</SelectProbWeight>
+				<SpawnProbWeight>
+					<Curve Abscissa="Level" Max="10">
+						<CurvePoint X="7" Y="10" Factor="0" />
+					</Curve>
+				</SpawnProbWeight>
+			</MobConfig>			
+
+			<MobConfig Name="Mob_V_Debuffer_Elite">
+				<SelectProbWeight>
+					<Curve Abscissa="Level">
+						<CurvePoint X="1" Y="0" Factor="0" />
+						<CurvePoint X="10" Y="40" Link="true" />
+						<CurvePoint X="12" Y="80" Link="true" />
+						<CurvePoint X="13" Y="50" Factor="0" />
+					</Curve>
+				</SelectProbWeight>
+				<SpawnProbWeight>
+					<Curve Abscissa="Level" Max="30">
+						<CurvePoint X="10" Y="20" Factor="2" />
+					</Curve>
+				</SpawnProbWeight>
+			</MobConfig>					
+
+		</MobConfigs>
+
+		<!-- ============= EXIT MOB WAVES ============= -->
+		<CrystalPhaseDoorOpeningDelayMin>
+			<Curve Abscissa="SpaceShip" BaseValue="2">
+				<CurvePoint X="6" Y="0" />
+				<!-- Sanitary -->
+			</Curve>
+		</CrystalPhaseDoorOpeningDelayMin>
+
+		<CrystalPhaseDoorOpeningDelayMax>
+			<Curve Abscissa="SpaceShip" BaseValue="3">
+				<CurvePoint X="6" Y="0" />
+				<!-- Sanitary -->
+			</Curve>
+		</CrystalPhaseDoorOpeningDelayMax>
+
+		<ExitWaveCountMin>
+			<CurveOperation Type="Addition">
+				<CurveOperation Type="Multiplication">
+					<Curve Abscissa="ExitWaveNumber">
+						<CurvePoint X="1" Y="0" Link="true" />
+						<CurvePoint X="3" Y="1" Factor="0" />
+					</Curve>
+					<Curve Abscissa="Level">
+						<!-- ==== RANGE ==== values of 3rd wave of waves - START (min) -->
+						<CurvePoint X="1" Y="0" />
+						<CurvePoint X="2" Y="0.5" Factor="0" />
+					</Curve>
+				</CurveOperation>
+				<Curve Abscissa="Level">
+					<!-- ==== START ==== First waves value of each floor (min) -->
+					<CurvePoint X="1" Y="1" Link="true" />
+					<CurvePoint X="2" Y="2" Factor="0.2" />
+				</Curve>
+			</CurveOperation>
+		</ExitWaveCountMin>
+
+		<ExitWaveCountMax>
+			<CurveOperation Type="Addition">
+				<CurveOperation Type="Multiplication">
+					<Curve Abscissa="ExitWaveNumber">
+						<CurvePoint X="1" Y="0" Link="true" />
+						<CurvePoint X="3" Y="1" Factor="0" />
+					</Curve>
+					<Curve Abscissa="Level">
+						<!-- ==== RANGE ==== values of 3rd wave of waves - START (max) -->
+						<CurvePoint X="1" Y="0" />
+						<CurvePoint X="2" Y="0.5" Factor="0" />
+					</Curve>
+				</CurveOperation>
+				<Curve Abscissa="Level">
+					<!-- ==== START ==== First waves value of each floor (max) -->
+					<CurvePoint X="1" Y="2" Link="true" />
+					<CurvePoint X="2" Y="3" Factor="0.25" />
+				</Curve>
+			</CurveOperation>
+		</ExitWaveCountMax>
+
+		<ExitWaveDifficultyMin>
+			<CurveOperation Type="Multiplication">
+				<CurveOperation Type="Addition">
+					<CurveOperation Type="Multiplication">
+						<Curve Abscissa="ExitWaveNumber">
+							<CurvePoint X="1" Y="0" Factor="1" />
+						</Curve>
+						<Curve Abscissa="Level">
+							<!-- ==== BONUS ==== (min) -->
+							<CurvePoint X="1" Y="25" Link="true" />
+							<CurvePoint X="5" Y="85" Factor="8" />
+						</Curve>
+					</CurveOperation>
+					<Curve Abscissa="Level">
+						<!-- ==== START ==== First waves value of each floor (min) -->
+						<CurvePoint X="1" Y="600" Link="true" />
+						<CurvePoint X="6" Y="1100" Factor="150" />
+					</Curve>
+				</CurveOperation>
+				<CurveOperation Type="Addition">
+					<CurveOperation Type="Multiplication">
+						<!-- Difficulty addition on 2 the first floors by number of players -->
+						<Curve Abscissa="PlayerCount">
+							<CurvePoint X="1" Y="0" />
+							<CurvePoint X="2" Y="0" />
+							<CurvePoint X="3" Y="0.5" />
+							<CurvePoint X="4" Y="1" />
+						</Curve>
+						<Curve Abscissa="Level">
+							<CurvePoint X="1" Y="0.5" Factor="0" />
+							<CurvePoint X="3" Y="0" Factor="0" />
+						</Curve>
+					</CurveOperation>
+					<!-- ("+1" for the multiplication) -->
+					<Curve Abscissa="Level" BaseValue="1">
+					</Curve>
+				</CurveOperation>
+			</CurveOperation>
+		</ExitWaveDifficultyMin>
+
+		<ExitWaveDifficultyMax>
+			<CurveOperation Type="Multiplication">
+				<CurveOperation Type="Addition">
+					<CurveOperation Type="Multiplication">
+						<Curve Abscissa="ExitWaveNumber">
+							<CurvePoint X="1" Y="0" Factor="1" />
+						</Curve>
+						<Curve Abscissa="Level">
+							<!-- ==== BONUS ==== (min) -->
+							<CurvePoint X="1" Y="30" Link="true" />
+							<CurvePoint X="5" Y="98" Factor="10" />
+						</Curve>
+					</CurveOperation>
+					<Curve Abscissa="Level">
+						<!-- ==== START ==== First waves value of each floor (min) -->
+						<CurvePoint X="1" Y="1000" Link="true" />
+						<CurvePoint X="6" Y="1550" Factor="180" />
+					</Curve>
+				</CurveOperation>
+				<CurveOperation Type="Addition">
+					<CurveOperation Type="Multiplication">
+						<!-- Difficulty addition on 2 the first floors by number of players -->
+						<Curve Abscissa="PlayerCount">
+							<CurvePoint X="1" Y="0" />
+							<CurvePoint X="2" Y="0" />
+							<CurvePoint X="3" Y="0.5" />
+							<CurvePoint X="4" Y="1" />
+						</Curve>
+						<Curve Abscissa="Level">
+							<CurvePoint X="1" Y="0.5" Factor="0" />
+							<CurvePoint X="3" Y="0" Factor="0" />
+						</Curve>
+					</CurveOperation>
+					<!-- ("+1" for the multiplication) -->
+					<Curve Abscissa="Level" BaseValue="1">
+					</Curve>
+				</CurveOperation>
+			</CurveOperation>
+		</ExitWaveDifficultyMax>
+
+		<ExitWaveDelayMin>
+			<CurveOperation Type="Addition">
+				<CurveOperation Type="Multiplication">
+					<Curve Abscissa="ExitWaveNumber">
+						<CurvePoint X="1" Y="0" />
+						<CurvePoint X="2" Y="1" Link="true" />
+						<CurvePoint X="10" Y="0" Factor="0" />
+					</Curve>
+					<Curve Abscissa="Level">
+						<!-- ==== RANGE ==== Max value - START (min) -->
+						<CurvePoint X="1" Y="6" Link="true" />
+						<CurvePoint X="12" Y="3" Factor="0" />
+					</Curve>
+				</CurveOperation>
+				<Curve Abscissa="Level">
+					<!-- ==== START ==== First waves value of each floor (min) -->
+					<CurvePoint X="1" Y="2" Link="true" />
+					<CurvePoint X="12" Y="1" Factor="0" />
+				</Curve>
+			</CurveOperation>
+		</ExitWaveDelayMin>
+
+		<ExitWaveDelayMax>
+			<CurveOperation Type="Addition">
+				<CurveOperation Type="Multiplication">
+					<Curve Abscissa="ExitWaveNumber">
+						<CurvePoint X="1" Y="0" />
+						<CurvePoint X="2" Y="1" Link="true" />
+						<CurvePoint X="10" Y="0" Factor="0" />
+					</Curve>
+					<Curve Abscissa="Level">
+						<!-- ==== RANGE ==== Max value - START (max) -->
+						<CurvePoint X="1" Y="6" Link="true" />
+						<CurvePoint X="12" Y="4" Factor="0" />
+					</Curve>
+				</CurveOperation>
+				<Curve Abscissa="Level">
+					<!-- ==== START ==== First waves value of each floor (max) -->
+					<CurvePoint X="1" Y="3" Link="true" />
+					<CurvePoint X="12" Y="1.5" Factor="0" />
+				</Curve>
+			</CurveOperation>
+		</ExitWaveDelayMax>
+
+
+
+		<!-- ============= ROOM DUST LOOT ============= -->
+		<DungeonRoomDustLootMin>
+			<CurveOperation Type="Multiplication">
+				<Curve Abscissa="Level">
+					<CurvePoint X="1" Y="43" Link="true" />
+					<CurvePoint X="5" Y="83" Link="true" />
+					<CurvePoint X="12" Y="60" Factor="-1.5" />
+				</Curve>
+				<Curve Abscissa="SpaceShip" BaseValue="1">
+					<CurvePoint X="6" Y="0.9" />
+					<!-- Sanitary -->
+				</Curve>
+				<CurveOperation Type="Addition">
+					<!-- Final Floor -->
+					<CurveOperation Type="Multiplication">
+						<Curve Abscissa="Level" BaseValue="0">
+							<CurvePoint X="12" Y="-0.15" />
+						</Curve>
+						<Curve Abscissa="SpaceShip" BaseValue="1">
+							<!-- except Drill -->
+							<CurvePoint X="3" Y="0" />
+						</Curve>
+					</CurveOperation>
+					<Curve Abscissa="Level" BaseValue="1"/>
+				</CurveOperation>
+			</CurveOperation>
+		</DungeonRoomDustLootMin>
+
+		<DungeonRoomDustLootMax>
+			<CurveOperation Type="Multiplication">	
+				<Curve Abscissa="Level">
+					<CurvePoint X="1" Y="58" Link="true" />
+					<CurvePoint X="5" Y="113" Link="true" />
+					<CurvePoint X="12" Y="81" Factor="-2.5" />
+				</Curve>
+				<Curve Abscissa="SpaceShip" BaseValue="1">
+					<CurvePoint X="6" Y="0.85" />
+					<!-- Sanitary -->
+				</Curve>
+				<CurveOperation Type="Addition">
+					<!-- Final Floor -->
+					<CurveOperation Type="Multiplication">
+						<Curve Abscissa="Level" BaseValue="0">
+							<CurvePoint X="12" Y="-0.2" />
+						</Curve>
+						<Curve Abscissa="SpaceShip" BaseValue="1">
+							<!-- except Drill -->
+							<CurvePoint X="3" Y="0" />
+						</Curve>
+					</CurveOperation>
+					<Curve Abscissa="Level" BaseValue="1"/>
+				</CurveOperation>
+			</CurveOperation>
+		</DungeonRoomDustLootMax>
+
+		<RoomDustLootProbWeight>
+			<CurveOperation Type="Addition" Max="0.8">
+				<Curve Abscissa="RoomDepth">
+					<CurvePoint X="0" Y="0.4" Factor="0" />
+					<CurvePoint X="3" Y="0.35" Factor="0" />
+				</Curve>
+				<Curve Abscissa="RoomSurface">
+					<CurvePoint X="0" Y="0" Factor="0.0022" />
+				</Curve>
+			</CurveOperation>
+		</RoomDustLootProbWeight>
+
+		<RoomDustLootMin>
+			<CurveOperation Type="Multiplication">
+				<Curve Abscissa="RoomDepth">
+					<CurvePoint X="0" Y="1.2" Factor="0" />
+					<CurvePoint X="3" Y="1" Factor="0" />
+				</Curve>
+				<Curve Abscissa="Level">
+					<CurvePoint X="1" Y="6" Factor="0" />
+					<CurvePoint X="7" Y="5" Link="true" />
+					<CurvePoint X="12" Y="3" Factor="0" />
+				</Curve>
+			</CurveOperation>
+		</RoomDustLootMin>
+
+		<RoomDustLootMax>
+			<CurveOperation Type="Multiplication">
+				<Curve Abscissa="RoomDepth">
+					<CurvePoint X="0" Y="1.1" Factor="0" />
+					<CurvePoint X="3" Y="1" Factor="0" />
+				</Curve>
+				<Curve Abscissa="Level">
+					<CurvePoint X="1" Y="10" Factor="0" />
+					<CurvePoint X="6" Y="9" Link="true" />
+					<CurvePoint X="12" Y="7" Factor="0" />
+				</Curve>
+			</CurveOperation>
+		</RoomDustLootMax>
+
+
+
+		<!-- ============= STATIC EVENTS ============= -->
+		<StaticRoomEventConfigs>
+
+			<StaticRoomEventConfig Name="Exit" ForbidDungeonEvent="true">
+				<ProbWeight>
+					<CurveOperation Type="Multiplication">
+						<Curve Abscissa="RoomDepth">
+							<!-- Strict End Game -->
+							<CurvePoint X="1" Y="0.000000001" Link="true" />
+							<CurvePoint X="3" Y="0.0000001" Factor="0" />
+							<CurvePoint X="4" Y="0.01" Link="true" />
+							<CurvePoint X="5" Y="0.1" Link="true" />
+							<CurvePoint X="10" Y="1" Factor="0" />
+						</Curve>
+						<Curve Abscissa="Level" BaseValue="1">
+						</Curve>
+					</CurveOperation>
+				</ProbWeight>
+				<CountMin>
+					<Curve Abscissa="PlayerCount" BaseValue="1">
+					</Curve>
+				</CountMin>
+				<CountMax>
+					<Curve Abscissa="PlayerCount" BaseValue="1">
+					</Curve>
+				</CountMax>
+			</StaticRoomEventConfig>
+
+			<StaticRoomEventConfig Name="Hero" ForbidDungeonEvent="true">
+				<!-- also in dynamic event -->
+				<ProbWeight>
+					<CurveOperation Type="Multiplication">
+						<Curve Abscissa="RoomDepth">
+							<!-- Large Mid Game -->
+							<CurvePoint X="1" Y="0.4" Link="true" />
+							<CurvePoint X="2" Y="0.4" Link="true" />
+							<CurvePoint X="4" Y="1" Link="true" />
+							<CurvePoint X="8" Y="1" Link="true" />
+							<CurvePoint X="10" Y="0.4" Factor="0" />
+						</Curve>
+						<Curve Abscissa="Level" BaseValue="1">
+						</Curve>
+					</CurveOperation>
+				</ProbWeight>
+				<CountMin>
+					<CurveOperation Type="Multiplication">
+						<Curve Abscissa="Level" BaseValue="0">
+							<CurvePoint X="2" Y="1" />
+							<CurvePoint X="4" Y="1" />
+						</Curve>
+						<Curve Abscissa="SpaceShip" BaseValue="1">
+							<CurvePoint X="4" Y="0" />
+							<CurvePoint X="5" Y="0" />
+							<!-- Armory / Refreezerator -->
+						</Curve>
+					</CurveOperation>
+				</CountMin>
+				<CountMax>
+					<CurveOperation Type="Multiplication">
+						<Curve Abscissa="Level" BaseValue="0">
+							<CurvePoint X="2" Y="1" />
+							<CurvePoint X="4" Y="1" />
+						</Curve>
+						<Curve Abscissa="SpaceShip" BaseValue="1">
+							<CurvePoint X="4" Y="0" />
+							<CurvePoint X="5" Y="0" />
+							<!-- Armory / Refreezerator -->
+						</Curve>
+					</CurveOperation>
+				</CountMax>
+			</StaticRoomEventConfig>
+
+			<StaticRoomEventConfig Name="Artifact" NeedMajorModuleSlot="true">
+				<ProbWeight>
+					<CurveOperation Type="Multiplication">
+						<Curve Abscissa="RoomDepth">
+							<!-- Early Game -->
+							<CurvePoint X="1" Y="0" Link="true" />
+							<CurvePoint X="2" Y="1" Link="true" />
+							<CurvePoint X="5" Y="1" Link="true" />
+							<CurvePoint X="7" Y="0.1" Factor="0" />
+						</Curve>
+						<Curve Abscissa="Level" BaseValue="1">
+						</Curve>
+					</CurveOperation>
+				</ProbWeight>
+				<CountMin>
+					<CurveOperation Type="Addition">	
+						<CurveOperation Type="Multiplication">	
+							<Curve Abscissa="Level">
+								<CurvePoint X="1" Y="1" Factor="0" />
+								<CurvePoint X="5" Y="2" Factor="0" />
+								<CurvePoint X="10" Y="1" Factor="0" />
+								<CurvePoint X="13" Y="0" Factor="0" />
+							</Curve>
+							<Curve Abscissa="SpaceShip" BaseValue="1">
+								<CurvePoint X="5" Y="0" />
+								<CurvePoint X="7" Y="1.5" />
+								<!-- Library -->
+							</Curve>
+						</CurveOperation>
+						<CurveOperation Type="Multiplication">	
+							<Curve Abscissa="Level">
+								<CurvePoint X="1" Y="1.3" Factor="0" />
+								<CurvePoint X="7" Y="1" Factor="0" />
+								<CurvePoint X="13" Y="0" Factor="0" />
+							</Curve>
+							<Curve Abscissa="SpaceShip" BaseValue="0">
+								<CurvePoint X="3" Y="1" />
+								<!-- Drill -->
+								<CurvePoint X="5" Y="1" />
+								<!-- Refreez -->
+							</Curve>
+						</CurveOperation>
+					</CurveOperation>
+				</CountMin>
+				<CountMax>
+					<CurveOperation Type="Addition">
+						<CurveOperation Type="Multiplication">
+							<Curve Abscissa="Level">
+								<CurvePoint X="1" Y="1" Factor="0" />
+								<CurvePoint X="2" Y="2" Factor="0" />
+								<CurvePoint X="3" Y="2" Factor="0" />
+								<CurvePoint X="5" Y="3" Factor="0" />
+								<CurvePoint X="10" Y="2" Factor="0" />
+								<CurvePoint X="13" Y="2" Factor="0" />
+							</Curve>
+							<Curve Abscissa="SpaceShip" BaseValue="1">
+								<CurvePoint X="5" Y="0" />
+								<CurvePoint X="7" Y="1.5" />
+								<!-- Library -->
+							</Curve>
+						</CurveOperation>
+						<CurveOperation Type="Multiplication">	
+							<Curve Abscissa="Level">
+								<CurvePoint X="1" Y="2" Factor="0" />
+								<CurvePoint X="2" Y="3" Factor="0" />
+								<CurvePoint X="8" Y="2" Factor="0" />
+							</Curve>
+							<Curve Abscissa="SpaceShip" BaseValue="0">
+								<CurvePoint X="5" Y="1" />
+								<!-- Refreez -->
+							</Curve>
+						</CurveOperation>
+					</CurveOperation>
+				</CountMax>
+			</StaticRoomEventConfig>
+
+			<StaticRoomEventConfig Name="Merchant" ForbidDungeonEvent="true">
+				<ProbWeight>
+					<CurveOperation Type="Multiplication">
+						<Curve Abscissa="RoomDepth">
+							<!-- Mid Game -->
+							<CurvePoint X="1" Y="0.1" Link="true" />
+							<CurvePoint X="2" Y="0.1" Link="true" />
+							<CurvePoint X="5" Y="1" Link="true" />
+							<CurvePoint X="7" Y="1" Link="true" />
+							<CurvePoint X="10" Y="0.1" Factor="0" />
+						</Curve>
+						<Curve Abscissa="Level" BaseValue="1">
+						</Curve>
+					</CurveOperation>
+				</ProbWeight>
+				<CountMin>
+					<Curve Abscissa="Level">
+						<CurvePoint X="1" Y="0" Factor="0" />
+						<CurvePoint X="3" Y="1" Factor="0" />
+						<CurvePoint X="5" Y="0" Factor="0" />
+						<CurvePoint X="6" Y="1" Factor="0" />
+						<CurvePoint X="10" Y="0" Factor="0" />
+						<CurvePoint X="11" Y="1" Factor="0" />
+						<CurvePoint X="13" Y="0" Factor="0" />
+					</Curve>
+				</CountMin>
+				<CountMax>
+					<Curve Abscissa="Level">
+						<CurvePoint X="1" Y="1" Factor="0" />
+						<CurvePoint X="7" Y="2" Factor="0" />
+						<CurvePoint X="13" Y="1" Factor="0" />
+					</Curve>
+				</CountMax>
+			</StaticRoomEventConfig>
+
+		</StaticRoomEventConfigs>
+
+
+
+		<!-- ============= DYNAMIC EVENTS ============= -->
+		<DynamicEventCombinationConfigs>
+			<DynamicEventCombinationConfig Name="RoomEventOnly">
+				<ProbWeight>
+					<Curve Abscissa="RoomOpeningIndexPercent">
+						<CurvePoint X="0" Y="55" Link="true" />
+						<CurvePoint X="100" Y="40" />
+					</Curve>
+				</ProbWeight>
+			</DynamicEventCombinationConfig>
+
+			<DynamicEventCombinationConfig Name="DungeonEventOnly">
+				<ProbWeight>
+					<CurveOperation Type="Multiplication">
+						<Curve Abscissa="RoomOpeningIndexPercent">
+							<CurvePoint X="0" Y="15" Link="true" />
+							<CurvePoint X="100" Y="10" />
+						</Curve>
+						<Curve Abscissa="RoomOpeningIndex">
+							<CurvePoint X="0" Y="0" Factor="0" />
+							<CurvePoint X="4" Y="1" Factor="0" />
+						</Curve>
+					</CurveOperation>
+				</ProbWeight>
+			</DynamicEventCombinationConfig>
+
+			<DynamicEventCombinationConfig Name="DungeonAndRoomEvent">
+				<ProbWeight>
+					<CurveOperation Type="Multiplication" Max="100">
+						<Curve Abscissa="RoomOpeningIndexPercent">
+							<CurvePoint X="0" Y="30" Link="true" />
+							<CurvePoint X="100" Y="60" />
+						</Curve>
+						<Curve Abscissa="RoomOpeningIndex">
+							<CurvePoint X="0" Y="0" Factor="0" />
+							<CurvePoint X="4" Y="1" Factor="0" />
+						</Curve>
+						<Curve Abscissa="Level">
+							<CurvePoint X="1" Y="1" Link="true" />
+							<CurvePoint X="12" Y="1.25" Factor="0.01" />
+						</Curve>
+					</CurveOperation>
+				</ProbWeight>
+			</DynamicEventCombinationConfig>
+		</DynamicEventCombinationConfigs>
+
+		<DynamicDungeonEventConfigs>
+			<DynamicDungeonEventConfig Name="MobWaves" LevelDifficultyImpact="1">
+				<ProbWeight>
+					<CurveOperation Type="Multiplication" >
+						<Curve Abscissa="RoomOpeningIndex" BaseValue="100">
+						</Curve>
+					</CurveOperation>
+				</ProbWeight>
+			</DynamicDungeonEventConfig>
+		</DynamicDungeonEventConfigs>
+
+		<DynamicRoomEventConfigs>
+			<DynamicRoomEventConfig Name="DeathMerchant" LevelDifficultyImpact="0">
+				<ProbWeight>
+					<CurveOperation Type="Multiplication" >
+						<Curve Abscissa="RoomDepth">
+              <CurvePoint X="1" Y="0" Factor="0"/>
+              <CurvePoint X="3" Y="1" Factor="0"/>
+              <CurvePoint X="6" Y="1.5" Factor="0"/>
+						</Curve>
+						<Curve Abscissa="Level">
+							<CurvePoint X="1" Y="1" Factor="0"/>
+							<CurvePoint X="2" Y="3" Link="true"/>
+							<CurvePoint X="4" Y="3.5" Link="true"/>
+							<CurvePoint X="8" Y="4.5" Link="true"/>
+							<CurvePoint X="12" Y="6" Factor="0"/>
+							<CurvePoint X="13" Y="4" Factor="0"/>
+						</Curve>
+						<Curve Abscissa="CurrentCommunityEvent">
+							<CurvePoint X="0" Y="1" />
+							<CurvePoint X="3" Y="1.5" />
+						</Curve>
+					</CurveOperation>
+				</ProbWeight>
+				<CountMax>
+					<Curve Abscissa="Level" BaseValue="1"/>
+				</CountMax>
+			</DynamicRoomEventConfig>
+
+			<DynamicRoomEventConfig Name="Mobs" LevelDifficultyImpact="1">
+				<ProbWeight>
+					<CurveOperation Type="Multiplication" Max="85">
+						<Curve Abscissa="RoomOpeningIndexPercent">
+							<CurvePoint X="0" Y="40" Link="true" />
+							<CurvePoint X="100" Y="60" />
+						</Curve>
+						<Curve Abscissa="RoomOpeningIndex">
+							<CurvePoint X="0" Y="0.9" Factor="0" />
+							<CurvePoint X="4" Y="1" Factor="0" />
+						</Curve>
+						<Curve Abscissa="Level">
+							<CurvePoint X="1" Y="1" Link="true" />
+							<CurvePoint X="12" Y="1.2" Factor="0.01" />
+						</Curve>
+						<Curve Abscissa="SpaceShip" BaseValue="1">
+							<CurvePoint X="6" Y="1.15" />
+							<!-- Sanitary -->
+						</Curve>
+					</CurveOperation>
+				</ProbWeight>
+			</DynamicRoomEventConfig>
+
+			<DynamicRoomEventConfig Name="Item" LevelDifficultyImpact="-1">
+				<ProbWeight>
+					<CurveOperation Type="Multiplication">
+						<Curve Abscissa="RoomOpeningIndex">
+							<CurvePoint X="0" Y="5" Link="true" />
+							<CurvePoint X="7" Y="35" Factor="0" />
+						</Curve>
+						<Curve Abscissa="SpaceShip" BaseValue="1">
+							<!-- Armory -->
+							<CurvePoint X="4" Y="1.25" />
+						</Curve>
+					</CurveOperation>
+				</ProbWeight>
+			</DynamicRoomEventConfig>
+
+			<DynamicRoomEventConfig Name="Hero" ForbidDungeonEvent="true" LevelDifficultyImpact="-1">
+				<!-- also in static event -->
+				<ProbWeight>
+					<CurveOperation Type="Multiplication">
+						<Curve Abscissa="RoomOpeningIndexPercent">
+							<CurvePoint X="0" Y="0" Factor="0" />
+							<CurvePoint X="15" Y="11" Factor="0" />
+							<CurvePoint X="90" Y="6" Factor="0" />
+						</Curve>
+						<Curve Abscissa="Level">
+							<CurvePoint X="1" Y="0" Factor="0" />
+							<CurvePoint X="3" Y="1" Link="true" />
+							<CurvePoint X="12" Y="0.75" Factor="-0.005" />
+						</Curve>
+						<Curve Abscissa="SpaceShip" BaseValue="1">
+							<!-- Armory / Refreezerator / Sanitory -->
+							<CurvePoint X="4" Y="0" />
+							<CurvePoint X="5" Y="0" />
+							<CurvePoint X="6" Y="0.5" />
+						</Curve>
+						<Curve Abscissa="CrystalPhaseStatus" BaseValue="1">
+							<!-- When the Crystal is unplugged -->
+							<CurvePoint X="2" Y="0.5" />
+						</Curve>
+						<CurveOperation Type="Addition">
+							<!-- Final Floor -->
+							<CurveOperation Type="Multiplication">
+								<Curve Abscissa="Level" BaseValue="0">
+									<CurvePoint X="12" Y="-1" />
+								</Curve>
+								<Curve Abscissa="SpaceShip" BaseValue="1">
+									<!-- except Drill -->
+									<CurvePoint X="3" Y="0" />
+								</Curve>
+							</CurveOperation>
+							<Curve Abscissa="Level" BaseValue="1"/>
+						</CurveOperation>
+						<CurveOperation Type="Addition">
+							<!-- Multiplayer - Player without hero bonus (-20% reduced otherwise)  -->
+							<CurveOperation Type="Multiplication">
+								<Curve Abscissa="Level" Min="0.4">
+									<CurvePoint X="1" Y="1" Factor="-0.05" />
+								</Curve>
+								<Curve Abscissa="PlayerWithoutHeroCount">
+									<CurvePoint X="0" Y="0" />
+									<CurvePoint X="1" Y="0.8" />
+									<CurvePoint X="2" Y="1.1" />
+									<CurvePoint X="3" Y="1.3" />
+								</Curve>
+							</CurveOperation>
+							<Curve Abscissa="IsMultiplayer">
+								<CurvePoint X="0" Y="1" />
+								<CurvePoint X="1" Y="0.8" />
+							</Curve>
+						</CurveOperation>
+					</CurveOperation>
+				</ProbWeight>
+				<CountMax>
+					<CurveOperation Type="Multiplication">
+						<Curve Abscissa="Level" Max="3">
+							<CurvePoint X="1" Y="0" Factor="0" />
+							<CurvePoint X="2" Y="1" Factor="0.3" />
+						</Curve>
+						<Curve Abscissa="SpaceShip" BaseValue="1">
+							<!-- Armory / Refreezerator / Sanitory -->
+							<CurvePoint X="4" Y="0" />
+							<CurvePoint X="5 " Y="0" />
+							<CurvePoint X="6 " Y="0" />
+						</Curve>
+						<CurveOperation Type="Addition">
+							<!-- Final Floor -->
+							<CurveOperation Type="Multiplication">
+								<Curve Abscissa="Level" BaseValue="0">
+									<CurvePoint X="12" Y="-1" />
+								</Curve>
+								<Curve Abscissa="SpaceShip" BaseValue="1">
+									<!-- except Drill -->
+									<CurvePoint X="3" Y="0" />
+								</Curve>
+							</CurveOperation>
+							<Curve Abscissa="Level" BaseValue="1"/>
+						</CurveOperation>
+					</CurveOperation>
+				</CountMax>
+			</DynamicRoomEventConfig>
+
+			<DynamicRoomEventConfig Name="DustFactory" LevelDifficultyImpact="-1">
+				<ProbWeight>
+					<CurveOperation Type="Multiplication">
+						<Curve Abscissa="RoomOpeningIndexPercent">
+							<CurvePoint X="1" Y="10" Link="true" />
+							<CurvePoint X="100" Y="5" Factor="0" />
+						</Curve>
+						<Curve Abscissa="Level">
+							<CurvePoint X="1" Y="0" Factor="0" />
+							<CurvePoint X="2" Y="1" Link="true" />
+							<CurvePoint X="12" Y="1.35" Factor="0" />
+						</Curve>
+						<Curve Abscissa="CrystalPhaseStatus" BaseValue="1">
+							<!-- When the Crystal is unplugged -->
+							<CurvePoint X="2" Y="0" />
+						</Curve>
+					</CurveOperation>
+				</ProbWeight>
+				<CountMax>
+					<Curve Abscissa="Level" Max="2">
+						<CurvePoint X="1" Y="0" Factor="0" />
+						<CurvePoint X="2" Y="1" Factor="0.3" />
+					</Curve>
+				</CountMax>
+			</DynamicRoomEventConfig>
+
+			<DynamicRoomEventConfig Name="CryoCapsule" LevelDifficultyImpact="-1">
+				<ProbWeight>
+					<CurveOperation Type="Multiplication">
+						<Curve Abscissa="RoomOpeningIndexPercent">
+							<CurvePoint X="1" Y="6" Link="true" />
+							<CurvePoint X="100" Y="9" Factor="0" />
+						</Curve>
+						<Curve Abscissa="Level">
+							<CurvePoint X="1" Y="0" Factor="0" />
+							<CurvePoint X="3" Y="1" Link="true" />
+							<CurvePoint X="12" Y="1.2" Factor="0" />
+						</Curve>
+						<Curve Abscissa="SpaceShip" BaseValue="1">
+							<!-- Armory / Refreezerator -->
+							<CurvePoint X="4" Y="0" />
+							<CurvePoint X="5" Y="0" />
+						</Curve>
+						<Curve Abscissa="CrystalPhaseStatus" BaseValue="1">
+							<!-- When the Crystal is unplugged -->
+							<CurvePoint X="2" Y="0.5" />
+						</Curve>
+					</CurveOperation>
+				</ProbWeight>
+				<CountMax>
+					<CurveOperation Type="Multiplication">
+						<Curve Abscissa="Level" Max="2">
+							<CurvePoint X="1" Y="0" Factor="0" />
+							<CurvePoint X="3" Y="1" Factor="0.2" />
+						</Curve>
+						<Curve Abscissa="SpaceShip" BaseValue="1">
+							<!-- Armory / Refreezerator -->
+							<CurvePoint X="4" Y="0" />
+							<CurvePoint X="5" Y="0" />
+						</Curve>
+					</CurveOperation>
+				</CountMax>
+			</DynamicRoomEventConfig>
+
+			<DynamicRoomEventConfig Name="ToxicCloud" LevelDifficultyImpact="1">
+				<ProbWeight>
+					<CurveOperation Type="Multiplication">
+						<Curve Abscissa="RoomOpeningIndexPercent" BaseValue="7">
+						</Curve>
+						<Curve Abscissa="Level">
+							<CurvePoint X="1" Y="0" Factor="0" />
+							<CurvePoint X="4" Y="1" Link="true" />
+							<CurvePoint X="12" Y="1.6" Factor="0.01" />
+						</Curve>
+						<Curve Abscissa="CrystalPhaseStatus" BaseValue="1">
+							<!-- When the Crystal is unplugged -->
+							<CurvePoint X="2" Y="1.5" />
+						</Curve>
+						<Curve Abscissa="SpaceShip" BaseValue="1">
+							<CurvePoint X="6" Y="1.1" />
+							<!-- Sanitary -->
+						</Curve>
+					</CurveOperation>
+				</ProbWeight>
+				<CountMax>
+					<Curve Abscissa="Level" Max="2">
+						<CurvePoint X="1" Y="0" Factor="0" />
+						<CurvePoint X="3" Y="1" Link="true" />
+						<CurvePoint X="12" Y="6" Factor="0.2" />
+					</Curve>
+				</CountMax>
+			</DynamicRoomEventConfig>
+
+			<DynamicRoomEventConfig Name="AutoPower">
+				<ProbWeight>
+					<CurveOperation Type="Multiplication">
+						<Curve Abscissa="RoomOpeningIndexPercent">
+							<CurvePoint X="1" Y="9" Link="true" />
+							<CurvePoint X="20" Y="17" Link="true" />
+							<CurvePoint X="100" Y="9" Factor="0" />
+						</Curve>
+						<Curve Abscissa="Level">
+							<CurvePoint X="1" Y="1" Link="true" />
+							<CurvePoint X="12" Y="1.3" Factor="0" />
+						</Curve>
+						<Curve Abscissa="CrystalPhaseStatus" BaseValue="1">
+							<!-- When the Crystal is unplugged -->
+							<CurvePoint X="2" Y="0" />
+						</Curve>
+					</CurveOperation>
+				</ProbWeight>
+				<CountMax>
+					<Curve Abscissa="Level" Max="4">
+						<CurvePoint X="1" Y="2" Factor="0.25" />
+					</Curve>
+				</CountMax>
+			</DynamicRoomEventConfig>
+
+			<DynamicRoomEventConfig Name="Stele">
+				<ProbWeight>
+					<CurveOperation Type="Multiplication">
+						<Curve Abscissa="RoomOpeningIndexPercent">
+							<CurvePoint X="1" Y="20" Link="true" />
+							<CurvePoint X="100" Y="10" Factor="0" />
+						</Curve>
+						<Curve Abscissa="Level">
+							<CurvePoint X="1" Y="0" Link="true" />
+							<CurvePoint X="2" Y="1" Link="true" />
+							<CurvePoint X="12" Y="1.35" Factor="0" />
+						</Curve>
+						<Curve Abscissa="CrystalPhaseStatus" BaseValue="1">
+							<!-- When the Crystal is unplugged -->
+							<CurvePoint X="2" Y="0" />
+						</Curve>
+						<CurveOperation Type="Addition">
+							<!-- Final Floor -->
+							<CurveOperation Type="Multiplication">
+								<Curve Abscissa="Level" BaseValue="0">
+									<CurvePoint X="12" Y="0.25" />
+								</Curve>
+								<Curve Abscissa="SpaceShip" BaseValue="1">
+									<!-- except Drill -->
+									<CurvePoint X="3" Y="0" />
+								</Curve>
+							</CurveOperation>
+							<Curve Abscissa="Level" BaseValue="1"/>
+						</CurveOperation>
+					</CurveOperation>
+				</ProbWeight>
+				<CountMax>
+					<Curve Abscissa="Level" Max="3">
+						<CurvePoint X="1" Y="1" Factor="0" />
+						<CurvePoint X="2" Y="1" Factor="0.3" />
+					</Curve>
+				</CountMax>
+			</DynamicRoomEventConfig>
+
+			<DynamicRoomEventConfig Name="EMP" ForbidDungeonEvent="true">
+				<ProbWeight>
+					<CurveOperation Type="Multiplication">
+						<Curve Abscissa="RoomOpeningIndexPercent">
+							<CurvePoint X="1" Y="0" Factor="0" />
+							<CurvePoint X="50" Y="6" Link="true" />
+							<CurvePoint X="100" Y="12" Factor="0" />
+						</Curve>
+						<Curve Abscissa="Level">
+							<CurvePoint X="1" Y="0" Factor="0" />
+							<CurvePoint X="4" Y="1" Link="true" />
+							<CurvePoint X="12" Y="1.35" Factor="0" />
+						</Curve>
+						<Curve Abscissa="CrystalPhaseStatus" BaseValue="1">
+							<!-- When the Crystal is unplugged -->
+							<CurvePoint X="2" Y="0" />
+						</Curve>
+						<Curve Abscissa="SpaceShip" BaseValue="1">
+							<CurvePoint X="6" Y="1.13" />
+							<!-- Sanitary -->
+						</Curve>
+					</CurveOperation>
+				</ProbWeight>
+				<CountMax>
+					<Curve Abscissa="Level" Max="3">
+						<CurvePoint X="1" Y="0" Factor="0" />
+						<CurvePoint X="3" Y="1" Factor="0.2" />
+					</Curve>
+				</CountMax>
+			</DynamicRoomEventConfig>
+
+			<DynamicRoomEventConfig Name="Merchant" ForbidDungeonEvent="true">
+				<ProbWeight>
+					<CurveOperation Type="Multiplication">
+						<Curve Abscissa="EventForcingEnabled">
+							<CurvePoint X="0" Y="0" />
+							<CurvePoint X="1" Y="1" />
+						</Curve>
+					</CurveOperation>
+				</ProbWeight>
+			</DynamicRoomEventConfig>
+
+		</DynamicRoomEventConfigs>
+
+		<SteleTypeEventConfigs>
+			<SteleTypeEventConfig Name="Pos_Speed">
+				<ProbWeight>
+					<Curve Abscissa="Level">
+						<CurvePoint X="1" Y="80" Link="true" />
+						<CurvePoint X="12" Y="50" Factor="0" />
+					</Curve>
+				</ProbWeight>
+			</SteleTypeEventConfig>
+
+			<SteleTypeEventConfig Name="Pos_AutoRepair">
+				<ProbWeight>
+					<Curve Abscissa="Level">
+						<CurvePoint X="1" Y="50" Link="true" />
+						<CurvePoint X="12" Y="30" Factor="0" />
+					</Curve>
+				</ProbWeight>
+			</SteleTypeEventConfig>
+
+			<SteleTypeEventConfig Name="Pos_Abundance">
+				<ProbWeight>
+					<Curve Abscissa="Level">
+						<CurvePoint X="1" Y="40" Link="true" />
+						<CurvePoint X="12" Y="20" Factor="0" />
+					</Curve>
+				</ProbWeight>
+			</SteleTypeEventConfig>
+
+			<SteleTypeEventConfig Name="Pos_AllOperators">
+				<ProbWeight>
+					<CurveOperation Type="Multiplication">
+						<Curve Abscissa="Level">
+							<CurvePoint X="1" Y="35" Link="true" />
+							<CurvePoint X="12" Y="30" Factor="0" />
+						</Curve>
+						<Curve Abscissa="SpaceShip" BaseValue="1">
+							<!-- Refreezerator -->
+							<CurvePoint X="5" Y="0" />
+						</Curve>
+					</CurveOperation>
+				</ProbWeight>
+			</SteleTypeEventConfig>
+
+			<SteleTypeEventConfig Name="Pos_HealthRegenAlone">
+				<ProbWeight>
+					<CurveOperation Type="Multiplication">	
+						<Curve Abscissa="Level">
+							<CurvePoint X="1" Y="45" Link="true" />
+							<CurvePoint X="12" Y="30" Factor="0" />
+						</Curve>
+						<Curve Abscissa="SpaceShip" BaseValue="1">
+							<!-- Infirmary -->
+							<CurvePoint X="2" Y="0.5" />
+						</Curve>
+					</CurveOperation>
+				</ProbWeight>
+			</SteleTypeEventConfig>
+
+			<!-- FPS drops in strategic mode (+ auto regen = too many AGE updates)
+			<SteleTypeEventConfig Name="Neg_Bleed">
+				<ProbWeight>
+					<CurveOperation Type="Multiplication">	 
+						<Curve Abscissa="Level">
+							<CurvePoint X="1" Y="0" Factor="0" />
+							<CurvePoint X="5" Y="25" Link="true" />
+							<CurvePoint X="12" Y="35" Factor="0" />
+						</Curve>
+						<Curve Abscissa="SpaceShip" BaseValue="1">
+							 Infirmary 
+							<CurvePoint X="2" Y="0" />
+						</Curve>
+					</CurveOperation>
+				</ProbWeight>
+			</SteleTypeEventConfig>
+			-->
+
+			<SteleTypeEventConfig Name="Neg_Ignored">
+				<ProbWeight>
+					<Curve Abscissa="Level">
+						<CurvePoint X="1" Y="0" Factor="0" />
+						<CurvePoint X="3" Y="30" Link="true" />
+						<CurvePoint X="12" Y="40" Factor="0" />
+					</Curve>
+				</ProbWeight>
+			</SteleTypeEventConfig>
+
+			<SteleTypeEventConfig Name="Neg_ExpansiveHeal">
+				<ProbWeight>
+					<CurveOperation Type="Multiplication">
+						<Curve Abscissa="Level">
+							<CurvePoint X="1" Y="0" Factor="0" />
+							<CurvePoint X="2" Y="20" Link="true" />
+							<CurvePoint X="12" Y="30" Factor="0" />
+						</Curve>
+						<Curve Abscissa="SpaceShip" BaseValue="1">
+							<!-- Refreezerator -->
+							<CurvePoint X="5" Y="0" />
+						</Curve>
+					</CurveOperation>
+				</ProbWeight>
+			</SteleTypeEventConfig>
+
+			<SteleTypeEventConfig Name="Neg_NoOperator">
+				<ProbWeight>
+					<CurveOperation Type="Multiplication">
+						<Curve Abscissa="Level">
+							<CurvePoint X="1" Y="0" Factor="0" />
+							<CurvePoint X="2" Y="20" Link="true" />
+							<CurvePoint X="12" Y="30" Factor="0" />
+						</Curve>
+						<Curve Abscissa="SpaceShip" BaseValue="1">
+							<!-- Refreezerator -->
+							<CurvePoint X="5" Y="0" />
+						</Curve>
+					</CurveOperation>
+				</ProbWeight>
+			</SteleTypeEventConfig>
+
+			<SteleTypeEventConfig Name="Neu_DefWeakCrystal">
+				<ProbWeight>
+					<Curve Abscissa="Level">
+						<CurvePoint X="1" Y="0" Factor="0" />
+						<CurvePoint X="2" Y="40" Link="true" />
+						<CurvePoint X="12" Y="40" Factor="0" />
+					</Curve>
+				</ProbWeight>
+			</SteleTypeEventConfig>
+
+			<SteleTypeEventConfig Name="Neu_SlowPowerful">
+				<ProbWeight>
+					<Curve Abscissa="Level">
+						<CurvePoint X="1" Y="30" Link="true" />
+						<CurvePoint X="12" Y="40" Factor="0" />
+					</Curve>
+				</ProbWeight>
+			</SteleTypeEventConfig>
+
+			<SteleTypeEventConfig Name="Neu_FoodPerMob">
+				<ProbWeight>
+					<Curve Abscissa="Level">
+						<CurvePoint X="1" Y="30" Link="true" />
+						<CurvePoint X="12" Y="30" Factor="0" />
+					</Curve>
+				</ProbWeight>
+			</SteleTypeEventConfig>
+
+			<SteleTypeEventConfig Name="Neu_FriendlyFire">
+				<ProbWeight>
+					<Curve Abscissa="Level">
+						<CurvePoint X="1" Y="0" Factor="0" />
+						<CurvePoint X="3" Y="20" Link="true" />
+						<CurvePoint X="12" Y="30" Factor="0" />
+					</Curve>
+				</ProbWeight>
+			</SteleTypeEventConfig>
+
+			<SteleTypeEventConfig Name="Neu_ProModules">
+				<ProbWeight>
+					<CurveOperation Type="Multiplication">	
+						<Curve Abscissa="Level">
+							<CurvePoint X="1" Y="45" Link="true" />
+							<CurvePoint X="12" Y="50" Factor="0" />
+						</Curve>
+						<Curve Abscissa="SpaceShip" BaseValue="1">
+							<!-- Armory -->
+							<CurvePoint X="4" Y="0" />
+						</Curve>
+					</CurveOperation>
+				</ProbWeight>
+			</SteleTypeEventConfig>
+
+			<!--
+			<SteleTypeEventConfig Name="Neu_FastButWeakMob">
+				<ProbWeight>
+					<Curve Abscissa="Level">
+						<CurvePoint X="2" Y="35" Link="true" />
+						<CurvePoint X="12" Y="50" Factor="0" />
+					</Curve>
+				</ProbWeight>
+			</SteleTypeEventConfig>
+			-->
+
+			<SteleTypeEventConfig Name="Neu_KeepDistance">
+				<ProbWeight>
+					<Curve Abscissa="Level">
+						<CurvePoint X="1" Y="40" Link="true" />
+						<CurvePoint X="12" Y="50" Factor="0" />
+					</Curve>
+				</ProbWeight>
+			</SteleTypeEventConfig>
+		</SteleTypeEventConfigs>
+
+		<EMPDuration>
+			<Curve Abscissa="Level">
+				<CurvePoint X="1" Y="0" Factor="0" />
+				<CurvePoint X="4" Y="2" Factor="0" />
+				<CurvePoint X="8" Y="3" Factor="0" />
+				<CurvePoint X="12" Y="4" Factor="0" />
+			</Curve>
+		</EMPDuration>
+
+		<EMPRoomCount>
+			<CurveOperation Type="Multiplication">	
+				<Curve Abscissa="Level" Max="3">
+					<CurvePoint X="1" Y="0" Factor="0" />
+					<CurvePoint X="4" Y="1" Factor="0.25" />
+				</Curve>
+				<Curve Abscissa="SpaceShip" BaseValue="1">
+					<CurvePoint X="6" Y="1.15" />
+					<!-- Sanitary -->
+				</Curve>
+			</CurveOperation>
+		</EMPRoomCount>
+
+		<ActionDoorFISBonus>
+			<Curve Abscissa="Level">
+				<CurvePoint X="1" Y="0" Factor="0" />
+				<!-- No FIDS bonus in ActionDoor, only score -->
+			</Curve>
+		</ActionDoorFISBonus>
+
+		<FreeHeroMinLevel>
+			<Curve Abscissa="Level">
+				<CurvePoint X="1" Y="1" Factor="1" />
+				<CurvePoint X="3" Y="1" Link="true" />
+				<CurvePoint X="12" Y="7" Factor="0" />
+			</Curve>
+		</FreeHeroMinLevel>
+
+		<FreeHeroMaxLevel>
+			<Curve Abscissa="Level" Max="15">
+				<CurvePoint X="1" Y="1" Factor="1" />
+				<CurvePoint X="2" Y="2" Link="true" />
+				<CurvePoint X="12" Y="12" Factor="0" />
+			</Curve>
+		</FreeHeroMaxLevel>
+
+		<ResetResearchesCost>
+			<Curve Abscissa="ResetResearchesCount" >
+				<CurvePoint X="0" Y="10" Factor="3" />
+			</Curve>
+		</ResetResearchesCost>
+
+
+	</GameConfig>
+
+</Datatable>

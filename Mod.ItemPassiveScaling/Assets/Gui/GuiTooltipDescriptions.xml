@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+	<GuiTooltipDescription TooltipClass="Simple">
+		<PanelFeatureDescription Prefab="GUI/Tooltips/FeatureDescriptionPrefab"/>
+	</GuiTooltipDescription>
+
+  <GuiTooltipDescription TooltipClass="HeroSelection">
+    <PanelFeatureDescription Prefab="GUI/Tooltips/HeroSelectionTooltipPrefab" />
+    <!--<PanelFeatureDescription Prefab="GUI/Tooltips/PanelFeatureEffects_DescriptorProviderPrefab" />-->
+  </GuiTooltipDescription>
+
+  <GuiTooltipDescription TooltipClass="ItemHero">
+		<PanelFeatureDescription Prefab="GUI/Tooltips/ItemHeroTooltipPrefab" />
+		<!--<PanelFeatureDescription Prefab="GUI/Tooltips/PanelFeatureEffects_DescriptorProviderPrefab" />-->
+	</GuiTooltipDescription>
+
+	<GuiTooltipDescription TooltipClass="Skill">
+		<PanelFeatureDescription Prefab="GUI/Tooltips/SkillTooltipPrefab" />
+	</GuiTooltipDescription>
+
+	<GuiTooltipDescription TooltipClass="BluePrint">
+		<PanelFeatureDescription Prefab="GUI/Tooltips/BluePrintTooltipPrefab" />
+		<!--<PanelFeatureDescription Prefab="GUI/Tooltips/PanelFeatureEffects_DescriptorProviderPrefab" />-->
+	</GuiTooltipDescription>
+
+</Datatable>

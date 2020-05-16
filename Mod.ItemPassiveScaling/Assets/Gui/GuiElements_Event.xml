@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+	<!-- Dungeon events -->
+	<GuiElement Name="MobWaves">
+		<Title>%Event_IncomingWaves</Title>
+		<Icons>
+			<Icon Size="Small" Path="GUI/DynamicBitmaps/Events/MobWaves" />
+		</Icons>
+	</GuiElement>
+
+	<!-- Room events -->
+	<GuiElement Name="Mobs">
+		<Title>%Event_Mobs</Title>
+		<Icons>
+			<Icon Size="Small" Path="GUI/DynamicBitmaps/Events/Mobs" />
+		</Icons>
+	</GuiElement>
+
+	<GuiElement Name="Item">
+		<Title>%Event_Item</Title>
+		<Icons>
+			<Icon Size="Small" Path="GUI/DynamicBitmaps/Events/Item" />
+		</Icons>
+	</GuiElement>
+
+	<GuiElement Name="Hero">
+		<Title>%Event_HeroRecruited</Title>
+		<Icons>
+			<Icon Size="Small" Path="GUI/DynamicBitmaps/Events/Hero" />
+		</Icons>
+	</GuiElement>
+
+	<GuiElement Name="Merchant">
+		<Title>%Event_NPCEncountered</Title>
+		<Icons>
+			<Icon Size="Small" Path="GUI/DynamicBitmaps/Events/NPC" />
+		</Icons>
+	</GuiElement>
+
+	<GuiElement Name="Exit">
+		<Title>%Event_ExitFound</Title>
+		<Icons>
+			<Icon Size="Small" Path="GUI/DynamicBitmaps/Events/Exit" />
+		</Icons>
+	</GuiElement>
+
+	<GuiElement Name="Artifact">
+		<Title>%Event_ArtifactFound</Title>
+		<Icons>
+			<Icon Size="Small" Path="GUI/DynamicBitmaps/Events/Artifact" />
+		</Icons>
+	</GuiElement>
+
+	<GuiElement Name="Stele">
+		<Title>%Event_SteleFound</Title>
+		<Icons>
+			<Icon Size="Small" Path="GUI/DynamicBitmaps/Events/Stele" />
+		</Icons>
+	</GuiElement>
+
+	<GuiElement Name="DustFactory">
+		<Title>%Event_DustFactoryFound</Title>
+		<Icons>
+			<Icon Size="Small" Path="GUI/DynamicBitmaps/Events/DustFactory" />
+		</Icons>
+	</GuiElement>
+
+	<GuiElement Name="CryoCapsule">
+		<Title>%Event_CryoCapsuleFound</Title>
+		<Icons>
+			<Icon Size="Small" Path="GUI/DynamicBitmaps/Events/CryoCapsule" />
+		</Icons>
+	</GuiElement>
+
+	<GuiElement Name="ToxicCloud">
+		<Title>%Event_ToxicCloudFound</Title>
+		<Icons>
+			<Icon Size="Small" Path="GUI/DynamicBitmaps/Events/ToxicCloud" />
+		</Icons>
+	</GuiElement>
+
+	<GuiElement Name="AutoPower">
+		<Title>%Event_AutoPowerFound</Title>
+		<Icons>
+			<Icon Size="Small" Path="GUI/DynamicBitmaps/Events/AutoPower" />
+		</Icons>
+	</GuiElement>
+
+	<GuiElement Name="EMP">
+		<Title>%Event_EMP</Title>
+		<Icons>
+			<Icon Size="Small" Path="GUI/DynamicBitmaps/Events/EMP" />
+		</Icons>
+	</GuiElement>
+
+	<GuiElement Name="DeathMerchant">
+		<Title>%Event_DeathMerchant</Title>
+		<Icons>
+			<Icon Size="Small" Path="GUI/DynamicBitmaps/Events/DeathMerchant" />
+		</Icons>
+	</GuiElement>
+
+</Datatable>

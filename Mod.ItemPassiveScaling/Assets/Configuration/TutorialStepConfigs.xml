@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+	<TutorialStepConfig Text="%TutorialText1" Condition="NextButtonClick" 	ArrowTarget3D="CrystalSelectable" />
+	<TutorialStepConfig Text="%TutorialText2" Condition="OpenDoor" 			ArrowTarget3D="Door" />
+	<TutorialStepConfig Text="%TutorialText3" Condition="HeroMoveToRoom" />
+	<TutorialStepConfig Text="%TutorialText4" Condition="NextButtonClick" 	ArrowTarget2D="99-TutorialArrowFIDS"/>
+	<TutorialStepConfig Text="%TutorialText5" Condition="RoomPower"  		ArrowTarget2D="99-TutorialArrowDust"/>
+	<TutorialStepConfig Text="%TutorialText6" Condition="NextButtonClick" />
+	<TutorialStepConfig Text="%TutorialText7" Condition="BuildModule"  		ArrowTarget2D="99-TutorialArrowBuild"/>
+	<TutorialStepConfig Text="%TutorialText8" Condition="OpenHeroPanel" 	ArrowTarget2D="99-TutorialArrowHero" />
+	<TutorialStepConfig Text="%TutorialText9" Condition="NextButtonClick" />
+	<TutorialStepConfig Text="%TutorialText10" Condition="NextButtonClick" />
+	<TutorialStepConfig Text="%TutorialText11" Condition="NextButtonClick" />
+	
+</Datatable>

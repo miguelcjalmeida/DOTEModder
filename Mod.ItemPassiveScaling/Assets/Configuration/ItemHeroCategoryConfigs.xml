@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	
+	<ItemHeroCategoryConfig Name="ItemHero_Weapon">
+		<AvailableTypes>
+			<AvailableType Name="Weapon_Gun" />
+			<AvailableType Name="Weapon_MachineGun" />
+			<AvailableType Name="Weapon_Bow" />
+			<AvailableType Name="Weapon_Sword" />
+			<AvailableType Name="Weapon_Spear" />
+		</AvailableTypes>
+	</ItemHeroCategoryConfig>
+	
+	<ItemHeroCategoryConfig Name="ItemHero_Armor" />
+	
+	<ItemHeroCategoryConfig Name="ItemHero_Special" />
+
+</Datatable>

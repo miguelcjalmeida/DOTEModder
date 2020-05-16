@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	
+	<EventConfig Name="Mobs" />
+	<EventConfig Name="Item" />
+	<EventConfig Name="Hero" ForcedPositiveEvent="true"/>
+	<EventConfig Name="Merchant" />
+	<EventConfig Name="Exit" />
+	<EventConfig Name="Artifact" />
+	<EventConfig Name="Stele" />
+	<EventConfig Name="DustFactory" />
+	<EventConfig Name="CryoCapsule" />
+	<EventConfig Name="ToxicCloud" SFXJinglePath="Master/Jingles/BadDoor" />
+	<EventConfig Name="AutoPower" />
+	<EventConfig Name="EMP" />
+  <EventConfig Name="DeathMerchant" SFXJinglePath="Master/Jingles/DeathMerchant"/>
+	
+</Datatable>

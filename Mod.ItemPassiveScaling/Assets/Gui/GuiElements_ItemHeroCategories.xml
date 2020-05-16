@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+	<GuiElement Name="ItemHero_Weapon">
+		<Title>%ItemHero_Weapon</Title>
+		<Description>%ItemHero_Weapon_Description</Description>
+		<Icons>
+			<Icon Size="Small" Path="wip" />
+		</Icons>
+	</GuiElement>
+	
+	<GuiElement Name="Weapon_Gun">
+		<Title>%Weapon_Gun</Title>
+		<Description>%Weapon_Gun_Description</Description>
+		<Icons>
+			<Icon Size="Tiny" Path="GUI/AtlasedBitmaps/Items/Categories/GunCategoryTiny" />
+			<Icon Size="Small" Path="GUI/DynamicBitmaps/Items/Categories/GunCategory" />
+		</Icons>
+	</GuiElement>
+	
+	<GuiElement Name="Weapon_MachineGun">
+		<Title>%Weapon_MachineGun</Title>
+		<Description>%Weapon_MachineGun_Description</Description>
+		<Icons>
+			<Icon Size="Tiny" Path="GUI/AtlasedBitmaps/Items/Categories/MachineGunCategoryTiny" />
+			<Icon Size="Small" Path="GUI/DynamicBitmaps/Items/Categories/MachineGunCategory" />
+		</Icons>
+	</GuiElement>
+	
+	<GuiElement Name="Weapon_Bow">
+		<Title>%Weapon_Bow</Title>
+		<Description>%Weapon_Bow_Description</Description>
+		<Icons>
+			<Icon Size="Small" Path="GUI/DynamicBitmaps/Items/Categories/BowCategory" />
+		</Icons>
+	</GuiElement>
+	
+	<GuiElement Name="Weapon_Sword">
+		<Title>%Weapon_Sword</Title>
+		<Description>%Weapon_Sword_Description</Description>
+		<Icons>
+			<Icon Size="Tiny" Path="GUI/AtlasedBitmaps/Items/Categories/SwordCategoryTiny" />
+			<Icon Size="Small" Path="GUI/DynamicBitmaps/Items/Categories/SwordCategory" />
+		</Icons>
+	</GuiElement>
+	
+	<GuiElement Name="Weapon_Spear">
+		<Title>%Weapon_Spear</Title>
+		<Description>%Weapon_Spear_Description</Description>
+		<Icons>
+			<Icon Size="Tiny" Path="GUI/AtlasedBitmaps/Items/Categories/SpearCategoryTiny" />
+			<Icon Size="Small" Path="GUI/DynamicBitmaps/Items/Categories/SpearCategory" />
+		</Icons>
+	</GuiElement>
+	
+	<GuiElement Name="ItemHero_Armor">
+		<Title>%ItemHero_Armor</Title>
+		<Description>%ItemHero_Armor_Description</Description>
+		<Icons>
+			<Icon Size="Tiny" Path="GUI/AtlasedBitmaps/Items/Categories/ArmorCategoryTiny" />
+			<Icon Size="Small" Path="GUI/DynamicBitmaps/Items/Categories/ArmorCategory" />
+		</Icons>
+	</GuiElement>
+	
+	<GuiElement Name="ItemHero_Special">
+		<Title>%ItemHero_Special</Title>
+		<Description>%ItemHero_Special_Description</Description>
+		<Icons>
+			<Icon Size="Tiny" Path="GUI/AtlasedBitmaps/Items/Categories/SpecialCategoryTiny" />
+			<Icon Size="Small" Path="GUI/DynamicBitmaps/Items/Categories/SpecialCategory" />
+		</Icons>
+	</GuiElement>
+	
+	</Datatable>

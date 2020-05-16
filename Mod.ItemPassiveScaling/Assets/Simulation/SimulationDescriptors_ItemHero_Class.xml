@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<SimulationDescriptor Name="ItemHero" Type="Class">
+		<SimulationPropertyDescriptors>
+			<SimulationPropertyDescriptor Name="Cost" MinValue="Negative"/>
+			<SimulationPropertyDescriptor Name="AttackPower" MinValue="Negative"/>
+			<SimulationPropertyDescriptor Name="MaximumAttackPower" Composition="Sum" BaseValue="999" />
+			<SimulationPropertyDescriptor Name="AttackRange" MinValue="Negative"/>
+			<SimulationPropertyDescriptor Name="AttackCooldown" MinValue="Negative"/>
+			<SimulationPropertyDescriptor Name="Defense" MinValue="Negative"/>
+			<SimulationPropertyDescriptor Name="MaxHealth" MinValue="Negative"/>
+			<SimulationPropertyDescriptor Name="MoveSpeed" MinValue="Negative"/>
+			<SimulationPropertyDescriptor Name="Wit" MinValue="Negative"/>
+			<SimulationPropertyDescriptor Name="HealthRegen" MinValue="Negative"/>
+			<SimulationPropertyDescriptor Name="SellingCost" MinValue="Negative"/>
+			<SimulationPropertyDescriptor Name="InflictTroubledChance" />
+			<SimulationPropertyDescriptor Name="InflictPoisonChance" />
+		</SimulationPropertyDescriptors>
+		<SimulationModifierDescriptors>
+			<BinarySimulationModifierDescriptor TargetProperty="SellingCost" Operation="Addition" Left="$(Cost)" BinaryOperation="Multiplication" Right="0.5"/>
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="ItemHero_DeathToken" Type="ItemHero">
+		<SimulationModifierDescriptors/>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="ItemHero_DeathToken_Unique" Type="ItemHero_DeathToken">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="Cost" Operation="Force" Value="22"/>
+			<SimulationModifierDescriptor TargetProperty="SellingCost" Operation="Force" Value="0"/>
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+</Datatable>

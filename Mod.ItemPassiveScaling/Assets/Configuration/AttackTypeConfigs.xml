@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+	<!-- Heroes -->
+	<AttackTypeConfig Name="Sword"			UseProjectile="0"	SFXPath="Master/Weapon/SwordAttack" />
+	<AttackTypeConfig Name="HeavyGun"			UseProjectile="0"	SFXPath="Master/Weapon/HeavyGun" />
+	<AttackTypeConfig Name="BFHeavyGun"			UseProjectile="0"	/>
+	<AttackTypeConfig Name="HeavyRifle"			UseProjectile="0"	SFXPath="Master/Weapon/HeavyRifle" />
+	<AttackTypeConfig Name="LaserGun"			UseProjectile="0"	SFXPath="Master/Weapon/LaserGun" />
+	<AttackTypeConfig Name="MachineGun"			UseProjectile="0"	SFXPath="Master/Weapon/MachineGun" />
+	<AttackTypeConfig Name="LightMachineGun"	UseProjectile="0"	SFXPath="Master/Weapon/LightMachineGun" />
+	<AttackTypeConfig Name="ShotGun"			UseProjectile="0"	SFXPath="Master/Weapon/ShotGun" />
+	<AttackTypeConfig Name="FireGun"		UseProjectile="0"	SFXPath="Master/Weapon/FireGun" />
+	<AttackTypeConfig Name="FireSword"		UseProjectile="0"	SFXPath="Master/Weapon/LaserGun" />
+	<AttackTypeConfig Name="Spear"			UseProjectile="0"	SFXPath="Master/Weapon/SpearAttack" />
+	<AttackTypeConfig Name="SpearAttack2"	UseProjectile="0"	SFXPath="Master/Weapon/SpearAttack2" />
+	<AttackTypeConfig Name="FireSpear"		UseProjectile="0"	SFXPath="Master/Weapon/FireSpearAttack" />
+	<AttackTypeConfig Name="Hand"			UseProjectile="0"	SFXPath="Master/Weapon/Fist" /> 
+	<AttackTypeConfig Name="MiziFist"		UseProjectile="0"	SFXPath="Master/Weapon/MiziFist" /> 
+	<AttackTypeConfig Name="PugHammer"		UseProjectile="0"	SFXPath="Master/Weapon/PugHammer" /> 
+	<AttackTypeConfig Name="Thunder"		UseProjectile="0"	SFXPath="Master/Weapon/Thunder" /> 
+	<AttackTypeConfig Name="Wrench"			UseProjectile="0"	SFXPath="Master/Weapon/Wrench" /> 
+	<AttackTypeConfig Name="FlameThrower"	UseProjectile="0"	SFXPath="Master/Weapon/FlameThrower" BurnVFXPath="VFX/AttackBurn/FlameThrower" /> 
+	<AttackTypeConfig Name="Saw"			UseProjectile="0"	SFXPath="Master/Weapon/Saw" />
+	<AttackTypeConfig Name="RobotBlade"			UseProjectile="0"	SFXPath="Master/Weapon/RobotBlade" />
+	<AttackTypeConfig Name="Empty"			UseProjectile="0"	SFXPath="" />
+
+	<!-- Mobs -->
+	<AttackTypeConfig Name="Necro"			UseProjectile="0"	SFXPath="Master/Monsters/NecrophageAttack" />
+	<AttackTypeConfig Name="FlyingNecro"	UseProjectile="0"	SFXPath="Master/Monsters/FlyingNecrophageAttack" />
+	<AttackTypeConfig Name="MiniGolem"		UseProjectile="0"	SFXPath="Master/Monsters/SilicMiniGolemAttack" />
+	<AttackTypeConfig Name="Golem"			UseProjectile="0"	SFXPath="Master/Monsters/SilicGolemAttack" />
+	<AttackTypeConfig Name="Supporter"		UseProjectile="0"	SFXPath="Master/Monsters/SilicSupporterAttack" />
+	<AttackTypeConfig Name="Zoner"			UseProjectile="0"	SFXPath="Master/Monsters/SilicZonerAttack" />
+	<AttackTypeConfig Name="Chimera1"		UseProjectile="0"	SFXPath="Master/Monsters/ZombiesAttack" /> 
+	<AttackTypeConfig Name="Hydra"			UseProjectile="0"	SFXPath="Master/Monsters/HydraAttack" /> 
+	<AttackTypeConfig Name="Keeper"			UseProjectile="0"	/> 
+	<AttackTypeConfig Name="Chimera_SelfDestruct"		UseProjectile="0"	SelfDestruct="true" SFXPath="Master/Monsters/ChimeraKamikazeAttack" />
+	<AttackTypeConfig Name="HHunter"		UseProjectile="0"	SFXPath="Master/Monsters/HurnaHunter_Attack" />
+	<AttackTypeConfig Name="HDebuffer"		UseProjectile="0"	/>
+	<AttackTypeConfig Name="HAssassin"		UseProjectile="0"	/>
+	<AttackTypeConfig Name="Vultu_Trash" UseProjectile="0" SimulationModifierName="V_Trash_Debuff" />
+	<AttackTypeConfig Name="Vultu_Elite_Trash" UseProjectile="0" SimulationModifierName="V_Trash_Elite_Debuff" />
+	<AttackTypeConfig Name="Vultu_Debuffer" UseProjectile="0" SimulationModifierName="V_Debuffer_Debuff" />
+	<AttackTypeConfig Name="Vultu_Elite_Debuffer" UseProjectile="0" SimulationModifierName="V_Debuffer_Elite_Debuff" />
+	<AttackTypeConfig Name="noFX"			UseProjectile="0"	/>
+	<AttackTypeConfig Name="Vultu_SelfDestruct"		UseProjectile="0"	SelfDestruct="true" SFXPath="" />
+	<AttackTypeConfig Name="SelfDestruct"	UseProjectile="0"	SelfDestruct="true" SFXPath="Master/Modules/ModuleBombShot" /> 
+
+	<!-- Minor Modules -->
+	<AttackTypeConfig Name="Bomb"				UseProjectile="1"	ProjectileSpeed="200"	SFXPath="Master/Modules/ModuleBombShot" />
+	<AttackTypeConfig Name="Bomb_LVL2"			UseProjectile="1"	ProjectileSpeed="200"	SFXPath="Master/Modules/ModuleBombShot" />
+	<AttackTypeConfig Name="Bomb_LVL3"			UseProjectile="1"	ProjectileSpeed="200"	SFXPath="Master/Modules/ModuleBombShot" />
+	<AttackTypeConfig Name="Bomb_LVL4"			UseProjectile="1"	ProjectileSpeed="200"	SFXPath="Master/Modules/ModuleBombShot" />
+	<AttackTypeConfig Name="Laser"				UseProjectile="1"	ProjectileSpeed="300"	SFXPath="Master/Modules/ModuleLaserShot" />
+	<AttackTypeConfig Name="Laser_LVL2"			UseProjectile="1"	ProjectileSpeed="300"	SFXPath="Master/Modules/ModuleLaserShot" />
+	<AttackTypeConfig Name="Laser_LVL3"			UseProjectile="1"	ProjectileSpeed="300"	SFXPath="Master/Modules/ModuleLaserShot" />
+	<AttackTypeConfig Name="Laser_LVL4"			UseProjectile="1"	ProjectileSpeed="300"	SFXPath="Master/Modules/ModuleLaserShot" />
+	<AttackTypeConfig Name="ModuleGun"			UseProjectile="1"	ProjectileSpeed="300"	SFXPath="Master/Modules/ModuleMachineGun_Shot" AttackLoopSFXPath="Master/Modules/ModuleMachineGun_Loop" />
+	<AttackTypeConfig Name="ModuleGun_LVL2"		UseProjectile="1"	ProjectileSpeed="300"	SFXPath="Master/Modules/ModuleMachineGun_Shot" AttackLoopSFXPath="Master/Modules/ModuleMachineGun_Loop" />
+	<AttackTypeConfig Name="ModuleGun_LVL3"		UseProjectile="1"	ProjectileSpeed="300"	SFXPath="Master/Modules/ModuleMachineGun_Shot" AttackLoopSFXPath="Master/Modules/ModuleMachineGun_Loop" />
+	<AttackTypeConfig Name="ModuleGun_LVL4"		UseProjectile="1"	ProjectileSpeed="300"	SFXPath="Master/Modules/ModuleMachineGun_Shot" AttackLoopSFXPath="Master/Modules/ModuleMachineGun_Loop" />
+	<AttackTypeConfig Name="Tesla"				UseProjectile="0"	SFXPath="Master/Modules/ModuleTeslaShot" />
+	<AttackTypeConfig Name="Tesla_LVL2"			UseProjectile="0"	SFXPath="Master/Modules/ModuleTeslaShot" />
+	<AttackTypeConfig Name="Tesla_LVL3"			UseProjectile="0"	SFXPath="Master/Modules/ModuleTeslaShot" />
+	<AttackTypeConfig Name="Tesla_LVL4"			UseProjectile="0"	SFXPath="Master/Modules/ModuleTeslaShot" />
+	<AttackTypeConfig Name="ScienceLaser"				UseProjectile="1"	ProjectileSpeed="300"	SFXPath="Master/Modules/ModuleScienceCannonShot" />
+	<AttackTypeConfig Name="ScienceLaser_LVL2"			UseProjectile="1"	ProjectileSpeed="300"	SFXPath="Master/Modules/ModuleScienceCannonShot" />
+	<AttackTypeConfig Name="ScienceLaser_LVL3"			UseProjectile="1"	ProjectileSpeed="300"	SFXPath="Master/Modules/ModuleScienceCannonShot" />
+	<AttackTypeConfig Name="ScienceLaser_LVL4"			UseProjectile="1"	ProjectileSpeed="300"	SFXPath="Master/Modules/ModuleScienceCannonShot" />
+	<AttackTypeConfig Name="Sebastroll"			UseProjectile="0"	SFXPath="Master/Modules/ModuleBombShot" />
+	<AttackTypeConfig Name="TroubleMaker"		UseProjectile="1" 	InflictTrouble="true"	ProjectileSpeed="75"   SFXPath="" />
+	<AttackTypeConfig Name="Poison"				UseProjectile="1"	ProjectileSpeed="200"	InflictPoison="true" ImpactFollowTarget="true" SFXPath="Master/Modules/ModuleViralInjectorShot" />
+	<AttackTypeConfig Name="Poison_LVL2"		UseProjectile="1"	ProjectileSpeed="200"	InflictPoison="true" ImpactFollowTarget="true" SFXPath="Master/Modules/ModuleViralInjectorShot" />
+	<AttackTypeConfig Name="Poison_LVL3"		UseProjectile="1"	ProjectileSpeed="200"	InflictPoison="true" ImpactFollowTarget="true" SFXPath="Master/Modules/ModuleViralInjectorShot" />
+	<AttackTypeConfig Name="Poison_LVL4"		UseProjectile="1" 	ProjectileSpeed="200"	InflictPoison="true" ImpactFollowTarget="true" SFXPath="Master/Modules/ModuleViralInjectorShot" />
+
+</Datatable>

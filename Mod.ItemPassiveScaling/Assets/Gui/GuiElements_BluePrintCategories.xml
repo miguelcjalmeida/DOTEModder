@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+	<!-- Categories -->
+	<GuiElement Name="MajorModule">
+		<Title>%MajorModuleCategory_Title</Title>
+		<Description>%MajorModuleCategory_Description</Description>
+		<Icons>
+			<Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/0-Categories/MainModules_Icon" />
+		</Icons>
+	</GuiElement>
+
+	<GuiElement Name="MinorModule_Support">
+		<Title>%MinorModule_Support_Title</Title>
+		<Description>%MinorModule_Support_Description</Description>
+		<Icons>
+			<Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/0-Categories/HEAL_Icon" />
+		</Icons>
+	</GuiElement>
+
+	<GuiElement Name="MinorModule_Offense">
+		<Title>%MinorModule_Offense_Title</Title>
+		<Description>%MinorModule_Offense_Description</Description>
+		<Icons>
+			<Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/0-Categories/ATTACK_Icon" />
+		</Icons>
+	</GuiElement>
+
+	<GuiElement Name="MinorModule_Debuff">
+		<Title>%MinorModule_Debuff_Title</Title>
+		<Description>%MinorModule_Debuff_Description</Description>
+		<Icons>
+			<Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/0-Categories/DEFENSE_Icon" />
+		</Icons>
+	</GuiElement>
+
+	<GuiElement Name="BluePrintCategoryDestruction">
+		<Title>%BluePrintCategoryDestruction_Title</Title>
+	</GuiElement>
+
+	<GuiElement Name="DestructionItem">
+		<Title>%DestructionItem_Title</Title>
+		<Description>%DestructionItem_Description</Description>
+		<Icons>
+			<Icon Size="Small" Path="GUI/DynamicBitmaps/Modules/5-DestructionModule/DestructionItem"/>
+		</Icons>
+	</GuiElement>
+
+</Datatable>
