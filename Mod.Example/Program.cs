@@ -15,17 +15,24 @@ namespace Mod.Example
         {
             var workingDirectory = Environment.CurrentDirectory;
             var projectDirectory = Directory.GetParent(workingDirectory).Parent?.Parent?.FullName;
-            var distDirectory = $"{projectDirectory}/Dist";
+            var distDirectory = $"{projectDirectory}/Dist/Public";
             var assetsDirectory = $"{projectDirectory}/Assets";
             
+            // this manager has all entities you can manipulate across this framework 
             var manager = new EntitiesManagerFactory().Create(assetsDirectory, distDirectory);
+            
+            // load game skills 
             var skills = manager.SkillManager.Load();
-            skills[0].Description.English = "cool!";
-            skills[1].Title.French = "cool too!";
-
+            
+            // Modifying the first two existent skills title and description
+            skills[0].Description.English = "Hello";
+            skills[1].Title.French = "World";
+            
+            // Adding a new single-rarity item just for fun
             var items = manager.HeroItemManager.Load();
             items.Add(CreateDagger());
 
+            // saving all the changes
             manager.SkillManager.Save(skills);
             manager.HeroItemManager.Save(items);
         }

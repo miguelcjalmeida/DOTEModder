@@ -2,7 +2,6 @@
 using System.Linq;
 using Modder;
 using Modder.Entities.HeroItem.Rarity;
-using Modder.Entities.HeroItem.SimulationDescriptor;
 using Modder.Entities.Localization;
 using Modder.Entities.Skill;
 
@@ -13,10 +12,7 @@ namespace Mod.ItemPassiveScaling
         private readonly RarityName[] _rarity = {RarityName.Common, RarityName.Rarity0, RarityName.Rarity1, RarityName.Rarity2};
         private readonly SkillModifierEnhancer _enhancer = new SkillModifierEnhancer();
         
-        public IList<Skill> Duplicate(IList<Skill> skills)
-        {
-            return skills.SelectMany(CreateSkillVersions).ToList();
-        }
+        public IList<Skill> Duplicate(IList<Skill> skills) => skills.SelectMany(CreateSkillVersions).ToList();
 
         private IList<Skill> CreateSkillVersions(Skill skill)
         {

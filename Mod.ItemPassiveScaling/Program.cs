@@ -1,8 +1,6 @@
 ﻿using System;
 using System.IO;
 using System.Linq;
-using System.Xml.Serialization;
-using Modder;
 using Modder.Manager;
 
 namespace Mod.ItemPassiveScaling
@@ -13,7 +11,7 @@ namespace Mod.ItemPassiveScaling
         {
             var workingDirectory = Environment.CurrentDirectory;
             var projectDirectory = Directory.GetParent(workingDirectory).Parent?.Parent?.FullName;
-            var distDirectory = $"{projectDirectory}/Dist";
+            var distDirectory = $"{projectDirectory}/Dist/Public";
             var assetsDirectory = $"{projectDirectory}/Assets";
             
             var manager = new EntitiesManagerFactory().Create(assetsDirectory, distDirectory);
