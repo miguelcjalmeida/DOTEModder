@@ -3,13 +3,12 @@ This is a framework for modding the configuration files from Dungeon of the Endl
 
 Currently two modules are implemented: 
 - Manipulation of hero items
-- Manipulations of active/passive skills (from items and heros)
-- Hero items and skills localization changes/inclusion.
+- Manipulations of active/passive skills
 
 ## Mods
 Check below the mods available for download.
 
-- Item passive scaling: It makes all item passives scale with its rarity. The rarer the item, the stronger the passive. It has not been tested with multiplayer extensively, but should work when all players have this mod active.
+- [Item passive scaling](): It makes all item passives scale with its rarity. The rarer the item, the stronger the passive. It has not been tested in multiplayer extensively, but should work when all players have this mod active.
 
 ## Installing a mod
 
