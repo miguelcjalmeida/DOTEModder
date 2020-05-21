@@ -8,7 +8,9 @@ Currently two modules are implemented:
 ## Mods
 Check below the mods available for download.
 
-- [Item passive scaling](https://github.com/miguelcjalmeida/DOTEModder/raw/master/Mod.ItemPassiveScaling/Download/Public.zip): It makes all item passives scale with its rarity. The rarer the item, the stronger the passive. It has not been tested in multiplayer extensively, but should work when all players have this mod active.
+- [Item passive scaling](https://github.com/miguelcjalmeida/DOTEModder/raw/master/Mod.ItemPassiveScaling/Download/Public.zip): It makes all item passives scale with its rarity. 
+The rarer the item, the stronger the passive. It works fine when all players have this mod active. 
+When playing with someone not modding, the common items will spawn normally, but the ones with new scaling passives wont.
 
 ## Installing a mod
 
