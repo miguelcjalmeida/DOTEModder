@@ -1,1246 +1,1509 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!--auto-->
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SimulationDescriptor Name="Skill" Type="Class">
-    <SimulationPropertyDescriptors>
-      <!--empty-->
-    </SimulationPropertyDescriptors>
-  </SimulationDescriptor>
-  <SimulationDescriptor Name="Skill_P0001" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="RoomDustBonus" Operation="Addition" Value="1" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0001_LVL2" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="RoomDustBonus" Operation="Addition" Value="2" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0001_LVL3" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="RoomDustBonus" Operation="Addition" Value="3" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0002" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="ScienceProd" Operation="Addition" Value="2" Path="../Dungeon" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0002_LVL2" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="ScienceProd" Operation="Addition" Value="3" Path="../Dungeon" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0003" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="FoodBonusPerMobKilled" Operation="Addition" Value="0.3" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0003_LVL2" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="FoodBonusPerMobKilled" Operation="Addition" Value="0.4" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0004" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="AttackPowerBonusPerMobInRoom" Operation="Addition" Value="4" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="AttackPowerBonusFromMobsMax" Operation="Addition" Value="30" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0004_LVL2" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="AttackPowerBonusPerMobInRoom" Operation="Addition" Value="6" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="AttackPowerBonusFromMobsMax" Operation="Addition" Value="40" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0005" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="AttackCooldownBonusWhenTargetedByMob" Operation="Addition" Value="-0.2" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0005_LVL2" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="AttackCooldownBonusWhenTargetedByMob" Operation="Addition" Value="-0.4" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0006" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="Skill_P0006_Effect" Operation="Addition" Value="1" Path="../Room/Mob" />
-      <SimulationModifierDescriptor TargetProperty="MoveSpeed" Operation="Addition" Value="-4" Path="../Room/Mob" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0006_LVL2" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="Skill_P0006_Effect" Operation="Addition" Value="1" Path="../Room/Mob" />
-      <SimulationModifierDescriptor TargetProperty="MoveSpeed" Operation="Addition" Value="-7" Path="../Room/Mob" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0007" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="RepairWitBonus" Operation="Addition" Value="8" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="10" Path="../Room/MinorModule" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0007_LVL2" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="RepairWitBonus" Operation="Addition" Value="14" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="15" Path="../Room/MinorModule" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0008" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="IndustryBonusPerMobKilled" Operation="Addition" Value="0.3" Path="../Room/Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0008_LVL2" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="IndustryBonusPerMobKilled" Operation="Addition" Value="0.4" Path="../Room/Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0008_LVL3" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="IndustryBonusPerMobKilled" Operation="Addition" Value="0.5" Path="../Room/Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0009" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="DefenseBonusPerMobKilled" Operation="Addition" Value="2" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="DefenseBonusPerMobKilled_Max" Operation="Addition" Value="14" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="DefenseBonusPerMobKilled_TimeMalus" Operation="Addition" Value="0.2" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0009_LVL2" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="DefenseBonusPerMobKilled" Operation="Addition" Value="3" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="DefenseBonusPerMobKilled_Max" Operation="Addition" Value="22" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="DefenseBonusPerMobKilled_TimeMalus" Operation="Addition" Value="0.2" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0010" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="AttackPowerBonusPerHeroInRoomMinusOne" Operation="Addition" Value="4" Path="../Room/Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0010_LVL2" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="AttackPowerBonusPerHeroInRoomMinusOne" Operation="Addition" Value="8" Path="../Room/Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0011" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="Skill_P0011_Effect" Operation="Addition" Value="1" Path="../Room/Hero" />
-      <SimulationModifierDescriptor TargetProperty="UnpoweredRoomMoveSpeedBonus" Operation="Addition" Value="5" Path="../Room/Hero" />
-      <SimulationModifierDescriptor TargetProperty="DustLootProbability" Operation="Percent" Value="0.05" Path="../Room/Mob" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0011_LVL2" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="Skill_P0011_Effect" Operation="Addition" Value="1" Path="../Room/Hero" />
-      <SimulationModifierDescriptor TargetProperty="UnpoweredRoomMoveSpeedBonus" Operation="Addition" Value="8" Path="../Room/Hero" />
-      <SimulationModifierDescriptor TargetProperty="DustLootProbability" Operation="Percent" Value="0.07" Path="../Room/Mob" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0012_Target" Type="PassiveSkill_Target">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="Skill_P0012_Effect" Operation="Addition" Value="1" />
-      <SimulationModifierDescriptor TargetProperty="DamageOverTime" Operation="Addition" Value="8" />
-    </SimulationModifierDescriptors> 
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0012_LVL2_Target" Type="PassiveSkill_Target">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="Skill_P0012_Effect" Operation="Addition" Value="1" />
-      <SimulationModifierDescriptor TargetProperty="DamageOverTime" Operation="Addition" Value="15" />
-    </SimulationModifierDescriptors> 
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0021_Target" Type="PassiveSkill_Target">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="AttackCooldown" Operation="Addition" Value="0.1" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0021_LVL2_Target" Type="PassiveSkill_Target">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="UnpoweredRoomAttackCooldown" Operation="Addition" Value="0.3" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0022" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="HealthRegenInPoweredRoom" Operation="Addition" Value="10" Path="../Room/Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0022_LVL2" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="HealthRegenInPoweredRoom" Operation="Addition" Value="15" Path="../Room/Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0023" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="AttackCooldown" Operation="Percent" Value="-0.1" Path="../Room/MinorModule" />
-      <SimulationModifierDescriptor TargetProperty="Skill_P0023_Effect" Operation="Addition" Value="1" Path="../Room/MinorModule" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0023_LVL2" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="AttackCooldown" Operation="Percent" Value="-0.2" Path="../Room/MinorModule" />
-      <SimulationModifierDescriptor TargetProperty="Skill_P0023_Effect" Operation="Addition" Value="1" Path="../Room/MinorModule" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0024" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="MoveSpeedIfAlone" Operation="Addition" Value="3" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="AttackPowerIfAlone" Operation="Addition" Value="12" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0024_LVL2" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="MoveSpeedIfAlone" Operation="Addition" Value="5" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="AttackPowerIfAlone" Operation="Addition" Value="18" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0025_Target" Type="PassiveSkill_Target">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="DustLootProbability" Operation="Percent" Value="0.12" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0025_LVL2_Target" Type="PassiveSkill_Target">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="DustLootProbability" Operation="Percent" Value="0.18" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0025_LVL3_Target" Type="PassiveSkill_Target">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="DustLootProbability" Operation="Percent" Value="0.25" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0026" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="DefenseIfNotAlone" Operation="Addition" Value="15" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="AttackPowerIfNotAlone" Operation="Addition" Value="15" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0026_LVL2" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="DefenseIfNotAlone" Operation="Addition" Value="25" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="AttackPowerIfNotAlone" Operation="Addition" Value="20" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0028" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="MobsAggro" Operation="Addition" Value="1" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0028_LVL2" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="MobsAggro" Operation="Addition" Value="1" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="AttackPowerIfAlone" Operation="Addition" Value="10" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0029" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="Stealth" Operation="Addition" Value="1" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0029_LVL2" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="Stealth" Operation="Addition" Value="1" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="MoveSpeedIfAlone" Operation="Addition" Value="5" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0030" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="AttackBonusPerMobKilled" Operation="Addition" Value="8" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="AttackBonusPerMobKilled_Max" Operation="Addition" Value="25" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="AttackBonusPerMobKilled_TimeMalus" Operation="Addition" Value="0.15" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0030_LVL2" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="AttackBonusPerMobKilled" Operation="Addition" Value="12" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="AttackBonusPerMobKilled_Max" Operation="Addition" Value="40" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="AttackBonusPerMobKilled_TimeMalus" Operation="Addition" Value="0.15" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0030_LVL3" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="AttackBonusPerMobKilled" Operation="Addition" Value="16" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="AttackBonusPerMobKilled_Max" Operation="Addition" Value="50" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="AttackBonusPerMobKilled_TimeMalus" Operation="Addition" Value="0.15" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0030_Target" Type="PassiveSkill_Target">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="DustLootProbability" Operation="Percent" Value="-0.2" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0030_LVL2_Target" Type="PassiveSkill_Target">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="DustLootProbability" Operation="Percent" Value="-0.15" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0030_LVL3_Target" Type="PassiveSkill_Target">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="DustLootProbability" Operation="Percent" Value="-0.1" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0031" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="HealthRegenIfDarkRoomAndWithMob" Operation="Addition" Value="15" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0031_LVL2" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="HealthRegenIfDarkRoomAndWithMob" Operation="Addition" Value="25" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0032" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="MoveSpeedIfNotAlone" Operation="Addition" Value="10" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0032_LVL2" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="MoveSpeedIfNotAlone" Operation="Addition" Value="15" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0033" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="Wit" Operation="Addition" Value="2" Path="../Dungeon/Room/Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0033_LVL2" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="Wit" Operation="Addition" Value="3" Path="../Dungeon/Room/Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0033_LVL3" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="Wit" Operation="Addition" Value="4" Path="../Dungeon/Room/Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0034" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="HealFoodCostCoeff" Operation="Percent" Value="-0.10" Path="../Dungeon/Room/Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0034_LVL2" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="HealFoodCostCoeff" Operation="Percent" Value="-0.17" Path="../Dungeon/Room/Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0035" Type="Skill">
-    <SimulationModifierDescriptors>
-    <SimulationModifierDescriptor TargetProperty="HealthRegenInPoweredRoomSkillIsActive" Operation="Addition" Value="1" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="HealthRegenInPoweredRoom" Operation="Addition" Value="3" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="DefenseInPoweredRoom" Operation="Addition" Value="7" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="HealFoodCostCoeff" Operation="Percent" Value="0.15" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0035_LVL2" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="HealthRegenInPoweredRoom" Operation="Addition" Value="5" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="DefenseInPoweredRoom" Operation="Addition" Value="12" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="HealFoodCostCoeff" Operation="Percent" Value="0.1" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0036" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="Defense" Operation="Percent" Value="-0.1" Path="../Room/Hero" />
-      <SimulationModifierDescriptor TargetProperty="AttackPowerIfAlone" Operation="Addition" Value="15" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0037" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="AttackPowerIfActiveArtifact" Operation="Addition" Value="10" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="MoveSpeedIfActiveArtifact" Operation="Addition" Value="7" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0037_LVL2" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="AttackPowerIfActiveArtifact" Operation="Addition" Value="15" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="MoveSpeedIfActiveArtifact" Operation="Addition" Value="10" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0037_LVL3" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="AttackPowerIfActiveArtifact" Operation="Addition" Value="24" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="MoveSpeedIfActiveArtifact" Operation="Addition" Value="13" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0038" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="ToxicCloudAffected" Operation="Multiplication" Value="0" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0039" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="IsAtPeace" Operation="Addition" Value="1" Path="../Room/Hero" />
-      <SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="5" Path="../Room/Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>    
-  <SimulationDescriptor Name="Skill_P0039_LVL2" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="IsAtPeace" Operation="Addition" Value="1" Path="../Room/Hero" />
-      <SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="10" Path="../Room/Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0039_LVL3" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="IsAtPeace" Operation="Addition" Value="1" Path="../Room/Hero" />
-      <SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="15" Path="../Room/Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0040" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="SpeedBonusPerHealthRegen" Operation="Addition" Value="0.5" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="SpeedBonusFromHealthRegenMax" Operation="Addition" Value="15" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0040_LVL2" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="SpeedBonusPerHealthRegen" Operation="Addition" Value="0.6" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="SpeedBonusFromHealthRegenMax" Operation="Addition" Value="22" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0041" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="RepairFirst" Operation="Addition" Value="1" Path="../Room/Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0042" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Force" Value="0" Path="./Hero" />   
-      <SimulationModifierDescriptor TargetProperty="ZoneAttackRadius" Operation="Addition" Value="50" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="ZoneAttackPowerOnMobs" Operation="Addition" Value="1" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="AttackBurnDamage" Operation="Addition" Value="10" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="AttackBurnDuration" Operation="Addition" Value="5" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0042_LVL2" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Force" Value="0" Path="./Hero" />  
-      <SimulationModifierDescriptor TargetProperty="ZoneAttackRadius" Operation="Addition" Value="60" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="ZoneAttackPowerOnMobs" Operation="Addition" Value="1" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="AttackBurnDamage" Operation="Addition" Value="15" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="AttackBurnDuration" Operation="Addition" Value="5" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0042_LVL3" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Force" Value="0" Path="./Hero" />  
-      <SimulationModifierDescriptor TargetProperty="ZoneAttackRadius" Operation="Addition" Value="70" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="ZoneAttackPowerOnMobs" Operation="Addition" Value="1" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="AttackBurnDamage" Operation="Addition" Value="20" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="AttackBurnDuration" Operation="Addition" Value="6" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0042_LVL4" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Force" Value="0" Path="./Hero" />  
-      <SimulationModifierDescriptor TargetProperty="ZoneAttackRadius" Operation="Addition" Value="80" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="ZoneAttackPowerOnMobs" Operation="Addition" Value="1" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="AttackBurnDamage" Operation="Addition" Value="25" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="AttackBurnDuration" Operation="Addition" Value="6" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0042_LVL5" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Force" Value="0" Path="./Hero" />  
-      <SimulationModifierDescriptor TargetProperty="ZoneAttackRadius" Operation="Addition" Value="90" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="ZoneAttackPowerOnMobs" Operation="Addition" Value="1" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="AttackBurnDamage" Operation="Addition" Value="30" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="AttackBurnDuration" Operation="Addition" Value="7" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0042_LVL6" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Force" Value="0" Path="./Hero" />  
-      <SimulationModifierDescriptor TargetProperty="ZoneAttackRadius" Operation="Addition" Value="100" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="ZoneAttackPowerOnMobs" Operation="Addition" Value="1" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="AttackBurnDamage" Operation="Addition" Value="35" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="AttackBurnDuration" Operation="Addition" Value="7" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0043" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="ShareDpsPassiveSkillIsActive" Operation="Addition" Value="1" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="AttackPowerHeroCoef" Operation="Addition" Value="40" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0043_LVL2" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="ShareDpsPassiveSkillIsActive" Operation="Addition" Value="1" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="AttackPowerHeroCoef" Operation="Addition" Value="60" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0043_LVL3" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="ShareDpsPassiveSkillIsActive" Operation="Addition" Value="1" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="AttackPowerHeroCoef" Operation="Addition" Value="100" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0044" Type="Skill">
-    <SimulationModifierDescriptors>
-    <SimulationModifierDescriptor TargetProperty="MobTamedHealPct" Operation="Addition" Value="50" Path="./Hero" />
-  </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
+
+	<SimulationDescriptor Name="Skill" Type="Class">
+		<SimulationPropertyDescriptors>
+		</SimulationPropertyDescriptors>
+	</SimulationDescriptor>
+
+	<!-- Passive skills -->
+	<SimulationDescriptor Name="Skill_P0001" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="RoomDustBonus" Operation="Addition" Value="1" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0001_LVL2" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="RoomDustBonus" Operation="Addition" Value="2" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0001_LVL3" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="RoomDustBonus" Operation="Addition" Value="3" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0002" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="ScienceProd" Operation="Addition" Value="2" Path="../Dungeon" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0002_LVL2" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="ScienceProd" Operation="Addition" Value="3" Path="../Dungeon" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0003" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="FoodBonusPerMobKilled" Operation="Addition" Value="0.3" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0003_LVL2" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="FoodBonusPerMobKilled" Operation="Addition" Value="0.4" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0004" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="AttackPowerBonusPerMobInRoom" Operation="Addition" Value="4" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="AttackPowerBonusFromMobsMax" Operation="Addition" Value="30" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0004_LVL2" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="AttackPowerBonusPerMobInRoom" Operation="Addition" Value="6" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="AttackPowerBonusFromMobsMax" Operation="Addition" Value="40" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0005" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="AttackCooldownBonusWhenTargetedByMob" Operation="Addition" Value="-0.2" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0005_LVL2" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="AttackCooldownBonusWhenTargetedByMob" Operation="Addition" Value="-0.4" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0006" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="Skill_P0006_Effect" Operation="Addition" Value="1" Path="../Room/Mob" />
+			<SimulationModifierDescriptor TargetProperty="MoveSpeed" Operation="Addition" Value="-4" Path="../Room/Mob" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0006_LVL2" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="Skill_P0006_Effect" Operation="Addition" Value="1" Path="../Room/Mob" />
+			<SimulationModifierDescriptor TargetProperty="MoveSpeed" Operation="Addition" Value="-7" Path="../Room/Mob" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0007" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="RepairWitBonus" Operation="Addition" Value="8" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="10" Path="../Room/MinorModule" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0007_LVL2" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="RepairWitBonus" Operation="Addition" Value="14" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="15" Path="../Room/MinorModule" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0008" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="IndustryBonusPerMobKilled" Operation="Addition" Value="0.3" Path="../Room/Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0008_LVL2" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="IndustryBonusPerMobKilled" Operation="Addition" Value="0.4" Path="../Room/Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0008_LVL3" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="IndustryBonusPerMobKilled" Operation="Addition" Value="0.5" Path="../Room/Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0009" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="DefenseBonusPerMobKilled" Operation="Addition" Value="2" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="DefenseBonusPerMobKilled_Max" Operation="Addition" Value="14" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="DefenseBonusPerMobKilled_TimeMalus" Operation="Addition" Value="0.2" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0009_LVL2" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="DefenseBonusPerMobKilled" Operation="Addition" Value="3" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="DefenseBonusPerMobKilled_Max" Operation="Addition" Value="22" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="DefenseBonusPerMobKilled_TimeMalus" Operation="Addition" Value="0.2" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0010" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="AttackPowerBonusPerHeroInRoomMinusOne" Operation="Addition" Value="4" Path="../Room/Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0010_LVL2" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="AttackPowerBonusPerHeroInRoomMinusOne" Operation="Addition" Value="8" Path="../Room/Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0011" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="Skill_P0011_Effect" Operation="Addition" Value="1" Path="../Room/Hero" />
+			<SimulationModifierDescriptor TargetProperty="UnpoweredRoomMoveSpeedBonus" Operation="Addition" Value="5" Path="../Room/Hero" />
+			<SimulationModifierDescriptor TargetProperty="DustLootProbability" Operation="Percent" Value="0.05" Path="../Room/Mob" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0011_LVL2" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="Skill_P0011_Effect" Operation="Addition" Value="1" Path="../Room/Hero" />
+			<SimulationModifierDescriptor TargetProperty="UnpoweredRoomMoveSpeedBonus" Operation="Addition" Value="8" Path="../Room/Hero" />
+			<SimulationModifierDescriptor TargetProperty="DustLootProbability" Operation="Percent" Value="0.07" Path="../Room/Mob" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0012_Target" Type="PassiveSkill_Target">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="Skill_P0012_Effect" Operation="Addition" Value="1" />
+			<SimulationModifierDescriptor TargetProperty="DamageOverTime" Operation="Addition" Value="8" />
+		</SimulationModifierDescriptors> 
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0012_LVL2_Target" Type="PassiveSkill_Target">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="Skill_P0012_Effect" Operation="Addition" Value="1" />
+			<SimulationModifierDescriptor TargetProperty="DamageOverTime" Operation="Addition" Value="15" />
+		</SimulationModifierDescriptors> 
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0021_Target" Type="PassiveSkill_Target">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="AttackCooldown" Operation="Addition" Value="0.1" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0021_LVL2_Target" Type="PassiveSkill_Target">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="UnpoweredRoomAttackCooldown" Operation="Addition" Value="0.3" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0022" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="HealthRegenInPoweredRoom" Operation="Addition" Value="10" Path="../Room/Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0022_LVL2" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="HealthRegenInPoweredRoom" Operation="Addition" Value="15" Path="../Room/Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0023" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="AttackCooldown" Operation="Percent" Value="-0.1" Path="../Room/MinorModule" />
+			<SimulationModifierDescriptor TargetProperty="Skill_P0023_Effect" Operation="Addition" Value="1" Path="../Room/MinorModule" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0023_LVL2" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="AttackCooldown" Operation="Percent" Value="-0.2" Path="../Room/MinorModule" />
+			<SimulationModifierDescriptor TargetProperty="Skill_P0023_Effect" Operation="Addition" Value="1" Path="../Room/MinorModule" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0024" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="MoveSpeedIfAlone" Operation="Addition" Value="3" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="AttackPowerIfAlone" Operation="Addition" Value="12" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0024_LVL2" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="MoveSpeedIfAlone" Operation="Addition" Value="5" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="AttackPowerIfAlone" Operation="Addition" Value="18" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0025_Target" Type="PassiveSkill_Target">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="DustLootProbability" Operation="Percent" Value="0.12" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0025_LVL2_Target" Type="PassiveSkill_Target">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="DustLootProbability" Operation="Percent" Value="0.18" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0025_LVL3_Target" Type="PassiveSkill_Target">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="DustLootProbability" Operation="Percent" Value="0.25" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0026" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="DefenseIfNotAlone" Operation="Addition" Value="15" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="AttackPowerIfNotAlone" Operation="Addition" Value="15" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0026_LVL2" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="DefenseIfNotAlone" Operation="Addition" Value="25" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="AttackPowerIfNotAlone" Operation="Addition" Value="20" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0028" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="MobsAggro" Operation="Addition" Value="1" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0028_LVL2" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="MobsAggro" Operation="Addition" Value="1" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="AttackPowerIfAlone" Operation="Addition" Value="10" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0029" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="Stealth" Operation="Addition" Value="1" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0029_LVL2" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="Stealth" Operation="Addition" Value="1" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="MoveSpeedIfAlone" Operation="Addition" Value="5" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0030" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="AttackBonusPerMobKilled" Operation="Addition" Value="8" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="AttackBonusPerMobKilled_Max" Operation="Addition" Value="25" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="AttackBonusPerMobKilled_TimeMalus" Operation="Addition" Value="0.15" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0030_LVL2" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="AttackBonusPerMobKilled" Operation="Addition" Value="12" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="AttackBonusPerMobKilled_Max" Operation="Addition" Value="40" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="AttackBonusPerMobKilled_TimeMalus" Operation="Addition" Value="0.15" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0030_LVL3" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="AttackBonusPerMobKilled" Operation="Addition" Value="16" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="AttackBonusPerMobKilled_Max" Operation="Addition" Value="50" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="AttackBonusPerMobKilled_TimeMalus" Operation="Addition" Value="0.15" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0030_Target" Type="PassiveSkill_Target">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="DustLootProbability" Operation="Percent" Value="-0.2" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0030_LVL2_Target" Type="PassiveSkill_Target">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="DustLootProbability" Operation="Percent" Value="-0.15" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0030_LVL3_Target" Type="PassiveSkill_Target">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="DustLootProbability" Operation="Percent" Value="-0.1" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0031" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="HealthRegenIfDarkRoomAndWithMob" Operation="Addition" Value="15" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0031_LVL2" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="HealthRegenIfDarkRoomAndWithMob" Operation="Addition" Value="25" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0032" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="MoveSpeedIfNotAlone" Operation="Addition" Value="10" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0032_LVL2" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="MoveSpeedIfNotAlone" Operation="Addition" Value="15" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0033" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="Wit" Operation="Addition" Value="2" Path="../Dungeon/Room/Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0033_LVL2" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="Wit" Operation="Addition" Value="3" Path="../Dungeon/Room/Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0033_LVL3" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="Wit" Operation="Addition" Value="4" Path="../Dungeon/Room/Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0034" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="HealFoodCostCoeff" Operation="Percent" Value="-0.10" Path="../Dungeon/Room/Hero"/>
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0034_LVL2" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="HealFoodCostCoeff" Operation="Percent" Value="-0.17" Path="../Dungeon/Room/Hero"/>
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0035" Type="Skill">
+		<SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="HealthRegenInPoweredRoomSkillIsActive" Operation="Addition" Value="1" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="HealthRegenInPoweredRoom" Operation="Addition" Value="3" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="DefenseInPoweredRoom" Operation="Addition" Value="7" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="HealFoodCostCoeff" Operation="Percent" Value="0.15" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0035_LVL2" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="HealthRegenInPoweredRoom" Operation="Addition" Value="5" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="DefenseInPoweredRoom" Operation="Addition" Value="12" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="HealFoodCostCoeff" Operation="Percent" Value="0.1" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0036" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="Defense" Operation="Percent" Value="-0.1" Path="../Room/Hero" />
+			<SimulationModifierDescriptor TargetProperty="AttackPowerIfAlone" Operation="Addition" Value="15" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0037" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="AttackPowerIfActiveArtifact" Operation="Addition" Value="10" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="MoveSpeedIfActiveArtifact" Operation="Addition" Value="7" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0037_LVL2" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="AttackPowerIfActiveArtifact" Operation="Addition" Value="15" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="MoveSpeedIfActiveArtifact" Operation="Addition" Value="10" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0037_LVL3" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="AttackPowerIfActiveArtifact" Operation="Addition" Value="24" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="MoveSpeedIfActiveArtifact" Operation="Addition" Value="13" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0038" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="ToxicCloudAffected" Operation="Multiplication" Value="0" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0039" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="IsAtPeace" Operation="Addition" Value="1" Path="../Room/Hero" />
+			<SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="5" Path="../Room/Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>	
+
+	<SimulationDescriptor Name="Skill_P0039_LVL2" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="IsAtPeace" Operation="Addition" Value="1" Path="../Room/Hero" />
+			<SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="10" Path="../Room/Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0039_LVL3" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="IsAtPeace" Operation="Addition" Value="1" Path="../Room/Hero" />
+			<SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="15" Path="../Room/Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0040" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="SpeedBonusPerHealthRegen" Operation="Addition" Value="0.5" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="SpeedBonusFromHealthRegenMax" Operation="Addition" Value="15" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0040_LVL2" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="SpeedBonusPerHealthRegen" Operation="Addition" Value="0.6" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="SpeedBonusFromHealthRegenMax" Operation="Addition" Value="22" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0041" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="RepairFirst" Operation="Addition" Value="1" Path="../Room/Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0042" Type="Skill">
+		<SimulationModifierDescriptors>
+			<!-- Removes AttackPower, replaces by burn damage --> 
+			<SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Force" Value="0" Path="./Hero" /> 
+
+			<SimulationModifierDescriptor TargetProperty="ZoneAttackRadius" Operation="Addition" Value="50" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="ZoneAttackPowerOnMobs" Operation="Addition" Value="1" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="AttackBurnDamage" Operation="Addition" Value="10" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="AttackBurnDuration" Operation="Addition" Value="5" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0042_LVL2" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Force" Value="0" Path="./Hero" />
+
+			<SimulationModifierDescriptor TargetProperty="ZoneAttackRadius" Operation="Addition" Value="60" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="ZoneAttackPowerOnMobs" Operation="Addition" Value="1" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="AttackBurnDamage" Operation="Addition" Value="15" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="AttackBurnDuration" Operation="Addition" Value="5" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0042_LVL3" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Force" Value="0" Path="./Hero" />
+
+			<SimulationModifierDescriptor TargetProperty="ZoneAttackRadius" Operation="Addition" Value="70" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="ZoneAttackPowerOnMobs" Operation="Addition" Value="1" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="AttackBurnDamage" Operation="Addition" Value="20" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="AttackBurnDuration" Operation="Addition" Value="6" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0042_LVL4" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Force" Value="0" Path="./Hero" />
+
+			<SimulationModifierDescriptor TargetProperty="ZoneAttackRadius" Operation="Addition" Value="80" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="ZoneAttackPowerOnMobs" Operation="Addition" Value="1" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="AttackBurnDamage" Operation="Addition" Value="25" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="AttackBurnDuration" Operation="Addition" Value="6" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0042_LVL5" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Force" Value="0" Path="./Hero" />
+
+			<SimulationModifierDescriptor TargetProperty="ZoneAttackRadius" Operation="Addition" Value="90" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="ZoneAttackPowerOnMobs" Operation="Addition" Value="1" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="AttackBurnDamage" Operation="Addition" Value="30" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="AttackBurnDuration" Operation="Addition" Value="7" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0042_LVL6" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Force" Value="0" Path="./Hero" />
+
+			<SimulationModifierDescriptor TargetProperty="ZoneAttackRadius" Operation="Addition" Value="100" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="ZoneAttackPowerOnMobs" Operation="Addition" Value="1" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="AttackBurnDamage" Operation="Addition" Value="35" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="AttackBurnDuration" Operation="Addition" Value="7" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0043" Type="Skill">
+		<!-- T - adds a part of the hero's DPS to the tamed mob DPS + defense-->
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="ShareDpsPassiveSkillIsActive" Operation="Addition" Value="1" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="AttackPowerHeroCoef" Operation="Addition" Value="40" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0043_LVL2" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="ShareDpsPassiveSkillIsActive" Operation="Addition" Value="1" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="AttackPowerHeroCoef" Operation="Addition" Value="60" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0043_LVL3" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="ShareDpsPassiveSkillIsActive" Operation="Addition" Value="1" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="AttackPowerHeroCoef" Operation="Addition" Value="100" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0044" Type="Skill">
+		<!-- T - shares heals -->
+		<SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="MobTamedHealPct" Operation="Addition" Value="50" Path="./Hero" />
+    </SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
   <SimulationDescriptor Name="Skill_P0045" Type="Skill">
-  <SimulationModifierDescriptors>
-    <SimulationModifierDescriptor TargetProperty="RadioPassiveSkillUnlocked" Operation="Force" Value="1" Path="./Hero" />
-    <SimulationModifierDescriptor TargetProperty="RadioPassiveSkillUnlockedRegenHardBonus" Operation="Addition" Value="5" Path="./Hero" />
-    <SimulationModifierDescriptor TargetProperty="RadioPassiveSkillUnlockedRegenPercentBonus" Operation="Percent" Value="0.10" Path="./Hero" />
-    <SimulationModifierDescriptor TargetProperty="RadioPassiveSkillUnlockedAttackPowerHeroes" Operation="Percent" Value="0.10" Path="./Hero" />
-    <SimulationModifierDescriptor TargetProperty="RadioPassiveSkillUnlockedAttackPowerModules" Operation="Percent" Value="0.10" Path="./Hero" />
-  </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0045_LVL2" Type="Skill">
-  <SimulationModifierDescriptors>
-    <SimulationModifierDescriptor TargetProperty="RadioPassiveSkillUnlocked" Operation="Force" Value="1" Path="./Hero" />
-    <SimulationModifierDescriptor TargetProperty="RadioPassiveSkillUnlockedRegenHardBonus" Operation="Addition" Value="7" Path="./Hero" />
-    <SimulationModifierDescriptor TargetProperty="RadioPassiveSkillUnlockedRegenPercentBonus" Operation="Percent" Value="0.14" Path="./Hero" />
-    <SimulationModifierDescriptor TargetProperty="RadioPassiveSkillUnlockedAttackPowerHeroes" Operation="Percent" Value="0.14" Path="./Hero" />
-    <SimulationModifierDescriptor TargetProperty="RadioPassiveSkillUnlockedAttackPowerModules" Operation="Percent" Value="0.14" Path="./Hero" />
-  </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0045_LVL3" Type="Skill">
-  <SimulationModifierDescriptors>
-    <SimulationModifierDescriptor TargetProperty="RadioPassiveSkillUnlocked" Operation="Force" Value="1" Path="./Hero" />
-    <SimulationModifierDescriptor TargetProperty="RadioPassiveSkillUnlockedRegenHardBonus" Operation="Addition" Value="10" Path="./Hero" />
-    <SimulationModifierDescriptor TargetProperty="RadioPassiveSkillUnlockedRegenPercentBonus" Operation="Percent" Value="0.18" Path="./Hero" />
-    <SimulationModifierDescriptor TargetProperty="RadioPassiveSkillUnlockedAttackPowerHeroes" Operation="Percent" Value="0.18" Path="./Hero" />
-    <SimulationModifierDescriptor TargetProperty="RadioPassiveSkillUnlockedAttackPowerModules" Operation="Percent" Value="0.18" Path="./Hero" />
-  </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0046" Type="Skill">
-    <SimulationModifierDescriptors>
-    <SimulationModifierDescriptor TargetProperty="CrystalCarryMalusReductionSkillIsActive" Operation="Addition" Value="1" Path="./Hero" />
-    <SimulationModifierDescriptor TargetProperty="CrystalCarryMalusReduction" Operation="Addition" Value="20" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0046_LVL2" Type="Skill">
-  <SimulationModifierDescriptors>
-    <SimulationModifierDescriptor TargetProperty="CrystalCarryMalusReductionSkillIsActive" Operation="Addition" Value="1" Path="./Hero" />
-    <SimulationModifierDescriptor TargetProperty="CrystalCarryMalusReduction" Operation="Addition" Value="40" Path="./Hero" />
-  </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0047" Type="Skill">
-    <SimulationModifierDescriptors>
-    <SimulationModifierDescriptor TargetProperty="InitDustStockPctBonusToConvert" Operation="Addition" Value="10" Path="../Dungeon" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0047_LVL2" Type="Skill">
-    <SimulationModifierDescriptors>
-    <SimulationModifierDescriptor TargetProperty="InitDustStockPctBonusToConvert" Operation="Addition" Value="20" Path="../Dungeon" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0048" Type="Skill">   
-  <SimulationModifierDescriptors>
-    <SimulationModifierDescriptor TargetProperty="Skill_P0048_Effect_AttackPower" Operation="Addition" Value="4" Path="./Hero" />
-    <SimulationModifierDescriptor TargetProperty="Skill_P0048_Effect_Defense" Operation="Addition" Value="3" Path="./Hero" />
-  </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0048_LVL2" Type="Skill">
-  <SimulationModifierDescriptors>
-    <SimulationModifierDescriptor TargetProperty="Skill_P0048_Effect_AttackPower" Operation="Addition" Value="5" Path="./Hero" />
-    <SimulationModifierDescriptor TargetProperty="Skill_P0048_Effect_Defense" Operation="Addition" Value="5" Path="./Hero" />
-  </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0048_LVL3" Type="Skill">
-  <SimulationModifierDescriptors>
-    <SimulationModifierDescriptor TargetProperty="Skill_P0048_Effect_AttackPower" Operation="Addition" Value="6" Path="./Hero" />
-    <SimulationModifierDescriptor TargetProperty="Skill_P0048_Effect_Defense" Operation="Addition" Value="7" Path="./Hero" />
-  </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0048_LVL4" Type="Skill">
-  <SimulationModifierDescriptors>
-    <SimulationModifierDescriptor TargetProperty="Skill_P0048_Effect_AttackPower" Operation="Addition" Value="7" Path="./Hero" />
-    <SimulationModifierDescriptor TargetProperty="Skill_P0048_Effect_Defense" Operation="Addition" Value="10" Path="./Hero" />
-  </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0048_LVL5" Type="Skill">
-  <SimulationModifierDescriptors>
-    <SimulationModifierDescriptor TargetProperty="Skill_P0048_Effect_AttackPower" Operation="Addition" Value="9" Path="./Hero" />
-    <SimulationModifierDescriptor TargetProperty="Skill_P0048_Effect_Defense" Operation="Addition" Value="15" Path="./Hero" />
-  </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0048_LVL6" Type="Skill">
-  <SimulationModifierDescriptors>
-    <SimulationModifierDescriptor TargetProperty="Skill_P0048_Effect_AttackPower" Operation="Addition" Value="12" Path="./Hero" />
-    <SimulationModifierDescriptor TargetProperty="Skill_P0048_Effect_Defense" Operation="Addition" Value="20" Path="./Hero" />
-  </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0101" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="RepairCapacity" Operation="Addition" Value="1" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0102" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="OperateCapacity" Operation="Addition" Value="1" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0103" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="ZoneControlAffected" Operation="Multiplication" Value="0" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0104" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="PrisonerCount" Operation="Addition" Value="1" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="AttackPowerIfPrisonerRoom" Operation="Addition" Value="0.06" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="AttackPowerIfPrisonerRoom_tooltip" Operation="Percent" Value="0.06" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0105" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="CrewCount" Operation="Addition" Value="1" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="DefenseIfCrewRoom" Operation="Addition" Value="0.1" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="DefenseIfCrewRoom_tooltip" Operation="Percent" Value="0.1" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0200" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="MoveSpeed" Operation="Percent" Value="-0.05" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="HealthRegenInPoweredRoom" Operation="Addition" Value="7" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0201" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="Defense" Operation="Percent" Value="-0.04" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Percent" Value="0.08" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0202" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="MoveSpeed" Operation="Percent" Value="0.05" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="Defense" Operation="Percent" Value="0.08" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0300" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="LifeHealPctOnRespawn" Operation="Addition" Value="0.05" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="RespawnRoomCount" Operation="Addition" Value="1" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0500" Type="Skill">
-  <SimulationModifierDescriptors>
-    <SimulationModifierDescriptor TargetProperty="Skill_P0500_Effect" Operation="Addition" Value="1" Path="../Room/Hero" />
-    <SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="7" Path="../Room/Hero" />
-  </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0501" Type="Skill">
-  <SimulationModifierDescriptors>
-    <SimulationModifierDescriptor TargetProperty="Skill_P0501_Effect" Operation="Addition" Value="1" Path="./Hero" />
-    <SimulationModifierDescriptor TargetProperty="HealthRegenBonusPerMobInRoom" Operation="Addition" Value="1" Path="./Hero" />
-  </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0502" Type="Skill">
-  <SimulationModifierDescriptors>
-    <SimulationModifierDescriptor TargetProperty="InflictTroubledChance" Operation="Addition" Value="3" Path="./Hero" />
-  </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0503" Type="Skill">
-  <SimulationModifierDescriptors>
-    <SimulationModifierDescriptor TargetProperty="InflictPoisonChance" Operation="Addition" Value="5" Path="./Hero" />
-  </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_P0504" Type="Skill">
-  <SimulationModifierDescriptors>
-    <SimulationModifierDescriptor TargetProperty="RepairWitBonus" Operation="Addition" Value="15" Path="./Hero" />
-  </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0001" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="MoveSpeed" Operation="Addition" Value="20" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0001_LVL2" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="MoveSpeed" Operation="Addition" Value="30" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0001_LVL3" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="MoveSpeed" Operation="Addition" Value="40" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0002" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="Skill_A0002_Effect" Operation="Addition" Value="1" Path="../Room/Hero" />
-      <SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Addition" Value="12" Path="../Room/Hero" />
-      <SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="25" Path="../Room/Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0002_LVL2" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="Skill_A0002_Effect" Operation="Addition" Value="1" Path="../Room/Hero" />
-      <SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Addition" Value="20" Path="../Room/Hero" />
-      <SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="40" Path="../Room/Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0003" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Addition" Value="15" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="MoveSpeed" Operation="Addition" Value="15" Path="./Hero" />  
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0003_LVL2" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Addition" Value="25" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="MoveSpeed" Operation="Addition" Value="20" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0003_LVL3" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Addition" Value="35" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="MoveSpeed" Operation="Addition" Value="25" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0004" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="70" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="MobsAggro" Operation="Addition" Value="1" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0004_LVL2" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="110" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="MobsAggro" Operation="Addition" Value="1" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0005" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="130" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="MoveSpeed" Operation="Addition" Value="-30" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0005_LVL2" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="200" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="MoveSpeed" Operation="Addition" Value="-20" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0006" Type="Skill">
-  <SimulationModifierDescriptors>
-    <SimulationModifierDescriptor TargetProperty="Skill_A0006_Effect" Operation="Addition" Value="1" Path="../Dungeon/Room/Hero" />
-    <SimulationModifierDescriptor TargetProperty="HealthRegen" Operation="Addition" Value="16" Path="../Room/Hero" />
-    <SimulationModifierDescriptor TargetProperty="HealthRegen" Operation="Addition" Value="7" Path="../Dungeon/Room/Hero" />
-  </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0006_LVL2" Type="Skill">
-  <SimulationModifierDescriptors>
-    <SimulationModifierDescriptor TargetProperty="Skill_A0006_Effect" Operation="Addition" Value="1" Path="../Dungeon/Room/Hero" />
-    <SimulationModifierDescriptor TargetProperty="HealthRegen" Operation="Addition" Value="33" Path="../Room/Hero" />
-    <SimulationModifierDescriptor TargetProperty="HealthRegen" Operation="Addition" Value="12" Path="../Dungeon/Room/Hero" />
-  </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0006_LVL3" Type="Skill">
-  <SimulationModifierDescriptors>
-    <SimulationModifierDescriptor TargetProperty="Skill_A0006_Effect" Operation="Addition" Value="1" Path="../Dungeon/Room/Hero" />
-    <SimulationModifierDescriptor TargetProperty="HealthRegen" Operation="Addition" Value="50" Path="../Room/Hero" />
-    <SimulationModifierDescriptor TargetProperty="HealthRegen" Operation="Addition" Value="18" Path="../Dungeon/Room/Hero" />
-  </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0007" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Addition" Value="10" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="AttackCooldown" Operation="Addition" Value="-0.3" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0007_LVL2" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Addition" Value="20" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="AttackCooldown" Operation="Addition" Value="-0.3" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0008" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Addition" Value="18" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0008_LVL2" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Addition" Value="30" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0008_Target" Type="ActiveSkill_Target">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="UnpoweredRoomSkill_A0008_Effect" Operation="Addition" Value="1" />
-      <SimulationModifierDescriptor TargetProperty="UnpoweredRoomAttackPowerBonus" Operation="Addition" Value="-15" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0008_LVL2_Target" Type="ActiveSkill_Target">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="UnpoweredRoomSkill_A0008_Effect" Operation="Addition" Value="1" />
-      <SimulationModifierDescriptor TargetProperty="UnpoweredRoomAttackPowerBonus" Operation="Addition" Value="-15" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0009" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="MoveSpeed" Operation="Percent" Value="-0.5" Path="../Room/Mob" />
-      <SimulationModifierDescriptor TargetProperty="DamageOverTime" Operation="Addition" Value="25" Path="../Room/Mob" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0009_LVL2" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="MoveSpeed" Operation="Percent" Value="-0.75" Path="../Room/Mob" />
-      <SimulationModifierDescriptor TargetProperty="DamageOverTime" Operation="Addition" Value="35" Path="../Room/Mob" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0010" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="Skill_A0010_Effect" Operation="Addition" Value="1" Path="../Room/Mob" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0010_LVL2" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="Skill_A0010_Effect" Operation="Addition" Value="1" Path="../Room/Mob" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0011" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Percent" Value="1.3" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="DamageOverTime" Operation="Addition" Value="20" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0011_LVL2" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Percent" Value="1.4" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="DamageOverTime" Operation="Addition" Value="25" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0012" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Percent" Value="0.5" Path="../Room/MinorModule" />
-      <SimulationModifierDescriptor TargetProperty="Skill_A0012_Effect" Operation="Addition" Value="1" Path="../Room/MinorModule" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0012_LVL2" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Percent" Value="0.75" Path="../Room/MinorModule" />
-      <SimulationModifierDescriptor TargetProperty="Skill_A0012_Effect" Operation="Addition" Value="1" Path="../Room/MinorModule" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0012_LVL3" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Percent" Value="1" Path="../Room/MinorModule" />
-      <SimulationModifierDescriptor TargetProperty="Skill_A0012_Effect" Operation="Addition" Value="1" Path="../Room/MinorModule" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0013" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="DamageOverTime" Operation="Addition" Value="25" Path="../Room/Mob" />
-      <SimulationModifierDescriptor TargetProperty="Skill_A0013_Effect" Operation="Addition" Value="1" Path="../Room/Mob" />  
-      <SimulationModifierDescriptor TargetProperty="DamageOverTime" Operation="Addition" Value="10" Path="../Room/Hero" />
-      <SimulationModifierDescriptor TargetProperty="Skill_A0013_Effect" Operation="Addition" Value="1" Path="../Room/Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0013_LVL2" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="DamageOverTime" Operation="Addition" Value="35" Path="../Room/Mob" />
-      <SimulationModifierDescriptor TargetProperty="Skill_A0013_Effect" Operation="Addition" Value="1" Path="../Room/Mob" />  
-      <SimulationModifierDescriptor TargetProperty="DamageOverTime" Operation="Addition" Value="12" Path="../Room/Hero" />
-      <SimulationModifierDescriptor TargetProperty="Skill_A0013_Effect" Operation="Addition" Value="1" Path="../Room/Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0014" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="MoveSpeed" Operation="Percent" Value="-0.75" Path="../Room/Mob" />
-      <SimulationModifierDescriptor TargetProperty="Skill_A0014_Effect" Operation="Addition" Value="1" Path="../Room/Mob" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0014_LVL2" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="MoveSpeed" Operation="Percent" Value="-0.95" Path="../Room/Mob" />
-      <SimulationModifierDescriptor TargetProperty="Skill_A0014_Effect" Operation="Addition" Value="1" Path="../Room/Mob" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0015" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="Stealth" Operation="Addition" Value="1" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0015_LVL2" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="MoveSpeed" Operation="Addition" Value="8" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="Stealth" Operation="Addition" Value="1" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0016" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="Skill_A0016_Effect" Operation="Addition" Value="1" Path="../Room/Hero" />
-      <SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Addition" Value="26" Path="../Room/Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0016_LVL2" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="Skill_A0016_Effect" Operation="Addition" Value="1" Path="../Room/Hero" />
-      <SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Addition" Value="38" Path="../Room/Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0016_LVL3" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="Skill_A0016_Effect" Operation="Addition" Value="1" Path="../Room/Hero" />
-      <SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Addition" Value="50" Path="../Room/Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0018" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="MoveSpeed" Operation="Addition" Value="10" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="50" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0018_LVL2" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="MoveSpeed" Operation="Addition" Value="16" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="80" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0019" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="100" Path="../Room/Hero" />
-      <SimulationModifierDescriptor TargetProperty="Skill_A0019_Effect" Operation="Addition" Value="1" Path="../Room/Hero" />  
-      <SimulationModifierDescriptor TargetProperty="DustLootProbability" Operation="Percent" Value="-0.4" Path="../Room/Mob" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0019_LVL2" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="150" Path="../Room/Hero" />
-      <SimulationModifierDescriptor TargetProperty="Skill_A0019_Effect" Operation="Addition" Value="1" Path="../Room/Hero" />  
-      <SimulationModifierDescriptor TargetProperty="DustLootProbability" Operation="Percent" Value="-0.3" Path="../Room/Mob" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0020" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="Troubled" Operation="Addition" Value="1" Path="../Room/Mob" />
-      <SimulationModifierDescriptor TargetProperty="Skill_A0020_Effect" Operation="Addition" Value="1" Path="../Room/Mob" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0020_LVL2" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="Troubled" Operation="Addition" Value="1" Path="../Room/Mob" />
-      <SimulationModifierDescriptor TargetProperty="Skill_A0020_Effect" Operation="Addition" Value="1" Path="../Room/Mob" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0020_LVL3" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="Troubled" Operation="Addition" Value="1" Path="../Room/Mob" />
-      <SimulationModifierDescriptor TargetProperty="Skill_A0020_Effect" Operation="Addition" Value="1" Path="../Room/Mob" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0021" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="AttackPowerBonusToDivideByHeroes" Operation="Addition" Value="50" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0021_LVL2" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="AttackPowerBonusToDivideByHeroes" Operation="Addition" Value="75" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0022" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="AttackPowerHeroesInDungeonIfWithoutMob" Operation="Addition" Value="40" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="AttackPowerHeroesInDungeonIfWithoutMob_tooltip" Operation="Addition" Value="40" Path="../Dungeon/Room/Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0022_LVL2" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="AttackPowerHeroesInDungeonIfWithoutMob" Operation="Addition" Value="60" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="AttackPowerHeroesInDungeonIfWithoutMob_tooltip" Operation="Addition" Value="60" Path="../Dungeon/Room/Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0022_LVL3" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="AttackPowerHeroesInDungeonIfWithoutMob" Operation="Addition" Value="80" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="AttackPowerHeroesInDungeonIfWithoutMob_tooltip" Operation="Addition" Value="80" Path="../Dungeon/Room/Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0023" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="AttackCooldown" Operation="Multiplication" Value="3" Path="./Hero" />  
-      <SimulationModifierDescriptor TargetProperty="DustLootProbability" Operation="Multiplication" Value="2" Path="../Room/Mob" />
-      <SimulationModifierDescriptor TargetProperty="Skill_A0023_Effect" Operation="Addition" Value="1" Path="../Room/Mob" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0023_LVL2" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="AttackCooldown" Operation="Multiplication" Value="2" Path="./Hero" />  
-      <SimulationModifierDescriptor TargetProperty="DustLootProbability" Operation="Multiplication" Value="2.5" Path="../Room/Mob" />
-      <SimulationModifierDescriptor TargetProperty="Skill_A0023_Effect" Operation="Addition" Value="1" Path="../Room/Mob" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0024" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="DamageOverTime" Operation="Addition" Value="20" Path="../Dungeon/Room/Mob" />
-      <SimulationModifierDescriptor TargetProperty="DustLootProbability" Operation="Percent" Value="0.3" Path="../Dungeon/Room/Mob" />
-      <SimulationModifierDescriptor TargetProperty="Skill_A0024_Effect" Operation="Addition" Value="1" Path="../Dungeon/Room/Mob" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0024_LVL2" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="DamageOverTime" Operation="Addition" Value="24" Path="../Dungeon/Room/Mob" />
-      <SimulationModifierDescriptor TargetProperty="DustLootProbability" Operation="Percent" Value="0.4" Path="../Dungeon/Room/Mob" />
-      <SimulationModifierDescriptor TargetProperty="Skill_A0024_Effect" Operation="Addition" Value="1" Path="../Dungeon/Room/Mob" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0025" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="InstantDamageOverTime" Operation="Addition" Value="180" Path="../Room/Mob" />
-      <SimulationModifierDescriptor TargetProperty="Skill_A0025_Effect" Operation="Addition" Value="1" Path="../Room/Mob" />  
-      <SimulationModifierDescriptor TargetProperty="InstantDamageOverTime" Operation="Addition" Value="80" Path="../Room/Hero" />
-      <SimulationModifierDescriptor TargetProperty="Skill_A0025_Effect" Operation="Addition" Value="1" Path="../Room/Hero" />  
-      <SimulationModifierDescriptor TargetProperty="InstantDamageOverTime" Operation="Addition" Value="40" Path="../Room/MajorModule" />
-      <SimulationModifierDescriptor TargetProperty="Skill_A0025_Effect" Operation="Addition" Value="1" Path="../Room/MajorModule" />  
-      <SimulationModifierDescriptor TargetProperty="InstantDamageOverTime" Operation="Addition" Value="30" Path="../Room/MinorModule" />
-      <SimulationModifierDescriptor TargetProperty="Skill_A0025_Effect" Operation="Addition" Value="1" Path="../Room/MinorModule" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0025_LVL2" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="InstantDamageOverTime" Operation="Addition" Value="280" Path="../Room/Mob" />
-      <SimulationModifierDescriptor TargetProperty="Skill_A0025_Effect" Operation="Addition" Value="1" Path="../Room/Mob" />  
-      <SimulationModifierDescriptor TargetProperty="InstantDamageOverTime" Operation="Addition" Value="100" Path="../Room/Hero" />
-      <SimulationModifierDescriptor TargetProperty="Skill_A0025_Effect" Operation="Addition" Value="1" Path="../Room/Hero" />  
-      <SimulationModifierDescriptor TargetProperty="InstantDamageOverTime" Operation="Addition" Value="50" Path="../Room/MajorModule" />
-      <SimulationModifierDescriptor TargetProperty="Skill_A0025_Effect" Operation="Addition" Value="1" Path="../Room/MajorModule" />  
-      <SimulationModifierDescriptor TargetProperty="InstantDamageOverTime" Operation="Addition" Value="40" Path="../Room/MinorModule" />
-      <SimulationModifierDescriptor TargetProperty="Skill_A0025_Effect" Operation="Addition" Value="1" Path="../Room/MinorModule" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0025_LVL3" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="InstantDamageOverTime" Operation="Addition" Value="360" Path="../Room/Mob" />
-      <SimulationModifierDescriptor TargetProperty="Skill_A0025_Effect" Operation="Addition" Value="1" Path="../Room/Mob" />  
-      <SimulationModifierDescriptor TargetProperty="InstantDamageOverTime" Operation="Addition" Value="120" Path="../Room/Hero" />
-      <SimulationModifierDescriptor TargetProperty="Skill_A0025_Effect" Operation="Addition" Value="1" Path="../Room/Hero" />  
-      <SimulationModifierDescriptor TargetProperty="InstantDamageOverTime" Operation="Addition" Value="55" Path="../Room/MajorModule" />
-      <SimulationModifierDescriptor TargetProperty="Skill_A0025_Effect" Operation="Addition" Value="1" Path="../Room/MajorModule" />  
-      <SimulationModifierDescriptor TargetProperty="InstantDamageOverTime" Operation="Addition" Value="45" Path="../Room/MinorModule" />
-      <SimulationModifierDescriptor TargetProperty="Skill_A0025_Effect" Operation="Addition" Value="1" Path="../Room/MinorModule" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0026" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Addition" Value="20" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="AttackRange" Operation="Addition" Value="8" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="AttackCooldown" Operation="Addition" Value="-0.4" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="MoveSpeedReal" Operation="Multiplication" Value="0" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0026_LVL2" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Addition" Value="28" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="AttackRange" Operation="Addition" Value="8" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="AttackCooldown" Operation="Addition" Value="-0.5" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="MoveSpeedReal" Operation="Multiplication" Value="0" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0026_LVL3" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Addition" Value="32" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="AttackRange" Operation="Addition" Value="8" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="AttackCooldown" Operation="Addition" Value="-0.6" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="MoveSpeedReal" Operation="Multiplication" Value="0" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0027" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="DamageOverTime" Operation="Addition" Value="25" Path="../Room/Mob" />
-      <SimulationModifierDescriptor TargetProperty="Skill_A0027_Effect" Operation="Addition" Value="1" Path="../Room/Mob" />  
-      <SimulationModifierDescriptor TargetProperty="DamageOverTime" Operation="Addition" Value="12" Path="../Room/Hero" />
-      <SimulationModifierDescriptor TargetProperty="Skill_A0027_Effect" Operation="Addition" Value="1" Path="../Room/Hero" />  
-      <SimulationModifierDescriptor TargetProperty="DamageOverTime" Operation="Multiplication" Value="0" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0027_LVL2" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="DamageOverTime" Operation="Addition" Value="45" Path="../Room/Mob" />
-      <SimulationModifierDescriptor TargetProperty="Skill_A0027_Effect" Operation="Addition" Value="1" Path="../Room/Mob" />  
-      <SimulationModifierDescriptor TargetProperty="DamageOverTime" Operation="Addition" Value="15" Path="../Room/Hero" />
-      <SimulationModifierDescriptor TargetProperty="Skill_A0027_Effect" Operation="Addition" Value="1" Path="../Room/Hero" />  
-      <SimulationModifierDescriptor TargetProperty="DamageOverTime" Operation="Multiplication" Value="0" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0028" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="MoveSpeed" Operation="Percent" Value="-0.4" Path="../Dungeon/Room/Mob" />
-      <SimulationModifierDescriptor TargetProperty="Skill_A0028_Effect" Operation="Addition" Value="1" Path="../Dungeon/Room/Mob" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0028_LVL2" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="MoveSpeed" Operation="Percent" Value="-0.6" Path="../Dungeon/Room/Mob" />
-      <SimulationModifierDescriptor TargetProperty="Skill_A0028_Effect" Operation="Addition" Value="1" Path="../Dungeon/Room/Mob" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0029" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="DustLootProbability" Operation="Multiplication" Value="2" Path="../Dungeon/Room/Mob" />
-      <SimulationModifierDescriptor TargetProperty="Skill_A0029_Effect" Operation="Addition" Value="1" Path="../Dungeon/Room/Mob" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0029_LVL2" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="DustLootProbability" Operation="Multiplication" Value="3" Path="../Dungeon/Room/Mob" />
-      <SimulationModifierDescriptor TargetProperty="Skill_A0029_Effect" Operation="Addition" Value="1" Path="../Dungeon/Room/Mob" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0030" Type="Skill">
-    <SimulationModifierDescriptors>
-    <SimulationModifierDescriptor TargetProperty="EssebRegenEffect" Operation="Addition" Value="12" Path="../Dungeon/Room/MajorModule" />
-      <SimulationModifierDescriptor TargetProperty="Skill_A0030_Effect" Operation="Addition" Value="1" Path="../Dungeon/Room/MajorModule" />  
-    <SimulationModifierDescriptor TargetProperty="EssebRegenEffect" Operation="Addition" Value="12" Path="../Dungeon/Room/MinorModule" />
-      <SimulationModifierDescriptor TargetProperty="Skill_A0030_Effect" Operation="Addition" Value="1" Path="../Dungeon/Room/MinorModule" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0030_LVL2" Type="Skill">
-    <SimulationModifierDescriptors>
-    <SimulationModifierDescriptor TargetProperty="EssebRegenEffect" Operation="Addition" Value="18" Path="../Dungeon/Room/MajorModule" />
-      <SimulationModifierDescriptor TargetProperty="Skill_A0030_Effect" Operation="Addition" Value="1" Path="../Dungeon/Room/MajorModule" />  
-    <SimulationModifierDescriptor TargetProperty="EssebRegenEffect" Operation="Addition" Value="18" Path="../Dungeon/Room/MinorModule" />
-      <SimulationModifierDescriptor TargetProperty="Skill_A0030_Effect" Operation="Addition" Value="1" Path="../Dungeon/Room/MinorModule" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0031" Type="Skill">
-  <SimulationModifierDescriptors>
-    <SimulationModifierDescriptor TargetProperty="Skill_A0031_Effect" Operation="Addition" Value="1" Path="../Room/Hero" />
-    <SimulationModifierDescriptor TargetProperty="HealthRegen" Operation="Addition" Value="25" Path="../Room/Hero" />
-  </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0031_LVL2" Type="Skill">
-  <SimulationModifierDescriptors>
-    <SimulationModifierDescriptor TargetProperty="Skill_A0031_Effect" Operation="Addition" Value="1" Path="../Room/Hero" />
-    <SimulationModifierDescriptor TargetProperty="HealthRegen" Operation="Addition" Value="40" Path="../Room/Hero" />
-  </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0031_LVL3" Type="Skill">
-  <SimulationModifierDescriptors>
-    <SimulationModifierDescriptor TargetProperty="Skill_A0031_Effect" Operation="Addition" Value="1" Path="../Room/Hero" />
-    <SimulationModifierDescriptor TargetProperty="HealthRegen" Operation="Addition" Value="60" Path="../Room/Hero" />
-  </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0032" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="60" Path="../Dungeon/Room/MajorModule" />
-      <SimulationModifierDescriptor TargetProperty="Skill_A0032_Effect" Operation="Addition" Value="1" Path="../Dungeon/Room/MajorModule" />  
-      <SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="50" Path="../Dungeon/Room/MinorModule" />
-      <SimulationModifierDescriptor TargetProperty="Skill_A0032_Effect" Operation="Addition" Value="1" Path="../Dungeon/Room/MinorModule" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0032_LVL2" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="150" Path="../Dungeon/Room/MajorModule" />
-      <SimulationModifierDescriptor TargetProperty="Skill_A0032_Effect" Operation="Addition" Value="1" Path="../Dungeon/Room/MajorModule" />  
-      <SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="130" Path="../Dungeon/Room/MinorModule" />
-      <SimulationModifierDescriptor TargetProperty="Skill_A0032_Effect" Operation="Addition" Value="1" Path="../Dungeon/Room/MinorModule" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0033" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="NotPacifist" Operation="Multiplication" Value="0" Path="../Room/Hero" />
-      <SimulationModifierDescriptor TargetProperty="Skill_A0033_Effect" Operation="Addition" Value="1" Path="../Room/Hero" />  
-      <SimulationModifierDescriptor TargetProperty="NotPacifist" Operation="Multiplication" Value="0" Path="../Room/MinorModule" />
-      <SimulationModifierDescriptor TargetProperty="Skill_A0033_Effect" Operation="Addition" Value="1" Path="../Room/MinorModule" />  
-      <SimulationModifierDescriptor TargetProperty="NotPacifist" Operation="Multiplication" Value="0" Path="../Room/Mob" />
-      <SimulationModifierDescriptor TargetProperty="Skill_A0033_Effect" Operation="Addition" Value="1" Path="../Room/Mob" />  
-      <SimulationModifierDescriptor TargetProperty="MoveSpeed" Operation="Addition" Value="5" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="HealthRegen" Operation="Addition" Value="5" Path="./Hero" />  
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0033_LVL2" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="NotPacifist" Operation="Multiplication" Value="0" Path="../Room/Hero" />
-      <SimulationModifierDescriptor TargetProperty="Skill_A0033_Effect" Operation="Addition" Value="1" Path="../Room/Hero" />  
-      <SimulationModifierDescriptor TargetProperty="NotPacifist" Operation="Multiplication" Value="0" Path="../Room/MinorModule" />
-      <SimulationModifierDescriptor TargetProperty="Skill_A0033_Effect" Operation="Addition" Value="1" Path="../Room/MinorModule" />  
-      <SimulationModifierDescriptor TargetProperty="NotPacifist" Operation="Multiplication" Value="0" Path="../Room/Mob" />
-      <SimulationModifierDescriptor TargetProperty="Skill_A0033_Effect" Operation="Addition" Value="1" Path="../Room/Mob" />  
-      <SimulationModifierDescriptor TargetProperty="MoveSpeed" Operation="Addition" Value="8" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="HealthRegen" Operation="Addition" Value="8" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0033_LVL3" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="NotPacifist" Operation="Multiplication" Value="0" Path="../Room/Hero" />
-      <SimulationModifierDescriptor TargetProperty="Skill_A0033_Effect" Operation="Addition" Value="1" Path="../Room/Hero" />  
-      <SimulationModifierDescriptor TargetProperty="NotPacifist" Operation="Multiplication" Value="0" Path="../Room/MinorModule" />
-      <SimulationModifierDescriptor TargetProperty="Skill_A0033_Effect" Operation="Addition" Value="1" Path="../Room/MinorModule" />  
-      <SimulationModifierDescriptor TargetProperty="NotPacifist" Operation="Multiplication" Value="0" Path="../Room/Mob" />
-      <SimulationModifierDescriptor TargetProperty="Skill_A0033_Effect" Operation="Addition" Value="1" Path="../Room/Mob" />  
-      <SimulationModifierDescriptor TargetProperty="MoveSpeed" Operation="Addition" Value="12" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="HealthRegen" Operation="Addition" Value="12" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0034" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="Invincible" Operation="Addition" Value="1" Path="../Room/Hero" />
-      <SimulationModifierDescriptor TargetProperty="Skill_A0034_Effect" Operation="Addition" Value="1" Path="../Room/Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0034_LVL2" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="Invincible" Operation="Addition" Value="1" Path="../Room/Hero" />
-      <SimulationModifierDescriptor TargetProperty="Skill_A0034_Effect" Operation="Addition" Value="1" Path="../Room/Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0034_LVL3" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="Invincible" Operation="Addition" Value="1" Path="../Room/Hero" />
-      <SimulationModifierDescriptor TargetProperty="Skill_A0034_Effect" Operation="Addition" Value="1" Path="../Room/Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0035" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="MobTaming" Operation="Addition" Value="1" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0036" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="MoveSpeed" Operation="Addition" Value="7" Path="../Dungeon/Room/Hero" />
-      <SimulationModifierDescriptor TargetProperty="Skill_A0036_Effect" Operation="Addition" Value="1" Path="../Dungeon/Room/Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0036_LVL2" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="MoveSpeed" Operation="Addition" Value="9" Path="../Dungeon/Room/Hero" />
-      <SimulationModifierDescriptor TargetProperty="Skill_A0036_Effect" Operation="Addition" Value="1" Path="../Dungeon/Room/Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0036_LVL3" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="MoveSpeed" Operation="Addition" Value="12" Path="../Dungeon/Room/Hero" />
-      <SimulationModifierDescriptor TargetProperty="Skill_A0036_Effect" Operation="Addition" Value="1" Path="../Dungeon/Room/Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0037" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="UpcomingPositiveEvents" Operation="Addition" Value="1" Path="../Dungeon" />
-      <SimulationModifierDescriptor TargetProperty="Skill_A0037_Effect" Operation="Addition" Value="1" Path="../Dungeon/Room" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0038" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="FISBonusPerRoomMobKilled" Operation="Addition" Value="0.5" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="Skill_A0038_Effect" Operation="Addition" Value="1" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0038_LVL2" Type="Skill">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="FISBonusPerRoomMobKilled" Operation="Addition" Value="1" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="Skill_A0038_Effect" Operation="Addition" Value="1" Path="./Hero" />
-    </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
-  <SimulationDescriptor Name="Skill_A0039" Type="Skill">   
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="Skill_A0039_Effect" Operation="Addition" Value="1" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="Skill_A0039_ZoneAttackRadius" Operation="Addition" Value="100" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="Skill_A0039_AttackPower" Operation="Addition" Value="15" Path="./Hero" />
+    <!-- RO - operating bonus -->
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="RadioPassiveSkillUnlocked" Operation="Force" Value="1" Path="./Hero" />
+      <SimulationModifierDescriptor TargetProperty="RadioPassiveSkillUnlockedRegenHardBonus" Operation="Addition" Value="5" Path="./Hero" />
+      <SimulationModifierDescriptor TargetProperty="RadioPassiveSkillUnlockedRegenPercentBonus" Operation="Percent" Value="0.10" Path="./Hero" />
+      <SimulationModifierDescriptor TargetProperty="RadioPassiveSkillUnlockedAttackPowerHeroes" Operation="Percent" Value="0.10" Path="./Hero" />
+      <SimulationModifierDescriptor TargetProperty="RadioPassiveSkillUnlockedAttackPowerModules" Operation="Percent" Value="0.10" Path="./Hero" />
     </SimulationModifierDescriptors>
   </SimulationDescriptor>
-  <SimulationDescriptor Name="Skill_A0039_LVL2" Type="Skill">   
+
+  <SimulationDescriptor Name="Skill_P0045_LVL2" Type="Skill">
+    <!-- RO - operating bonus -->
     <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="Skill_A0039_Effect" Operation="Addition" Value="1" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="Skill_A0039_ZoneAttackRadius" Operation="Addition" Value="100" Path="./Hero" />
-      <SimulationModifierDescriptor TargetProperty="Skill_A0039_AttackPower" Operation="Addition" Value="25" Path="./Hero" />
+      <SimulationModifierDescriptor TargetProperty="RadioPassiveSkillUnlocked" Operation="Force" Value="1" Path="./Hero" />
+      <SimulationModifierDescriptor TargetProperty="RadioPassiveSkillUnlockedRegenHardBonus" Operation="Addition" Value="7" Path="./Hero" />
+      <SimulationModifierDescriptor TargetProperty="RadioPassiveSkillUnlockedRegenPercentBonus" Operation="Percent" Value="0.14" Path="./Hero" />
+      <SimulationModifierDescriptor TargetProperty="RadioPassiveSkillUnlockedAttackPowerHeroes" Operation="Percent" Value="0.14" Path="./Hero" />
+      <SimulationModifierDescriptor TargetProperty="RadioPassiveSkillUnlockedAttackPowerModules" Operation="Percent" Value="0.14" Path="./Hero" />
     </SimulationModifierDescriptors>
-  </SimulationDescriptor>  
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="Skill_P0045_LVL3" Type="Skill">
+    <!-- RO - operating bonus -->
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="RadioPassiveSkillUnlocked" Operation="Force" Value="1" Path="./Hero" />
+      <SimulationModifierDescriptor TargetProperty="RadioPassiveSkillUnlockedRegenHardBonus" Operation="Addition" Value="10" Path="./Hero" />
+      <SimulationModifierDescriptor TargetProperty="RadioPassiveSkillUnlockedRegenPercentBonus" Operation="Percent" Value="0.18" Path="./Hero" />
+      <SimulationModifierDescriptor TargetProperty="RadioPassiveSkillUnlockedAttackPowerHeroes" Operation="Percent" Value="0.18" Path="./Hero" />
+      <SimulationModifierDescriptor TargetProperty="RadioPassiveSkillUnlockedAttackPowerModules" Operation="Percent" Value="0.18" Path="./Hero" />
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0046" Type="Skill">
+		<!-- BO - less movespeed penalty -->
+		<SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="CrystalCarryMalusReductionSkillIsActive" Operation="Addition" Value="1" Path="./Hero" />
+      <SimulationModifierDescriptor TargetProperty="CrystalCarryMalusReduction" Operation="Addition" Value="20" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+  <SimulationDescriptor Name="Skill_P0046_LVL2" Type="Skill">
+    <!-- BO - no crystal movespeed penalty -->
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="CrystalCarryMalusReductionSkillIsActive" Operation="Addition" Value="1" Path="./Hero" />
+      <SimulationModifierDescriptor TargetProperty="CrystalCarryMalusReduction" Operation="Addition" Value="40" Path="./Hero" />
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0047" Type="Skill">
+		<!-- BO - keeps Dust from a floor to another -->
+		<SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="InitDustStockPctBonusToConvert" Operation="Addition" Value="10" Path="../Dungeon" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0047_LVL2" Type="Skill">
+		<!-- BO - keeps Dust from a floor to another -->
+		<SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="InitDustStockPctBonusToConvert" Operation="Addition" Value="20" Path="../Dungeon" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+  <SimulationDescriptor Name="Skill_P0048" Type="Skill"> <!-- Rosetta -->
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="Skill_P0048_Effect_AttackPower" Operation="Addition" Value="4" Path="./Hero" />
+      <SimulationModifierDescriptor TargetProperty="Skill_P0048_Effect_Defense" Operation="Addition" Value="3" Path="./Hero" />
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="Skill_P0048_LVL2" Type="Skill">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="Skill_P0048_Effect_AttackPower" Operation="Addition" Value="5" Path="./Hero" />
+      <SimulationModifierDescriptor TargetProperty="Skill_P0048_Effect_Defense" Operation="Addition" Value="5" Path="./Hero" />
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="Skill_P0048_LVL3" Type="Skill">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="Skill_P0048_Effect_AttackPower" Operation="Addition" Value="6" Path="./Hero" />
+      <SimulationModifierDescriptor TargetProperty="Skill_P0048_Effect_Defense" Operation="Addition" Value="7" Path="./Hero" />
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="Skill_P0048_LVL4" Type="Skill">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="Skill_P0048_Effect_AttackPower" Operation="Addition" Value="7" Path="./Hero" />
+      <SimulationModifierDescriptor TargetProperty="Skill_P0048_Effect_Defense" Operation="Addition" Value="10" Path="./Hero" />
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="Skill_P0048_LVL5" Type="Skill">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="Skill_P0048_Effect_AttackPower" Operation="Addition" Value="9" Path="./Hero" />
+      <SimulationModifierDescriptor TargetProperty="Skill_P0048_Effect_Defense" Operation="Addition" Value="15" Path="./Hero" />
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="Skill_P0048_LVL6" Type="Skill">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="Skill_P0048_Effect_AttackPower" Operation="Addition" Value="12" Path="./Hero" />
+      <SimulationModifierDescriptor TargetProperty="Skill_P0048_Effect_Defense" Operation="Addition" Value="20" Path="./Hero" />
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0101" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="RepairCapacity" Operation="Addition" Value="1" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0102" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="OperateCapacity" Operation="Addition" Value="1" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0103" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="ZoneControlAffected" Operation="Multiplication" Value="0" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0104" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="PrisonerCount" Operation="Addition" Value="1" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="AttackPowerIfPrisonerRoom" Operation="Addition" Value="0.06" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="AttackPowerIfPrisonerRoom_tooltip" Operation="Percent" Value="0.06" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0105" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="CrewCount" Operation="Addition" Value="1" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="DefenseIfCrewRoom" Operation="Addition" Value="0.1" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="DefenseIfCrewRoom_tooltip" Operation="Percent" Value="0.1" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0200" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="MoveSpeed" Operation="Percent" Value="-0.05" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="HealthRegenInPoweredRoom" Operation="Addition" Value="7" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0201" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="Defense" Operation="Percent" Value="-0.04" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Percent" Value="0.08" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0202" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="MoveSpeed" Operation="Percent" Value="0.05" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="Defense" Operation="Percent" Value="0.08" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_P0300" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="LifeHealPctOnRespawn" Operation="Addition" Value="0.05" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="RespawnRoomCount" Operation="Addition" Value="1" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+  <SimulationDescriptor Name="Skill_P0500" Type="Skill">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="Skill_P0500_Effect" Operation="Addition" Value="1" Path="../Room/Hero" />
+      <SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="7" Path="../Room/Hero" />
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="Skill_P0501" Type="Skill">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="Skill_P0501_Effect" Operation="Addition" Value="1" Path="./Hero" />
+      <SimulationModifierDescriptor TargetProperty="HealthRegenBonusPerMobInRoom" Operation="Addition" Value="1" Path="./Hero" />
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="Skill_P0502" Type="Skill">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="InflictTroubledChance" Operation="Addition" Value="3" Path="./Hero" />
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="Skill_P0503" Type="Skill">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="InflictPoisonChance" Operation="Addition" Value="5" Path="./Hero" />
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="Skill_P0504" Type="Skill">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="RepairWitBonus" Operation="Addition" Value="15" Path="./Hero" />
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+
+	<!-- Active skills -->
+	<SimulationDescriptor Name="Skill_A0001" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="MoveSpeed" Operation="Addition" Value="20" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_A0001_LVL2" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="MoveSpeed" Operation="Addition" Value="30" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_A0001_LVL3" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="MoveSpeed" Operation="Addition" Value="40" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_A0002" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="Skill_A0002_Effect" Operation="Addition" Value="1" Path="../Room/Hero" />
+			<SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Addition" Value="12" Path="../Room/Hero" />
+			<SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="25" Path="../Room/Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_A0002_LVL2" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="Skill_A0002_Effect" Operation="Addition" Value="1" Path="../Room/Hero" />
+			<SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Addition" Value="20" Path="../Room/Hero" />
+			<SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="40" Path="../Room/Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_A0003" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Addition" Value="15" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="MoveSpeed" Operation="Addition" Value="15" Path="./Hero" />
+
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_A0003_LVL2" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Addition" Value="25" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="MoveSpeed" Operation="Addition" Value="20" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_A0003_LVL3" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Addition" Value="35" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="MoveSpeed" Operation="Addition" Value="25" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_A0004" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="70" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="MobsAggro" Operation="Addition" Value="1" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_A0004_LVL2" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="110" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="MobsAggro" Operation="Addition" Value="1" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_A0005" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="130" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="MoveSpeed" Operation="Addition" Value="-30" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_A0005_LVL2" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="200" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="MoveSpeed" Operation="Addition" Value="-20" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+  <SimulationDescriptor Name="Skill_A0006" Type="Skill">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="Skill_A0006_Effect" Operation="Addition" Value="1" Path="../Dungeon/Room/Hero" />
+      <SimulationModifierDescriptor TargetProperty="HealthRegen" Operation="Addition" Value="16" Path="../Room/Hero" />
+      <SimulationModifierDescriptor TargetProperty="HealthRegen" Operation="Addition" Value="7" Path="../Dungeon/Room/Hero" />
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="Skill_A0006_LVL2" Type="Skill">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="Skill_A0006_Effect" Operation="Addition" Value="1" Path="../Dungeon/Room/Hero" />
+      <SimulationModifierDescriptor TargetProperty="HealthRegen" Operation="Addition" Value="33" Path="../Room/Hero" />
+      <SimulationModifierDescriptor TargetProperty="HealthRegen" Operation="Addition" Value="12" Path="../Dungeon/Room/Hero" />
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="Skill_A0006_LVL3" Type="Skill">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="Skill_A0006_Effect" Operation="Addition" Value="1" Path="../Dungeon/Room/Hero" />
+      <SimulationModifierDescriptor TargetProperty="HealthRegen" Operation="Addition" Value="50" Path="../Room/Hero" />
+      <SimulationModifierDescriptor TargetProperty="HealthRegen" Operation="Addition" Value="18" Path="../Dungeon/Room/Hero" />
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_A0007" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Addition" Value="10" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="AttackCooldown" Operation="Addition" Value="-0.3" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_A0007_LVL2" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Addition" Value="20" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="AttackCooldown" Operation="Addition" Value="-0.3" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_A0008" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Addition" Value="18" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_A0008_LVL2" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Addition" Value="30" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_A0008_Target" Type="ActiveSkill_Target">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="UnpoweredRoomSkill_A0008_Effect" Operation="Addition" Value="1" />
+			<SimulationModifierDescriptor TargetProperty="UnpoweredRoomAttackPowerBonus" Operation="Addition" Value="-15" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_A0008_LVL2_Target" Type="ActiveSkill_Target">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="UnpoweredRoomSkill_A0008_Effect" Operation="Addition" Value="1" />
+			<SimulationModifierDescriptor TargetProperty="UnpoweredRoomAttackPowerBonus" Operation="Addition" Value="-15" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_A0009" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="MoveSpeed" Operation="Percent" Value="-0.5" Path="../Room/Mob" />
+			<SimulationModifierDescriptor TargetProperty="DamageOverTime" Operation="Addition" Value="25" Path="../Room/Mob" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_A0009_LVL2" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="MoveSpeed" Operation="Percent" Value="-0.75" Path="../Room/Mob" />
+			<SimulationModifierDescriptor TargetProperty="DamageOverTime" Operation="Addition" Value="35" Path="../Room/Mob" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_A0010" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="Skill_A0010_Effect" Operation="Addition" Value="1" Path="../Room/Mob" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_A0010_LVL2" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="Skill_A0010_Effect" Operation="Addition" Value="1" Path="../Room/Mob" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_A0011" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Percent" Value="1.3" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="DamageOverTime" Operation="Addition" Value="20" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_A0011_LVL2" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Percent" Value="1.4" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="DamageOverTime" Operation="Addition" Value="25" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_A0012" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Percent" Value="0.5" Path="../Room/MinorModule" />
+			<SimulationModifierDescriptor TargetProperty="Skill_A0012_Effect" Operation="Addition" Value="1" Path="../Room/MinorModule" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_A0012_LVL2" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Percent" Value="0.75" Path="../Room/MinorModule" />
+			<SimulationModifierDescriptor TargetProperty="Skill_A0012_Effect" Operation="Addition" Value="1" Path="../Room/MinorModule" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_A0012_LVL3" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Percent" Value="1" Path="../Room/MinorModule" />
+			<SimulationModifierDescriptor TargetProperty="Skill_A0012_Effect" Operation="Addition" Value="1" Path="../Room/MinorModule" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_A0013" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="DamageOverTime" Operation="Addition" Value="25" Path="../Room/Mob" />
+			<SimulationModifierDescriptor TargetProperty="Skill_A0013_Effect" Operation="Addition" Value="1" Path="../Room/Mob" />
+
+			<SimulationModifierDescriptor TargetProperty="DamageOverTime" Operation="Addition" Value="10" Path="../Room/Hero" />
+			<SimulationModifierDescriptor TargetProperty="Skill_A0013_Effect" Operation="Addition" Value="1" Path="../Room/Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_A0013_LVL2" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="DamageOverTime" Operation="Addition" Value="35" Path="../Room/Mob" />
+			<SimulationModifierDescriptor TargetProperty="Skill_A0013_Effect" Operation="Addition" Value="1" Path="../Room/Mob" />
+
+			<SimulationModifierDescriptor TargetProperty="DamageOverTime" Operation="Addition" Value="12" Path="../Room/Hero" />
+			<SimulationModifierDescriptor TargetProperty="Skill_A0013_Effect" Operation="Addition" Value="1" Path="../Room/Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_A0014" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="MoveSpeed" Operation="Percent" Value="-0.75" Path="../Room/Mob" />
+			<SimulationModifierDescriptor TargetProperty="Skill_A0014_Effect" Operation="Addition" Value="1" Path="../Room/Mob" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_A0014_LVL2" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="MoveSpeed" Operation="Percent" Value="-0.95" Path="../Room/Mob" />
+			<SimulationModifierDescriptor TargetProperty="Skill_A0014_Effect" Operation="Addition" Value="1" Path="../Room/Mob" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_A0015" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="Stealth" Operation="Addition" Value="1" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_A0015_LVL2" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="MoveSpeed" Operation="Addition" Value="8" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="Stealth" Operation="Addition" Value="1" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_A0016" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="Skill_A0016_Effect" Operation="Addition" Value="1" Path="../Room/Hero" />
+			<SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Addition" Value="26" Path="../Room/Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_A0016_LVL2" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="Skill_A0016_Effect" Operation="Addition" Value="1" Path="../Room/Hero" />
+			<SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Addition" Value="38" Path="../Room/Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_A0016_LVL3" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="Skill_A0016_Effect" Operation="Addition" Value="1" Path="../Room/Hero" />
+			<SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Addition" Value="50" Path="../Room/Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_A0018" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="MoveSpeed" Operation="Addition" Value="10" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="50" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_A0018_LVL2" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="MoveSpeed" Operation="Addition" Value="16" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="80" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_A0019" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="100" Path="../Room/Hero" />
+			<SimulationModifierDescriptor TargetProperty="Skill_A0019_Effect" Operation="Addition" Value="1" Path="../Room/Hero" />
+
+			<SimulationModifierDescriptor TargetProperty="DustLootProbability" Operation="Percent" Value="-0.4" Path="../Room/Mob" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_A0019_LVL2" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="150" Path="../Room/Hero" />
+			<SimulationModifierDescriptor TargetProperty="Skill_A0019_Effect" Operation="Addition" Value="1" Path="../Room/Hero" />
+
+			<SimulationModifierDescriptor TargetProperty="DustLootProbability" Operation="Percent" Value="-0.3" Path="../Room/Mob" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_A0020" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="Troubled" Operation="Addition" Value="1" Path="../Room/Mob" />
+			<SimulationModifierDescriptor TargetProperty="Skill_A0020_Effect" Operation="Addition" Value="1" Path="../Room/Mob" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_A0020_LVL2" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="Troubled" Operation="Addition" Value="1" Path="../Room/Mob" />
+			<SimulationModifierDescriptor TargetProperty="Skill_A0020_Effect" Operation="Addition" Value="1" Path="../Room/Mob" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_A0020_LVL3" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="Troubled" Operation="Addition" Value="1" Path="../Room/Mob" />
+			<SimulationModifierDescriptor TargetProperty="Skill_A0020_Effect" Operation="Addition" Value="1" Path="../Room/Mob" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_A0021" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="AttackPowerBonusToDivideByHeroes" Operation="Addition" Value="50" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_A0021_LVL2" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="AttackPowerBonusToDivideByHeroes" Operation="Addition" Value="75" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_A0022" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="AttackPowerHeroesInDungeonIfWithoutMob" Operation="Addition" Value="40" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="AttackPowerHeroesInDungeonIfWithoutMob_tooltip" Operation="Addition" Value="40" Path="../Dungeon/Room/Hero" />
+			<!-- same value than above, fake property for tooltip -->
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_A0022_LVL2" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="AttackPowerHeroesInDungeonIfWithoutMob" Operation="Addition" Value="60" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="AttackPowerHeroesInDungeonIfWithoutMob_tooltip" Operation="Addition" Value="60" Path="../Dungeon/Room/Hero" />
+			<!-- same value than above, fake property for tooltip -->
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_A0022_LVL3" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="AttackPowerHeroesInDungeonIfWithoutMob" Operation="Addition" Value="80" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="AttackPowerHeroesInDungeonIfWithoutMob_tooltip" Operation="Addition" Value="80" Path="../Dungeon/Room/Hero" />
+			<!-- same value than above, fake property for tooltip -->
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_A0023" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="AttackCooldown" Operation="Multiplication" Value="3" Path="./Hero" />
+
+			<SimulationModifierDescriptor TargetProperty="DustLootProbability" Operation="Multiplication" Value="2" Path="../Room/Mob" />
+			<SimulationModifierDescriptor TargetProperty="Skill_A0023_Effect" Operation="Addition" Value="1" Path="../Room/Mob" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_A0023_LVL2" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="AttackCooldown" Operation="Multiplication" Value="2" Path="./Hero" />
+
+			<SimulationModifierDescriptor TargetProperty="DustLootProbability" Operation="Multiplication" Value="2.5" Path="../Room/Mob" />
+			<SimulationModifierDescriptor TargetProperty="Skill_A0023_Effect" Operation="Addition" Value="1" Path="../Room/Mob" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_A0024" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="DamageOverTime" Operation="Addition" Value="20" Path="../Dungeon/Room/Mob" />
+			<SimulationModifierDescriptor TargetProperty="DustLootProbability" Operation="Percent" Value="0.3" Path="../Dungeon/Room/Mob" />
+			<SimulationModifierDescriptor TargetProperty="Skill_A0024_Effect" Operation="Addition" Value="1" Path="../Dungeon/Room/Mob" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_A0024_LVL2" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="DamageOverTime" Operation="Addition" Value="24" Path="../Dungeon/Room/Mob" />
+			<SimulationModifierDescriptor TargetProperty="DustLootProbability" Operation="Percent" Value="0.4" Path="../Dungeon/Room/Mob" />
+			<SimulationModifierDescriptor TargetProperty="Skill_A0024_Effect" Operation="Addition" Value="1" Path="../Dungeon/Room/Mob" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_A0025" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="InstantDamageOverTime" Operation="Addition" Value="180" Path="../Room/Mob" />
+			<!-- "InstantDamageOverTime" to differentiate the effect in tooltip -->
+			<SimulationModifierDescriptor TargetProperty="Skill_A0025_Effect" Operation="Addition" Value="1" Path="../Room/Mob" />
+
+			<SimulationModifierDescriptor TargetProperty="InstantDamageOverTime" Operation="Addition" Value="80" Path="../Room/Hero" />
+			<SimulationModifierDescriptor TargetProperty="Skill_A0025_Effect" Operation="Addition" Value="1" Path="../Room/Hero" />
+
+			<SimulationModifierDescriptor TargetProperty="InstantDamageOverTime" Operation="Addition" Value="40" Path="../Room/MajorModule" />
+			<SimulationModifierDescriptor TargetProperty="Skill_A0025_Effect" Operation="Addition" Value="1" Path="../Room/MajorModule" />
+
+			<SimulationModifierDescriptor TargetProperty="InstantDamageOverTime" Operation="Addition" Value="30" Path="../Room/MinorModule" />
+			<SimulationModifierDescriptor TargetProperty="Skill_A0025_Effect" Operation="Addition" Value="1" Path="../Room/MinorModule" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_A0025_LVL2" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="InstantDamageOverTime" Operation="Addition" Value="280" Path="../Room/Mob" />
+			<!-- "InstantDamageOverTime" to differentiate the effect in tooltip -->
+			<SimulationModifierDescriptor TargetProperty="Skill_A0025_Effect" Operation="Addition" Value="1" Path="../Room/Mob" />
+
+			<SimulationModifierDescriptor TargetProperty="InstantDamageOverTime" Operation="Addition" Value="100" Path="../Room/Hero" />
+			<SimulationModifierDescriptor TargetProperty="Skill_A0025_Effect" Operation="Addition" Value="1" Path="../Room/Hero" />
+
+			<SimulationModifierDescriptor TargetProperty="InstantDamageOverTime" Operation="Addition" Value="50" Path="../Room/MajorModule" />
+			<SimulationModifierDescriptor TargetProperty="Skill_A0025_Effect" Operation="Addition" Value="1" Path="../Room/MajorModule" />
+
+			<SimulationModifierDescriptor TargetProperty="InstantDamageOverTime" Operation="Addition" Value="40" Path="../Room/MinorModule" />
+			<SimulationModifierDescriptor TargetProperty="Skill_A0025_Effect" Operation="Addition" Value="1" Path="../Room/MinorModule" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_A0025_LVL3" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="InstantDamageOverTime" Operation="Addition" Value="360" Path="../Room/Mob" />
+			<!-- "InstantDamageOverTime" to differentiate the effect in tooltip -->
+			<SimulationModifierDescriptor TargetProperty="Skill_A0025_Effect" Operation="Addition" Value="1" Path="../Room/Mob" />
+
+			<SimulationModifierDescriptor TargetProperty="InstantDamageOverTime" Operation="Addition" Value="120" Path="../Room/Hero" />
+			<SimulationModifierDescriptor TargetProperty="Skill_A0025_Effect" Operation="Addition" Value="1" Path="../Room/Hero" />
+
+			<SimulationModifierDescriptor TargetProperty="InstantDamageOverTime" Operation="Addition" Value="55" Path="../Room/MajorModule" />
+			<SimulationModifierDescriptor TargetProperty="Skill_A0025_Effect" Operation="Addition" Value="1" Path="../Room/MajorModule" />
+
+			<SimulationModifierDescriptor TargetProperty="InstantDamageOverTime" Operation="Addition" Value="45" Path="../Room/MinorModule" />
+			<SimulationModifierDescriptor TargetProperty="Skill_A0025_Effect" Operation="Addition" Value="1" Path="../Room/MinorModule" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_A0026" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Addition" Value="20" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="AttackRange" Operation="Addition" Value="8" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="AttackCooldown" Operation="Addition" Value="-0.4" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="MoveSpeedReal" Operation="Multiplication" Value="0" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_A0026_LVL2" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Addition" Value="28" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="AttackRange" Operation="Addition" Value="8" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="AttackCooldown" Operation="Addition" Value="-0.5" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="MoveSpeedReal" Operation="Multiplication" Value="0" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_A0026_LVL3" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Addition" Value="32" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="AttackRange" Operation="Addition" Value="8" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="AttackCooldown" Operation="Addition" Value="-0.6" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="MoveSpeedReal" Operation="Multiplication" Value="0" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_A0027" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="DamageOverTime" Operation="Addition" Value="25" Path="../Room/Mob" />
+			<SimulationModifierDescriptor TargetProperty="Skill_A0027_Effect" Operation="Addition" Value="1" Path="../Room/Mob" />
+
+			<SimulationModifierDescriptor TargetProperty="DamageOverTime" Operation="Addition" Value="12" Path="../Room/Hero" />
+			<SimulationModifierDescriptor TargetProperty="Skill_A0027_Effect" Operation="Addition" Value="1" Path="../Room/Hero" />
+
+			<SimulationModifierDescriptor TargetProperty="DamageOverTime" Operation="Multiplication" Value="0" Path="./Hero" />
+			<!-- protects caster -->
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_A0027_LVL2" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="DamageOverTime" Operation="Addition" Value="45" Path="../Room/Mob" />
+			<SimulationModifierDescriptor TargetProperty="Skill_A0027_Effect" Operation="Addition" Value="1" Path="../Room/Mob" />
+
+			<SimulationModifierDescriptor TargetProperty="DamageOverTime" Operation="Addition" Value="15" Path="../Room/Hero" />
+			<SimulationModifierDescriptor TargetProperty="Skill_A0027_Effect" Operation="Addition" Value="1" Path="../Room/Hero" />
+
+			<SimulationModifierDescriptor TargetProperty="DamageOverTime" Operation="Multiplication" Value="0" Path="./Hero" />
+			<!-- protects caster -->
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_A0028" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="MoveSpeed" Operation="Percent" Value="-0.4" Path="../Dungeon/Room/Mob" />
+			<SimulationModifierDescriptor TargetProperty="Skill_A0028_Effect" Operation="Addition" Value="1" Path="../Dungeon/Room/Mob" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_A0028_LVL2" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="MoveSpeed" Operation="Percent" Value="-0.6" Path="../Dungeon/Room/Mob" />
+			<SimulationModifierDescriptor TargetProperty="Skill_A0028_Effect" Operation="Addition" Value="1" Path="../Dungeon/Room/Mob" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_A0029" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="DustLootProbability" Operation="Multiplication" Value="2" Path="../Dungeon/Room/Mob" />
+			<SimulationModifierDescriptor TargetProperty="Skill_A0029_Effect" Operation="Addition" Value="1" Path="../Dungeon/Room/Mob" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_A0029_LVL2" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="DustLootProbability" Operation="Multiplication" Value="3" Path="../Dungeon/Room/Mob" />
+			<SimulationModifierDescriptor TargetProperty="Skill_A0029_Effect" Operation="Addition" Value="1" Path="../Dungeon/Room/Mob" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_A0030" Type="Skill">
+		<SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="EssebRegenEffect" Operation="Addition" Value="12" Path="../Dungeon/Room/MajorModule" />
+			<SimulationModifierDescriptor TargetProperty="Skill_A0030_Effect" Operation="Addition" Value="1" Path="../Dungeon/Room/MajorModule" />
+
+      <SimulationModifierDescriptor TargetProperty="EssebRegenEffect" Operation="Addition" Value="12" Path="../Dungeon/Room/MinorModule" />
+			<SimulationModifierDescriptor TargetProperty="Skill_A0030_Effect" Operation="Addition" Value="1" Path="../Dungeon/Room/MinorModule" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_A0030_LVL2" Type="Skill">
+		<SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="EssebRegenEffect" Operation="Addition" Value="18" Path="../Dungeon/Room/MajorModule" />
+			<SimulationModifierDescriptor TargetProperty="Skill_A0030_Effect" Operation="Addition" Value="1" Path="../Dungeon/Room/MajorModule" />
+
+      <SimulationModifierDescriptor TargetProperty="EssebRegenEffect" Operation="Addition" Value="18" Path="../Dungeon/Room/MinorModule" />
+			<SimulationModifierDescriptor TargetProperty="Skill_A0030_Effect" Operation="Addition" Value="1" Path="../Dungeon/Room/MinorModule" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+  <SimulationDescriptor Name="Skill_A0031" Type="Skill">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="Skill_A0031_Effect" Operation="Addition" Value="1" Path="../Room/Hero" />
+      <SimulationModifierDescriptor TargetProperty="HealthRegen" Operation="Addition" Value="25" Path="../Room/Hero" />
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="Skill_A0031_LVL2" Type="Skill">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="Skill_A0031_Effect" Operation="Addition" Value="1" Path="../Room/Hero" />
+      <SimulationModifierDescriptor TargetProperty="HealthRegen" Operation="Addition" Value="40" Path="../Room/Hero" />
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="Skill_A0031_LVL3" Type="Skill">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="Skill_A0031_Effect" Operation="Addition" Value="1" Path="../Room/Hero" />
+      <SimulationModifierDescriptor TargetProperty="HealthRegen" Operation="Addition" Value="60" Path="../Room/Hero" />
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_A0032" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="60" Path="../Dungeon/Room/MajorModule" />
+			<SimulationModifierDescriptor TargetProperty="Skill_A0032_Effect" Operation="Addition" Value="1" Path="../Dungeon/Room/MajorModule" />
+
+			<SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="50" Path="../Dungeon/Room/MinorModule" />
+			<SimulationModifierDescriptor TargetProperty="Skill_A0032_Effect" Operation="Addition" Value="1" Path="../Dungeon/Room/MinorModule" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_A0032_LVL2" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="150" Path="../Dungeon/Room/MajorModule" />
+			<SimulationModifierDescriptor TargetProperty="Skill_A0032_Effect" Operation="Addition" Value="1" Path="../Dungeon/Room/MajorModule" />
+
+			<SimulationModifierDescriptor TargetProperty="Defense" Operation="Addition" Value="130" Path="../Dungeon/Room/MinorModule" />
+			<SimulationModifierDescriptor TargetProperty="Skill_A0032_Effect" Operation="Addition" Value="1" Path="../Dungeon/Room/MinorModule" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_A0033" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="NotPacifist" Operation="Multiplication" Value="0" Path="../Room/Hero" />
+			<SimulationModifierDescriptor TargetProperty="Skill_A0033_Effect" Operation="Addition" Value="1" Path="../Room/Hero" />
+
+			<SimulationModifierDescriptor TargetProperty="NotPacifist" Operation="Multiplication" Value="0" Path="../Room/MinorModule" />
+			<SimulationModifierDescriptor TargetProperty="Skill_A0033_Effect" Operation="Addition" Value="1" Path="../Room/MinorModule" />
+
+			<SimulationModifierDescriptor TargetProperty="NotPacifist" Operation="Multiplication" Value="0" Path="../Room/Mob" />
+			<SimulationModifierDescriptor TargetProperty="Skill_A0033_Effect" Operation="Addition" Value="1" Path="../Room/Mob" />
+
+			<SimulationModifierDescriptor TargetProperty="MoveSpeed" Operation="Addition" Value="5" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="HealthRegen" Operation="Addition" Value="5" Path="./Hero" />  
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_A0033_LVL2" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="NotPacifist" Operation="Multiplication" Value="0" Path="../Room/Hero" />
+			<SimulationModifierDescriptor TargetProperty="Skill_A0033_Effect" Operation="Addition" Value="1" Path="../Room/Hero" />
+
+			<SimulationModifierDescriptor TargetProperty="NotPacifist" Operation="Multiplication" Value="0" Path="../Room/MinorModule" />
+			<SimulationModifierDescriptor TargetProperty="Skill_A0033_Effect" Operation="Addition" Value="1" Path="../Room/MinorModule" />
+
+			<SimulationModifierDescriptor TargetProperty="NotPacifist" Operation="Multiplication" Value="0" Path="../Room/Mob" />
+			<SimulationModifierDescriptor TargetProperty="Skill_A0033_Effect" Operation="Addition" Value="1" Path="../Room/Mob" />
+
+			<SimulationModifierDescriptor TargetProperty="MoveSpeed" Operation="Addition" Value="8" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="HealthRegen" Operation="Addition" Value="8" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_A0033_LVL3" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="NotPacifist" Operation="Multiplication" Value="0" Path="../Room/Hero" />
+			<SimulationModifierDescriptor TargetProperty="Skill_A0033_Effect" Operation="Addition" Value="1" Path="../Room/Hero" />
+
+			<SimulationModifierDescriptor TargetProperty="NotPacifist" Operation="Multiplication" Value="0" Path="../Room/MinorModule" />
+			<SimulationModifierDescriptor TargetProperty="Skill_A0033_Effect" Operation="Addition" Value="1" Path="../Room/MinorModule" />
+
+			<SimulationModifierDescriptor TargetProperty="NotPacifist" Operation="Multiplication" Value="0" Path="../Room/Mob" />
+			<SimulationModifierDescriptor TargetProperty="Skill_A0033_Effect" Operation="Addition" Value="1" Path="../Room/Mob" />
+
+			<SimulationModifierDescriptor TargetProperty="MoveSpeed" Operation="Addition" Value="12" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="HealthRegen" Operation="Addition" Value="12" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_A0034" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="Invincible" Operation="Addition" Value="1" Path="../Room/Hero" />
+			<SimulationModifierDescriptor TargetProperty="Skill_A0034_Effect" Operation="Addition" Value="1" Path="../Room/Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_A0034_LVL2" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="Invincible" Operation="Addition" Value="1" Path="../Room/Hero" />
+			<SimulationModifierDescriptor TargetProperty="Skill_A0034_Effect" Operation="Addition" Value="1" Path="../Room/Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_A0034_LVL3" Type="Skill">
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="Invincible" Operation="Addition" Value="1" Path="../Room/Hero" />
+			<SimulationModifierDescriptor TargetProperty="Skill_A0034_Effect" Operation="Addition" Value="1" Path="../Room/Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_A0035" Type="Skill">
+		<!-- T - Trains the most powerful mob in the room-->
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="MobTaming" Operation="Addition" Value="1" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_A0036" Type="Skill">
+		<!-- RO - MoveSpeed bonus for all heroes in dungeon-->
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="MoveSpeed" Operation="Addition" Value="7" Path="../Dungeon/Room/Hero" />
+			<SimulationModifierDescriptor TargetProperty="Skill_A0036_Effect" Operation="Addition" Value="1" Path="../Dungeon/Room/Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_A0036_LVL2" Type="Skill">
+		<!-- RO - MoveSpeed bonus for all heroes in dungeon-->
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="MoveSpeed" Operation="Addition" Value="9" Path="../Dungeon/Room/Hero" />
+			<SimulationModifierDescriptor TargetProperty="Skill_A0036_Effect" Operation="Addition" Value="1" Path="../Dungeon/Room/Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_A0036_LVL3" Type="Skill">
+		<!-- RO - MoveSpeed bonus for all heroes in dungeon-->
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="MoveSpeed" Operation="Addition" Value="12" Path="../Dungeon/Room/Hero" />
+			<SimulationModifierDescriptor TargetProperty="Skill_A0036_Effect" Operation="Addition" Value="1" Path="../Dungeon/Room/Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_A0037" Type="Skill">
+		<!-- RO - Random Positive Event-->
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="UpcomingPositiveEvents" Operation="Addition" Value="1" Path="../Dungeon" />
+			<SimulationModifierDescriptor TargetProperty="Skill_A0037_Effect" Operation="Addition" Value="1" Path="../Dungeon/Room" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_A0038" Type="Skill">
+		<!-- BO - Recycles killed mobs in random resource-->
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="FISBonusPerRoomMobKilled" Operation="Addition" Value="0.5" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="Skill_A0038_Effect" Operation="Addition" Value="1" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_A0038_LVL2" Type="Skill">
+		<!-- BO - Recycles killed mobs in random resource-->
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="FISBonusPerRoomMobKilled" Operation="Addition" Value="1" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="Skill_A0038_Effect" Operation="Addition" Value="1" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
+	<SimulationDescriptor Name="Skill_A0039" Type="Skill"> <!-- Rosetta - Kill all low hp mobs in the room and make them explose dealing zone damages to other mobs -->
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="Skill_A0039_Effect" Operation="Addition" Value="1" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="Skill_A0039_ZoneAttackRadius" Operation="Addition" Value="100" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="Skill_A0039_AttackPower" Operation="Addition" Value="15" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+  
+  <SimulationDescriptor Name="Skill_A0039_LVL2" Type="Skill"> <!-- Rosetta - Kill all low hp mobs in the room and make them explose dealing zone damages to other mobs -->
+		<SimulationModifierDescriptors>
+			<SimulationModifierDescriptor TargetProperty="Skill_A0039_Effect" Operation="Addition" Value="1" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="Skill_A0039_ZoneAttackRadius" Operation="Addition" Value="100" Path="./Hero" />
+			<SimulationModifierDescriptor TargetProperty="Skill_A0039_AttackPower" Operation="Addition" Value="25" Path="./Hero" />
+		</SimulationModifierDescriptors>
+	</SimulationDescriptor>
+
 </Datatable>

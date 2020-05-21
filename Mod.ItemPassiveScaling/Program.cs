@@ -17,12 +17,14 @@ namespace Mod.ItemPassiveScaling
             var manager = new EntitiesManagerFactory().Create(assetsDirectory, distDirectory);
             var skills = manager.SkillManager.Load();
             var items = manager.HeroItemManager.Load();
+            var itemsWithoutPassives = items.Where(x => !x.SkillIDs.Any()).ToList();
             var itemsWithPassives = items.Where(x => x.SkillIDs.Any()).ToList();
             
             var newSkills = new ScalingSkillDuplicator().Duplicate(skills);
-            var newItems = new ItemWithPassiveDuplicator().Duplicate(itemsWithPassives);
+            var newItemsOnly = new ItemWithPassiveDuplicator().Duplicate(itemsWithPassives);
+            var allItems = newItemsOnly.Concat(itemsWithoutPassives).ToList();
             
-            manager.HeroItemManager.Save(newItems);
+            manager.HeroItemManager.Save(allItems);
             manager.SkillManager.Save(newSkills);
         }
     }
