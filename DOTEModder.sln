@@ -1,10 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modder", "Modder\Modder.csproj", "{6AAB6F78-498A-4EF1-A4F2-601F37DB2BC4}"
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modder", "Modder\Modder.csproj", "{6AAB6F78-498A-4EF1-A4F2-601F37DB2BC4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mod.Example", "Mod.Example\Mod.Example.csproj", "{66EBAD48-D6BA-42E2-823D-0AD865AB2592}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mod.ItemPassiveScaling", "Mod.ItemPassiveScaling\Mod.ItemPassiveScaling.csproj", "{3FEF3F36-DAF4-4EF0-917B-7FE31B96F8FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mod.ItemPassiveScaling", "Mod.ItemPassiveScaling\Mod.ItemPassiveScaling.csproj", "{3FEF3F36-DAF4-4EF0-917B-7FE31B96F8FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mod.WeaponDiverseAttributes", "Mod.WeaponDiverseAttributes\Mod.WeaponDiverseAttributes.csproj", "{5C28C9C0-DAF7-4B87-B21E-F76A2D9E8DE7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mod.BestOnes", "Mod.BestOnes\Mod.BestOnes.csproj", "{CD18D98C-5999-428F-AAB6-729320841784}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mod.RandomSort", "Mod.RandomSort\Mod.RandomSort.csproj", "{B192CA73-C6ED-4D12-BA8F-3C955C04A653}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -16,13 +23,27 @@ Global
 		{6AAB6F78-498A-4EF1-A4F2-601F37DB2BC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6AAB6F78-498A-4EF1-A4F2-601F37DB2BC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6AAB6F78-498A-4EF1-A4F2-601F37DB2BC4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{66EBAD48-D6BA-42E2-823D-0AD865AB2592}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{66EBAD48-D6BA-42E2-823D-0AD865AB2592}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{66EBAD48-D6BA-42E2-823D-0AD865AB2592}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{66EBAD48-D6BA-42E2-823D-0AD865AB2592}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3FEF3F36-DAF4-4EF0-917B-7FE31B96F8FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3FEF3F36-DAF4-4EF0-917B-7FE31B96F8FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3FEF3F36-DAF4-4EF0-917B-7FE31B96F8FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3FEF3F36-DAF4-4EF0-917B-7FE31B96F8FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C28C9C0-DAF7-4B87-B21E-F76A2D9E8DE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C28C9C0-DAF7-4B87-B21E-F76A2D9E8DE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C28C9C0-DAF7-4B87-B21E-F76A2D9E8DE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C28C9C0-DAF7-4B87-B21E-F76A2D9E8DE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD18D98C-5999-428F-AAB6-729320841784}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD18D98C-5999-428F-AAB6-729320841784}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD18D98C-5999-428F-AAB6-729320841784}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD18D98C-5999-428F-AAB6-729320841784}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B192CA73-C6ED-4D12-BA8F-3C955C04A653}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B192CA73-C6ED-4D12-BA8F-3C955C04A653}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B192CA73-C6ED-4D12-BA8F-3C955C04A653}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B192CA73-C6ED-4D12-BA8F-3C955C04A653}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DDB57042-627C-4F36-AEDD-DF1AF2D3CA1D}
 	EndGlobalSection
 EndGlobal

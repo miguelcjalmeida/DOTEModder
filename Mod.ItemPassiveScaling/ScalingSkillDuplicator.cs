@@ -16,7 +16,7 @@ namespace Mod.ItemPassiveScaling
 
         private IList<Skill> CreateSkillVersions(Skill skill)
         {
-            return _rarity
+            var newSkills = _rarity
                 .Select((rarity, index) => new Skill
                 {
                     Name = $"{skill.Name}{RaritySuffix.FormatIdentifier(rarity)}",
@@ -27,6 +27,8 @@ namespace Mod.ItemPassiveScaling
                     Levels = CreateSkillLevelVersions(index, skill)
                 })
                 .ToList();
+
+            return newSkills;
         }
 
         private IList<SkillLevel> CreateSkillLevelVersions(int rarity, Skill skill)

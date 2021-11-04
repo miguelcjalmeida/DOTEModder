@@ -18,6 +18,7 @@ namespace Modder.Manager
         private readonly TLoader _loader;
         private readonly TWriter _writer;
         private readonly LocalizationWriter _localizationWriter;
+        private IList<TEntity> _stored;
 
         protected DefaultEntityManager(string assetsPath, string distPath, IList<Localization> localizations, TLoader loader, TWriter writer, LocalizationWriter localizationWriter)
         {
@@ -29,17 +30,30 @@ namespace Modder.Manager
             _localizationWriter = localizationWriter;
         }
 
-        public IList<TEntity> Load() => _loader.LoadFromAssets(_assetsPath);
+        public IList<TEntity> Load() => _stored = _loader.LoadFromAssets(_assetsPath);
 
-        public void Save(IList<TEntity> items)
+        public IList<TEntity> Stored
         {
-            items.ForEach(item =>
+            get
+            {
+                if (_stored == null) return Load();
+                return _stored;
+            }
+            set
+            {
+                _stored = value;
+            }
+        }
+
+        public void Save()
+        {
+            Stored.ForEach(item =>
             {
                 SetLocalizationText(item.LocalizationTitlePlaceholder, item.Title);
                 SetLocalizationText(item.LocalizationDescriptionPlaceholder, item.Description);
             });
             
-            _writer.Write(_distPath, items);
+            _writer.Write(_distPath, Stored);
             _localizationWriter.Write(_distPath, _localizations);
         }
 

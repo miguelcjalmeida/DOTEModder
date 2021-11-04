@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using Modder.Entities.Localization;
 using Modder.Entities.Skill;
 using Modder.Loaders.Localizations;

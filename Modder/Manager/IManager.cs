@@ -5,6 +5,7 @@ namespace Modder.Manager
     public interface IManager<TEntity>
     {
         IList<TEntity> Load();
-        void Save(IList<TEntity> items);
+        void Save();
+        IList<TEntity> Stored { get; set;  }
     }
 }

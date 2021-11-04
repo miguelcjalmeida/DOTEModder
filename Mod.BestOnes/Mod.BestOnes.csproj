@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Mod.ItemPassiveScaling\Mod.ItemPassiveScaling.csproj" />
+    <ProjectReference Include="..\Mod.RandomSort\Mod.RandomSort.csproj" />
+    <ProjectReference Include="..\Mod.WeaponDiverseAttributes\Mod.WeaponDiverseAttributes.csproj" />
+    <ProjectReference Include="..\Modder\Modder.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Dist\Public\" />
+  </ItemGroup>
+
+</Project>

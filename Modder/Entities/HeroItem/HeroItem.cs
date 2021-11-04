@@ -19,5 +19,21 @@ namespace Modder.Entities.HeroItem
 
         public string LocalizationTitlePlaceholder => $"%Item_{Name}";
         public string LocalizationDescriptionPlaceholder => $"%Item_{Name}_Description";
+
+        public HeroItem Clone()
+        {
+            HeroItem item = new HeroItem();
+            item.Name = Name;
+            item.Title = (Description) Title.Clone();
+            item.Description = (Description) Description.Clone();
+            item.IconPath = IconPath;
+            item.DropCriteria = (DropCriteria) DropCriteria?.Clone();
+            item.AttackType = AttackType;
+            item.WeaponType = WeaponType;
+            item.Category = Category;
+            item.SkillIDs = SkillIDs?.Clone();
+            item.Descriptors = Descriptors?.Clone();
+            return item;
+        }
     }
 }
