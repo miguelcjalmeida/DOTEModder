@@ -60,7 +60,6 @@
       <SimulationModifierDescriptor TargetProperty="Cost" Operation="Addition" Value="3"/>
       <SimulationModifierDescriptor TargetProperty="AttackPower" Operation="Addition" Value="9"/>
       <SimulationModifierDescriptor TargetProperty="AttackCooldown" Operation="Subtraction" Value="0.2"/>
-	  <SimulationModifierDescriptor TargetProperty="AttackRange" Operation="Addition" Value="1"/>
     </SimulationModifierDescriptors>
   </SimulationDescriptor>
   <SimulationDescriptor Name="ItemHero_Weapon010_Rarity0" Type="ItemHero_Weapon010">

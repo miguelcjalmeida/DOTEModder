@@ -14,6 +14,7 @@ namespace Mod.WeaponDiverseAttributes
     {
         private const int VERSIONS_PER_ITEM = 10;
         private readonly ItemForger forger;
+        private EntitiesManager manager;
 
         public DiverseAttributesMod()
         {
@@ -22,6 +23,7 @@ namespace Mod.WeaponDiverseAttributes
 
         public void Apply(EntitiesManager manager)
         {
+            this.manager = manager;
             var allItems = new List<HeroItem>();
 
             manager.HeroItemManager.Stored.ForEach(item =>
@@ -42,11 +44,29 @@ namespace Mod.WeaponDiverseAttributes
                 var forgedItem = forger.Forge(item);
                 forgedItems.Add(forgedItem);
 
-                var nameSuffix = i == 0 ? "" : $"{i}";
-                forgedItem.Name = $"{item.Name}{nameSuffix}";
+                var oldName = item.Name;
+                var newName = GetUniqueName(oldName, i);
+                forgedItem.Name = newName;
+
+                AddToTheShips(oldName, newName);
             }
 
             return forgedItems;
+        }
+
+        private string GetUniqueName(string oldName, int count)
+        {
+            if (count == 0) return oldName;
+            return $"{oldName}_{count}";
+        }
+
+        private void AddToTheShips(string oldName, string newName)
+        {
+            this.manager.ShipManager.Stored.ForEach(ship =>
+            {
+                if (!ship.UnavailableItems.Contains(oldName)) return;
+                ship.UnavailableItems.Add(newName);
+            });
         }
     }
 }

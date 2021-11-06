@@ -1,6 +1,7 @@
 ﻿using Modder;
 using Modder.Entities.HeroItem;
 using Modder.Entities.HeroItem.SimulationDescriptor;
+using Modder.Entities.Ship;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,8 +12,6 @@ namespace Mod.WeaponDiverseAttributes
 {
     public class ItemForger
     {
-        private const float RATE_PER_RARITY = 0.05f;
-
         public HeroItem Forge(HeroItem baseItem)
         {
             HeroItem newItem = baseItem.Clone();

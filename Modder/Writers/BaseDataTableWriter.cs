@@ -17,7 +17,7 @@ namespace Modder.Writers
                 IndentChars = "  "
             };
             
-            var writer = XmlWriter.Create(GetFilePath(distPath), settings);
+            using var writer = XmlWriter.Create(GetFilePath(distPath), settings);
 
             writer.WriteStartDocument();
             writer.WriteComment("Warning: this XML is automatically generated from the XLS. Do not modify!");
@@ -29,7 +29,6 @@ namespace Modder.Writers
             
             writer.WriteEndElement();
             writer.WriteEndDocument();
-            writer.Close();
         }
 
         protected abstract string GetFilePath(string distPath);

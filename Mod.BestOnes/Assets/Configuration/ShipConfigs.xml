@@ -489,18 +489,16 @@
 		</InitialItems>
 		
 		<UnavailableItems>
-      <Item>Special001</Item>
-      <Item>Special020</Item>
-      <Item>Special022</Item>
-      <Item>Special023</Item>
+			<Item>Special001</Item>
+			<Item>Special020</Item>
+			<Item>Special022</Item>
+			<Item>Special023</Item>
 			<Item>Special024</Item>
 			<Item>Special025</Item>
 			<Item>Special028</Item>
 			<Item>Special029</Item>
 			<Item>Special030</Item>
 			<Item>Special031</Item>
-		</UnavailableItems>
-		
+		</UnavailableItems>	
 	</ShipConfig>
-
 </Datatable>

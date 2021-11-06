@@ -32,6 +32,7 @@ namespace Modder.Mod
             mods.ForEach(mod => mod.Apply(manager));
             manager.HeroItemManager.Save();
             manager.SkillManager.Save();
+            manager.ShipManager.Save();
         }
     }
 }
