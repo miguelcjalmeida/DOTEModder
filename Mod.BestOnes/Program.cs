@@ -1,8 +1,7 @@
 ﻿using Mod.ItemPassiveScaling;
 using Mod.RandomSort;
 using Mod.WeaponDiverseAttributes;
-using Modder.Mod;
-using System;
+using Modder;
 using System.Collections.Generic;
 
 namespace Mod.BestOnes

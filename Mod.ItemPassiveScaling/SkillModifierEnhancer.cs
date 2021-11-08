@@ -1,4 +1,4 @@
-﻿using Modder.Entities.HeroItem.SimulationDescriptor;
+﻿using Modder.HeroItems.Entities.SimulationDescriptor;
 
 namespace Mod.ItemPassiveScaling
 {

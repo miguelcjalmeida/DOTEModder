@@ -1,9 +1,6 @@
-﻿using Modder.Manager;
-using Modder.Mod;
-using System;
-using System.Collections.Generic;
+﻿using Modder;
+using Modder.Common.Managers;
 using System.Linq;
-using System.Text;
 
 namespace Mod.ItemPassiveScaling
 {

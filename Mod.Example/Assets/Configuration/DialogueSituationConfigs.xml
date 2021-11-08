@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<DialogueSituationConfig Name="OpenDoor" Probabilty="0.06" />
-	<DialogueSituationConfig Name="RepairModule" Probabilty="0.05" />
-	<DialogueSituationConfig Name="RemoveCrystal" Probabilty="0.5" />
-	<DialogueSituationConfig Name="Wounded" Probabilty="0.05" />
-</Datatable>

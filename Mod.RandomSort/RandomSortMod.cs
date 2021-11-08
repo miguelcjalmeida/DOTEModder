@@ -1,7 +1,6 @@
 ﻿using Modder;
-using Modder.Entities.HeroItem;
-using Modder.Manager;
-using Modder.Mod;
+using Modder.Common;
+using Modder.Common.Managers;
 using System;
 using System.Collections;
 using System.Collections.Generic;

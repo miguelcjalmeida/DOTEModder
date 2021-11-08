@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using Modder;
-using Modder.Entities.HeroItem.Rarity;
-using Modder.Entities.Localization;
-using Modder.Entities.Skill;
+using Modder.Common;
+using Modder.HeroItems.Entities.Rarity;
+using Modder.Localizations.Entities;
+using Modder.Skills.Entities;
 
 namespace Mod.ItemPassiveScaling
 {

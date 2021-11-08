@@ -1,4 +1,4 @@
-﻿using Modder.Entities.HeroItem.Rarity;
+﻿using Modder.HeroItems.Entities.Rarity;
 
 namespace Mod.ItemPassiveScaling
 {

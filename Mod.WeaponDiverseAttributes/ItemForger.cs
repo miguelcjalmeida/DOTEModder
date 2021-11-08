@@ -1,7 +1,6 @@
-﻿using Modder;
-using Modder.Entities.HeroItem;
-using Modder.Entities.HeroItem.SimulationDescriptor;
-using Modder.Entities.Ship;
+﻿using Modder.Common;
+using Modder.HeroItems.Entities;
+using Modder.HeroItems.Entities.SimulationDescriptor;
 using System;
 using System.Collections.Generic;
 using System.Linq;

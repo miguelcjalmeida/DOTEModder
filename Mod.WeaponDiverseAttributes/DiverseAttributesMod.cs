@@ -1,7 +1,7 @@
 ﻿using Modder;
-using Modder.Entities.HeroItem;
-using Modder.Manager;
-using Modder.Mod;
+using Modder.Common;
+using Modder.Common.Managers;
+using Modder.HeroItems.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;

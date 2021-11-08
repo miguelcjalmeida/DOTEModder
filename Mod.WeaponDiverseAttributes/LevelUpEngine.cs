@@ -1,5 +1,5 @@
-﻿using Modder;
-using Modder.Entities.HeroItem.SimulationDescriptor;
+﻿using Modder.Common;
+using Modder.HeroItems.Entities.SimulationDescriptor;
 using System;
 using System.Collections.Generic;
 using System.Linq;
