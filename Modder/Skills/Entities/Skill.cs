@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using Modder.Localizations.Entities;
 
 namespace Modder.Skills.Entities
@@ -14,8 +15,13 @@ namespace Modder.Skills.Entities
 
         public string Identifier
         {
-            get => $"Skill_{Name}";
-            set => Name = value.Replace("Skill_", "");
+            get => $"Skill_{SkillTypeIdentifier}{Name}";
+            set => Name = value.Replace("Skill_A", "").Replace("Skill_P", "");
+        }
+
+        public string SkillTypeIdentifier
+        {
+            get => Levels.Any(x => x.IsActive) ? "A" : "P";
         }
 
         public string LocalizationTitlePlaceholder => $"%{Identifier}_Title";

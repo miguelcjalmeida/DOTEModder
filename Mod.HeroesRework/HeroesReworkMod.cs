@@ -19,7 +19,7 @@ namespace Mod.HeroesRework
                 x.Levels.ForEach(l =>
                     l.FoodCost = 0));
 
-            var reworks = new List<IHeroRework>() { new MaxRework(), new MiziRework() };
+            var reworks = new List<IHeroRework>() { new MaxRework(), new MiziRework(), new GolgyRework(), new HikenshaRework() };
 
             reworks.ForEach(rework =>
             {

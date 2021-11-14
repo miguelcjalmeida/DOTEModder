@@ -1,4 +1,5 @@
-﻿using Modder.Common.Loaders;
+﻿using Modder.Common;
+using Modder.Common.Loaders;
 using Modder.Heroes.Entities;
 using Modder.HeroItems.Entities;
 using Modder.Localizations.Entities;
@@ -55,7 +56,7 @@ namespace Modder.Heroes.Loaders
         {
             return new EquipmentSlot
             {
-                Name = equipConfig.Attribute("Name"),
+                Name = XmlTranslation.ValueAs<EquipmentName>(equipConfig.Attribute("Name")),
                 Type = equipConfig.Attribute<WeaponType?>("Type"),
             };
         }

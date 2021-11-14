@@ -1,4 +1,5 @@
 ﻿using Modder.Common.Loaders;
+using Modder.Heroes.Entities;
 using Modder.Localizations.Entities;
 using System;
 using System.Collections.Generic;
@@ -14,6 +15,7 @@ namespace Modder.Common
             if (value is Localization) return ((Localization)(object)value).Name;
             if (value is bool) return value.ToString().ToLower();
             if (value is Path) return ((Path)(object)value).AsText();
+            if (value is EquipmentName) return ((EquipmentName)(object)value).AsText();
             return value.ToString();
         }
 
@@ -25,6 +27,7 @@ namespace Modder.Common
             if (type == typeof(string)) return (T)(object)value;
             if (type == typeof(int)) return (T)(object)Convert.ToInt32(value);
             if (type == typeof(Path)) return (T)(object)value.AsPath();
+            if (type == typeof(EquipmentName)) return (T)(object)value.AsEquipmentName();
             if (type.IsEnum) return (T)(object)(T)Enum.Parse(typeof(T), value);
             if (Nullable.GetUnderlyingType(type) != null)
             {

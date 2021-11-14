@@ -51,8 +51,10 @@ namespace Modder.Heroes.Entities
         {
             var levelFound = Levels.FirstOrDefault(x => x.Level == level);
             if (levelFound == null) return;
-            levelFound.Skills.Remove(skillId);
-            levelFound.Skills.Add(skillId);
+
+            var nextLevel = Levels.SelectMany(x => x.Skills).Count(x => x.Contains(skillId)) + 1;
+            var levelSuffix = nextLevel <= 1 ? "" : $"_LVL{nextLevel}";
+            levelFound.Skills.Add(skillId + levelSuffix);
             return;
         }
         public void LearnSkillAt(Skill skill, int level)
@@ -75,6 +77,11 @@ namespace Modder.Heroes.Entities
         public void ReplaceSkill(Skill origin, Skill target)
         {
             ReplaceSkill(origin.Identifier, target.Identifier);
+        }
+
+        public void ReplaceEquipment(EquipmentName origin, EquipmentName target)
+        {
+            EquipmentSlots.Where(x => x.Name == origin).ForEach(x => x.Name = target);
         }
     }
 }
