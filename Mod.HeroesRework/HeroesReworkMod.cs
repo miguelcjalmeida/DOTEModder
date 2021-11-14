@@ -15,9 +15,7 @@ namespace Mod.HeroesRework
     {
         public void Apply(EntitiesManager manager)
         {
-            manager.HeroManager.Stored.ForEach(x =>
-                x.Levels.ForEach(l =>
-                    l.FoodCost = 0));
+            // DisableFoodCosts(manager);
 
             var reworks = new List<IHeroRework>() { new MaxRework(), new MiziRework(), new GolgyRework(), new HikenshaRework() };
 
@@ -27,6 +25,13 @@ namespace Mod.HeroesRework
                 if (hero == null) return;
                 rework.Apply(hero, manager);
             });
+        }
+
+        private static void DisableFoodCosts(EntitiesManager manager)
+        {
+            manager.HeroManager.Stored.ForEach(x =>
+                            x.Levels.ForEach(l =>
+                                l.FoodCost = 0));
         }
     }
 }

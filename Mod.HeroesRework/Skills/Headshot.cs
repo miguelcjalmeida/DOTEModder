@@ -10,7 +10,7 @@ namespace Mod.HeroesRework.Skills
     {
         public Headshot()
         {
-            Icon = "GUI/DynamicBitmaps/Skills/Skill_P0011";
+            Icon = "GUI/DynamicBitmaps/Skills/Skill_A0008";
             Name = "Headshot";
             Title = new Description
             {
