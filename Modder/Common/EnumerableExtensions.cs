@@ -12,6 +12,12 @@ namespace Modder.Common
                 action(item);
         }
 
+        public static void ForEach<T>(this IList<T> items, Action<T, int> action)
+        {
+            for (var i = 0; i< items.Count; i++)
+                action(items[i], i);
+        }
+
         public static IList<T> Clone<T>(this IList<T> items) where T : ICloneable
         {
             var newItems = new List<T>();

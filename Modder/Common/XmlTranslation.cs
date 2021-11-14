@@ -13,6 +13,7 @@ namespace Modder.Common
             if (value == null) return "";
             if (value is Localization) return ((Localization)(object)value).Name;
             if (value is bool) return value.ToString().ToLower();
+            if (value is Path) return ((Path)(object)value).AsText();
             return value.ToString();
         }
 
@@ -23,6 +24,7 @@ namespace Modder.Common
             if (type == typeof(bool)) return (T)(object)Convert.ToBoolean(value.ToLower());
             if (type == typeof(string)) return (T)(object)value;
             if (type == typeof(int)) return (T)(object)Convert.ToInt32(value);
+            if (type == typeof(Path)) return (T)(object)value.AsPath();
             if (type.IsEnum) return (T)(object)(T)Enum.Parse(typeof(T), value);
             if (Nullable.GetUnderlyingType(type) != null)
             {

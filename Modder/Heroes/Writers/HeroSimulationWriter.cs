@@ -47,7 +47,7 @@ namespace Modder.Heroes.Writers
             writer.WriteAttributeString("TargetProperty", modifier.TargetProperty.ToString());
             writer.WriteAttributeString("Operation", modifier.Operation.ToString());
             writer.WriteAttributeString("Value", Formatter.FormatNumericValue(modifier.Value));
-            if (modifier.Path != null) writer.WriteAttributeString("Path", modifier.Path);
+            if (modifier.Path != null) writer.WriteAttributeString("Path", XmlTranslation.AsText(modifier.Path));
             writer.WriteEndElement();
         }
     }

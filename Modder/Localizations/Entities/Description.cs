@@ -28,5 +28,15 @@ namespace Modder.Localizations.Entities
             German += suffix;
             French += suffix;
         }
+
+        public bool Is(string name)
+        {
+            return English.ToLower().Contains(name.ToLower());
+        }
+
+        public bool Equals(string name)
+        {
+            return English.ToLower() == name.ToLower();
+        }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using Modder.Common;
 using Modder.Common.Loaders;
 using Modder.HeroItems.Entities.SimulationDescriptor;
 using Modder.Skills.Entities;
@@ -53,7 +54,7 @@ namespace Modder.Skills.Loaders
                         TargetProperty = TargetProperty.Skill_A0010_Effect,
                         Operation = Operation.Addition,
                         Value = 1f,
-                        Path = "../Room/Mob"
+                        Path = Path.MobsInRoom,
                     }
                 }
             }

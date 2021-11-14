@@ -8,7 +8,7 @@ namespace Modder.Common.Writers
     {
         public void Write(string distPath, TContent content)
         {
-            Directory.CreateDirectory(Path.GetDirectoryName(GetFilePath(distPath)));
+            Directory.CreateDirectory(System.IO.Path.GetDirectoryName(GetFilePath(distPath)));
 
             var settings = new XmlWriterSettings
             {

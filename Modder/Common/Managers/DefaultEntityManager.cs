@@ -58,6 +58,12 @@ namespace Modder.Common.Managers
             _localizationWriter.Write(_distPath, _localizations);
         }
 
+        public TEntity Find(string name)
+        {
+            return Stored.FirstOrDefault(x => x.Title.Equals(name)) ??
+                   Stored.FirstOrDefault(x => x.Title.Is(name));
+        }
+
         private void SetLocalizationText(string placeholder, Description newDescription)
         {
             if (newDescription == null) return;

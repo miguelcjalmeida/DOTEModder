@@ -62,7 +62,7 @@ namespace Modder.Skills.Loaders
                     TargetProperty = x.Attributes["TargetProperty"].Value.ParseToEnum<TargetProperty>(),
                     Operation = x.Attributes["Operation"].Value.ParseToEnum<Operation>(),
                     Value = (float)Convert.ToDouble(x.Attributes["Value"].Value),
-                    Path = x.Attributes["Path"]?.Value
+                    Path = XmlTranslation.ValueAs<Path?>(x.Attributes["Path"]?.Value),
                 })
                 .ToList();
         }

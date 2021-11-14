@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Modder.Common;
+using System;
 
 namespace Modder.HeroItems.Entities.SimulationDescriptor
 {
@@ -7,7 +8,7 @@ namespace Modder.HeroItems.Entities.SimulationDescriptor
         public TargetProperty TargetProperty;
         public Operation Operation;
         public float Value;
-        public string Path;
+        public Path? Path;
 
         public object Clone()
         {
