@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Mod.HeroesRework\Mod.HeroesRework.csproj" />
     <ProjectReference Include="..\Mod.ItemPassiveScaling\Mod.ItemPassiveScaling.csproj" />
     <ProjectReference Include="..\Mod.RandomSort\Mod.RandomSort.csproj" />
     <ProjectReference Include="..\Mod.WeaponDiverseAttributes\Mod.WeaponDiverseAttributes.csproj" />

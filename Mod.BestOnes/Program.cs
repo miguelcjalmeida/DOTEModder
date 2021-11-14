@@ -1,4 +1,5 @@
-﻿using Mod.ItemPassiveScaling;
+﻿using Mod.HeroesRework;
+using Mod.ItemPassiveScaling;
 using Mod.RandomSort;
 using Mod.WeaponDiverseAttributes;
 using Modder;
@@ -13,10 +14,10 @@ namespace Mod.BestOnes
             var modRunner = new Runner();
             modRunner.Run(new List<IMod>()
             {
-                //new ItemPassiveScalingMod(),
-                //new DiverseAttributesMod(),
-                //new RandomSortMod(),
-                new TestMod(),
+                new ItemPassiveScalingMod(),
+                new DiverseAttributesMod(),
+                new RandomSortMod(),
+                new HeroesReworkMod(),
             });
         }
     }
