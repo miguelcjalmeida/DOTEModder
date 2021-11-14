@@ -8,6 +8,11 @@ namespace Modder.Common
     {
         public static Random random = new Random();
 
+        public static void Seed(int seed)
+        {
+            random = new Random(seed);
+        }
+
         public static int Next(int min, int max)
         {
             return random.Next(min, max + 1);

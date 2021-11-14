@@ -6,23 +6,23 @@ using System.Collections.Generic;
 
 namespace Mod.HeroesRework.Skills
 {
-    public class Deadeye : Skill
+    public class Headshot : Skill
     {
-        public Deadeye()
+        public Headshot()
         {
             Icon = "GUI/DynamicBitmaps/Skills/Skill_P0011";
-            Name = "Deadeye";
+            Name = "Headshot";
             Title = new Description
             {
-                English = "Deadeye",
-                French = "œil mort",
-                German = "Totes Auge"
+                English = "Headshot",
+                French = "Photo du visage",
+                German = "Kopfschuss"
             };
             Description = new Description
             {
-                English = "Load special bullet. Focus. Mark. Draw",
-                French = "Chargez une balle spéciale. Se concentrer. Marque. Dessiner",
-                German = "Spezialgeschoss laden. Fokus. Markierung. Zeichnen"
+                English = "Aim long enough to shoot on the face",
+                French = "Visez assez longtemps pour tirer sur le visage",
+                German = "Zielen Sie lange genug, um ins Gesicht zu schießen"
             };
             Levels = new List<SkillLevel>()
             {

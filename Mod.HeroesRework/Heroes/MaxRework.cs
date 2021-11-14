@@ -11,7 +11,7 @@ namespace Mod.HeroesRework.Heroes
 
         public void Apply(Hero hero, EntitiesManager manager)
         {
-            var deadeye = new Deadeye();
+            var deadeye = new Headshot();
             var verbalAbuse = manager.SkillManager.Find("Verbal Abuse");
             hero.ReplaceSkill(verbalAbuse, deadeye);
             manager.SkillManager.Stored.Add(deadeye);

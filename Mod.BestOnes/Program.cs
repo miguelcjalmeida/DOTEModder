@@ -3,6 +3,7 @@ using Mod.ItemPassiveScaling;
 using Mod.RandomSort;
 using Mod.WeaponDiverseAttributes;
 using Modder;
+using Modder.Common;
 using System.Collections.Generic;
 
 namespace Mod.BestOnes
@@ -11,6 +12,7 @@ namespace Mod.BestOnes
     {
         static void Main(string[] args)
         {
+            ModRandom.Seed(9931234);
             var modRunner = new Runner();
             modRunner.Run(new List<IMod>()
             {
