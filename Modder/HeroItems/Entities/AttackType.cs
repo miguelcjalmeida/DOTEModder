@@ -8,6 +8,18 @@
         Sword,
         Spear,
         LaserGun,
-        FireSpear
+        FireSpear,
+        Hand,
+        MachineGun,
+        SpearAttack2,
+        ShotGun,
+        HeavyRifle,
+        MiziFist,
+        PugHammer,
+        Thunder,
+        Wrench,
+        FlameThrower,
+        BFHeavyGun,
+        Saw
     }
 }

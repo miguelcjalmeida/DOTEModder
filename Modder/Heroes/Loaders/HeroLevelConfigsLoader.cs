@@ -24,7 +24,7 @@ namespace Modder.Heroes.Loaders
             var levelDoc = LoadDocument($"{assetsPath}/Configuration/HeroLevelConfigs.xml");
             heroes.ForEach(hero => 
             {
-                hero.HeroLevels = levelDoc.Select($"Datatable/HeroLevelConfig[starts-with(Name,'{hero.Identifier}')]", CreateHeroLevel);
+                hero.Levels = levelDoc.Select($"Datatable/HeroLevelConfig[starts-with(@Name,'{hero.Identifier}')]", CreateHeroLevel);
             });
         }
 

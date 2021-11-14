@@ -30,7 +30,7 @@ namespace Modder.Heroes.Loaders
         private Hero CreateHero(XmlNode heroConfig)
         {
             var hero = new Hero();
-            hero.Name = heroConfig.Attribute("Name");
+            hero.Identifier = heroConfig.Attribute("Name");
             hero.RecruitmentFoodCost = heroConfig.Attribute<int>("RecruitmentFoodCost");
             hero.AITargetType = heroConfig.Attribute<AITargetType>("AITargetType");
             hero.AttackType = heroConfig.Attribute<AttackType>("AttackType");
@@ -56,7 +56,7 @@ namespace Modder.Heroes.Loaders
             return new EquipmentSlot
             {
                 Name = equipConfig.Attribute("Name"),
-                Type = equipConfig.Attribute<WeaponType>("Type"),
+                Type = equipConfig.Attribute<WeaponType?>("Type"),
             };
         }
     }

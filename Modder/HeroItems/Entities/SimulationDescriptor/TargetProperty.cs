@@ -129,6 +129,8 @@
         UnpoweredRoomAttackCooldown,
         UnpoweredRoomSkill_A0008_Effect,
         UnpoweredRoomAttackPowerBonus,
-        Skill_A0010_Effect
+        Skill_A0010_Effect,
+        AttackHitCount,
+        HealthBarHeight
     }
 }

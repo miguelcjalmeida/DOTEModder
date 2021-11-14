@@ -7,20 +7,17 @@ namespace Modder.Heroes.Entities
 {
     public class HeroDescriptor
     {
-        public int Level { get; set; }
-
-        public HeroDescriptorType Type { 
-            get {
-                if (Level == 0) return HeroDescriptorType.Hero;
-                return HeroDescriptorType.HeroLevel;
-            } 
-        }
-
         public IList<ModifierDescriptor> Modifiers { get; set; }
 
-        public string GetName(string heroName) {
-            if (Type == HeroDescriptorType.Hero) return $"Hero_{heroName}";
-            return $"Hero_{heroName}_LVL{Level}";
+        public string GetIdentifier(string heroName, int level) {
+            if (GetType(level) == HeroDescriptorType.Hero) return $"Hero_{heroName}";
+            return $"Hero_{heroName}_LVL{level}";
+        }
+
+        public HeroDescriptorType GetType(int level)
+        {
+            if (level <= 1) return HeroDescriptorType.Hero;
+            return HeroDescriptorType.HeroLevel;
         }
     }
 }

@@ -2,9 +2,11 @@
 using Modder.Common.Loaders;
 using Modder.Heroes.Entities;
 using Modder.HeroItems.Entities;
+using Modder.HeroItems.Entities.SimulationDescriptor;
 using Modder.Localizations.Entities;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Xml;
 
@@ -12,34 +14,51 @@ namespace Modder.Heroes.Loaders
 {
     public class HeroSimulationLoader : XmlLoader
     {
-        private readonly IList<Hero> heroes;
+        private readonly IList<Hero> _heroes;
 
         public HeroSimulationLoader(IList<Hero> heroes)
         {
-            this.heroes = heroes;
+            _heroes = heroes;
         }
 
         public void PopulateFromAssets(string assetsPath)
         {
-            var levelDoc = LoadDocument($"{assetsPath}/Configuration/HeroLevelConfigs.xml");
-            heroes.ForEach(hero => 
+            var document = LoadDocument($"{assetsPath}/Simulation/SimulationDescriptors_Hero.xml");
+            _heroes.ForEach(hero =>
+                hero.Levels.ForEach(level => PopulateLevelDescriptors(hero, level, document)));
+        }
+
+        private void PopulateLevelDescriptors(Hero hero, HeroLevel level, XmlDocument document)
+        {
+            level.Descriptors = new Collection<HeroDescriptor>();
+            PopulateDescriptor(hero, level, document);
+        }
+
+
+        private void PopulateDescriptor(Hero hero, HeroLevel level, XmlDocument document)
+        {
+            var xpath = $"Datatable/SimulationDescriptor[@Name='{level.GetIdentifier(hero.Name)}']";
+            var node = document.SelectSingleNode(xpath);
+            if (node == null) return;
+            level.Descriptors.Add(new HeroDescriptor
             {
-                hero.HeroLevels = levelDoc.Select($"Datatable/HeroLevelConfig[starts-with(Name,'{hero.Identifier}')]", CreateHeroLevel);
+                Modifiers = CreateModifiers(node),
             });
         }
 
-        private HeroLevel CreateHeroLevel(XmlNode heroConfig)
+        private static IList<ModifierDescriptor> CreateModifiers(XmlNode simulationNode)
         {
-            var level = new HeroLevel();
-            level.FoodCost = heroConfig.Attribute<int>("FoodCost");
-            level.Level = XmlTranslation.ValueAs<int>(heroConfig.Attribute("Name").Split("_LVL")[1]);
-            level.Skills = heroConfig.Select("Skills/Skill", CreateSkill);
-            return level;
-        }
+            var descriptors = simulationNode.SelectNodes("SimulationModifierDescriptors/SimulationModifierDescriptor");
 
-        private string CreateSkill(XmlNode skillConfig)
-        {
-            return skillConfig.InnerText;
+            return descriptors.AsQuery()
+                .Select(x => new ModifierDescriptor
+                {
+                    TargetProperty = x.Attributes["TargetProperty"].Value.ParseToEnum<TargetProperty>(),
+                    Operation = x.Attributes["Operation"].Value.ParseToEnum<Operation>(),
+                    Value = (float)Convert.ToDouble(x.Attributes["Value"].Value),
+                    Path = x.Attributes["Path"]?.Value
+                })
+                .ToList();
         }
     }
 }

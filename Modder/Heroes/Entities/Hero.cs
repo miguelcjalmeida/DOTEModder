@@ -18,8 +18,7 @@ namespace Modder.Heroes.Entities
 
         public IList<Dialog> IntroDialogs { get; set; }
         public IList<EquipmentSlot> EquipmentSlots { get; set; }
-        public IList<HeroDescriptor> Descriptors { get; set; }
-        public IList<HeroLevel> HeroLevels { get; set; }
+        public IList<HeroLevel> Levels { get; set; }
         public string SmallIconPath { get; set; }
         public string LargeIconPath { get; set; }
         public Description Title { get; set; }

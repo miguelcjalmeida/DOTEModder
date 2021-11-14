@@ -13,9 +13,10 @@ namespace Mod.BestOnes
             var modRunner = new Runner();
             modRunner.Run(new List<IMod>()
             {
-                new ItemPassiveScalingMod(),
-                new DiverseAttributesMod(),
-                new RandomSortMod(),
+                //new ItemPassiveScalingMod(),
+                //new DiverseAttributesMod(),
+                //new RandomSortMod(),
+                new TestMod(),
             });
         }
     }

@@ -1,6 +1,10 @@
-﻿using Modder.HeroItems.Loaders;
+﻿using Modder.Heroes.Loaders;
+using Modder.Heroes.Managers;
+using Modder.Heroes.Writers;
+using Modder.HeroItems.Loaders;
 using Modder.HeroItems.Managers;
 using Modder.HeroItems.Writers;
+using Modder.Localizations.Entities;
 using Modder.Localizations.Loaders;
 using Modder.Localizations.Writers;
 using Modder.Ships.Loaders;
@@ -30,7 +34,12 @@ namespace Modder.Common.Managers
             var shipWriter = new ShipWriter();
             var shipManager = new ShipManager(assetsPath, distPath, localizations, shipLoader, shipWriter, localizationWriter);
 
-            return new EntitiesManager(heroItemManager, skillManager, shipManager);
+            var localizationProvider = new LocalizationProvider(localizations);
+            var heroWriter = new HeroWriter();
+            var heroLoader = new HeroLoader(localizations, localizationProvider);
+            var heroManager = new HeroManager(assetsPath, distPath, localizations, heroLoader, heroWriter, localizationWriter);
+
+            return new EntitiesManager(heroItemManager, skillManager, shipManager, heroManager);
         }
     }
 }

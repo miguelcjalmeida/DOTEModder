@@ -34,6 +34,7 @@ namespace Modder
             manager.HeroItemManager.Save();
             manager.SkillManager.Save();
             manager.ShipManager.Save();
+            manager.HeroManager.Save();
         }
     }
 }

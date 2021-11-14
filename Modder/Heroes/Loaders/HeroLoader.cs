@@ -21,10 +21,12 @@ namespace Modder.Heroes.Loaders
 
         public IList<Hero> LoadFromAssets(string assetsPath)
         {
-            var items = new HeroConfigurationLoader(_localizationProvider).LoadFromAssets(assetsPath);
-            new HeroLevelConfigsLoader(items).PopulateFromAssets(assetsPath);
-            new TitleDescriptionEntityPopulator<Hero>(_localizations).PopulateWith(items);
-            return items;
+            var heroes = new HeroConfigurationLoader(_localizationProvider).LoadFromAssets(assetsPath);
+            new HeroLevelConfigsLoader(heroes).PopulateFromAssets(assetsPath);
+            new HeroSimulationLoader(heroes).PopulateFromAssets(assetsPath);
+            new HeroGuiLoader(heroes).PopulateFromAssets(assetsPath);
+            new TitleDescriptionEntityPopulator<Hero>(_localizations).PopulateWith(heroes);
+            return heroes;
         }
     }
 }

@@ -4,9 +4,4 @@
         <TargetFramework>netcoreapp3.1</TargetFramework>
     </PropertyGroup>
 
-    <ItemGroup>
-      <Folder Include="Common\SimulationDescriptors\" />
-      <Folder Include="Heroes\Writers\" />
-    </ItemGroup>
-
 </Project>
