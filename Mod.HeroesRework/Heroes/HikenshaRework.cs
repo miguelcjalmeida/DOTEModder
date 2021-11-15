@@ -19,10 +19,7 @@ namespace Mod.HeroesRework.Heroes
         public void Apply(Hero hero, EntitiesManager manager)
         {
             var terror = new Terror();
-
-            for (var i = 1; i <= 9; i++)
-                hero.LearnSkillAt(terror, i);
-
+            hero.LearnSkillEvenly(terror);
             manager.SkillManager.Stored.Add(terror);
         }
     }

@@ -131,6 +131,8 @@
         UnpoweredRoomAttackPowerBonus,
         Skill_A0010_Effect,
         AttackHitCount,
-        HealthBarHeight
+        HealthBarHeight,
+        ScienceAttackPowerBonus,
+        MaximumAttackPower_displayed
     }
 }

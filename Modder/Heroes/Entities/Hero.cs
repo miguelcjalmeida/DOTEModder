@@ -39,7 +39,7 @@ namespace Modder.Heroes.Entities
         public void UnlearnSkill(string skillId)
         {
             Levels.ForEach(level =>
-                level.Skills.Remove(skillId));
+                level.Skills.Remove(nextSkill => nextSkill.Contains(skillId)));
         }
 
         public void UnlearnSkill(Skill skill)
@@ -79,9 +79,24 @@ namespace Modder.Heroes.Entities
             ReplaceSkill(origin.Identifier, target.Identifier);
         }
 
-        public void ReplaceEquipment(EquipmentName origin, EquipmentName target)
+        public void ReplaceEquipment(EquipmentName origin, EquipmentName target, WeaponType? weaponType = null)
         {
-            EquipmentSlots.Where(x => x.Name == origin).ForEach(x => x.Name = target);
+            EquipmentSlots.Where(x => x.Name == origin).ForEach(x => 
+            { 
+                x.Name = target;
+                x.Type = weaponType;
+            });
+        }
+
+        public void LearnSkillEvenly(Skill skill)
+        {
+            var count = skill.Levels.Max(x => x.Level);
+            var rate = (15f / count);
+
+            for ( var i = 0; i < count; i++)
+            {
+                LearnSkillAt(skill, (int)Math.Round(1f + rate * i, 0));
+            }
         }
     }
 }

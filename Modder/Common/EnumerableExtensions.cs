@@ -25,5 +25,19 @@ namespace Modder.Common
                 newItems.Add((T)item.Clone());
             return newItems;
         }
+
+        public static bool Remove<T>(this IList<T> items, Func<T, bool> expression)
+        {
+            var hasRemoved = false;
+            for (var i = 0; i < items.Count; i++)
+            {
+                var item = items[i];
+                if (!expression(item)) continue;
+                items.RemoveAt(i);
+                i--;
+                hasRemoved = true;
+            }
+            return hasRemoved;
+        }
     }
 }
