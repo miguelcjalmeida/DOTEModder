@@ -15,87 +15,91 @@ namespace Mod.HeroesRework.Skills
             Title = new Description
             {
                 English = "Headshot",
-                French = "Photo du visage",
-                German = "Kopfschuss"
+                French = "Tir à la tête",
+                German = "Traf den Kopf"
             };
             Description = new Description
             {
-                English = "Aim long enough to shoot on the face",
-                French = "Visez assez longtemps pour tirer sur le visage",
-                German = "Zielen Sie lange genug, um ins Gesicht zu schießen"
+                English = "A dusty ending..",
+                French = "Une fin poussiéreuse..",
+                German = "Ein staubiges Ende.."
             };
             Levels = new List<SkillLevel>()
             {
                 new SkillLevel
                 {
-                    CooldownTurnsCount = 0,
+                    CooldownTurnsCount = 2,
                     Level = 1,
-                    Duration = 3,
+                    Duration = 0.33f,
                     IsActive = true,
+                    TargetVFXPath = "VFX/Skills/FX_Skills_00_Cast",
+                    OwnerVFXPath = "VFX/Skills/FX_Skills_00_Cast",
                     Descriptors = new List<SkillDescriptor>
                     {
                         new SkillDescriptor
                         {
+                            AppliesToTarget = true,
+                            Modifiers = new List<ModifierDescriptor>
+                            {
+                                new ModifierDescriptor
+                                {
+                                    TargetProperty = TargetProperty.DustLootProbability,
+                                    Operation = Operation.Force,
+                                    Value = 1f,
+                                },
+                            }
+                        },
+                        new SkillDescriptor
+                        {
+                            AppliesToTarget = false,
                             Modifiers = new List<ModifierDescriptor>
                             {
                                 new ModifierDescriptor
                                 {
                                     TargetProperty = TargetProperty.AttackPower,
                                     Operation = Operation.Percent,
-                                    Value = 2,
+                                    Value = 2f,
                                     Path = Path.CurrentHero,
                                 },
-                                new ModifierDescriptor
-                                {
-                                    TargetProperty = TargetProperty.AttackCooldown,
-                                    Operation = Operation.Force,
-                                    Value = 3,
-                                    Path = Path.CurrentHero,
-                                },
-                                new ModifierDescriptor
-                                {
-                                    TargetProperty = TargetProperty.AttackRange,
-                                    Operation = Operation.Force,
-                                    Value = 15,
-                                    Path = Path.CurrentHero,
-                                }
                             }
                         }
                     }
                 },
                 new SkillLevel
                 {
-                    CooldownTurnsCount = 0,
+                    CooldownTurnsCount = 2,
                     Level = 2,
-                    Duration = 3,
+                    Duration = 0.33f,
                     IsActive = true,
+                    TargetVFXPath = "VFX/Skills/FX_Skills_00_Cast",
+                    OwnerVFXPath = "VFX/Skills/FX_Skills_00_Cast",
                     Descriptors = new List<SkillDescriptor>
                     {
                         new SkillDescriptor
                         {
+                            AppliesToTarget = true,
+                            Modifiers = new List<ModifierDescriptor>
+                            {
+                                new ModifierDescriptor
+                                {
+                                    TargetProperty = TargetProperty.DustLootProbability,
+                                    Operation = Operation.Force,
+                                    Value = 1f,
+                                },
+                            }
+                        },
+                        new SkillDescriptor
+                        {
+                            AppliesToTarget = false,
                             Modifiers = new List<ModifierDescriptor>
                             {
                                 new ModifierDescriptor
                                 {
                                     TargetProperty = TargetProperty.AttackPower,
                                     Operation = Operation.Percent,
-                                    Value = 3,
+                                    Value = 4f,
                                     Path = Path.CurrentHero,
                                 },
-                                new ModifierDescriptor
-                                {
-                                    TargetProperty = TargetProperty.AttackCooldown,
-                                    Operation = Operation.Force,
-                                    Value = 3,
-                                    Path = Path.CurrentHero,
-                                },
-                                new ModifierDescriptor
-                                {
-                                    TargetProperty = TargetProperty.AttackRange,
-                                    Operation = Operation.Force,
-                                    Value = 15,
-                                    Path = Path.CurrentHero,
-                                }
                             }
                         }
                     }

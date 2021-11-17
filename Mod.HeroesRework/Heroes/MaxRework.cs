@@ -1,6 +1,8 @@
 ﻿using Mod.HeroesRework.Skills;
+using Modder.Common;
 using Modder.Common.Managers;
 using Modder.Heroes.Entities;
+using Modder.HeroItems.Entities.SimulationDescriptor;
 using System.Linq;
 
 namespace Mod.HeroesRework.Heroes
