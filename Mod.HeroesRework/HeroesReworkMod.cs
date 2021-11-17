@@ -17,9 +17,10 @@ namespace Mod.HeroesRework
         {
             // DisableFoodCosts(manager);
 
-            var reworks = new List<IHeroRework>() 
-            { 
+            var reworks = new List<IHeroRework>()
+            {
                 new MaxRework(), new MiziRework(), new GolgyRework(), new HikenshaRework(), new KreyangRework(),
+                new TroeRework()
             };
 
             reworks.ForEach(rework =>

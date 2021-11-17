@@ -12,7 +12,7 @@ namespace Mod.BestOnes
     {
         static void Main(string[] args)
         {
-            ModRandom.Seed(9931234);
+            ModRandom.Seed(19931234);
             var modRunner = new Runner();
             modRunner.Run(new List<IMod>()
             {
