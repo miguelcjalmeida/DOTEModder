@@ -24,12 +24,19 @@ namespace Mod.HeroesRework.Skills
                 French = "Une fin poussiéreuse..",
                 German = "Ein staubiges Ende.."
             };
-            Levels = new List<SkillLevel>()
+            SetSkillLevels();
+        }
+
+        private void SetSkillLevels()
+        {
+            Levels = new List<SkillLevel>();
+
+            for (var i = 1; i <= 5; i++)
             {
-                new SkillLevel
+                Levels.Add(new SkillLevel
                 {
-                    CooldownTurnsCount = 2,
-                    Level = 1,
+                    CooldownTurnsCount = 1,
+                    Level = i,
                     Duration = 0.33f,
                     IsActive = true,
                     TargetVFXPath = "VFX/Skills/FX_Skills_00_Cast",
@@ -58,53 +65,14 @@ namespace Mod.HeroesRework.Skills
                                 {
                                     TargetProperty = TargetProperty.AttackPower,
                                     Operation = Operation.Percent,
-                                    Value = 2f,
+                                    Value = 1f * i,
                                     Path = Path.CurrentHero,
                                 },
                             }
                         }
                     }
-                },
-                new SkillLevel
-                {
-                    CooldownTurnsCount = 2,
-                    Level = 2,
-                    Duration = 0.33f,
-                    IsActive = true,
-                    TargetVFXPath = "VFX/Skills/FX_Skills_00_Cast",
-                    OwnerVFXPath = "VFX/Skills/FX_Skills_00_Cast",
-                    Descriptors = new List<SkillDescriptor>
-                    {
-                        new SkillDescriptor
-                        {
-                            AppliesToTarget = true,
-                            Modifiers = new List<ModifierDescriptor>
-                            {
-                                new ModifierDescriptor
-                                {
-                                    TargetProperty = TargetProperty.DustLootProbability,
-                                    Operation = Operation.Force,
-                                    Value = 1f,
-                                },
-                            }
-                        },
-                        new SkillDescriptor
-                        {
-                            AppliesToTarget = false,
-                            Modifiers = new List<ModifierDescriptor>
-                            {
-                                new ModifierDescriptor
-                                {
-                                    TargetProperty = TargetProperty.AttackPower,
-                                    Operation = Operation.Percent,
-                                    Value = 4f,
-                                    Path = Path.CurrentHero,
-                                },
-                            }
-                        }
-                    }
-                },
-            };
+                });
+            }
         }
     }
 }

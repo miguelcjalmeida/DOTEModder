@@ -15,12 +15,12 @@ namespace Mod.HeroesRework
     {
         public void Apply(EntitiesManager manager)
         {
-            // DisableFoodCosts(manager);
+            DisableFoodCosts(manager);
 
             var reworks = new List<IHeroRework>()
             {
                 new MaxRework(), new MiziRework(), new GolgyRework(), new HikenshaRework(), new KreyangRework(),
-                new TroeRework()
+                new TroeRework(), new SkroigRework()
             };
 
             reworks.ForEach(rework =>

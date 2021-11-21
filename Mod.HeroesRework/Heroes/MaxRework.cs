@@ -13,10 +13,11 @@ namespace Mod.HeroesRework.Heroes
 
         public void Apply(Hero hero, EntitiesManager manager)
         {
-            var deadeye = new Headshot();
+            var headshot = new Headshot();
             var verbalAbuse = manager.SkillManager.Find("Verbal Abuse");
-            hero.ReplaceSkill(verbalAbuse, deadeye);
-            manager.SkillManager.Stored.Add(deadeye);
+            hero.UnlearnSkill(verbalAbuse);
+            hero.LearnSkillEvenly(headshot, 2);
+            manager.SkillManager.Stored.Add(headshot);
         }
     }
 }

@@ -133,6 +133,7 @@
         AttackHitCount,
         HealthBarHeight,
         ScienceAttackPowerBonus,
-        MaximumAttackPower_displayed
+        MaximumAttackPower_displayed,
+        HPByKill
     }
 }

@@ -88,14 +88,14 @@ namespace Modder.Heroes.Entities
             });
         }
 
-        public void LearnSkillEvenly(Skill skill)
+        public void LearnSkillEvenly(Skill skill, int startLearningByLevel = 1)
         {
             var count = skill.Levels.Max(x => x.Level);
-            var rate = (15f / count);
+            var rate = (15f - (startLearningByLevel - 1)) / count;
 
             for ( var i = 0; i < count; i++)
             {
-                LearnSkillAt(skill, (int)Math.Round(1f + rate * i, 0));
+                LearnSkillAt(skill, (int)Math.Round(startLearningByLevel + rate * i, 0));
             }
         }
     }
