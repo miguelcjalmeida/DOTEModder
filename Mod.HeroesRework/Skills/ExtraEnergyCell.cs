@@ -10,23 +10,23 @@ using System.Threading.Tasks;
 
 namespace Mod.HeroesRework.Skills
 {
-    public class GreatswordAbuser : Skill
+    public class ExtraEnergyCell : Skill
     {
-        public GreatswordAbuser()
+        public ExtraEnergyCell()
         {
-            Icon = "GUI/DynamicBitmaps/Items/Weapon015";
-            Name = "GreatswordAbuser";
+            Icon = "GUI/DynamicBitmaps/Events/DustFactory";
+            Name = "ExtraEnergyCell";
             Title = new Description
             {
-                English = "Greatsword Abuser",
-                French = "Insecte vivant",
-                German = "Lebender Käfer"
+                English = "Extra Energy Cell",
+                French = "Cellule d'énergie supplémentaire",
+                German = "Extra Energiezelle"
             };
             Description = new Description
             {
-                English = "You've been crawling so long no one notices your human attributes",
-                French = "Tu rampes depuis si longtemps que personne ne remarque plus tes attributs humains",
-                German = "Du krabbelst schon so lange, dass niemand mehr deine menschlichen Eigenschaften bemerkt"
+                English = "Costs energy, but keeps you alive",
+                French = "Coûte de l'énergie, mais vous maintient en vie",
+                German = "Kostet Energie, hält aber am Leben"
             };
             Levels = new List<SkillLevel>()
             {
@@ -43,17 +43,23 @@ namespace Mod.HeroesRework.Skills
                             {
                                 new ModifierDescriptor
                                 {
-                                    TargetProperty = TargetProperty.AttackPower,
+                                    TargetProperty = TargetProperty.MaxHealth,
                                     Operation = Operation.Percent,
-                                    Value = .75f,
+                                    Value = .20f,
                                     Path = Path.CurrentHero,
                                 },
+                            }
+                        },
+                        new SkillDescriptor
+                        {
+                            AppliesToTarget = true,
+                            Modifiers = new List<ModifierDescriptor>
+                            {
                                 new ModifierDescriptor
                                 {
-                                    TargetProperty = TargetProperty.AttackCooldown,
-                                    Operation = Operation.Multiplication,
-                                    Value = 1.75f,
-                                    Path = Path.CurrentHero,
+                                    TargetProperty = TargetProperty.DustLootProbability,
+                                    Operation = Operation.Percent,
+                                    Value = -0.1f
                                 },
                             }
                         },

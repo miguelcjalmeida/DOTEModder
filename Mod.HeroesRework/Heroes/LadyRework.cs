@@ -12,15 +12,15 @@ using System.Threading.Tasks;
 
 namespace Mod.HeroesRework.Heroes
 {
-    public class TroeRework : IHeroRework
+    public class LadyRework : IHeroRework
     {
-        public string HeroName => "Troe Pekenyo";
+        public string HeroName => "Lady Joleri Tulak";
 
         public void Apply(Hero hero, EntitiesManager manager)
         {
-            var greatswordAbuser = new GreatswordAbuser();
-            hero.LearnSkillAt(greatswordAbuser, 1);
-            manager.SkillManager.Stored.Add(greatswordAbuser);
+            var extraEnergyCell = new ExtraEnergyCell();
+            hero.LearnSkillAt(extraEnergyCell, 1);
+            manager.SkillManager.Stored.Add(extraEnergyCell);
             BalanceAttributes(hero);
         }
 
@@ -33,15 +33,13 @@ namespace Mod.HeroesRework.Heroes
 
         private void BalanceAttribute(ModifierDescriptor modifier)
         {
-            if (IsNotPowerOrCooldown(modifier)) return;
-            var decimalPoints = modifier.TargetProperty == TargetProperty.AttackPower ? 0 : 2;
-            modifier.Value = (float)Math.Round(modifier.Value * (1f / 1.75f), decimalPoints); 
+            if (IsNotMaxHealth(modifier)) return;
+            modifier.Value = (float)Math.Round(modifier.Value * (1f / 1.2f), 0); 
         }
 
-        private static bool IsNotPowerOrCooldown(ModifierDescriptor modifier)
+        private static bool IsNotMaxHealth(ModifierDescriptor modifier)
         {
-            return modifier.TargetProperty != TargetProperty.AttackPower && 
-                modifier.TargetProperty != TargetProperty.AttackCooldown;
+            return modifier.TargetProperty != TargetProperty.MaxHealth;
         }
     }
 }
