@@ -45,14 +45,14 @@ namespace Mod.HeroesRework.Skills
                                 {
                                     TargetProperty = TargetProperty.AttackPower,
                                     Operation = Operation.Percent,
-                                    Value = 1,
+                                    Value = .75f,
                                     Path = Path.CurrentHero,
                                 },
                                 new ModifierDescriptor
                                 {
                                     TargetProperty = TargetProperty.AttackCooldown,
                                     Operation = Operation.Multiplication,
-                                    Value = 2,
+                                    Value = 1.75f,
                                     Path = Path.CurrentHero,
                                 },
                             }

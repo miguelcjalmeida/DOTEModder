@@ -34,7 +34,7 @@ namespace Mod.HeroesRework.Heroes
         private void BalanceAttribute(ModifierDescriptor modifier)
         {
             if (IsNotPowerOrCooldown(modifier)) return;
-            modifier.Value *= .5f; 
+            modifier.Value *= (float)Math.Round(1f/1.75f, 0); 
         }
 
         private static bool IsNotPowerOrCooldown(ModifierDescriptor modifier)

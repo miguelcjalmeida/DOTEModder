@@ -38,7 +38,7 @@ namespace Mod.HeroesRework.Skills
                 {
                     Level = 1,
                     IsActive = true,
-                    CooldownTurnsCount = 1,
+                    CooldownTurnsCount = 0,
                     Duration = 8,
                     OwnerSFXPath = "Master/Skill/Crawler",
                     OwnerVFXPath = "VFX/Skills/FX_Skills_15_Crawler",
