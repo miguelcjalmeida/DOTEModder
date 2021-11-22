@@ -20,7 +20,7 @@ namespace Mod.HeroesRework
             var reworks = new List<IHeroRework>()
             {
                 new MaxRework(), new MiziRework(), new GolgyRework(), new HikenshaRework(), new KreyangRework(),
-                new TroeRework(), new SkroigRework()
+                new TroeRework(), new SkroigRework(), new KenRework(), new WardenRework()
             };
 
             reworks.ForEach(rework =>
